@@ -1,32 +1,53 @@
 "use client";
 import Navbar from '@/components/Navbar';
 import { Shield, Book, Users, HelpCircle, Mail } from 'lucide-react';
+import { motion } from 'framer-motion';
+
+const containerVariants = {
+    hidden: { opacity: 0 },
+    show: {
+        opacity: 1,
+        transition: {
+            staggerChildren: 0.1
+        }
+    }
+};
+
+const itemVariants = {
+    hidden: { opacity: 0, y: 30 },
+    show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 50, damping: 20 } }
+};
 
 export default function AboutPage() {
     return (
         <div className="min-h-screen bg-slate-50">
             <Navbar />
-            <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-16">
+            <motion.main
+                initial="hidden"
+                animate="show"
+                variants={containerVariants}
+                className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-16"
+            >
                 <div className="bg-white p-5 sm:p-8 md:p-12 rounded-2xl shadow-xl border border-slate-200">
-                    <div className="mb-6 sm:mb-10 text-center">
+                    <motion.div variants={itemVariants} className="mb-6 sm:mb-10 text-center">
                         <h1 className="text-xl sm:text-3xl font-bold text-slate-900 mb-3 sm:mb-4">About the Student Portal</h1>
                         <p className="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto leading-relaxed">
                             The Evalyx Student Portal is a platform designed to help students track their preparation journey for competitive exams like NEET.
                         </p>
-                    </div>
+                    </motion.div>
 
                     <div className="space-y-12">
-                        <section>
+                        <motion.section variants={itemVariants}>
                             <h2 className="text-xl font-bold text-slate-800 mb-6 flex items-center border-b pb-2">
                                 <Book className="mr-3 text-blue-600" /> Our Purpose
                             </h2>
                             <p className="text-sm text-slate-600 leading-relaxed mb-4">
                                 We believe that meaningful data can help students improve faster. By analyzing test results at a chapter level, we identify exactly which topics you need to study more to increase your final score.
                             </p>
-                        </section>
+                        </motion.section>
 
-                        <section className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10">
-                            <div className="p-6 bg-slate-50 rounded-xl border border-slate-100">
+                        <motion.section variants={itemVariants} className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10">
+                            <div className="p-6 bg-slate-50 rounded-xl border border-slate-100 hover:shadow-md transition-shadow">
                                 <h3 className="text-lg font-bold text-slate-800 mb-3 flex items-center">
                                     <Shield className="mr-2 text-green-600" size={20} /> Data Privacy
                                 </h3>
@@ -34,7 +55,7 @@ export default function AboutPage() {
                                     Your data is private. You can only access your own profile using your unique PSID. We do not share your individual scores with anyone except your assigned mentors.
                                 </p>
                             </div>
-                            <div className="p-6 bg-slate-50 rounded-xl border border-slate-100">
+                            <div className="p-6 bg-slate-50 rounded-xl border border-slate-100 hover:shadow-md transition-shadow">
                                 <h3 className="text-lg font-bold text-slate-800 mb-3 flex items-center">
                                     <Users className="mr-2 text-blue-500" size={20} /> Peer Ranking
                                 </h3>
@@ -42,9 +63,9 @@ export default function AboutPage() {
                                     The leaderboard helps you understand where you stand in a healthy competitive environment. It shows only the top 100 students to encourage everyone to strive for improvement.
                                 </p>
                             </div>
-                        </section>
+                        </motion.section>
 
-                        <section className="bg-blue-600 p-5 sm:p-8 rounded-xl text-white">
+                        <motion.section variants={itemVariants} className="bg-blue-600 p-5 sm:p-8 rounded-xl text-white">
                             <h2 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 flex items-center tracking-tight">
                                 <Mail className="mr-3" /> Need Support?
                             </h2>
@@ -55,11 +76,17 @@ export default function AboutPage() {
                                 <span>Contact:</span>
                                 <span className="text-white lowercase tracking-normal select-all">mangalnath123k@gmail.com</span>
                             </div>
-                        </section>
+                        </motion.section>
                     </div>
 
                     {/* Analytics Guide Section */}
-                    <section className="mt-8 sm:mt-12 bg-slate-900 p-5 sm:p-8 rounded-2xl text-white shadow-2xl relative overflow-hidden">
+                    <motion.section
+                        initial={{ opacity: 0, scale: 0.95 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        viewport={{ once: true, margin: "-100px" }}
+                        transition={{ duration: 0.5 }}
+                        className="mt-8 sm:mt-12 bg-slate-900 p-5 sm:p-8 rounded-2xl text-white shadow-2xl relative overflow-hidden"
+                    >
                         <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl -mr-16 -mt-16"></div>
                         <div className="relative z-10">
                             <h2 className="text-xl sm:text-2xl font-bold mb-6 sm:mb-8 flex items-center text-white">
@@ -130,10 +157,16 @@ export default function AboutPage() {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </motion.section>
 
                     {/* Tech Stack & Credits */}
-                    <section className="mt-10 sm:mt-16">
+                    <motion.section
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.2 }}
+                        className="mt-10 sm:mt-16"
+                    >
                         <div className="flex items-center justify-between mb-5 sm:mb-8">
                             <h2 className="text-xl sm:text-2xl font-bold text-slate-900 flex items-center">
                                 <Users className="mr-2 sm:mr-3 text-indigo-600" size={24} />
@@ -148,10 +181,16 @@ export default function AboutPage() {
                                 <div>
                                     <h3 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">Core Technology</h3>
                                     <div className="flex flex-wrap gap-2">
-                                        {['Next.js 14', 'React', 'Tailwind CSS', 'Python 3.11', 'Chart.js', 'Firebase', 'Vercel'].map((tech) => (
-                                            <span key={tech} className="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-semibold rounded-full border border-slate-200">
+                                        {['Next.js 14', 'React', 'Tailwind CSS', 'Python 3.11', 'Chart.js', 'Firebase', 'Vercel'].map((tech, i) => (
+                                            <motion.span
+                                                key={tech}
+                                                initial={{ opacity: 0, scale: 0.8 }}
+                                                whileInView={{ opacity: 1, scale: 1 }}
+                                                transition={{ delay: i * 0.05 }}
+                                                className="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-semibold rounded-full border border-slate-200"
+                                            >
                                                 {tech}
-                                            </span>
+                                            </motion.span>
                                         ))}
                                     </div>
                                     <p className="mt-6 text-sm text-slate-600 leading-relaxed">
@@ -184,7 +223,7 @@ export default function AboutPage() {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </motion.section>
 
                     <div className="mt-16 text-center border-t pt-8">
                         <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">
@@ -192,7 +231,7 @@ export default function AboutPage() {
                         </p>
                     </div>
                 </div>
-            </main>
+            </motion.main>
         </div>
     );
 }

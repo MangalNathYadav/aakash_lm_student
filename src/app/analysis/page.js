@@ -4,6 +4,22 @@ import { useAuth } from '@/context/AuthContext';
 import { useRouter } from 'next/navigation';
 import Navbar from '@/components/Navbar';
 import { BookOpen, CheckCircle, AlertTriangle, ChevronRight, Search } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+const containerVariants = {
+    hidden: { opacity: 0 },
+    show: {
+        opacity: 1,
+        transition: {
+            staggerChildren: 0.05
+        }
+    }
+};
+
+const itemVariants = {
+    hidden: { opacity: 0, x: -10 },
+    show: { opacity: 1, x: 0, transition: { type: "spring", stiffness: 100, damping: 12 } }
+};
 
 export default function AnalysisPage() {
     const { user, loading } = useAuth();
@@ -30,10 +46,27 @@ export default function AnalysisPage() {
     return (
         <div className="min-h-screen bg-slate-50 font-sans">
             <Navbar />
-            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <motion.main
+                initial="hidden"
+                animate="show"
+                className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8"
+            >
                 <div className="mb-8">
-                    <h1 className="text-2xl font-bold text-slate-900 border-l-4 border-blue-600 pl-4">Subject Wise Analysis</h1>
-                    <p className="text-slate-500 text-sm mt-1">Detailed breakdown of your strengths and weaknesses in each subject.</p>
+                    <motion.h1
+                        initial={{ opacity: 0, y: -10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        className="text-2xl font-bold text-slate-900 border-l-4 border-blue-600 pl-4"
+                    >
+                        Subject Wise Analysis
+                    </motion.h1>
+                    <motion.p
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ delay: 0.1 }}
+                        className="text-slate-500 text-sm mt-1"
+                    >
+                        Detailed breakdown of your strengths and weaknesses in each subject.
+                    </motion.p>
                 </div>
 
                 {/* Subject Selector and Search */}
@@ -74,7 +107,13 @@ export default function AnalysisPage() {
                                 Chapter Proficiency Index (1-10 Scale)
                             </h3>
 
-                            <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+                            <motion.div
+                                variants={containerVariants}
+                                initial="hidden"
+                                animate="show"
+                                key={activeTab} // Force re-render animation on tab change
+                                className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden"
+                            >
                                 {(() => {
                                     // Use new chapters list or fallback to merging old lists
                                     let allChapters = currentSubject.chapters || [];
@@ -111,7 +150,7 @@ export default function AnalysisPage() {
                                         }
 
                                         return (
-                                            <div key={idx} className="px-6 py-5 border-b border-slate-100 last:border-0 hover:bg-slate-50/50 transition-colors group">
+                                            <motion.div variants={itemVariants} key={idx} className="px-6 py-5 border-b border-slate-100 last:border-0 hover:bg-slate-50/50 transition-colors group">
                                                 <div className="flex items-center justify-between mb-2">
                                                     <span className="text-slate-800 text-sm font-bold">{ch.name}</span>
                                                     <div className={`px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider ${bgClass} ${textClass}`}>
@@ -121,22 +160,29 @@ export default function AnalysisPage() {
 
                                                 {/* Rating Bar */}
                                                 <div className="w-full h-2 bg-slate-100 rounded-full overflow-hidden">
-                                                    <div
-                                                        className={`h-full rounded-full ${colorClass} transition-all duration-500 ease-out`}
-                                                        style={{ width: `${(ch.rating / 10) * 100}%` }}
+                                                    <motion.div
+                                                        initial={{ width: 0 }}
+                                                        animate={{ width: `${(ch.rating / 10) * 100}%` }}
+                                                        transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
+                                                        className={`h-full rounded-full ${colorClass}`}
                                                     />
                                                 </div>
-                                            </div>
+                                            </motion.div>
                                         );
                                     });
                                 })()}
-                            </div>
+                            </motion.div>
                         </div>
                     </div>
 
                     {/* Quick Suggestions Panel */}
                     <div className="space-y-6">
-                        <div className="bg-blue-600 p-8 rounded-2xl shadow-lg text-white">
+                        <motion.div
+                            initial={{ opacity: 0, scale: 0.95 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            transition={{ delay: 0.3 }}
+                            className="bg-blue-600 p-8 rounded-2xl shadow-lg text-white"
+                        >
                             <h3 className="text-lg font-bold mb-4 flex items-center">
                                 Suggestions for {activeTab}
                             </h3>
@@ -153,12 +199,12 @@ export default function AnalysisPage() {
                                     <p className="text-sm font-bold">{currentSubject.weak_chapters[1] || "Practice Previous Year Questions"}</p>
                                 </div>
                             </div>
-                        </div>
+                        </motion.div>
 
 
                     </div>
                 </div>
-            </main>
+            </motion.main>
         </div>
     );
 }

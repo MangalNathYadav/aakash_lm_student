@@ -5,6 +5,10 @@
                 ".read": true,
                 ".write": true
             }
+        },
+        "help_requests": {
+            ".read": false,
+            ".write": true
         }
     }
 }

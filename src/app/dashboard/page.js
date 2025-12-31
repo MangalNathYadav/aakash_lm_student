@@ -6,9 +6,25 @@ import Navbar from '@/components/Navbar';
 import GraphSection from '@/components/GraphSection';
 import AnalyticsCards from '@/components/AnalyticsCards';
 import { TrendingUp, TrendingDown, Minus, Target, Award, Calendar, ChevronRight } from 'lucide-react';
+import { motion } from 'framer-motion';
+
+const containerVariants = {
+    hidden: { opacity: 0 },
+    show: {
+        opacity: 1,
+        transition: {
+            staggerChildren: 0.1
+        }
+    }
+};
+
+const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 50, damping: 20 } }
+};
 
 const StatCard = ({ label, value, icon: Icon, colorClass }) => (
-    <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+    <motion.div variants={itemVariants} className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
         <div className="flex items-center gap-4">
             <div className={`p-3 rounded-lg ${colorClass || 'bg-slate-100 text-slate-600'}`}>
                 <Icon size={20} />
@@ -18,7 +34,7 @@ const StatCard = ({ label, value, icon: Icon, colorClass }) => (
                 <p className="text-2xl font-bold text-slate-900">{value}</p>
             </div>
         </div>
-    </div>
+    </motion.div>
 );
 
 export default function Dashboard() {
@@ -38,14 +54,18 @@ export default function Dashboard() {
     return (
         <div className="min-h-screen bg-slate-50">
             <Navbar />
-            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-                <div className="mb-8">
+            <motion.main
+                initial="hidden"
+                animate="show"
+                className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8"
+            >
+                <motion.div variants={itemVariants} className="mb-8">
                     <h1 className="text-2xl font-bold text-slate-900">Welcome Back, {user.name}</h1>
                     <p className="text-slate-500 text-sm">Here is your academic progress summary.</p>
-                </div>
+                </motion.div>
 
                 {/* Score Summary */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                <motion.div variants={containerVariants} initial="hidden" animate="show" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
                     <StatCard
                         label="Average Score"
                         value={overall_performance.average_total_score || 0}
@@ -70,24 +90,30 @@ export default function Dashboard() {
                         icon={Calendar}
                         colorClass="bg-purple-50 text-purple-600"
                     />
-                </div>
+                </motion.div>
 
 
                 {/* Analytics Section */}
-                <AnalyticsCards psid={user.psid} />
+                <motion.div variants={itemVariants}>
+                    <AnalyticsCards psid={user.psid} />
+                </motion.div>
 
                 {/* Graph Section */}
-                <div className="mb-8 p-6 bg-white rounded-xl border border-slate-200 shadow-sm">
+                <motion.div variants={itemVariants} className="mb-8 p-6 bg-white rounded-xl border border-slate-200 shadow-sm mt-8">
                     <GraphSection psid={user.psid} />
-                </div>
+                </motion.div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                     {/* Subject Wise Performance */}
                     <div className="lg:col-span-2 space-y-6">
-                        <h2 className="text-lg font-bold text-slate-800">Subject Wise Performance</h2>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <motion.h2 variants={itemVariants} className="text-lg font-bold text-slate-800">Subject Wise Performance</motion.h2>
+                        <motion.div variants={containerVariants} initial="hidden" animate="show" className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                             {Object.entries(subjects).map(([name, data]) => (
-                                <div key={name} className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                                <motion.div
+                                    key={name}
+                                    variants={itemVariants}
+                                    className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow"
+                                >
                                     <div className="flex justify-between items-center mb-4">
                                         <h3 className="font-bold text-slate-900 capitalize">{name}</h3>
                                         <span className={`text-xs px-2 py-1 rounded-md font-semibold ${(data.average_percentage || 0) >= 75 ? 'bg-green-50 text-green-700' :
@@ -98,7 +124,7 @@ export default function Dashboard() {
                                     </div>
                                     <div className="w-full bg-slate-100 h-2 rounded-full mb-4 overflow-hidden">
                                         <div
-                                            className="h-full bg-blue-600 rounded-full transition-all"
+                                            className="h-full bg-blue-600 rounded-full transition-all duration-1000 ease-out"
                                             style={{ width: `${data.average_percentage || 0}%` }}
                                         />
                                     </div>
@@ -106,13 +132,13 @@ export default function Dashboard() {
                                         <span>Good: {(data.strong_chapters || []).length} Ch</span>
                                         <span>Weak: {(data.weak_chapters || []).length} Ch</span>
                                     </div>
-                                </div>
+                                </motion.div>
                             ))}
-                        </div>
+                        </motion.div>
                     </div>
 
                     {/* Improvement Areas */}
-                    <div className="space-y-6">
+                    <motion.div variants={itemVariants} className="space-y-6">
                         <h2 className="text-lg font-bold text-slate-800">Focus Areas</h2>
                         <div className="bg-slate-900 text-white p-6 rounded-xl shadow-lg">
                             <h3 className="text-sm font-semibold text-slate-400 mb-4 uppercase tracking-wider">Chapters to Improve</h3>
@@ -154,9 +180,9 @@ export default function Dashboard() {
                                 Review '{(focus_insights?.top_weak_chapters || [])[0] || 'your mistakes'}' before your next mock test.
                             </p>
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
-            </main>
+            </motion.main>
         </div>
     );
 }

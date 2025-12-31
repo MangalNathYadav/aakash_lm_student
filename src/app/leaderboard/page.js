@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import Navbar from '@/components/Navbar';
 import { useAuth } from '@/context/AuthContext';
 import { Trophy, Medal, Star, Info, Loader2, ArrowUpCircle, ArrowDownCircle, MinusCircle, User } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const TrendIcon = ({ trend }) => {
     if (trend === 'improving') return <ArrowUpCircle className="w-4 h-4 text-green-500" />;
@@ -76,9 +77,19 @@ export default function LeaderboardPage() {
     return (
         <div className="min-h-screen bg-slate-50">
             <Navbar />
-            <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+            <motion.main
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10"
+            >
                 <div className="text-center mb-12">
-                    <h1 className="text-3xl font-bold text-slate-900 mb-2">Student Rank List</h1>
+                    <motion.h1
+                        initial={{ y: -20, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        className="text-3xl font-bold text-slate-900 mb-2"
+                    >
+                        Student Rank List
+                    </motion.h1>
                     <p className="text-slate-500 text-sm">See how you compare with other students across different categories.</p>
                 </div>
 
@@ -100,7 +111,12 @@ export default function LeaderboardPage() {
                 </div>
 
                 {/* Compact Methodology Explanation */}
-                <div className="max-w-4xl mx-auto mb-6 bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm">
+                <motion.div
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.1 }}
+                    className="max-w-4xl mx-auto mb-6 bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm"
+                >
                     <div className="bg-slate-50 border-b border-slate-200 px-4 py-2 flex items-center gap-2">
                         <Info size={14} className="text-blue-600" />
                         <span className="text-[10px] sm:text-xs font-bold text-slate-500 uppercase tracking-wider">Methodology & Logic</span>
@@ -155,7 +171,7 @@ export default function LeaderboardPage() {
                             </div>
                         )}
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Filter & Table Actions */}
                 <div className="max-w-4xl mx-auto mb-6 flex flex-col sm:flex-row justify-between items-center gap-4 bg-white p-4 rounded-xl border border-slate-200">
@@ -178,7 +194,12 @@ export default function LeaderboardPage() {
                 </div>
 
                 {/* Clean Leaderboard Table */}
-                <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden relative">
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.2 }}
+                    className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden relative"
+                >
                     {loading && (
                         <div className="absolute inset-0 bg-white/60 backdrop-blur-[1px] z-10 flex items-center justify-center">
                             <Loader2 className="w-8 h-8 animate-spin text-blue-600" />
@@ -196,63 +217,68 @@ export default function LeaderboardPage() {
                                 </tr>
                             </thead>
                             <tbody className="divide-y divide-slate-100">
-                                {getDisplayEntries().map((entry, idx) => {
-                                    const displayRank = selectedBatch === 'All' ? entry.rank : idx + 1;
-                                    const isCurrentUser = currentUser?.psid === entry.psid;
-                                    return (
-                                        <tr
-                                            key={idx}
-                                            id={isCurrentUser ? `user-row-${currentUser.psid}` : undefined}
-                                            className={`transition-all ${isCurrentUser ? 'bg-blue-600/5 ring-1 ring-inset ring-blue-600/20 shadow-sm' : 'hover:bg-slate-50/80'} ${!isCurrentUser && displayRank <= 3 ? 'bg-blue-50/30' : ''}`}
-                                        >
-                                            <td className="py-2 px-1 sm:py-4 sm:px-4 text-center">
-                                                <span className={`inline-flex items-center justify-center w-5 h-5 sm:w-8 sm:h-8 rounded-full text-[10px] sm:text-sm font-bold ${displayRank === 1 ? 'bg-yellow-100 text-yellow-700' :
-                                                    displayRank === 2 ? 'bg-slate-100 text-slate-700' :
-                                                        displayRank === 3 ? 'bg-amber-100 text-amber-700' :
-                                                            'text-slate-400'
-                                                    }`}>
-                                                    {displayRank}
-                                                </span>
-                                            </td>
-                                            <td className="py-2 px-2 sm:py-4 sm:px-4">
-                                                <div className="flex flex-col min-w-0">
-                                                    <div className="flex items-center gap-1.5 flex-wrap">
-                                                        <span className={`font-bold text-xs sm:text-sm capitalize truncate ${isCurrentUser ? 'text-blue-700' : 'text-slate-800'}`}>
-                                                            {entry.name || 'Anonymous'}
-                                                        </span>
-                                                        {isCurrentUser && <span className="text-[8px] bg-blue-600 text-white px-1.5 py-0.5 rounded font-bold uppercase tracking-wider">You</span>}
-                                                    </div>
-
-                                                    {/* Merged Batch and PSID row for mobile */}
-                                                    <div className="flex items-center gap-2 mt-0.5">
-                                                        <span className="text-[9px] bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-semibold border border-slate-200">
-                                                            {entry.batch || 'N/A'}
-                                                        </span>
-                                                        <span className="text-[9px] text-slate-400 font-mono tracking-wider hidden sm:inline">
-                                                            {"***" + (entry.psid?.slice(-3) || "---")}
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td className="py-2 px-2 sm:py-4 sm:px-4 text-right">
-                                                <div className="flex flex-col items-end">
-                                                    <span className="font-bold text-sm sm:text-base text-slate-900">
-                                                        {typeof entry.score === 'number' ? entry.score.toLocaleString() : entry.score}
+                                <AnimatePresence mode="wait">
+                                    {getDisplayEntries().map((entry, idx) => {
+                                        const displayRank = selectedBatch === 'All' ? entry.rank : idx + 1;
+                                        const isCurrentUser = currentUser?.psid === entry.psid;
+                                        return (
+                                            <motion.tr
+                                                key={`${entry.psid}-${selectedBatch}`} // changing key forces re-render on batch change
+                                                initial={{ opacity: 0, x: -10 }}
+                                                animate={{ opacity: 1, x: 0 }}
+                                                transition={{ duration: 0.2, delay: idx * 0.03 }} // Staggered rows
+                                                id={isCurrentUser ? `user-row-${currentUser.psid}` : undefined}
+                                                className={`transition-all ${isCurrentUser ? 'bg-blue-600/5 ring-1 ring-inset ring-blue-600/20 shadow-sm' : 'hover:bg-slate-50/80'} ${!isCurrentUser && displayRank <= 3 ? 'bg-blue-50/30' : ''}`}
+                                            >
+                                                <td className="py-2 px-1 sm:py-4 sm:px-4 text-center">
+                                                    <span className={`inline-flex items-center justify-center w-5 h-5 sm:w-8 sm:h-8 rounded-full text-[10px] sm:text-sm font-bold ${displayRank === 1 ? 'bg-yellow-100 text-yellow-700' :
+                                                        displayRank === 2 ? 'bg-slate-100 text-slate-700' :
+                                                            displayRank === 3 ? 'bg-amber-100 text-amber-700' :
+                                                                'text-slate-400'
+                                                        }`}>
+                                                        {displayRank}
                                                     </span>
-                                                    {/* Mobile Trend Indicator */}
-                                                    <div className="sm:hidden mt-0.5">
+                                                </td>
+                                                <td className="py-2 px-2 sm:py-4 sm:px-4">
+                                                    <div className="flex flex-col min-w-0">
+                                                        <div className="flex items-center gap-1.5 flex-wrap">
+                                                            <span className={`font-bold text-xs sm:text-sm capitalize truncate ${isCurrentUser ? 'text-blue-700' : 'text-slate-800'}`}>
+                                                                {entry.name || 'Anonymous'}
+                                                            </span>
+                                                            {isCurrentUser && <span className="text-[8px] bg-blue-600 text-white px-1.5 py-0.5 rounded font-bold uppercase tracking-wider">You</span>}
+                                                        </div>
+
+                                                        {/* Merged Batch and PSID row for mobile */}
+                                                        <div className="flex items-center gap-2 mt-0.5">
+                                                            <span className="text-[9px] bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-semibold border border-slate-200">
+                                                                {entry.batch || 'N/A'}
+                                                            </span>
+                                                            <span className="text-[9px] text-slate-400 font-mono tracking-wider hidden sm:inline">
+                                                                {"***" + (entry.psid?.slice(-3) || "---")}
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td className="py-2 px-2 sm:py-4 sm:px-4 text-right">
+                                                    <div className="flex flex-col items-end">
+                                                        <span className="font-bold text-sm sm:text-base text-slate-900">
+                                                            {typeof entry.score === 'number' ? entry.score.toLocaleString() : entry.score}
+                                                        </span>
+                                                        {/* Mobile Trend Indicator */}
+                                                        <div className="sm:hidden mt-0.5">
+                                                            <TrendIcon trend={entry.trend} />
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td className="hidden sm:table-cell py-4 px-4 text-right">
+                                                    <div className="flex justify-end">
                                                         <TrendIcon trend={entry.trend} />
                                                     </div>
-                                                </div>
-                                            </td>
-                                            <td className="hidden sm:table-cell py-4 px-4 text-right">
-                                                <div className="flex justify-end">
-                                                    <TrendIcon trend={entry.trend} />
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    );
-                                })}
+                                                </td>
+                                            </motion.tr>
+                                        );
+                                    })}
+                                </AnimatePresence>
                             </tbody>
                         </table>
                     </div>
@@ -262,54 +288,62 @@ export default function LeaderboardPage() {
                             Viewing Top 100 Students • Updated Automatically
                         </p>
                     </div>
-                </div>
+                </motion.div>
 
                 {/* Sticky My Rank Bar */}
-                {currentUser && userGlobalEntry && (
-                    <div className="fixed bottom-16 md:bottom-0 left-0 right-0 z-40 p-3 sm:p-4 bg-white/90 backdrop-blur-md border-t border-blue-100 shadow-[0_-4px_20px_rgba(0,0,0,0.05)]">
-                        <div className="max-w-6xl mx-auto flex items-center justify-between gap-4 sm:gap-6">
-                            <div className="flex items-center gap-3 sm:gap-4">
-                                <div className="p-1.5 sm:p-2 bg-blue-600 rounded-lg text-white shadow-md shadow-blue-200">
-                                    <User size={16} className="sm:w-5 sm:h-5" />
-                                </div>
-                                <div className="hidden sm:block">
-                                    <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Logged In As</p>
-                                    <h4 className="text-sm font-bold text-slate-900 capitalize">{currentUser.name}</h4>
-                                </div>
-                            </div>
-
-                            <div className="flex items-center gap-4 sm:gap-12 flex-1 justify-end sm:justify-center">
-                                <div className="text-center">
-                                    <p className="text-[8px] sm:text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-0.5 sm:mb-1">Global Rank</p>
-                                    <span className="text-base sm:text-lg font-black text-blue-600 tracking-tight">#{userGlobalEntry.rank}</span>
-                                </div>
-                                {selectedBatch !== 'All' && userGlobalEntry.batch === selectedBatch && (
-                                    <div className="text-center border-l border-slate-200 pl-4 sm:pl-12">
-                                        <p className="text-[8px] sm:text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-0.5 sm:mb-1">Batch Rank</p>
-                                        <span className="text-base sm:text-lg font-black text-blue-600 tracking-tight">#{userBatchRank}</span>
+                <AnimatePresence>
+                    {currentUser && userGlobalEntry && (
+                        <motion.div
+                            initial={{ y: 100, opacity: 0 }}
+                            animate={{ y: 0, opacity: 1 }}
+                            exit={{ y: 100, opacity: 0 }}
+                            transition={{ type: "spring", stiffness: 300, damping: 30 }}
+                            className="fixed bottom-16 md:bottom-0 left-0 right-0 z-40 p-3 sm:p-4 bg-white/90 backdrop-blur-md border-t border-blue-100 shadow-[0_-4px_20px_rgba(0,0,0,0.05)]"
+                        >
+                            <div className="max-w-6xl mx-auto flex items-center justify-between gap-4 sm:gap-6">
+                                <div className="flex items-center gap-3 sm:gap-4">
+                                    <div className="p-1.5 sm:p-2 bg-blue-600 rounded-lg text-white shadow-md shadow-blue-200">
+                                        <User size={16} className="sm:w-5 sm:h-5" />
                                     </div>
-                                )}
-                                <div className="text-center border-l border-slate-200 pl-4 sm:pl-12">
-                                    <p className="text-[8px] sm:text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-0.5 sm:mb-1">Score</p>
-                                    <span className="text-base sm:text-lg font-black text-slate-900 tracking-tight">{userGlobalEntry.score}</span>
+                                    <div className="hidden sm:block">
+                                        <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Logged In As</p>
+                                        <h4 className="text-sm font-bold text-slate-900 capitalize">{currentUser.name}</h4>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <button
-                                onClick={() => {
-                                    const row = document.getElementById(`user-row-${currentUser.psid}`);
-                                    if (row) row.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                                }}
-                                className="hidden lg:flex items-center px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-lg text-xs font-bold transition-all"
-                            >
-                                Jump to Me
-                            </button>
-                        </div>
-                    </div>
-                )}
+                                <div className="flex items-center gap-4 sm:gap-12 flex-1 justify-end sm:justify-center">
+                                    <div className="text-center">
+                                        <p className="text-[8px] sm:text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-0.5 sm:mb-1">Global Rank</p>
+                                        <span className="text-base sm:text-lg font-black text-blue-600 tracking-tight">#{userGlobalEntry.rank}</span>
+                                    </div>
+                                    {selectedBatch !== 'All' && userGlobalEntry.batch === selectedBatch && (
+                                        <div className="text-center border-l border-slate-200 pl-4 sm:pl-12">
+                                            <p className="text-[8px] sm:text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-0.5 sm:mb-1">Batch Rank</p>
+                                            <span className="text-base sm:text-lg font-black text-blue-600 tracking-tight">#{userBatchRank}</span>
+                                        </div>
+                                    )}
+                                    <div className="text-center border-l border-slate-200 pl-4 sm:pl-12">
+                                        <p className="text-[8px] sm:text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-0.5 sm:mb-1">Score</p>
+                                        <span className="text-base sm:text-lg font-black text-slate-900 tracking-tight">{userGlobalEntry.score}</span>
+                                    </div>
+                                </div>
+
+                                <button
+                                    onClick={() => {
+                                        const row = document.getElementById(`user-row-${currentUser.psid}`);
+                                        if (row) row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                    }}
+                                    className="hidden lg:flex items-center px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-lg text-xs font-bold transition-all"
+                                >
+                                    Jump to Me
+                                </button>
+                            </div>
+                        </motion.div>
+                    )}
+                </AnimatePresence>
                 {/* Spacer for sticky bar */}
                 {currentUser && <div className="h-32 sm:h-24"></div>}
-            </main>
+            </motion.main>
         </div>
     );
 }

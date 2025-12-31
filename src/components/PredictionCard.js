@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from 'react';
 import { Target, TrendingUp, AlertTriangle, ShieldCheck, ChevronRight, Activity, ArrowRight } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 export default function PredictionCard({ psid }) {
     const [prediction, setPrediction] = useState(null);
@@ -21,21 +22,40 @@ export default function PredictionCard({ psid }) {
     const { predicted_score_range, confidence_level, prediction_explainability, disclaimer } = prediction;
     const { reasoning, subject_contribution, range_narrowing, stability } = prediction_explainability || {};
 
+    const containerVariants = {
+        hidden: { opacity: 0, scale: 0.95 },
+        show: { opacity: 1, scale: 1, transition: { duration: 0.5 } }
+    };
+
     return (
-        <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 rounded-2xl shadow-xl overflow-hidden text-white border border-slate-700 relative mb-8">
+        <motion.div
+            initial="hidden"
+            animate="show"
+            variants={containerVariants}
+            className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 rounded-2xl shadow-xl overflow-hidden text-white border border-slate-700 relative mb-8"
+        >
             {/* Background Glow */}
             <div className="absolute top-0 right-0 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl -mr-32 -mt-32 pointer-events-none"></div>
 
             <div className="p-5 md:p-8 relative z-10">
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
-                    <div>
+                    <motion.div
+                        initial={{ opacity: 0, x: -20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 0.2 }}
+                    >
                         <h2 className="text-xl font-bold flex items-center text-blue-200">
                             <Target className="mr-3 text-blue-400" />
                             AI Performance Prediction
                         </h2>
                         <p className="text-sm text-slate-400 mt-1">Based on your recent test trends and consistency.</p>
-                    </div>
-                    <div className="flex items-center gap-3">
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.8 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ type: "spring", delay: 0.3 }}
+                        className="flex items-center gap-3"
+                    >
                         <div className="text-right">
                             <div className="text-2xl md:text-3xl font-bold text-white tracking-tight">{predicted_score_range}</div>
                             <div className="text-[10px] uppercase tracking-widest font-bold text-slate-400">Score Range</div>
@@ -46,13 +66,18 @@ export default function PredictionCard({ psid }) {
                             }`}>
                             {confidence_level} Conf.
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
 
                     {/* Insights & Reasoning */}
-                    <div className="space-y-6">
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.4 }}
+                        className="space-y-6"
+                    >
                         <div>
                             <h3 className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-3">Prediction Reasoning</h3>
                             <ul className="space-y-3">
@@ -77,15 +102,26 @@ export default function PredictionCard({ psid }) {
                                 </div>
                             </div>
                         )}
-                    </div>
+                    </motion.div>
 
                     {/* Contributing Factors & Future */}
-                    <div className="space-y-6">
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.5 }}
+                        className="space-y-6"
+                    >
                         <div>
                             <h3 className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-3">Subject Contribution</h3>
                             <div className="grid grid-cols-2 gap-3">
-                                {subject_contribution && Object.entries(subject_contribution).map(([subject, status]) => (
-                                    <div key={subject} className="flex items-center justify-between p-3 bg-slate-800/80 rounded-lg border border-slate-700/50">
+                                {subject_contribution && Object.entries(subject_contribution).map(([subject, status], i) => (
+                                    <motion.div
+                                        key={subject}
+                                        initial={{ opacity: 0, scale: 0.9 }}
+                                        animate={{ opacity: 1, scale: 1 }}
+                                        transition={{ delay: 0.6 + (i * 0.1) }}
+                                        className="flex items-center justify-between p-3 bg-slate-800/80 rounded-lg border border-slate-700/50"
+                                    >
                                         <span className="capitalize text-sm font-medium text-slate-300">{subject}</span>
                                         <span className={`text-[10px] font-bold uppercase px-2 py-0.5 rounded-sm ${status === 'boosting' ? 'bg-green-500/10 text-green-400' :
                                             status === 'limiting' ? 'bg-red-500/10 text-red-400' :
@@ -93,7 +129,7 @@ export default function PredictionCard({ psid }) {
                                             }`}>
                                             {status}
                                         </span>
-                                    </div>
+                                    </motion.div>
                                 ))}
                             </div>
                         </div>
@@ -114,7 +150,7 @@ export default function PredictionCard({ psid }) {
                                 </div>
                             </div>
                         )}
-                    </div>
+                    </motion.div>
                 </div>
 
                 <div className="mt-8 pt-4 border-t border-slate-700/50">
@@ -123,6 +159,6 @@ export default function PredictionCard({ psid }) {
                     </p>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 }

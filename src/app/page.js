@@ -2,6 +2,7 @@
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
 import { ChevronRight, CheckCircle2, BookOpen, Trophy } from "lucide-react";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
@@ -10,7 +11,12 @@ export default function Home() {
       <main className="flex-grow">
         {/* Simple Hero */}
         <div className="bg-white border-b border-slate-200 py-20 px-6">
-          <div className="max-w-4xl mx-auto text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="max-w-4xl mx-auto text-center"
+          >
             <h1 className="text-4xl sm:text-5xl font-extrabold text-slate-900 mb-6">
               Track Your Test Performance Easily
             </h1>
@@ -31,37 +37,53 @@ export default function Home() {
                 View Leaderboard
               </Link>
             </div>
-          </div>
+          </motion.div>
         </div>
 
         {/* Standard Features Section */}
         <div className="py-20 px-6 max-w-7xl mx-auto">
-          <h2 className="text-2xl font-bold text-center text-slate-800 mb-12">Portal Features</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-xl border border-slate-200 shadow-sm">
-              <div className="bg-blue-50 w-12 h-12 rounded-lg flex items-center justify-center mb-6">
-                <BookOpen className="text-blue-600 w-6 h-6" />
-              </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-3">Subject Wise Analysis</h3>
-              <p className="text-slate-600">See your score breakdown for Physics, Chemistry, and Biology across all tests.</p>
-            </div>
-
-            <div className="bg-white p-8 rounded-xl border border-slate-200 shadow-sm">
-              <div className="bg-green-50 w-12 h-12 rounded-lg flex items-center justify-center mb-6">
-                <Trophy className="text-green-600 w-6 h-6" />
-              </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-3">Student Rankings</h3>
-              <p className="text-slate-600">Track your standing among other students with our public and private leaderboards.</p>
-            </div>
-
-            <div className="bg-white p-8 rounded-xl border border-slate-200 shadow-sm">
-              <div className="bg-orange-50 w-12 h-12 rounded-lg flex items-center justify-center mb-6">
-                <CheckCircle2 className="text-orange-600 w-6 h-6" />
-              </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-3">Target Weak Areas</h3>
-              <p className="text-slate-600">Automatically identify which chapters you are struggling with and improve your score.</p>
-            </div>
-          </div>
+          <motion.h2
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            className="text-2xl font-bold text-center text-slate-800 mb-12"
+          >
+            Portal Features
+          </motion.h2>
+          <motion.div
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, margin: "-50px" }}
+            variants={{
+              hidden: { opacity: 0 },
+              show: {
+                opacity: 1,
+                transition: { staggerChildren: 0.2 }
+              }
+            }}
+            className="grid grid-cols-1 md:grid-cols-3 gap-8"
+          >
+            {[
+              { icon: BookOpen, color: "blue", title: "Subject Wise Analysis", desc: "See your score breakdown for Physics, Chemistry, and Biology across all tests." },
+              { icon: Trophy, color: "green", title: "Student Rankings", desc: "Track your standing among other students with our public and private leaderboards." },
+              { icon: CheckCircle2, color: "orange", title: "Target Weak Areas", desc: "Automatically identify which chapters you are struggling with and improve your score." },
+            ].map((feature, idx) => (
+              <motion.div
+                key={idx}
+                variants={{
+                  hidden: { opacity: 0, y: 30 },
+                  show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 50 } }
+                }}
+                className="bg-white p-8 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow"
+              >
+                <div className={`bg-${feature.color}-50 w-12 h-12 rounded-lg flex items-center justify-center mb-6`}>
+                  <feature.icon className={`text-${feature.color}-600 w-6 h-6`} />
+                </div>
+                <h3 className="text-xl font-bold text-slate-900 mb-3">{feature.title}</h3>
+                <p className="text-slate-600">{feature.desc}</p>
+              </motion.div>
+            ))}
+          </motion.div>
         </div>
       </main>
 
