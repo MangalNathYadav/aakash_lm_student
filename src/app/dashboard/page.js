@@ -5,7 +5,6 @@ import { useRouter } from 'next/navigation';
 import Navbar from '@/components/Navbar';
 import GraphSection from '@/components/GraphSection';
 import AnalyticsCards from '@/components/AnalyticsCards';
-import PredictionCard from '@/components/PredictionCard';
 import { TrendingUp, TrendingDown, Minus, Target, Award, Calendar, ChevronRight } from 'lucide-react';
 
 const StatCard = ({ label, value, icon: Icon, colorClass }) => (
@@ -76,9 +75,6 @@ export default function Dashboard() {
 
                 {/* Analytics Section */}
                 <AnalyticsCards psid={user.psid} />
-
-                {/* Prediction Section */}
-                <PredictionCard psid={user.psid} />
 
                 {/* Graph Section */}
                 <div className="mb-8 p-6 bg-white rounded-xl border border-slate-200 shadow-sm">

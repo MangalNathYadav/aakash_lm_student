@@ -408,6 +408,89 @@ def run_pipeline():
 
         with open(os.path.join(analysis_dir, 'readiness.json'), 'w', encoding='utf-8') as f:
             json.dump(readiness_data, f, indent=2)
+
+        # Module 4: Prediction & Explainability
+        # Calculate Weighted Prediction
+        p_recency_n = 5
+        p_tests = sorted_tests[-p_recency_n:]
+        p_weights = [i+1 for i in range(len(p_tests))] # e.g., 1, 2, 3, 4, 5
+        p_weighted_sum = sum(t["marks"]["total"] * w for t, w in zip(p_tests, p_weights))
+        p_weight_total = sum(p_weights)
+        p_score_est = p_weighted_sum / p_weight_total if p_weight_total > 0 else 0
+        
+        # Determine Margin based on Consistency
+        p_margin_pct = 0.08 # Default Low
+        p_stability = "unstable"
+        if c_level == "high":
+            p_margin_pct = 0.03
+            p_stability = "stable"
+        elif c_level == "medium":
+            p_margin_pct = 0.05
+            p_stability = "moderately_stable"
+            
+        p_min = int(p_score_est * (1 - p_margin_pct))
+        p_max = int(p_score_est * (1 + p_margin_pct))
+        # Cap at 720
+        p_max = min(p_max, 720)
+        p_min = min(p_min, p_max)
+
+        # Subject Contribution
+        p_subj_status = {}
+        p_overall_avg = sum(t["marks"]["total"] for t in sorted_tests) / len(sorted_tests) if sorted_tests else 0
+        p_benchmark = p_overall_avg / 4.0 # Assuming equal weightage 180/720
+        
+        for sub in ["physics", "chemistry", "botany", "zoology"]:
+            sub_scores = [t["marks"].get(sub, 0) for t in sorted_tests]
+            sub_avg = sum(sub_scores) / len(sub_scores) if sub_scores else 0
+            
+            if sub_avg > p_benchmark * 1.05:
+                p_subj_status[sub] = "boosting"
+            elif sub_avg < p_benchmark * 0.95:
+                p_subj_status[sub] = "limiting"
+            else:
+                p_subj_status[sub] = "neutral"
+
+        # Reasoning Generation
+        p_reasoning = []
+        p_reasoning.append(f"Based on a weighted average of your last {len(p_tests)} tests, prioritizing recent performance.")
+        if c_level == "high":
+             p_reasoning.append("Your high consistency allows for a precise prediction range.")
+        elif c_level == "low":
+             p_reasoning.append("High volatility in your scores widens the prediction range.")
+        
+        if r_trend == "improving":
+            p_reasoning.append("Your upward trend suggests potential to hit the upper bound of this range.")
+        elif r_trend == "declining":
+            p_reasoning.append("Recent score drops suggest caution; the lower bound is a realistic safety net.")
+
+        # Range Narrowing Insight
+        p_future_min = int(p_score_est * 0.97) # scenario high consistency
+        p_future_max = int(p_score_est * 1.03)
+        p_narrowing = {
+            "future_range": {"min": p_future_min, "max": min(p_future_max, 720)},
+            "condition": "If you maintain 'High' consistency for the next 3 tests."
+        }
+
+        prediction_output = {
+            "psid": psid,
+            "predicted_score_range": f"{p_min} - {p_max}",
+            "confidence_level": "High" if c_level == "high" else ("Medium" if c_level == "medium" else "Low"),
+            "prediction_explainability": {
+                "reasoning": p_reasoning,
+                "subject_contribution": p_subj_status,
+                "range_narrowing": p_narrowing,
+                "stability": {
+                    "level": p_stability,
+                    "explanation": f"Based on score variance of {consistency_data['variance']} across recent tests."
+                }
+            },
+            "disclaimer": "This prediction is based on statistical extrapolation of past test results and assumes consistent study patterns."
+        }
+        
+        # Save to root of student folder (matching previous observation)
+        with open(os.path.join(s_dir, 'prediction.json'), 'w', encoding='utf-8') as f:
+            json.dump(prediction_output, f, indent=2)
+
     # Leaderboards
     configs = [
         {"id": "latest_scores", "metric": lambda p: p["overall_performance"]["latest_score"]},

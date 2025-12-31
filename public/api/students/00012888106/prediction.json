@@ -1,6 +1,30 @@
 {
   "psid": "00012888106",
-  "predicted_score_range": "430 - 480",
-  "confidence_level": "Medium",
+  "predicted_score_range": "551 - 585",
+  "confidence_level": "High",
+  "prediction_explainability": {
+    "reasoning": [
+      "Based on a weighted average of your last 5 tests, prioritizing recent performance.",
+      "Your high consistency allows for a precise prediction range.",
+      "Your upward trend suggests potential to hit the upper bound of this range."
+    ],
+    "subject_contribution": {
+      "physics": "limiting",
+      "chemistry": "neutral",
+      "botany": "neutral",
+      "zoology": "boosting"
+    },
+    "range_narrowing": {
+      "future_range": {
+        "min": 551,
+        "max": 585
+      },
+      "condition": "If you maintain 'High' consistency for the next 3 tests."
+    },
+    "stability": {
+      "level": "stable",
+      "explanation": "Based on score variance of 1260.25 across recent tests."
+    }
+  },
   "disclaimer": "This prediction is based on statistical extrapolation of past test results and assumes consistent study patterns."
 }
