@@ -155,21 +155,7 @@ export default function AnalysisPage() {
                             </div>
                         </div>
 
-                        <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
-                            <h3 className="text-sm font-bold text-slate-800 mb-3">Resources</h3>
-                            <ul className="space-y-2">
-                                <li>
-                                    <a href="#" className="flex items-center text-xs text-blue-600 hover:underline">
-                                        <ChevronRight size={12} className="mr-1" /> Download Notes for {activeTab}
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" className="flex items-center text-xs text-blue-600 hover:underline">
-                                        <ChevronRight size={12} className="mr-1" /> View {activeTab} Formula List
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+
                     </div>
                 </div>
             </main>

@@ -118,8 +118,8 @@ export default function GraphSection({ psid }) {
                             key={g.graph_id}
                             onClick={() => setActiveGraph(idx)}
                             className={`px-3 py-1.5 text-xs font-semibold rounded-md whitespace-nowrap transition-all ${activeGraph === idx
-                                    ? 'bg-white text-blue-700 shadow-sm'
-                                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-200/50'
+                                ? 'bg-white text-blue-700 shadow-sm'
+                                : 'text-slate-500 hover:text-slate-700 hover:bg-slate-200/50'
                                 }`}
                         >
                             {g.title.replace('Subject Performance', '').replace('Test', '').replace('Subject', '').trim()}
@@ -128,7 +128,7 @@ export default function GraphSection({ psid }) {
                 </div>
             </div>
 
-            <div className="h-72 w-full">
+            <div className="h-64 sm:h-80 md:h-96 w-full">
                 <Line data={chartData} options={options} />
             </div>
         </div>

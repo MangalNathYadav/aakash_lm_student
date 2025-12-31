@@ -6,11 +6,11 @@ export default function AboutPage() {
     return (
         <div className="min-h-screen bg-slate-50">
             <Navbar />
-            <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-                <div className="bg-white p-8 md:p-12 rounded-2xl shadow-xl border border-slate-200">
-                    <div className="mb-10 text-center">
-                        <h1 className="text-3xl font-bold text-slate-900 mb-4">About the Student Portal</h1>
-                        <p className="text-slate-600 max-w-2xl mx-auto">
+            <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-16">
+                <div className="bg-white p-5 sm:p-8 md:p-12 rounded-2xl shadow-xl border border-slate-200">
+                    <div className="mb-6 sm:mb-10 text-center">
+                        <h1 className="text-xl sm:text-3xl font-bold text-slate-900 mb-3 sm:mb-4">About the Student Portal</h1>
+                        <p className="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto leading-relaxed">
                             The Evalyx Student Portal is a platform designed to help students track their preparation journey for competitive exams like NEET.
                         </p>
                     </div>
@@ -25,7 +25,7 @@ export default function AboutPage() {
                             </p>
                         </section>
 
-                        <section className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <section className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10">
                             <div className="p-6 bg-slate-50 rounded-xl border border-slate-100">
                                 <h3 className="text-lg font-bold text-slate-800 mb-3 flex items-center">
                                     <Shield className="mr-2 text-green-600" size={20} /> Data Privacy
@@ -44,25 +44,26 @@ export default function AboutPage() {
                             </div>
                         </section>
 
-                        <section className="bg-blue-600 p-8 rounded-xl text-white">
-                            <h2 className="text-xl font-bold mb-4 flex items-center tracking-tight">
+                        <section className="bg-blue-600 p-5 sm:p-8 rounded-xl text-white">
+                            <h2 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 flex items-center tracking-tight">
                                 <Mail className="mr-3" /> Need Support?
                             </h2>
                             <p className="text-blue-100 text-sm mb-6 font-medium">
                                 If you have any issues with your PSID or notice any incorrect test marks, please reach out to the administration desk.
                             </p>
-                            <div className="text-xs font-bold text-blue-200 uppercase tracking-widest">
-                                Contact: mangalnath123k@gmail.com
+                            <div className="flex flex-col sm:flex-row sm:items-center gap-1 text-xs font-bold text-blue-200 tracking-widest uppercase">
+                                <span>Contact:</span>
+                                <span className="text-white lowercase tracking-normal select-all">mangalnath123k@gmail.com</span>
                             </div>
                         </section>
                     </div>
 
                     {/* Analytics Guide Section */}
-                    <section className="bg-slate-900 p-8 rounded-2xl text-white shadow-2xl relative overflow-hidden">
+                    <section className="mt-8 sm:mt-12 bg-slate-900 p-5 sm:p-8 rounded-2xl text-white shadow-2xl relative overflow-hidden">
                         <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl -mr-16 -mt-16"></div>
                         <div className="relative z-10">
-                            <h2 className="text-2xl font-bold mb-8 flex items-center text-white">
-                                <HelpCircle className="mr-3 text-blue-400" /> Guide to Analytics
+                            <h2 className="text-xl sm:text-2xl font-bold mb-6 sm:mb-8 flex items-center text-white">
+                                <HelpCircle className="mr-2 sm:mr-3 text-blue-400" size={24} /> Guide to Analytics
                             </h2>
 
                             <div className="space-y-12">
@@ -75,7 +76,7 @@ export default function AboutPage() {
                                     <p className="text-slate-400 text-sm leading-relaxed mb-6">
                                         A precise 1-10 scale measuring your command over specific chapters, calculated using a weighted average of your test accuracy and question difficulty.
                                     </p>
-                                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
                                         <div className="p-4 bg-emerald-500/10 border border-emerald-500/20 rounded-xl">
                                             <div className="text-emerald-400 font-bold text-xl mb-1">8.0 - 10.0</div>
                                             <div className="text-emerald-200 text-[10px] font-bold uppercase tracking-wider mb-2 opacity-80">Mastered</div>
@@ -94,7 +95,7 @@ export default function AboutPage() {
                                     </div>
                                 </div>
 
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12">
                                     {/* Consistency Section */}
                                     <div>
                                         <div className="flex items-center mb-3">
@@ -132,18 +133,18 @@ export default function AboutPage() {
                     </section>
 
                     {/* Tech Stack & Credits */}
-                    <section className="mt-16">
-                        <div className="flex items-center justify-between mb-8">
-                            <h2 className="text-2xl font-bold text-slate-900 flex items-center">
-                                <Users className="mr-3 text-indigo-600" />
+                    <section className="mt-10 sm:mt-16">
+                        <div className="flex items-center justify-between mb-5 sm:mb-8">
+                            <h2 className="text-xl sm:text-2xl font-bold text-slate-900 flex items-center">
+                                <Users className="mr-2 sm:mr-3 text-indigo-600" size={24} />
                                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">
                                     Engineering & Credits
                                 </span>
                             </h2>
                         </div>
 
-                        <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-lg">
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+                        <div className="bg-white p-5 sm:p-8 rounded-2xl border border-slate-200 shadow-lg">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10">
                                 <div>
                                     <h3 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">Core Technology</h3>
                                     <div className="flex flex-wrap gap-2">

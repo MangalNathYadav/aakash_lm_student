@@ -82,79 +82,76 @@ export default function LeaderboardPage() {
                     <p className="text-slate-500 text-sm">See how you compare with other students across different categories.</p>
                 </div>
 
-                {/* Simplified Tabs */}
-                <div className="flex flex-wrap items-center justify-center gap-2 mb-10">
+                {/* Compact Horizontal Scrollable Tabs */}
+                <div className="flex items-center gap-2 mb-6 overflow-x-auto no-scrollbar pb-2 -mx-4 px-4 sm:mx-0 sm:justify-center">
                     {boards.map((board) => (
                         <button
                             key={board.id}
                             onClick={() => { setActiveBoard(board.id); setSortOrder('none'); }}
-                            className={`flex items-center px-6 py-3 rounded-lg text-sm font-bold transition-all ${activeBoard === board.id
+                            className={`flex items-center flex-shrink-0 px-3 py-2 sm:px-5 sm:py-2.5 rounded-full text-xs sm:text-sm font-bold transition-all whitespace-nowrap ${activeBoard === board.id
                                 ? 'bg-blue-600 text-white shadow-md shadow-blue-100'
                                 : 'bg-white text-slate-600 border border-slate-200 hover:border-blue-300'
                                 }`}
                         >
-                            <board.icon size={16} className="mr-2" />
+                            <board.icon size={14} className="mr-1.5 sm:mr-2" />
                             {board.name}
                         </button>
                     ))}
                 </div>
 
-                {/* Methodology Explanation */}
-                <div className="max-w-4xl mx-auto mb-8 bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
-                    <div className="bg-slate-50 border-b border-slate-200 px-6 py-3 flex items-center gap-2">
-                        <Info size={16} className="text-blue-600" />
-                        <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">Methodology & Logic</span>
+                {/* Compact Methodology Explanation */}
+                <div className="max-w-4xl mx-auto mb-6 bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm">
+                    <div className="bg-slate-50 border-b border-slate-200 px-4 py-2 flex items-center gap-2">
+                        <Info size={14} className="text-blue-600" />
+                        <span className="text-[10px] sm:text-xs font-bold text-slate-500 uppercase tracking-wider">Methodology & Logic</span>
                     </div>
-                    <div className="p-6">
+                    <div className="p-4 sm:p-5">
                         {activeBoard === 'latest_scores' && (
-                            <div className="space-y-3">
-                                <h3 className="font-bold text-slate-900 border-l-4 border-blue-600 pl-3">Latest Scores</h3>
-                                <p className="text-slate-600 text-sm leading-relaxed">
-                                    This leaderboard represents the raw standings from the **most recent exam (FT08)**. It is a direct "snapshot" of your current competitive position. No averages or weights are applied here.
+                            <div className="space-y-2">
+                                <h3 className="font-bold text-sm sm:text-base text-slate-900 border-l-4 border-blue-600 pl-3">Latest Scores</h3>
+                                <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                                    This leaderboard represents the raw standings from the **most recent exam**. It is a direct "snapshot" of your competitive position.
                                 </p>
                             </div>
                         )}
                         {activeBoard === 'overall_average' && (
-                            <div className="space-y-3">
-                                <h3 className="font-bold text-slate-900 border-l-4 border-blue-600 pl-3">Overall Average</h3>
-                                <p className="text-slate-600 text-sm leading-relaxed">
-                                    This rank is calculated as the **Simple Arithmetic Mean** of your scores.
+                            <div className="space-y-2">
+                                <h3 className="font-bold text-sm sm:text-base text-slate-900 border-l-4 border-blue-600 pl-3">Overall Average</h3>
+                                <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                                    Calculated as the **Simple Arithmetic Mean** of all your test scores.
                                 </p>
-                                <div className="bg-slate-50 p-3 rounded-lg font-mono text-xs text-blue-700 flex justify-center italic">
-                                    Overall Average = (Sum of All Test Scores) ÷ (Number of Tests Taken)
+                                <div className="bg-slate-50 p-2 rounded-lg font-mono text-[10px] sm:text-xs text-blue-700 flex justify-center italic">
+                                    Overall Average = (Sum of Scores) ÷ (Tests Taken)
                                 </div>
-                                <p className="text-slate-500 text-[11px]">
-                                    *Useful for identifying your long-term baseline performance regardless of single-day fluctuations.
-                                </p>
                             </div>
                         )}
                         {activeBoard === 'consistency_index' && (
-                            <div className="space-y-3">
-                                <h3 className="font-bold text-slate-900 border-l-4 border-blue-600 pl-3">Consistency Rank (Advanced Performance Intelligence)</h3>
-                                <p className="text-slate-600 text-sm leading-relaxed">
-                                    The Consistency Rank identifies students with high-performance stability. It prevents "one-hit wonders" from ranking high if their past scores were volatile.
+                            <div className="space-y-2">
+                                <h3 className="font-bold text-sm sm:text-base text-slate-900 border-l-4 border-blue-600 pl-3">Consistency Rank</h3>
+                                <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                                    Identifies students with high-performance stability, not just high peaks.
                                 </p>
-                                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                                    <div className="bg-blue-50/50 p-4 rounded-xl border border-blue-100">
-                                        <h4 className="text-xs font-bold text-blue-800 uppercase mb-2">The Formula</h4>
-                                        <p className="font-mono text-[10px] text-blue-900 leading-relaxed">
-                                            Rank = Avg_Score × (1 / (Volatility + 1)) × Data_Reliability
+                                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                    <div className="bg-blue-50/50 p-3 rounded-lg border border-blue-100">
+                                        <h4 className="text-[10px] font-bold text-blue-800 uppercase mb-1">The Formula</h4>
+                                        <p className="font-mono text-[9px] sm:text-[10px] text-blue-900 leading-relaxed">
+                                            Rank = Avg_Score × (1 / (Volatility + 1))
                                         </p>
                                     </div>
-                                    <div className="bg-slate-50 p-4 rounded-xl border border-slate-200">
-                                        <h4 className="text-xs font-bold text-slate-700 uppercase mb-2">Key Factors</h4>
-                                        <ul className="text-[11px] text-slate-600 space-y-1 list-disc pl-4">
-                                            <li><strong>Volatility:</strong> Based on Standard Deviation (Lower is better).</li>
-                                            <li><strong>Reliability:</strong> Weighed higher if you've taken 10+ tests.</li>
+                                    <div className="bg-slate-50 p-3 rounded-lg border border-slate-200">
+                                        <h4 className="text-[10px] font-bold text-slate-700 uppercase mb-1">Key Factors</h4>
+                                        <ul className="text-[10px] text-slate-600 space-y-1 list-disc pl-3">
+                                            <li><strong>Volatility:</strong> Lower SD is better.</li>
+                                            <li><strong>Reliability:</strong> Bonus for 10+ tests.</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         )}
                         {sortOrder !== 'none' && (
-                            <div className="mt-4 pt-4 border-t border-slate-100 flex items-center gap-2 text-blue-700 font-bold text-[10px] uppercase">
+                            <div className="mt-3 pt-3 border-t border-slate-100 flex items-center gap-2 text-blue-700 font-bold text-[10px] uppercase">
                                 <div className="w-1.5 h-1.5 rounded-full bg-blue-600 animate-pulse" />
-                                Custom Sort Enabled: Showing {sortOrder} order by Batch.
+                                Sorted by Batch ({sortOrder}).
                             </div>
                         )}
                     </div>
@@ -189,20 +186,13 @@ export default function LeaderboardPage() {
                     )}
 
                     <div className="overflow-x-auto">
-                        <table className="w-full text-left border-collapse">
+                        <table className="w-full text-left border-collapse table-fixed">
                             <thead>
                                 <tr className="bg-slate-50 border-b border-slate-200">
-                                    <th className="py-4 px-6 text-xs font-bold text-slate-500 uppercase tracking-wider">Rank</th>
-                                    <th className="py-4 px-6 text-xs font-bold text-slate-500 uppercase tracking-wider">Student Name</th>
-                                    <th
-                                        className="py-4 px-6 text-xs font-bold text-blue-600 uppercase tracking-wider cursor-pointer hover:bg-slate-100 transition-colors flex items-center gap-2 select-none"
-                                        onClick={toggleSort}
-                                    >
-                                        Batch
-                                        {sortOrder === 'asc' ? '↑' : sortOrder === 'desc' ? '↓' : '↕'}
-                                    </th>
-                                    <th className="py-4 px-6 text-xs font-bold text-slate-500 uppercase tracking-wider">Score</th>
-                                    <th className="py-4 px-6 text-xs font-bold text-slate-500 uppercase tracking-wider text-right">Trend</th>
+                                    <th className="py-3 px-1 sm:px-4 text-[10px] font-bold text-slate-500 uppercase tracking-wider w-8 sm:w-16 text-center">#</th>
+                                    <th className="py-3 px-2 sm:px-4 text-[10px] sm:text-xs font-bold text-slate-500 uppercase tracking-wider w-[55%]">Student</th>
+                                    <th className="py-3 px-2 sm:px-4 text-[10px] sm:text-xs font-bold text-slate-500 uppercase tracking-wider text-right">Score</th>
+                                    <th className="hidden sm:table-cell py-3 px-4 text-xs font-bold text-slate-500 uppercase tracking-wider text-right w-24">Trend</th>
                                 </tr>
                             </thead>
                             <tbody className="divide-y divide-slate-100">
@@ -215,8 +205,8 @@ export default function LeaderboardPage() {
                                             id={isCurrentUser ? `user-row-${currentUser.psid}` : undefined}
                                             className={`transition-all ${isCurrentUser ? 'bg-blue-600/5 ring-1 ring-inset ring-blue-600/20 shadow-sm' : 'hover:bg-slate-50/80'} ${!isCurrentUser && displayRank <= 3 ? 'bg-blue-50/30' : ''}`}
                                         >
-                                            <td className="py-4 px-6">
-                                                <span className={`inline-flex items-center justify-center w-8 h-8 rounded-full text-sm font-bold ${displayRank === 1 ? 'bg-yellow-100 text-yellow-700' :
+                                            <td className="py-2 px-1 sm:py-4 sm:px-4 text-center">
+                                                <span className={`inline-flex items-center justify-center w-5 h-5 sm:w-8 sm:h-8 rounded-full text-[10px] sm:text-sm font-bold ${displayRank === 1 ? 'bg-yellow-100 text-yellow-700' :
                                                     displayRank === 2 ? 'bg-slate-100 text-slate-700' :
                                                         displayRank === 3 ? 'bg-amber-100 text-amber-700' :
                                                             'text-slate-400'
@@ -224,28 +214,38 @@ export default function LeaderboardPage() {
                                                     {displayRank}
                                                 </span>
                                             </td>
-                                            <td className="py-4 px-6">
-                                                <div className="flex flex-col">
-                                                    <div className="flex items-center gap-2">
-                                                        <span className={`font-bold text-sm capitalize ${isCurrentUser ? 'text-blue-700' : 'text-slate-800'}`}>{entry.name || 'Anonymous Student'}</span>
-                                                        {isCurrentUser && <span className="text-[9px] bg-blue-600 text-white px-2 py-0.5 rounded font-bold uppercase tracking-wider">You</span>}
+                                            <td className="py-2 px-2 sm:py-4 sm:px-4">
+                                                <div className="flex flex-col min-w-0">
+                                                    <div className="flex items-center gap-1.5 flex-wrap">
+                                                        <span className={`font-bold text-xs sm:text-sm capitalize truncate ${isCurrentUser ? 'text-blue-700' : 'text-slate-800'}`}>
+                                                            {entry.name || 'Anonymous'}
+                                                        </span>
+                                                        {isCurrentUser && <span className="text-[8px] bg-blue-600 text-white px-1.5 py-0.5 rounded font-bold uppercase tracking-wider">You</span>}
                                                     </div>
-                                                    <span className="text-[10px] text-slate-400 font-mono tracking-wider">
-                                                        {"*******" + (entry.psid?.slice(-3) || "---")}
-                                                    </span>
+
+                                                    {/* Merged Batch and PSID row for mobile */}
+                                                    <div className="flex items-center gap-2 mt-0.5">
+                                                        <span className="text-[9px] bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-semibold border border-slate-200">
+                                                            {entry.batch || 'N/A'}
+                                                        </span>
+                                                        <span className="text-[9px] text-slate-400 font-mono tracking-wider hidden sm:inline">
+                                                            {"***" + (entry.psid?.slice(-3) || "---")}
+                                                        </span>
+                                                    </div>
                                                 </div>
                                             </td>
-                                            <td className="py-4 px-6">
-                                                <span className={`text-xs font-semibold px-2 py-1 rounded ${isCurrentUser ? 'bg-blue-100 text-blue-700' : 'bg-slate-100 text-slate-600'}`}>
-                                                    {entry.batch || 'N/A'}
-                                                </span>
+                                            <td className="py-2 px-2 sm:py-4 sm:px-4 text-right">
+                                                <div className="flex flex-col items-end">
+                                                    <span className="font-bold text-sm sm:text-base text-slate-900">
+                                                        {typeof entry.score === 'number' ? entry.score.toLocaleString() : entry.score}
+                                                    </span>
+                                                    {/* Mobile Trend Indicator */}
+                                                    <div className="sm:hidden mt-0.5">
+                                                        <TrendIcon trend={entry.trend} />
+                                                    </div>
+                                                </div>
                                             </td>
-                                            <td className="py-4 px-6">
-                                                <span className="font-bold text-slate-900">
-                                                    {typeof entry.score === 'number' ? entry.score.toLocaleString() : entry.score}
-                                                </span>
-                                            </td>
-                                            <td className="py-4 px-6 text-right">
+                                            <td className="hidden sm:table-cell py-4 px-4 text-right">
                                                 <div className="flex justify-end">
                                                     <TrendIcon trend={entry.trend} />
                                                 </div>
@@ -266,11 +266,11 @@ export default function LeaderboardPage() {
 
                 {/* Sticky My Rank Bar */}
                 {currentUser && userGlobalEntry && (
-                    <div className="fixed bottom-0 left-0 right-0 z-50 p-4 bg-white/80 backdrop-blur-md border-t border-blue-100 shadow-[0_-4px_20px_rgba(0,0,0,0.05)]">
-                        <div className="max-w-6xl mx-auto flex items-center justify-between gap-6">
-                            <div className="flex items-center gap-4">
-                                <div className="p-2 bg-blue-600 rounded-lg text-white shadow-md shadow-blue-200">
-                                    <User size={20} />
+                    <div className="fixed bottom-16 md:bottom-0 left-0 right-0 z-40 p-3 sm:p-4 bg-white/90 backdrop-blur-md border-t border-blue-100 shadow-[0_-4px_20px_rgba(0,0,0,0.05)]">
+                        <div className="max-w-6xl mx-auto flex items-center justify-between gap-4 sm:gap-6">
+                            <div className="flex items-center gap-3 sm:gap-4">
+                                <div className="p-1.5 sm:p-2 bg-blue-600 rounded-lg text-white shadow-md shadow-blue-200">
+                                    <User size={16} className="sm:w-5 sm:h-5" />
                                 </div>
                                 <div className="hidden sm:block">
                                     <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Logged In As</p>
@@ -278,20 +278,20 @@ export default function LeaderboardPage() {
                                 </div>
                             </div>
 
-                            <div className="flex items-center gap-8 sm:gap-12">
+                            <div className="flex items-center gap-4 sm:gap-12 flex-1 justify-end sm:justify-center">
                                 <div className="text-center">
-                                    <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">Global Rank</p>
-                                    <span className="text-lg font-black text-blue-600 tracking-tight">#{userGlobalEntry.rank}</span>
+                                    <p className="text-[8px] sm:text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-0.5 sm:mb-1">Global Rank</p>
+                                    <span className="text-base sm:text-lg font-black text-blue-600 tracking-tight">#{userGlobalEntry.rank}</span>
                                 </div>
                                 {selectedBatch !== 'All' && userGlobalEntry.batch === selectedBatch && (
-                                    <div className="text-center border-l border-slate-200 pl-8 sm:pl-12">
-                                        <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">Batch Rank ({selectedBatch})</p>
-                                        <span className="text-lg font-black text-blue-600 tracking-tight">#{userBatchRank}</span>
+                                    <div className="text-center border-l border-slate-200 pl-4 sm:pl-12">
+                                        <p className="text-[8px] sm:text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-0.5 sm:mb-1">Batch Rank</p>
+                                        <span className="text-base sm:text-lg font-black text-blue-600 tracking-tight">#{userBatchRank}</span>
                                     </div>
                                 )}
-                                <div className="text-center border-l border-slate-200 pl-8 sm:pl-12">
-                                    <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">Your Score</p>
-                                    <span className="text-lg font-black text-slate-900 tracking-tight">{userGlobalEntry.score}</span>
+                                <div className="text-center border-l border-slate-200 pl-4 sm:pl-12">
+                                    <p className="text-[8px] sm:text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-0.5 sm:mb-1">Score</p>
+                                    <span className="text-base sm:text-lg font-black text-slate-900 tracking-tight">{userGlobalEntry.score}</span>
                                 </div>
                             </div>
 
@@ -308,7 +308,7 @@ export default function LeaderboardPage() {
                     </div>
                 )}
                 {/* Spacer for sticky bar */}
-                {currentUser && <div className="h-24"></div>}
+                {currentUser && <div className="h-32 sm:h-24"></div>}
             </main>
         </div>
     );

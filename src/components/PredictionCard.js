@@ -26,7 +26,7 @@ export default function PredictionCard({ psid }) {
             {/* Background Glow */}
             <div className="absolute top-0 right-0 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl -mr-32 -mt-32 pointer-events-none"></div>
 
-            <div className="p-6 md:p-8 relative z-10">
+            <div className="p-5 md:p-8 relative z-10">
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
                     <div>
                         <h2 className="text-xl font-bold flex items-center text-blue-200">
@@ -37,12 +37,12 @@ export default function PredictionCard({ psid }) {
                     </div>
                     <div className="flex items-center gap-3">
                         <div className="text-right">
-                            <div className="text-3xl font-bold text-white tracking-tight">{predicted_score_range}</div>
+                            <div className="text-2xl md:text-3xl font-bold text-white tracking-tight">{predicted_score_range}</div>
                             <div className="text-[10px] uppercase tracking-widest font-bold text-slate-400">Score Range</div>
                         </div>
                         <div className={`px-3 py-1 rounded-full text-xs font-bold border ${confidence_level === 'High' ? 'bg-green-500/20 border-green-500/50 text-green-400' :
-                                confidence_level === 'Medium' ? 'bg-amber-500/20 border-amber-500/50 text-amber-400' :
-                                    'bg-red-500/20 border-red-500/50 text-red-400'
+                            confidence_level === 'Medium' ? 'bg-amber-500/20 border-amber-500/50 text-amber-400' :
+                                'bg-red-500/20 border-red-500/50 text-red-400'
                             }`}>
                             {confidence_level} Conf.
                         </div>
@@ -88,8 +88,8 @@ export default function PredictionCard({ psid }) {
                                     <div key={subject} className="flex items-center justify-between p-3 bg-slate-800/80 rounded-lg border border-slate-700/50">
                                         <span className="capitalize text-sm font-medium text-slate-300">{subject}</span>
                                         <span className={`text-[10px] font-bold uppercase px-2 py-0.5 rounded-sm ${status === 'boosting' ? 'bg-green-500/10 text-green-400' :
-                                                status === 'limiting' ? 'bg-red-500/10 text-red-400' :
-                                                    'bg-slate-600/10 text-slate-500'
+                                            status === 'limiting' ? 'bg-red-500/10 text-red-400' :
+                                                'bg-slate-600/10 text-slate-500'
                                             }`}>
                                             {status}
                                         </span>
