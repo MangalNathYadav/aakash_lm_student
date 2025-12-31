@@ -1,0 +1,165 @@
+{
+  "psid": "00015828316",
+  "name": "Unknown",
+  "batch": "RM08",
+  "meta": {
+    "tests_taken": 1,
+    "latest_test_id": "AIATS3",
+    "latest_test_order_idx": 13
+  },
+  "overall_performance": {
+    "average_total_score": 106,
+    "best_score": 106,
+    "latest_score": 106,
+    "consistency_index": 42.4,
+    "trend": "stable"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 7,
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Moving Charges and Magnetism",
+        "Magnetism and Matter",
+        "Electromagnetic Induction",
+        "Alternating Current"
+      ],
+      "chapters": [
+        {
+          "name": "Moving Charges and Magnetism",
+          "rating": 0.7,
+          "percentage": 7,
+          "status": "Weak"
+        },
+        {
+          "name": "Magnetism and Matter",
+          "rating": 0.7,
+          "percentage": 7,
+          "status": "Weak"
+        },
+        {
+          "name": "Electromagnetic Induction",
+          "rating": 0.7,
+          "percentage": 7,
+          "status": "Weak"
+        },
+        {
+          "name": "Alternating Current",
+          "rating": 0.7,
+          "percentage": 7,
+          "status": "Weak"
+        }
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 5,
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Hydrocarbons",
+        "Haloalkanes and Haloarenes"
+      ],
+      "chapters": [
+        {
+          "name": "Hydrocarbons",
+          "rating": 0.5,
+          "percentage": 5,
+          "status": "Weak"
+        },
+        {
+          "name": "Haloalkanes and Haloarenes",
+          "rating": 0.5,
+          "percentage": 5,
+          "status": "Weak"
+        }
+      ]
+    },
+    "botany": {
+      "average_percentage": 14,
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Plant Growth and Development",
+        "Sexual Reproduction in Flowering Plants"
+      ],
+      "chapters": [
+        {
+          "name": "Plant Growth and Development",
+          "rating": 1.4,
+          "percentage": 14,
+          "status": "Weak"
+        },
+        {
+          "name": "Sexual Reproduction in Flowering Plants",
+          "rating": 1.4,
+          "percentage": 14,
+          "status": "Weak"
+        }
+      ]
+    },
+    "zoology": {
+      "average_percentage": 33,
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Animal Kingdom-II: Chordates",
+        "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)"
+      ],
+      "chapters": [
+        {
+          "name": "Animal Kingdom-II: Chordates",
+          "rating": 3.3,
+          "percentage": 33,
+          "status": "Weak"
+        },
+        {
+          "name": "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+          "rating": 3.3,
+          "percentage": 33,
+          "status": "Weak"
+        }
+      ]
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Moving Charges and Magnetism",
+      "Magnetism and Matter",
+      "Electromagnetic Induction",
+      "Alternating Current",
+      "Hydrocarbons"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Moving Charges and Magnetism",
+      "Magnetism and Matter",
+      "Electromagnetic Induction",
+      "Alternating Current",
+      "Hydrocarbons",
+      "Haloalkanes and Haloarenes",
+      "Plant Growth and Development",
+      "Sexual Reproduction in Flowering Plants",
+      "Animal Kingdom-II: Chordates",
+      "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)"
+    ]
+  },
+  "tests": [
+    {
+      "test_id": "AIATS3",
+      "norm_tid": "AIATS3",
+      "syl_date": "2025-12-31T00:00:00",
+      "order_idx": 13,
+      "marks": {
+        "physics": 12,
+        "chemistry": 9,
+        "botany": 25,
+        "zoology": 60,
+        "total": 106
+      },
+      "center_rank": 887,
+      "air_rank": 0,
+      "percentile": 14.72
+    }
+  ]
+}

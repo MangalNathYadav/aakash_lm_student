@@ -1,57 +1,119 @@
 {
   "psid": "00009842621",
   "name": "Unknown",
+  "batch": "RMS1",
   "meta": {
     "tests_taken": 2,
-    "first_test_date": "08-10-2025",
-    "latest_test_date": "10-09-2025"
+    "latest_test_id": "FT5",
+    "latest_test_order_idx": 5
   },
   "overall_performance": {
     "average_total_score": 470,
     "best_score": 495,
-    "latest_score": 445,
-    "consistency_index": 1.5974,
-    "trend": "declining"
+    "latest_score": 495,
+    "consistency_index": 181.04,
+    "trend": "improving"
   },
   "subjects": {
     "physics": {
       "average_percentage": 40,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
-        "Thermal Properties of Matter",
-        "Thermodynamics",
-        "Kinetic Theory",
         "Gravitation",
         "Mechanical Properties of Solids",
-        "Mechanical Properties of Fluids"
+        "Mechanical Properties of Fluids",
+        "Thermal Properties of Matter",
+        "Thermodynamics",
+        "Kinetic Theory"
+      ],
+      "chapters": [
+        {
+          "name": "Thermal Properties of Matter",
+          "rating": 3.7,
+          "percentage": 37,
+          "status": "Weak"
+        },
+        {
+          "name": "Thermodynamics",
+          "rating": 3.7,
+          "percentage": 37,
+          "status": "Weak"
+        },
+        {
+          "name": "Kinetic Theory",
+          "rating": 3.7,
+          "percentage": 37,
+          "status": "Weak"
+        },
+        {
+          "name": "Gravitation",
+          "rating": 4.3,
+          "percentage": 43,
+          "status": "Weak"
+        },
+        {
+          "name": "Mechanical Properties of Solids",
+          "rating": 4.3,
+          "percentage": 43,
+          "status": "Weak"
+        },
+        {
+          "name": "Mechanical Properties of Fluids",
+          "rating": 4.3,
+          "percentage": 43,
+          "status": "Weak"
+        }
       ]
     },
     "chemistry": {
       "average_percentage": 74,
-      "trend": "declining",
-      "strong_chapters": [
+      "strong_chapters": [],
+      "average_chapters": [
+        "Thermodynamics",
         "Equilibrium"
       ],
-      "average_chapters": [
-        "Thermodynamics"
-      ],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Thermodynamics",
+          "rating": 7.3,
+          "percentage": 73,
+          "status": "Average"
+        },
+        {
+          "name": "Equilibrium",
+          "rating": 7.6,
+          "percentage": 76,
+          "status": "Average"
+        }
+      ]
     },
     "botany": {
       "average_percentage": 67,
-      "trend": "declining",
       "strong_chapters": [],
       "average_chapters": [
-        "Anatomy of Flowering Plants",
-        "Morphology of Flowering Plants"
+        "Morphology of Flowering Plants",
+        "Anatomy of Flowering Plants"
       ],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Morphology of Flowering Plants",
+          "rating": 6.1,
+          "percentage": 61,
+          "status": "Average"
+        },
+        {
+          "name": "Anatomy of Flowering Plants",
+          "rating": 7.2,
+          "percentage": 72,
+          "status": "Average"
+        }
+      ]
     },
     "zoology": {
       "average_percentage": 80,
-      "trend": "stable",
       "strong_chapters": [
         "Locomotion & Movement-II: (Upto muscle and bone disorders)",
         "Neural Control & Coordination"
@@ -60,26 +122,85 @@
         "Excretory Products & their Elimination",
         "Locomotion & Movement-I: (Upto properties of muscle contraction)"
       ],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Excretory Products & their Elimination",
+          "rating": 7.1,
+          "percentage": 71,
+          "status": "Average"
+        },
+        {
+          "name": "Locomotion & Movement-I: (Upto properties of muscle contraction)",
+          "rating": 7.1,
+          "percentage": 71,
+          "status": "Average"
+        },
+        {
+          "name": "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+          "rating": 8.9,
+          "percentage": 89,
+          "status": "Mastered"
+        },
+        {
+          "name": "Neural Control & Coordination",
+          "rating": 8.9,
+          "percentage": 89,
+          "status": "Mastered"
+        }
+      ]
     }
   },
   "focus_insights": {
     "top_weak_chapters": [
-      "Thermal Properties of Matter",
-      "Thermodynamics",
-      "Kinetic Theory",
       "Gravitation",
-      "Mechanical Properties of Solids"
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
+      "Thermal Properties of Matter",
+      "Thermodynamics"
     ],
     "most_improved_chapters": [],
     "chapters_needing_attention": [
-      "Thermal Properties of Matter",
-      "Thermodynamics",
-      "Kinetic Theory",
       "Gravitation",
       "Mechanical Properties of Solids",
-      "Mechanical Properties of Fluids"
+      "Mechanical Properties of Fluids",
+      "Thermal Properties of Matter",
+      "Thermodynamics",
+      "Kinetic Theory"
     ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "FT4",
+      "norm_tid": "FT4",
+      "syl_date": "1900-01-01T00:00:00",
+      "order_idx": 4,
+      "marks": {
+        "physics": 77,
+        "chemistry": 131,
+        "botany": 110,
+        "zoology": 127,
+        "total": 445
+      },
+      "center_rank": 109,
+      "air_rank": 0,
+      "percentile": 109.0
+    },
+    {
+      "test_id": "FT5",
+      "norm_tid": "FT5",
+      "syl_date": "2025-10-01T00:00:00",
+      "order_idx": 5,
+      "marks": {
+        "physics": 67,
+        "chemistry": 137,
+        "botany": 130,
+        "zoology": 161,
+        "total": 495
+      },
+      "center_rank": 87,
+      "air_rank": 0,
+      "percentile": 86.0
+    }
+  ]
 }

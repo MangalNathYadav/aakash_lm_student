@@ -1,47 +1,103 @@
 {
   "psid": "00015845737",
   "name": "Unknown",
+  "batch": "RM07",
   "meta": {
     "tests_taken": 2,
-    "first_test_date": "02-11-2025",
-    "latest_test_date": "30-11-2025"
+    "latest_test_id": "AIATS2",
+    "latest_test_order_idx": 11
   },
   "overall_performance": {
     "average_total_score": 210,
     "best_score": 336,
     "latest_score": 84,
-    "consistency_index": 0.063,
+    "consistency_index": 53.25,
     "trend": "declining"
   },
   "subjects": {
     "physics": {
       "average_percentage": 32,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
-        "Laws of Motion",
-        "Work, Energy and Power",
         "Units & Measurements",
         "Motion in a Straight Line",
-        "Motion in a Plane"
+        "Motion in a Plane",
+        "Laws of Motion",
+        "Work, Energy and Power"
+      ],
+      "chapters": [
+        {
+          "name": "Laws of Motion",
+          "rating": 0.7,
+          "percentage": 7,
+          "status": "Weak"
+        },
+        {
+          "name": "Work, Energy and Power",
+          "rating": 0.7,
+          "percentage": 7,
+          "status": "Weak"
+        },
+        {
+          "name": "Units & Measurements",
+          "rating": 4.9,
+          "percentage": 49,
+          "status": "Weak"
+        },
+        {
+          "name": "Motion in a Straight Line",
+          "rating": 4.9,
+          "percentage": 49,
+          "status": "Weak"
+        },
+        {
+          "name": "Motion in a Plane",
+          "rating": 4.9,
+          "percentage": 49,
+          "status": "Weak"
+        }
       ]
     },
     "chemistry": {
       "average_percentage": 22,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
-        "Classification of Elements and periodicity in properties",
-        "chemical Bonding and molecular structure",
         "Some Basic Concepts of Chemistry",
-        "Structure of Atom"
+        "Structure of Atom",
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure"
+      ],
+      "chapters": [
+        {
+          "name": "Classification of Elements and periodicity in properties",
+          "rating": 1.2,
+          "percentage": 12,
+          "status": "Weak"
+        },
+        {
+          "name": "chemical Bonding and molecular structure",
+          "rating": 1.2,
+          "percentage": 12,
+          "status": "Weak"
+        },
+        {
+          "name": "Some Basic Concepts of Chemistry",
+          "rating": 3.3,
+          "percentage": 33,
+          "status": "Weak"
+        },
+        {
+          "name": "Structure of Atom",
+          "rating": 3.3,
+          "percentage": 33,
+          "status": "Weak"
+        }
       ]
     },
     "botany": {
       "average_percentage": 42,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [
         "Cell: The Unit of Life",
@@ -51,47 +107,137 @@
       "weak_chapters": [
         "Biological Classification",
         "Morphology of Flowering Plants"
+      ],
+      "chapters": [
+        {
+          "name": "Biological Classification",
+          "rating": 2.2,
+          "percentage": 22,
+          "status": "Weak"
+        },
+        {
+          "name": "Morphology of Flowering Plants",
+          "rating": 2.2,
+          "percentage": 22,
+          "status": "Weak"
+        },
+        {
+          "name": "Cell: The Unit of Life",
+          "rating": 5.6,
+          "percentage": 56,
+          "status": "Average"
+        },
+        {
+          "name": "Cell Cycle and Cell Division",
+          "rating": 5.6,
+          "percentage": 56,
+          "status": "Average"
+        },
+        {
+          "name": "The Living World",
+          "rating": 5.6,
+          "percentage": 56,
+          "status": "Average"
+        }
       ]
     },
     "zoology": {
       "average_percentage": 28,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
-        "Breathing & Exchange of Gases",
-        "Body Fluids & Circulation",
         "Structural Organisation in Animals- Animal Tissues",
-        "Biomolecules"
+        "Biomolecules",
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation"
+      ],
+      "chapters": [
+        {
+          "name": "Breathing & Exchange of Gases",
+          "rating": 0.6,
+          "percentage": 6,
+          "status": "Weak"
+        },
+        {
+          "name": "Body Fluids & Circulation",
+          "rating": 0.6,
+          "percentage": 6,
+          "status": "Weak"
+        },
+        {
+          "name": "Structural Organisation in Animals- Animal Tissues",
+          "rating": 4.9,
+          "percentage": 49,
+          "status": "Weak"
+        },
+        {
+          "name": "Biomolecules",
+          "rating": 4.9,
+          "percentage": 49,
+          "status": "Weak"
+        }
       ]
     }
   },
   "focus_insights": {
     "top_weak_chapters": [
-      "Breathing & Exchange of Gases",
-      "Body Fluids & Circulation",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane",
       "Laws of Motion",
-      "Work, Energy and Power",
-      "Classification of Elements and periodicity in properties"
+      "Work, Energy and Power"
     ],
     "most_improved_chapters": [],
     "chapters_needing_attention": [
-      "Breathing & Exchange of Gases",
-      "Body Fluids & Circulation",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane",
       "Laws of Motion",
       "Work, Energy and Power",
+      "Some Basic Concepts of Chemistry",
+      "Structure of Atom",
       "Classification of Elements and periodicity in properties",
       "chemical Bonding and molecular structure",
       "Biological Classification",
       "Morphology of Flowering Plants",
-      "Some Basic Concepts of Chemistry",
-      "Structure of Atom",
       "Structural Organisation in Animals- Animal Tissues",
       "Biomolecules",
-      "Units & Measurements",
-      "Motion in a Straight Line",
-      "Motion in a Plane"
+      "Breathing & Exchange of Gases",
+      "Body Fluids & Circulation"
     ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "AIATS1",
+      "norm_tid": "AIATS1",
+      "syl_date": "2025-11-02T00:00:00",
+      "order_idx": 7,
+      "marks": {
+        "physics": 89,
+        "chemistry": 59,
+        "botany": 100,
+        "zoology": 88,
+        "total": 336
+      },
+      "center_rank": 0,
+      "air_rank": 0,
+      "percentile": 46.67
+    },
+    {
+      "test_id": "AIATS2",
+      "norm_tid": "AIATS2",
+      "syl_date": "2025-11-30T00:00:00",
+      "order_idx": 11,
+      "marks": {
+        "physics": 12,
+        "chemistry": 22,
+        "botany": 39,
+        "zoology": 11,
+        "total": 84
+      },
+      "center_rank": 1020,
+      "air_rank": 0,
+      "percentile": 67735.0
+    }
+  ]
 }

@@ -4,17 +4,12 @@
     {
       "subject": "botany",
       "chapter": "Morphology of Flowering Plants",
-      "percentage": 76.01
-    },
-    {
-      "subject": "zoology",
-      "chapter": "Neural Control & Coordination",
-      "percentage": 76.11
+      "percentage": 76.48
     },
     {
       "subject": "zoology",
       "chapter": "Locomotion & Movement",
-      "percentage": 84.68
+      "percentage": 87.78
     }
   ],
   "average": [
@@ -30,13 +25,13 @@
     },
     {
       "subject": "chemistry",
-      "chapter": "Chemical Bonding and Molecular Structure",
-      "percentage": 56.67
+      "chapter": "Equilibrium",
+      "percentage": 50.44
     },
     {
-      "subject": "botany",
-      "chapter": "Biological Classification",
-      "percentage": 66.48
+      "subject": "chemistry",
+      "chapter": "Chemical Bonding and Molecular Structure",
+      "percentage": 56.67
     },
     {
       "subject": "botany",
@@ -55,33 +50,23 @@
     },
     {
       "subject": "botany",
-      "chapter": "Anatomy of Flowering Plants",
-      "percentage": 72.07
-    },
-    {
-      "subject": "botany",
       "chapter": "Plant Kingdom",
       "percentage": 73.89
     },
     {
-      "subject": "zoology",
-      "chapter": "Breathing & Exchange of Gases",
-      "percentage": 71.11
+      "subject": "botany",
+      "chapter": "Anatomy of Flowering Plants",
+      "percentage": 71.67
     },
     {
-      "subject": "zoology",
-      "chapter": "Body Fluids & Circulation",
-      "percentage": 71.11
-    },
-    {
-      "subject": "zoology",
-      "chapter": "Locomotion & Movement-II: (Upto muscle and bone disorders)",
-      "percentage": 66.11
+      "subject": "botany",
+      "chapter": "Biological Classification",
+      "percentage": 66.48
     },
     {
       "subject": "zoology",
       "chapter": "Chemical Coordination & Integration",
-      "percentage": 69.44
+      "percentage": 66.67
     },
     {
       "subject": "zoology",
@@ -91,7 +76,12 @@
     {
       "subject": "zoology",
       "chapter": "Excretory Products & their Elimination",
-      "percentage": 71.5
+      "percentage": 68.78
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Neural Control & Coordination",
+      "percentage": 74.78
     },
     {
       "subject": "zoology",
@@ -102,19 +92,24 @@
       "subject": "zoology",
       "chapter": "Locomotion & Movement-I: (Upto properties of muscle contraction)",
       "percentage": 56.11
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+      "percentage": 66.11
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Breathing & Exchange of Gases",
+      "percentage": 71.11
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Body Fluids & Circulation",
+      "percentage": 71.11
     }
   ],
   "weak": [
-    {
-      "subject": "physics",
-      "chapter": "Laws of Motion",
-      "percentage": 12.22
-    },
-    {
-      "subject": "physics",
-      "chapter": "Work, Energy and Power",
-      "percentage": 12.22
-    },
     {
       "subject": "physics",
       "chapter": "Units & Measurements",
@@ -132,33 +127,18 @@
     },
     {
       "subject": "physics",
-      "chapter": "Thermal Properties of Matter",
-      "percentage": 21.94
-    },
-    {
-      "subject": "physics",
-      "chapter": "Thermodynamics",
-      "percentage": 21.94
-    },
-    {
-      "subject": "physics",
-      "chapter": "Kinetic Theory",
-      "percentage": 21.94
-    },
-    {
-      "subject": "physics",
       "chapter": "Oscillations",
-      "percentage": 11.11
+      "percentage": 8.89
     },
     {
       "subject": "physics",
       "chapter": "Waves",
-      "percentage": 11.11
+      "percentage": 8.89
     },
     {
       "subject": "physics",
       "chapter": "Electric Charges & Fields",
-      "percentage": 11.11
+      "percentage": 8.89
     },
     {
       "subject": "physics",
@@ -178,17 +158,17 @@
     {
       "subject": "physics",
       "chapter": "Gravitation",
-      "percentage": 20.71
+      "percentage": 21.27
     },
     {
       "subject": "physics",
       "chapter": "Mechanical Properties of Solids",
-      "percentage": 20.71
+      "percentage": 21.27
     },
     {
       "subject": "physics",
       "chapter": "Mechanical Properties of Fluids",
-      "percentage": 20.71
+      "percentage": 21.27
     },
     {
       "subject": "physics",
@@ -201,14 +181,29 @@
       "percentage": 28.89
     },
     {
-      "subject": "chemistry",
-      "chapter": "Classification of Elements and periodicity in properties",
-      "percentage": 42.22
+      "subject": "physics",
+      "chapter": "Thermal Properties of Matter",
+      "percentage": 23.33
     },
     {
-      "subject": "chemistry",
-      "chapter": "chemical Bonding and molecular structure",
-      "percentage": 42.22
+      "subject": "physics",
+      "chapter": "Thermodynamics",
+      "percentage": 23.33
+    },
+    {
+      "subject": "physics",
+      "chapter": "Kinetic Theory",
+      "percentage": 23.33
+    },
+    {
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "percentage": 12.22
+    },
+    {
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "percentage": 12.22
     },
     {
       "subject": "chemistry",
@@ -222,28 +217,33 @@
     },
     {
       "subject": "chemistry",
-      "chapter": "Equilibrium",
-      "percentage": 47.7
-    },
-    {
-      "subject": "chemistry",
       "chapter": "Redox Reactions",
-      "percentage": 39.83
+      "percentage": 43.02
     },
     {
       "subject": "chemistry",
       "chapter": "Electrochemistry",
-      "percentage": 39.83
+      "percentage": 43.02
     },
     {
       "subject": "chemistry",
       "chapter": "Solutions",
-      "percentage": 35.07
+      "percentage": 37.78
     },
     {
       "subject": "chemistry",
       "chapter": "Thermodynamics",
-      "percentage": 45.4
+      "percentage": 47.78
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and periodicity in properties",
+      "percentage": 42.22
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "chemical Bonding and molecular structure",
+      "percentage": 42.22
     },
     {
       "subject": "botany",

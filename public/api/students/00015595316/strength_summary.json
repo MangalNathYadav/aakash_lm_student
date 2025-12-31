@@ -5,16 +5,6 @@
   "weak": [
     {
       "subject": "physics",
-      "chapter": "Laws of Motion",
-      "percentage": 2.78
-    },
-    {
-      "subject": "physics",
-      "chapter": "Work, Energy and Power",
-      "percentage": 2.78
-    },
-    {
-      "subject": "physics",
       "chapter": "Units & Measurements",
       "percentage": 2.22
     },
@@ -29,14 +19,14 @@
       "percentage": 2.22
     },
     {
-      "subject": "chemistry",
-      "chapter": "Classification of Elements and periodicity in properties",
-      "percentage": 23.33
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "percentage": 2.78
     },
     {
-      "subject": "chemistry",
-      "chapter": "chemical Bonding and molecular structure",
-      "percentage": 23.33
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "percentage": 2.78
     },
     {
       "subject": "chemistry",
@@ -49,14 +39,14 @@
       "percentage": 3.33
     },
     {
-      "subject": "botany",
-      "chapter": "Biological Classification",
-      "percentage": 4.44
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and periodicity in properties",
+      "percentage": 23.33
     },
     {
-      "subject": "botany",
-      "chapter": "Morphology of Flowering Plants",
-      "percentage": 4.44
+      "subject": "chemistry",
+      "chapter": "chemical Bonding and molecular structure",
+      "percentage": 23.33
     },
     {
       "subject": "botany",
@@ -74,13 +64,13 @@
       "percentage": 10.0
     },
     {
-      "subject": "zoology",
-      "chapter": "Breathing & Exchange of Gases",
+      "subject": "botany",
+      "chapter": "Biological Classification",
       "percentage": 4.44
     },
     {
-      "subject": "zoology",
-      "chapter": "Body Fluids & Circulation",
+      "subject": "botany",
+      "chapter": "Morphology of Flowering Plants",
       "percentage": 4.44
     },
     {
@@ -92,6 +82,16 @@
       "subject": "zoology",
       "chapter": "Biomolecules",
       "percentage": 3.33
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Breathing & Exchange of Gases",
+      "percentage": 4.44
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Body Fluids & Circulation",
+      "percentage": 4.44
     }
   ]
 }

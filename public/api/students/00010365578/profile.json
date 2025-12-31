@@ -1,96 +1,325 @@
 {
   "psid": "00010365578",
-  "name": "Unknown",
+  "name": "Name not found",
+  "batch": "RMS1",
   "meta": {
-    "tests_taken": 2,
-    "first_test_date": "02-11-2025",
-    "latest_test_date": "10-09-2025"
+    "tests_taken": 3,
+    "latest_test_id": "AIATS1",
+    "latest_test_order_idx": 7
   },
   "overall_performance": {
-    "average_total_score": 262,
+    "average_total_score": 218,
     "best_score": 267,
-    "latest_score": 267,
-    "consistency_index": 47.0588,
+    "latest_score": 258,
+    "consistency_index": 86.87,
     "trend": "improving"
   },
   "subjects": {
     "physics": {
       "average_percentage": 19,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids",
         "Units & Measurements",
         "Motion in a Straight Line",
         "Motion in a Plane",
-        "Gravitation",
-        "Mechanical Properties of Solids",
-        "Mechanical Properties of Fluids"
+        "Laws of Motion",
+        "Work, Energy & Power",
+        "System of Particles & Rotational Motion"
+      ],
+      "chapters": [
+        {
+          "name": "Units & Measurements",
+          "rating": 1.2,
+          "percentage": 12,
+          "status": "Weak"
+        },
+        {
+          "name": "Motion in a Straight Line",
+          "rating": 1.2,
+          "percentage": 12,
+          "status": "Weak"
+        },
+        {
+          "name": "Motion in a Plane",
+          "rating": 1.2,
+          "percentage": 12,
+          "status": "Weak"
+        },
+        {
+          "name": "Laws of Motion",
+          "rating": 1.6,
+          "percentage": 16,
+          "status": "Weak"
+        },
+        {
+          "name": "Work, Energy & Power",
+          "rating": 1.6,
+          "percentage": 16,
+          "status": "Weak"
+        },
+        {
+          "name": "System of Particles & Rotational Motion",
+          "rating": 1.6,
+          "percentage": 16,
+          "status": "Weak"
+        },
+        {
+          "name": "Gravitation",
+          "rating": 2.8,
+          "percentage": 28,
+          "status": "Weak"
+        },
+        {
+          "name": "Mechanical Properties of Solids",
+          "rating": 2.8,
+          "percentage": 28,
+          "status": "Weak"
+        },
+        {
+          "name": "Mechanical Properties of Fluids",
+          "rating": 2.8,
+          "percentage": 28,
+          "status": "Weak"
+        }
       ]
     },
     "chemistry": {
-      "average_percentage": 33,
-      "trend": "improving",
+      "average_percentage": 21,
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
+        "Thermodynamics",
         "Some Basic Concepts of Chemistry",
         "Structure of Atom",
-        "Thermodynamics"
+        "Classification of Elements and Periodicity in Properties",
+        "Chemical Bonding and Molecular Structure"
+      ],
+      "chapters": [
+        {
+          "name": "Classification of Elements and Periodicity in Properties",
+          "rating": 1.1,
+          "percentage": 11,
+          "status": "Weak"
+        },
+        {
+          "name": "Chemical Bonding and Molecular Structure",
+          "rating": 1.1,
+          "percentage": 11,
+          "status": "Weak"
+        },
+        {
+          "name": "Some Basic Concepts of Chemistry",
+          "rating": 2.5,
+          "percentage": 25,
+          "status": "Weak"
+        },
+        {
+          "name": "Structure of Atom",
+          "rating": 2.5,
+          "percentage": 25,
+          "status": "Weak"
+        },
+        {
+          "name": "Thermodynamics",
+          "rating": 3.4,
+          "percentage": 34,
+          "status": "Weak"
+        }
       ]
     },
     "botany": {
-      "average_percentage": 47,
-      "trend": "declining",
+      "average_percentage": 35,
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
-        "Cell: The Unit of Life",
-        "Cell Cycle and Cell Division",
+        "Morphology of Flowering Plants",
         "The Living World",
-        "Morphology of Flowering Plants"
+        "Cell: The Unit of Life",
+        "Cell Cycle & Cell Division",
+        "Biological Classification",
+        "Cell Cycle and Cell Division"
+      ],
+      "chapters": [
+        {
+          "name": "Cell Cycle & Cell Division",
+          "rating": 2.2,
+          "percentage": 22,
+          "status": "Weak"
+        },
+        {
+          "name": "Biological Classification",
+          "rating": 2.2,
+          "percentage": 22,
+          "status": "Weak"
+        },
+        {
+          "name": "The Living World",
+          "rating": 3.6,
+          "percentage": 36,
+          "status": "Weak"
+        },
+        {
+          "name": "Cell: The Unit of Life",
+          "rating": 3.6,
+          "percentage": 36,
+          "status": "Weak"
+        },
+        {
+          "name": "Morphology of Flowering Plants",
+          "rating": 4.5,
+          "percentage": 45,
+          "status": "Weak"
+        },
+        {
+          "name": "Cell Cycle and Cell Division",
+          "rating": 4.7,
+          "percentage": 47,
+          "status": "Weak"
+        }
       ]
     },
     "zoology": {
-      "average_percentage": 47,
-      "trend": "stable",
+      "average_percentage": 36,
       "strong_chapters": [],
-      "average_chapters": [
-        "Structural Organisation in Animals- Animal Tissues",
-        "Biomolecules"
-      ],
+      "average_chapters": [],
       "weak_chapters": [
         "Excretory Products & their Elimination",
-        "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+        "Locomotion & Movement-I: (Upto properties of muscle contraction)",
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules",
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation"
+      ],
+      "chapters": [
+        {
+          "name": "Breathing & Exchange of Gases",
+          "rating": 2.4,
+          "percentage": 24,
+          "status": "Weak"
+        },
+        {
+          "name": "Body Fluids & Circulation",
+          "rating": 2.4,
+          "percentage": 24,
+          "status": "Weak"
+        },
+        {
+          "name": "Excretory Products & their Elimination",
+          "rating": 4.1,
+          "percentage": 41,
+          "status": "Weak"
+        },
+        {
+          "name": "Locomotion & Movement-I: (Upto properties of muscle contraction)",
+          "rating": 4.1,
+          "percentage": 41,
+          "status": "Weak"
+        },
+        {
+          "name": "Structural Organisation in Animals- Animal Tissues",
+          "rating": 4.3,
+          "percentage": 43,
+          "status": "Weak"
+        },
+        {
+          "name": "Biomolecules",
+          "rating": 4.3,
+          "percentage": 43,
+          "status": "Weak"
+        }
       ]
     }
   },
   "focus_insights": {
     "top_weak_chapters": [
-      "Units & Measurements",
-      "Motion in a Straight Line",
-      "Motion in a Plane",
-      "Gravitation",
-      "Mechanical Properties of Solids"
-    ],
-    "most_improved_chapters": [],
-    "chapters_needing_attention": [
-      "Units & Measurements",
-      "Motion in a Straight Line",
-      "Motion in a Plane",
       "Gravitation",
       "Mechanical Properties of Solids",
       "Mechanical Properties of Fluids",
+      "Units & Measurements",
+      "Motion in a Straight Line"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane",
+      "Laws of Motion",
+      "Work, Energy & Power",
+      "System of Particles & Rotational Motion",
+      "Thermodynamics",
       "Some Basic Concepts of Chemistry",
       "Structure of Atom",
-      "Thermodynamics",
+      "Classification of Elements and Periodicity in Properties",
+      "Chemical Bonding and Molecular Structure",
+      "Morphology of Flowering Plants",
+      "The Living World",
+      "Cell: The Unit of Life",
+      "Cell Cycle & Cell Division",
+      "Biological Classification",
+      "Cell Cycle and Cell Division",
       "Excretory Products & their Elimination",
       "Locomotion & Movement-I: (Upto properties of muscle contraction)",
-      "Morphology of Flowering Plants",
-      "Cell: The Unit of Life",
-      "Cell Cycle and Cell Division",
-      "The Living World"
+      "Structural Organisation in Animals- Animal Tissues",
+      "Biomolecules",
+      "Breathing & Exchange of Gases",
+      "Body Fluids & Circulation"
     ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "FT4",
+      "norm_tid": "FT4",
+      "syl_date": "1900-01-01T00:00:00",
+      "order_idx": 4,
+      "marks": {
+        "physics": 50,
+        "chemistry": 62,
+        "botany": 81,
+        "zoology": 74,
+        "total": 267
+      },
+      "center_rank": 226,
+      "air_rank": 0,
+      "percentile": 226.0
+    },
+    {
+      "test_id": "NBTS1",
+      "norm_tid": "NBTS1",
+      "syl_date": "2025-08-27T00:00:00",
+      "order_idx": 3,
+      "marks": {
+        "physics": 28,
+        "chemistry": 19,
+        "botany": 39,
+        "zoology": 44,
+        "total": 130
+      },
+      "center_rank": 267,
+      "air_rank": 0,
+      "percentile": 267.0
+    },
+    {
+      "test_id": "AIATS1",
+      "norm_tid": "AIATS1",
+      "syl_date": "2025-11-02T00:00:00",
+      "order_idx": 7,
+      "marks": {
+        "physics": 19,
+        "chemistry": 59,
+        "botany": 85,
+        "zoology": 95,
+        "total": 258
+      },
+      "center_rank": 0,
+      "air_rank": 0,
+      "percentile": 35.83
+    }
+  ]
 }

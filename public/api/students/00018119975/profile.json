@@ -1,0 +1,163 @@
+{
+  "psid": "00018119975",
+  "name": "Unknown",
+  "batch": "DLP",
+  "meta": {
+    "tests_taken": 1,
+    "latest_test_id": "AIATS3",
+    "latest_test_order_idx": 13
+  },
+  "overall_performance": {
+    "average_total_score": 252,
+    "best_score": 252,
+    "latest_score": 252,
+    "consistency_index": 100.8,
+    "trend": "stable"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 21,
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Moving Charges and Magnetism",
+        "Magnetism and Matter",
+        "Electromagnetic Induction",
+        "Alternating Current"
+      ],
+      "chapters": [
+        {
+          "name": "Moving Charges and Magnetism",
+          "rating": 2.1,
+          "percentage": 21,
+          "status": "Weak"
+        },
+        {
+          "name": "Magnetism and Matter",
+          "rating": 2.1,
+          "percentage": 21,
+          "status": "Weak"
+        },
+        {
+          "name": "Electromagnetic Induction",
+          "rating": 2.1,
+          "percentage": 21,
+          "status": "Weak"
+        },
+        {
+          "name": "Alternating Current",
+          "rating": 2.1,
+          "percentage": 21,
+          "status": "Weak"
+        }
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 27,
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Hydrocarbons",
+        "Haloalkanes and Haloarenes"
+      ],
+      "chapters": [
+        {
+          "name": "Hydrocarbons",
+          "rating": 2.7,
+          "percentage": 27,
+          "status": "Weak"
+        },
+        {
+          "name": "Haloalkanes and Haloarenes",
+          "rating": 2.7,
+          "percentage": 27,
+          "status": "Weak"
+        }
+      ]
+    },
+    "botany": {
+      "average_percentage": 29,
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Plant Growth and Development",
+        "Sexual Reproduction in Flowering Plants"
+      ],
+      "chapters": [
+        {
+          "name": "Plant Growth and Development",
+          "rating": 2.9,
+          "percentage": 29,
+          "status": "Weak"
+        },
+        {
+          "name": "Sexual Reproduction in Flowering Plants",
+          "rating": 2.9,
+          "percentage": 29,
+          "status": "Weak"
+        }
+      ]
+    },
+    "zoology": {
+      "average_percentage": 64,
+      "strong_chapters": [],
+      "average_chapters": [
+        "Animal Kingdom-II: Chordates",
+        "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)"
+      ],
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Animal Kingdom-II: Chordates",
+          "rating": 6.4,
+          "percentage": 64,
+          "status": "Average"
+        },
+        {
+          "name": "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+          "rating": 6.4,
+          "percentage": 64,
+          "status": "Average"
+        }
+      ]
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Moving Charges and Magnetism",
+      "Magnetism and Matter",
+      "Electromagnetic Induction",
+      "Alternating Current",
+      "Hydrocarbons"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Moving Charges and Magnetism",
+      "Magnetism and Matter",
+      "Electromagnetic Induction",
+      "Alternating Current",
+      "Hydrocarbons",
+      "Haloalkanes and Haloarenes",
+      "Plant Growth and Development",
+      "Sexual Reproduction in Flowering Plants"
+    ]
+  },
+  "tests": [
+    {
+      "test_id": "AIATS3",
+      "norm_tid": "AIATS3",
+      "syl_date": "2025-12-31T00:00:00",
+      "order_idx": 13,
+      "marks": {
+        "physics": 37,
+        "chemistry": 48,
+        "botany": 52,
+        "zoology": 115,
+        "total": 252
+      },
+      "center_rank": 600,
+      "air_rank": 0,
+      "percentile": 35.0
+    }
+  ]
+}

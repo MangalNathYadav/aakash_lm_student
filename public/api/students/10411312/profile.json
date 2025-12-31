@@ -4,13 +4,14 @@
   "meta": {
     "tests_taken": 2,
     "first_test_date": null,
-    "latest_test_date": "28-12-2025"
+    "latest_test_date": "28-12-2025",
+    "batch": "RMS1"
   },
   "overall_performance": {
     "average_total_score": 490,
     "best_score": 494,
     "latest_score": 486,
-    "consistency_index": 58.8235,
+    "consistency_index": 0,
     "trend": "stable"
   },
   "subjects": {
@@ -80,5 +81,6 @@
     "most_improved_chapters": [],
     "chapters_needing_attention": []
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting.",
+  "batch": "RMS1"
 }

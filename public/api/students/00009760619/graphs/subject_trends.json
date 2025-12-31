@@ -1,0 +1,216 @@
+{
+  "graphs": [
+    {
+      "graph_id": "all_tests_subject_trend",
+      "title": "Overall Subject Performance (All Tests)",
+      "x_axis": {
+        "label": "Test Date",
+        "values": [
+          "1900-01-01",
+          "2025-07-02",
+          "2025-07-23",
+          "2025-08-20",
+          "2025-10-01",
+          "2025-11-02",
+          "2025-11-05",
+          "2025-11-26",
+          "2025-11-30",
+          "2025-12-28",
+          "2025-12-31"
+        ]
+      },
+      "datasets": [
+        {
+          "subject": "physics",
+          "data": [
+            98,
+            105,
+            126,
+            86,
+            140,
+            99,
+            84,
+            130,
+            104,
+            129,
+            83
+          ]
+        },
+        {
+          "subject": "chemistry",
+          "data": [
+            108,
+            112,
+            143,
+            150,
+            131,
+            89,
+            127,
+            90,
+            111,
+            111,
+            69
+          ]
+        },
+        {
+          "subject": "botany",
+          "data": [
+            137,
+            160,
+            176,
+            166,
+            155,
+            131,
+            131,
+            162,
+            125,
+            157,
+            145
+          ]
+        },
+        {
+          "subject": "zoology",
+          "data": [
+            142,
+            160,
+            171,
+            160,
+            166,
+            152,
+            139,
+            142,
+            167,
+            143,
+            167
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": "aiats_subject_trend",
+      "title": "AIATS Subject Performance",
+      "x_axis": {
+        "label": "Test Date",
+        "values": [
+          "2025-11-02",
+          "2025-11-30",
+          "2025-12-31"
+        ]
+      },
+      "datasets": [
+        {
+          "subject": "physics",
+          "data": [
+            99,
+            104,
+            83
+          ]
+        },
+        {
+          "subject": "chemistry",
+          "data": [
+            89,
+            111,
+            69
+          ]
+        },
+        {
+          "subject": "botany",
+          "data": [
+            131,
+            125,
+            145
+          ]
+        },
+        {
+          "subject": "zoology",
+          "data": [
+            152,
+            167,
+            167
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": "ft_subject_trend",
+      "title": "Fortnightly Test (FT) Subject Performance",
+      "x_axis": {
+        "label": "Test Date",
+        "values": [
+          "1900-01-01",
+          "2025-07-02",
+          "2025-07-23",
+          "2025-08-20",
+          "2025-10-01",
+          "2025-11-05",
+          "2025-11-26",
+          "2025-12-28"
+        ]
+      },
+      "datasets": [
+        {
+          "subject": "physics",
+          "data": [
+            98,
+            105,
+            126,
+            86,
+            140,
+            84,
+            130,
+            129
+          ]
+        },
+        {
+          "subject": "chemistry",
+          "data": [
+            108,
+            112,
+            143,
+            150,
+            131,
+            127,
+            90,
+            111
+          ]
+        },
+        {
+          "subject": "botany",
+          "data": [
+            137,
+            160,
+            176,
+            166,
+            155,
+            131,
+            162,
+            157
+          ]
+        },
+        {
+          "subject": "zoology",
+          "data": [
+            142,
+            160,
+            171,
+            160,
+            166,
+            139,
+            142,
+            143
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": "nbts_subject_trend",
+      "title": "NCERT Booster Test (NBTS) Subject Performance",
+      "x_axis": {
+        "label": "Test Date",
+        "values": []
+      },
+      "datasets": []
+    }
+  ]
+}

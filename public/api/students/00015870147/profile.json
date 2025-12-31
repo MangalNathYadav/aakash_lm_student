@@ -1,57 +1,110 @@
 {
   "psid": "00015870147",
   "name": "Unknown",
+  "batch": "SNKLP1",
   "meta": {
     "tests_taken": 1,
-    "first_test_date": "30-11-2025",
-    "latest_test_date": "30-11-2025"
+    "latest_test_id": "AIATS2",
+    "latest_test_order_idx": 11
   },
   "overall_performance": {
     "average_total_score": 145,
     "best_score": 145,
     "latest_score": 145,
-    "consistency_index": 0.0,
-    "trend": "insufficient_data"
+    "consistency_index": 58.0,
+    "trend": "stable"
   },
   "subjects": {
     "physics": {
       "average_percentage": 0,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Laws of Motion",
         "Work, Energy and Power"
+      ],
+      "chapters": [
+        {
+          "name": "Laws of Motion",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Work, Energy and Power",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        }
       ]
     },
     "chemistry": {
       "average_percentage": 12,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Classification of Elements and periodicity in properties",
         "chemical Bonding and molecular structure"
+      ],
+      "chapters": [
+        {
+          "name": "Classification of Elements and periodicity in properties",
+          "rating": 1.2,
+          "percentage": 12,
+          "status": "Weak"
+        },
+        {
+          "name": "chemical Bonding and molecular structure",
+          "rating": 1.2,
+          "percentage": 12,
+          "status": "Weak"
+        }
       ]
     },
     "botany": {
       "average_percentage": 28,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Biological Classification",
         "Morphology of Flowering Plants"
+      ],
+      "chapters": [
+        {
+          "name": "Biological Classification",
+          "rating": 2.8,
+          "percentage": 28,
+          "status": "Weak"
+        },
+        {
+          "name": "Morphology of Flowering Plants",
+          "rating": 2.8,
+          "percentage": 28,
+          "status": "Weak"
+        }
       ]
     },
     "zoology": {
       "average_percentage": 41,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Breathing & Exchange of Gases",
         "Body Fluids & Circulation"
+      ],
+      "chapters": [
+        {
+          "name": "Breathing & Exchange of Gases",
+          "rating": 4.1,
+          "percentage": 41,
+          "status": "Weak"
+        },
+        {
+          "name": "Body Fluids & Circulation",
+          "rating": 4.1,
+          "percentage": 41,
+          "status": "Weak"
+        }
       ]
     }
   },
@@ -75,5 +128,22 @@
       "Body Fluids & Circulation"
     ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "AIATS2",
+      "norm_tid": "AIATS2",
+      "syl_date": "2025-11-30T00:00:00",
+      "order_idx": 11,
+      "marks": {
+        "physics": 0,
+        "chemistry": 21,
+        "botany": 50,
+        "zoology": 74,
+        "total": 145
+      },
+      "center_rank": 924,
+      "air_rank": 0,
+      "percentile": 61693.0
+    }
+  ]
 }

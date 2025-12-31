@@ -1,0 +1,104 @@
+{
+  "graphs": [
+    {
+      "graph_id": "all_tests_subject_trend",
+      "title": "Overall Subject Performance (All Tests)",
+      "x_axis": {
+        "label": "Test Date",
+        "values": [
+          "1900-01-01",
+          "2025-10-01"
+        ]
+      },
+      "datasets": [
+        {
+          "subject": "physics",
+          "data": [
+            77,
+            67
+          ]
+        },
+        {
+          "subject": "chemistry",
+          "data": [
+            131,
+            137
+          ]
+        },
+        {
+          "subject": "botany",
+          "data": [
+            110,
+            130
+          ]
+        },
+        {
+          "subject": "zoology",
+          "data": [
+            127,
+            161
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": "aiats_subject_trend",
+      "title": "AIATS Subject Performance",
+      "x_axis": {
+        "label": "Test Date",
+        "values": []
+      },
+      "datasets": []
+    },
+    {
+      "graph_id": "ft_subject_trend",
+      "title": "Fortnightly Test (FT) Subject Performance",
+      "x_axis": {
+        "label": "Test Date",
+        "values": [
+          "1900-01-01",
+          "2025-10-01"
+        ]
+      },
+      "datasets": [
+        {
+          "subject": "physics",
+          "data": [
+            77,
+            67
+          ]
+        },
+        {
+          "subject": "chemistry",
+          "data": [
+            131,
+            137
+          ]
+        },
+        {
+          "subject": "botany",
+          "data": [
+            110,
+            130
+          ]
+        },
+        {
+          "subject": "zoology",
+          "data": [
+            127,
+            161
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": "nbts_subject_trend",
+      "title": "NCERT Booster Test (NBTS) Subject Performance",
+      "x_axis": {
+        "label": "Test Date",
+        "values": []
+      },
+      "datasets": []
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "psid": "00016105784",
+  "name": "Unknown",
+  "batch": "DLP",
+  "meta": {
+    "tests_taken": 1,
+    "latest_test_id": "AIATS3",
+    "latest_test_order_idx": 13
+  },
+  "overall_performance": {
+    "average_total_score": 223,
+    "best_score": 223,
+    "latest_score": 223,
+    "consistency_index": 89.2,
+    "trend": "stable"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 2,
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Moving Charges and Magnetism",
+        "Magnetism and Matter",
+        "Electromagnetic Induction",
+        "Alternating Current"
+      ],
+      "chapters": [
+        {
+          "name": "Moving Charges and Magnetism",
+          "rating": 0.2,
+          "percentage": 2,
+          "status": "Weak"
+        },
+        {
+          "name": "Magnetism and Matter",
+          "rating": 0.2,
+          "percentage": 2,
+          "status": "Weak"
+        },
+        {
+          "name": "Electromagnetic Induction",
+          "rating": 0.2,
+          "percentage": 2,
+          "status": "Weak"
+        },
+        {
+          "name": "Alternating Current",
+          "rating": 0.2,
+          "percentage": 2,
+          "status": "Weak"
+        }
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 8,
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Hydrocarbons",
+        "Haloalkanes and Haloarenes"
+      ],
+      "chapters": [
+        {
+          "name": "Hydrocarbons",
+          "rating": 0.8,
+          "percentage": 8,
+          "status": "Weak"
+        },
+        {
+          "name": "Haloalkanes and Haloarenes",
+          "rating": 0.8,
+          "percentage": 8,
+          "status": "Weak"
+        }
+      ]
+    },
+    "botany": {
+      "average_percentage": 50,
+      "strong_chapters": [],
+      "average_chapters": [
+        "Plant Growth and Development",
+        "Sexual Reproduction in Flowering Plants"
+      ],
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Plant Growth and Development",
+          "rating": 5.0,
+          "percentage": 50,
+          "status": "Average"
+        },
+        {
+          "name": "Sexual Reproduction in Flowering Plants",
+          "rating": 5.0,
+          "percentage": 50,
+          "status": "Average"
+        }
+      ]
+    },
+    "zoology": {
+      "average_percentage": 64,
+      "strong_chapters": [],
+      "average_chapters": [
+        "Animal Kingdom-II: Chordates",
+        "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)"
+      ],
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Animal Kingdom-II: Chordates",
+          "rating": 6.4,
+          "percentage": 64,
+          "status": "Average"
+        },
+        {
+          "name": "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+          "rating": 6.4,
+          "percentage": 64,
+          "status": "Average"
+        }
+      ]
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Moving Charges and Magnetism",
+      "Magnetism and Matter",
+      "Electromagnetic Induction",
+      "Alternating Current",
+      "Hydrocarbons"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Moving Charges and Magnetism",
+      "Magnetism and Matter",
+      "Electromagnetic Induction",
+      "Alternating Current",
+      "Hydrocarbons",
+      "Haloalkanes and Haloarenes"
+    ]
+  },
+  "tests": [
+    {
+      "test_id": "AIATS3",
+      "norm_tid": "AIATS3",
+      "syl_date": "2025-12-31T00:00:00",
+      "order_idx": 13,
+      "marks": {
+        "physics": 3,
+        "chemistry": 15,
+        "botany": 90,
+        "zoology": 115,
+        "total": 223
+      },
+      "center_rank": 661,
+      "air_rank": 0,
+      "percentile": 30.97
+    }
+  ]
+}

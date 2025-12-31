@@ -1,0 +1,208 @@
+{
+  "graphs": [
+    {
+      "graph_id": "all_tests_subject_trend",
+      "title": "Overall Subject Performance (All Tests)",
+      "x_axis": {
+        "label": "Test Date",
+        "values": [
+          "1900-01-01",
+          "2025-08-20",
+          "2025-08-27",
+          "2025-10-01",
+          "2025-11-02",
+          "2025-11-05",
+          "2025-11-30",
+          "2025-12-31"
+        ]
+      },
+      "datasets": [
+        {
+          "subject": "physics",
+          "data": [
+            58,
+            21,
+            3,
+            24,
+            3,
+            8,
+            -1,
+            0
+          ]
+        },
+        {
+          "subject": "chemistry",
+          "data": [
+            108,
+            123,
+            107,
+            50,
+            61,
+            54,
+            74,
+            44
+          ]
+        },
+        {
+          "subject": "botany",
+          "data": [
+            150,
+            149,
+            157,
+            125,
+            135,
+            134,
+            149,
+            116
+          ]
+        },
+        {
+          "subject": "zoology",
+          "data": [
+            137,
+            133,
+            136,
+            147,
+            68,
+            83,
+            128,
+            124
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": "aiats_subject_trend",
+      "title": "AIATS Subject Performance",
+      "x_axis": {
+        "label": "Test Date",
+        "values": [
+          "2025-11-02",
+          "2025-11-30",
+          "2025-12-31"
+        ]
+      },
+      "datasets": [
+        {
+          "subject": "physics",
+          "data": [
+            3,
+            -1,
+            0
+          ]
+        },
+        {
+          "subject": "chemistry",
+          "data": [
+            61,
+            74,
+            44
+          ]
+        },
+        {
+          "subject": "botany",
+          "data": [
+            135,
+            149,
+            116
+          ]
+        },
+        {
+          "subject": "zoology",
+          "data": [
+            68,
+            128,
+            124
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": "ft_subject_trend",
+      "title": "Fortnightly Test (FT) Subject Performance",
+      "x_axis": {
+        "label": "Test Date",
+        "values": [
+          "1900-01-01",
+          "2025-08-20",
+          "2025-10-01",
+          "2025-11-05"
+        ]
+      },
+      "datasets": [
+        {
+          "subject": "physics",
+          "data": [
+            58,
+            21,
+            24,
+            8
+          ]
+        },
+        {
+          "subject": "chemistry",
+          "data": [
+            108,
+            123,
+            50,
+            54
+          ]
+        },
+        {
+          "subject": "botany",
+          "data": [
+            150,
+            149,
+            125,
+            134
+          ]
+        },
+        {
+          "subject": "zoology",
+          "data": [
+            137,
+            133,
+            147,
+            83
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": "nbts_subject_trend",
+      "title": "NCERT Booster Test (NBTS) Subject Performance",
+      "x_axis": {
+        "label": "Test Date",
+        "values": [
+          "2025-08-27"
+        ]
+      },
+      "datasets": [
+        {
+          "subject": "physics",
+          "data": [
+            3
+          ]
+        },
+        {
+          "subject": "chemistry",
+          "data": [
+            107
+          ]
+        },
+        {
+          "subject": "botany",
+          "data": [
+            157
+          ]
+        },
+        {
+          "subject": "zoology",
+          "data": [
+            136
+          ]
+        }
+      ]
+    }
+  ]
+}

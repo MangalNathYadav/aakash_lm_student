@@ -17,34 +17,35 @@ export default function AnalysisPage() {
         }
     }, [user, loading, router]);
 
-    if (loading || !user) return <div className="min-h-screen flex items-center justify-center">Loading Analytics...</div>;
+    if (loading || !user) return <div className="min-h-screen flex items-center justify-center text-slate-500">Loading analysis...</div>;
 
-    const currentSubject = user.subjects[activeTab];
+    const subjects = user?.subjects || {};
+    const currentSubject = subjects[activeTab] || { strong_chapters: [], average_chapters: [], weak_chapters: [] };
 
     const filterChapters = (list) => {
         if (!searchQuery) return list;
-        return list.filter(ch => ch.toLowerCase().includes(searchQuery.toLowerCase()));
+        return (list || []).filter(ch => ch.toLowerCase().includes(searchQuery.toLowerCase()));
     };
 
     return (
-        <div className="min-h-screen bg-slate-50">
+        <div className="min-h-screen bg-slate-50 font-sans">
             <Navbar />
-            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-                <div className="mb-10">
-                    <h1 className="text-3xl font-bold text-slate-900">Deep Subject Analysis</h1>
-                    <p className="text-slate-600 mt-1">Granular breakdown of your chapter-level mastery</p>
+            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                <div className="mb-8">
+                    <h1 className="text-2xl font-bold text-slate-900 border-l-4 border-blue-600 pl-4">Subject Wise Analysis</h1>
+                    <p className="text-slate-500 text-sm mt-1">Detailed breakdown of your strengths and weaknesses in each subject.</p>
                 </div>
 
-                {/* Search and Tabs */}
-                <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
-                    <div className="flex bg-white p-1 rounded-2xl shadow-sm border border-slate-200 overflow-x-auto no-scrollbar">
-                        {Object.keys(user.subjects).map((sub) => (
+                {/* Subject Selector and Search */}
+                <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6 mb-8">
+                    <div className="flex bg-white p-1 rounded-lg border border-slate-200 shadow-sm overflow-x-auto no-scrollbar">
+                        {Object.keys(subjects).map((sub) => (
                             <button
                                 key={sub}
                                 onClick={() => setActiveTab(sub)}
-                                className={`px-6 py-2.5 rounded-xl text-sm font-bold transition-all capitalize whitespace-nowrap ${activeTab === sub
-                                        ? 'bg-blue-600 text-white shadow-md'
-                                        : 'text-slate-500 hover:text-slate-900 hover:bg-slate-50'
+                                className={`px-6 py-2 rounded-md text-sm font-semibold transition-all whitespace-nowrap capitalize ${activeTab === sub
+                                    ? 'bg-blue-600 text-white shadow-sm'
+                                    : 'text-slate-500 hover:text-blue-600 hover:bg-slate-50'
                                     }`}
                             >
                                 {sub}
@@ -53,115 +54,121 @@ export default function AnalysisPage() {
                     </div>
 
                     <div className="relative max-w-sm w-full">
-                        <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
+                        <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
                         <input
                             type="text"
-                            placeholder="Search chapters..."
-                            className="w-full bg-white pl-12 pr-4 py-3 rounded-2xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                            placeholder="Search for a chapter..."
+                            className="w-full bg-white pl-10 pr-4 py-2 rounded-lg border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm"
                             value={searchQuery}
                             onChange={(e) => setSearchQuery(e.target.value)}
                         />
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
-                    {/* Main List */}
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                     <div className="lg:col-span-2 space-y-8">
-                        {/* Strong Section */}
-                        <div>
-                            <div className="flex items-center text-emerald-600 font-bold mb-4 uppercase tracking-wider text-xs px-2">
-                                <CheckCircle className="w-4 h-4 mr-2" />
-                                Strong Foundation ({currentSubject.strong_chapters.length})
-                            </div>
-                            <div className="bg-white rounded-2xl shadow-sm border border-slate-200 divide-y divide-slate-100 overflow-hidden">
-                                {filterChapters(currentSubject.strong_chapters).length > 0 ? (
-                                    filterChapters(currentSubject.strong_chapters).map((ch, idx) => (
-                                        <div key={idx} className="p-4 hover:bg-slate-50 flex items-center justify-between group transition-colors">
-                                            <div className="flex items-center">
-                                                <div className="w-2 h-2 rounded-full bg-emerald-500 mr-4" />
-                                                <span className="text-slate-700 font-medium">{ch}</span>
-                                            </div>
-                                            <ChevronRight className="w-4 h-4 text-slate-300 group-hover:text-blue-600 transition-colors" />
-                                        </div>
-                                    ))
-                                ) : (
-                                    <div className="p-8 text-center text-slate-400 text-sm italic">No chapters matching search in this category.</div>
-                                )}
-                            </div>
-                        </div>
+                        {/* Chapter Proficiency Index */}
+                        <div className="space-y-6">
+                            <h3 className="flex items-center text-sm font-bold text-slate-800 mb-3 px-1 uppercase tracking-wider">
+                                <BookOpen className="w-4 h-4 mr-2 text-blue-600" />
+                                Chapter Proficiency Index (1-10 Scale)
+                            </h3>
 
-                        {/* Average Section */}
-                        <div>
-                            <div className="flex items-center text-blue-600 font-bold mb-4 uppercase tracking-wider text-xs px-2">
-                                <BookOpen className="w-4 h-4 mr-2" />
-                                Working Knowledge ({currentSubject.average_chapters.length})
-                            </div>
-                            <div className="bg-white rounded-2xl shadow-sm border border-slate-200 divide-y divide-slate-100 overflow-hidden">
-                                {filterChapters(currentSubject.average_chapters).length > 0 ? (
-                                    filterChapters(currentSubject.average_chapters).map((ch, idx) => (
-                                        <div key={idx} className="p-4 hover:bg-slate-50 flex items-center justify-between group transition-colors">
-                                            <div className="flex items-center">
-                                                <div className="w-2 h-2 rounded-full bg-blue-500 mr-4" />
-                                                <span className="text-slate-700 font-medium">{ch}</span>
-                                            </div>
-                                            <ChevronRight className="w-4 h-4 text-slate-300 group-hover:text-blue-600 transition-colors" />
-                                        </div>
-                                    ))
-                                ) : (
-                                    <div className="p-8 text-center text-slate-400 text-sm italic">No chapters matching search in this category.</div>
-                                )}
-                            </div>
-                        </div>
+                            <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+                                {(() => {
+                                    // Use new chapters list or fallback to merging old lists
+                                    let allChapters = currentSubject.chapters || [];
+                                    if (allChapters.length === 0) {
+                                        // Fallback if data structure is old
+                                        const createStats = (list, rating, status) => (list || []).map(name => ({ name, rating, status }));
+                                        allChapters = [
+                                            ...createStats(currentSubject.weak_chapters, 3.5, 'Weak'),
+                                            ...createStats(currentSubject.average_chapters, 6.5, 'Average'),
+                                            ...createStats(currentSubject.strong_chapters, 9.0, 'Mastered')
+                                        ];
+                                    }
 
-                        {/* Weak Section */}
-                        <div>
-                            <div className="flex items-center text-red-600 font-bold mb-4 uppercase tracking-wider text-xs px-2">
-                                <AlertTriangle className="w-4 h-4 mr-2" />
-                                Critical Focus Needed ({currentSubject.weak_chapters.length})
-                            </div>
-                            <div className="bg-white rounded-2xl shadow-sm border border-slate-200 divide-y divide-slate-100 overflow-hidden">
-                                {filterChapters(currentSubject.weak_chapters).length > 0 ? (
-                                    filterChapters(currentSubject.weak_chapters).map((ch, idx) => (
-                                        <div key={idx} className="p-4 hover:bg-slate-50 flex items-center justify-between group transition-colors">
-                                            <div className="flex items-center">
-                                                <div className="w-2 h-2 rounded-full bg-red-500 mr-4" />
-                                                <span className="text-slate-700 font-medium">{ch}</span>
+                                    const filtered = allChapters.filter(ch => ch.name.toLowerCase().includes(searchQuery.toLowerCase()));
+
+                                    if (filtered.length === 0) {
+                                        return <div className="p-12 text-center text-slate-400 text-sm italic">No chapters found matching your search.</div>;
+                                    }
+
+                                    return filtered.map((ch, idx) => {
+                                        // Dynamic Color Logic
+                                        let colorClass = "bg-red-500";
+                                        let bgClass = "bg-red-50";
+                                        let textClass = "text-red-700";
+
+                                        if (ch.rating >= 8.0) {
+                                            colorClass = "bg-emerald-500";
+                                            bgClass = "bg-emerald-50";
+                                            textClass = "text-emerald-700";
+                                        } else if (ch.rating >= 5.0) {
+                                            colorClass = "bg-amber-500";
+                                            bgClass = "bg-amber-50";
+                                            textClass = "text-amber-700";
+                                        }
+
+                                        return (
+                                            <div key={idx} className="px-6 py-5 border-b border-slate-100 last:border-0 hover:bg-slate-50/50 transition-colors group">
+                                                <div className="flex items-center justify-between mb-2">
+                                                    <span className="text-slate-800 text-sm font-bold">{ch.name}</span>
+                                                    <div className={`px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider ${bgClass} ${textClass}`}>
+                                                        {ch.status} • {ch.rating}/10
+                                                    </div>
+                                                </div>
+
+                                                {/* Rating Bar */}
+                                                <div className="w-full h-2 bg-slate-100 rounded-full overflow-hidden">
+                                                    <div
+                                                        className={`h-full rounded-full ${colorClass} transition-all duration-500 ease-out`}
+                                                        style={{ width: `${(ch.rating / 10) * 100}%` }}
+                                                    />
+                                                </div>
                                             </div>
-                                            <ChevronRight className="w-4 h-4 text-slate-300 group-hover:text-blue-600 transition-colors" />
-                                        </div>
-                                    ))
-                                ) : (
-                                    <div className="p-8 text-center text-slate-400 text-sm italic">No chapters matching search in this category.</div>
-                                )}
+                                        );
+                                    });
+                                })()}
                             </div>
                         </div>
                     </div>
 
-                    {/* Tips Panel */}
+                    {/* Quick Suggestions Panel */}
                     <div className="space-y-6">
-                        <h2 className="text-xl font-bold text-slate-900 px-1">Study Strategy</h2>
-                        <div className="bg-blue-600 p-8 rounded-3xl shadow-xl text-white">
-                            <h3 className="text-lg font-bold mb-4 capitalize">{activeTab} Roadmap</h3>
-                            <p className="text-blue-100 text-sm mb-6 leading-relaxed">
-                                Based on your performance in {activeTab}, we recommend focusing on your top 3 weak chapters first. Review the concepts and attempt 50+ MCQs for each.
+                        <div className="bg-blue-600 p-8 rounded-2xl shadow-lg text-white">
+                            <h3 className="text-lg font-bold mb-4 flex items-center">
+                                Suggestions for {activeTab}
+                            </h3>
+                            <p className="text-blue-100 text-sm font-medium mb-6 leading-relaxed">
+                                Based on your recent tests, focusing on these topics will give you the biggest score boost.
                             </p>
-                            <div className="space-y-4">
-                                <div className="p-4 bg-white/10 rounded-2xl">
-                                    <span className="block font-bold text-blue-200 text-xs mb-1 uppercase tracking-widest">Immediate Priority</span>
-                                    <span className="text-sm font-medium">{currentSubject.weak_chapters[0] || "None - Good job!"}</span>
+                            <div className="space-y-3">
+                                <div className="p-4 bg-white/10 rounded-xl border border-white/20">
+                                    <p className="text-[10px] font-bold text-blue-200 uppercase mb-1">Primary Target</p>
+                                    <p className="text-sm font-bold">{currentSubject.weak_chapters[0] || "Review Basics"}</p>
                                 </div>
-                                <div className="p-4 bg-white/5 rounded-2xl">
-                                    <span className="block font-bold text-blue-300/50 text-xs mb-1 uppercase tracking-widest">Next Target</span>
-                                    <span className="text-sm font-medium">{currentSubject.weak_chapters[1] || "All Chapters Clear"}</span>
+                                <div className="p-4 bg-white/5 rounded-xl border border-white/10">
+                                    <p className="text-[10px] font-bold text-blue-300 uppercase mb-1">Secondary Target</p>
+                                    <p className="text-sm font-bold">{currentSubject.weak_chapters[1] || "Practice Previous Year Questions"}</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="bg-white p-8 rounded-3xl shadow-sm border border-slate-200">
-                            <h3 className="text-lg font-bold text-slate-900 mb-4">Pro Insight</h3>
-                            <p className="text-slate-500 text-sm leading-relaxed italic">
-                                "Consistency in {activeTab} is often tied to grasp of fundamental definitions. Re-read the NCERT summary for '{currentSubject.average_chapters[0] || 'your core topics'}' to convert Average results into Strong ones."
-                            </p>
+                        <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+                            <h3 className="text-sm font-bold text-slate-800 mb-3">Resources</h3>
+                            <ul className="space-y-2">
+                                <li>
+                                    <a href="#" className="flex items-center text-xs text-blue-600 hover:underline">
+                                        <ChevronRight size={12} className="mr-1" /> Download Notes for {activeTab}
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" className="flex items-center text-xs text-blue-600 hover:underline">
+                                        <ChevronRight size={12} className="mr-1" /> View {activeTab} Formula List
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>

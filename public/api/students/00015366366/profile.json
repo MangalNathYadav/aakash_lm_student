@@ -1,70 +1,253 @@
 {
   "psid": "00015366366",
   "name": "Unknown",
+  "batch": "RM04",
   "meta": {
-    "tests_taken": 2,
-    "first_test_date": "02-11-2025",
-    "latest_test_date": "30-11-2025"
+    "tests_taken": 3,
+    "latest_test_id": "AIATS2",
+    "latest_test_order_idx": 11
   },
   "overall_performance": {
     "average_total_score": 576,
     "best_score": 581,
     "latest_score": 581,
-    "consistency_index": 32.0,
+    "consistency_index": 292.41,
     "trend": "stable"
   },
   "subjects": {
     "physics": {
-      "average_percentage": 73,
-      "trend": "stable",
+      "average_percentage": 78,
       "strong_chapters": [
         "Laws of Motion",
-        "Work, Energy and Power"
+        "Work, Energy and Power",
+        "Moving Charges and Magnetism",
+        "Magnetism and Matter",
+        "Electromagnetic Induction",
+        "Alternating Current"
       ],
       "average_chapters": [
         "Units & Measurements",
         "Motion in a Straight Line",
         "Motion in a Plane"
       ],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Units & Measurements",
+          "rating": 6.6,
+          "percentage": 66,
+          "status": "Average"
+        },
+        {
+          "name": "Motion in a Straight Line",
+          "rating": 6.6,
+          "percentage": 66,
+          "status": "Average"
+        },
+        {
+          "name": "Motion in a Plane",
+          "rating": 6.6,
+          "percentage": 66,
+          "status": "Average"
+        },
+        {
+          "name": "Laws of Motion",
+          "rating": 8.2,
+          "percentage": 82,
+          "status": "Mastered"
+        },
+        {
+          "name": "Work, Energy and Power",
+          "rating": 8.2,
+          "percentage": 82,
+          "status": "Mastered"
+        },
+        {
+          "name": "Moving Charges and Magnetism",
+          "rating": 8.6,
+          "percentage": 86,
+          "status": "Mastered"
+        },
+        {
+          "name": "Magnetism and Matter",
+          "rating": 8.6,
+          "percentage": 86,
+          "status": "Mastered"
+        },
+        {
+          "name": "Electromagnetic Induction",
+          "rating": 8.6,
+          "percentage": 86,
+          "status": "Mastered"
+        },
+        {
+          "name": "Alternating Current",
+          "rating": 8.6,
+          "percentage": 86,
+          "status": "Mastered"
+        }
+      ]
     },
     "chemistry": {
-      "average_percentage": 71,
-      "trend": "stable",
-      "strong_chapters": [
-        "Some Basic Concepts of Chemistry",
-        "Structure of Atom"
-      ],
+      "average_percentage": 74,
+      "strong_chapters": [],
       "average_chapters": [
+        "Some Basic Concepts of Chemistry",
+        "Structure of Atom",
         "Classification of Elements and periodicity in properties",
-        "chemical Bonding and molecular structure"
+        "chemical Bonding and molecular structure",
+        "Hydrocarbons",
+        "Haloalkanes and Haloarenes"
       ],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Classification of Elements and periodicity in properties",
+          "rating": 6.8,
+          "percentage": 68,
+          "status": "Average"
+        },
+        {
+          "name": "chemical Bonding and molecular structure",
+          "rating": 6.8,
+          "percentage": 68,
+          "status": "Average"
+        },
+        {
+          "name": "Some Basic Concepts of Chemistry",
+          "rating": 7.5,
+          "percentage": 75,
+          "status": "Average"
+        },
+        {
+          "name": "Structure of Atom",
+          "rating": 7.5,
+          "percentage": 75,
+          "status": "Average"
+        },
+        {
+          "name": "Hydrocarbons",
+          "rating": 7.9,
+          "percentage": 79,
+          "status": "Average"
+        },
+        {
+          "name": "Haloalkanes and Haloarenes",
+          "rating": 7.9,
+          "percentage": 79,
+          "status": "Average"
+        }
+      ]
     },
     "botany": {
-      "average_percentage": 83,
-      "trend": "stable",
+      "average_percentage": 80,
       "strong_chapters": [
-        "Biological Classification",
-        "Morphology of Flowering Plants",
         "Cell: The Unit of Life",
         "Cell Cycle and Cell Division",
-        "The Living World"
+        "The Living World",
+        "Biological Classification",
+        "Morphology of Flowering Plants"
       ],
-      "average_chapters": [],
-      "weak_chapters": []
+      "average_chapters": [
+        "Plant Growth and Development",
+        "Sexual Reproduction in Flowering Plants"
+      ],
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Plant Growth and Development",
+          "rating": 7.1,
+          "percentage": 71,
+          "status": "Average"
+        },
+        {
+          "name": "Sexual Reproduction in Flowering Plants",
+          "rating": 7.1,
+          "percentage": 71,
+          "status": "Average"
+        },
+        {
+          "name": "Biological Classification",
+          "rating": 8.2,
+          "percentage": 82,
+          "status": "Mastered"
+        },
+        {
+          "name": "Morphology of Flowering Plants",
+          "rating": 8.2,
+          "percentage": 82,
+          "status": "Mastered"
+        },
+        {
+          "name": "Cell: The Unit of Life",
+          "rating": 8.3,
+          "percentage": 83,
+          "status": "Mastered"
+        },
+        {
+          "name": "Cell Cycle and Cell Division",
+          "rating": 8.3,
+          "percentage": 83,
+          "status": "Mastered"
+        },
+        {
+          "name": "The Living World",
+          "rating": 8.3,
+          "percentage": 83,
+          "status": "Mastered"
+        }
+      ]
     },
     "zoology": {
-      "average_percentage": 91,
-      "trend": "stable",
+      "average_percentage": 89,
       "strong_chapters": [
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules",
         "Breathing & Exchange of Gases",
         "Body Fluids & Circulation",
-        "Structural Organisation in Animals- Animal Tissues",
-        "Biomolecules"
+        "Animal Kingdom-II: Chordates",
+        "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)"
       ],
       "average_chapters": [],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Animal Kingdom-II: Chordates",
+          "rating": 8.4,
+          "percentage": 84,
+          "status": "Mastered"
+        },
+        {
+          "name": "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+          "rating": 8.4,
+          "percentage": 84,
+          "status": "Mastered"
+        },
+        {
+          "name": "Breathing & Exchange of Gases",
+          "rating": 9.1,
+          "percentage": 91,
+          "status": "Mastered"
+        },
+        {
+          "name": "Body Fluids & Circulation",
+          "rating": 9.1,
+          "percentage": 91,
+          "status": "Mastered"
+        },
+        {
+          "name": "Structural Organisation in Animals- Animal Tissues",
+          "rating": 9.2,
+          "percentage": 92,
+          "status": "Mastered"
+        },
+        {
+          "name": "Biomolecules",
+          "rating": 9.2,
+          "percentage": 92,
+          "status": "Mastered"
+        }
+      ]
     }
   },
   "focus_insights": {
@@ -72,5 +255,54 @@
     "most_improved_chapters": [],
     "chapters_needing_attention": []
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "AIATS1",
+      "norm_tid": "AIATS1",
+      "syl_date": "2025-11-02T00:00:00",
+      "order_idx": 7,
+      "marks": {
+        "physics": 119,
+        "chemistry": 135,
+        "botany": 150,
+        "zoology": 166,
+        "total": 570
+      },
+      "center_rank": 0,
+      "air_rank": 0,
+      "percentile": 79.17
+    },
+    {
+      "test_id": "AIATS2",
+      "norm_tid": "AIATS2",
+      "syl_date": "2025-11-30T00:00:00",
+      "order_idx": 11,
+      "marks": {
+        "physics": 148,
+        "chemistry": 122,
+        "botany": 148,
+        "zoology": 163,
+        "total": 581
+      },
+      "center_rank": 63,
+      "air_rank": 0,
+      "percentile": 4346.0
+    },
+    {
+      "test_id": "AIATS3",
+      "norm_tid": "AIATS3",
+      "syl_date": "2025-12-31T00:00:00",
+      "order_idx": 13,
+      "marks": {
+        "physics": 154,
+        "chemistry": 143,
+        "botany": 128,
+        "zoology": 151,
+        "total": 576
+      },
+      "center_rank": 44,
+      "air_rank": 0,
+      "percentile": 80.0
+    }
+  ]
 }

@@ -1,64 +1,228 @@
 {
   "psid": "00015677554",
   "name": "Unknown",
+  "batch": "RM05",
   "meta": {
-    "tests_taken": 1,
-    "first_test_date": "30-11-2025",
-    "latest_test_date": "30-11-2025"
+    "tests_taken": 2,
+    "latest_test_id": "AIATS2",
+    "latest_test_order_idx": 11
   },
   "overall_performance": {
-    "average_total_score": 557,
+    "average_total_score": 510,
     "best_score": 557,
     "latest_score": 557,
-    "consistency_index": 0.0,
-    "trend": "insufficient_data"
+    "consistency_index": 189.81,
+    "trend": "declining"
   },
   "subjects": {
     "physics": {
-      "average_percentage": 84,
-      "trend": "stable",
+      "average_percentage": 72,
       "strong_chapters": [
         "Laws of Motion",
         "Work, Energy and Power"
       ],
-      "average_chapters": [],
-      "weak_chapters": []
+      "average_chapters": [
+        "Moving Charges and Magnetism",
+        "Magnetism and Matter",
+        "Electromagnetic Induction",
+        "Alternating Current"
+      ],
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Moving Charges and Magnetism",
+          "rating": 6.6,
+          "percentage": 66,
+          "status": "Average"
+        },
+        {
+          "name": "Magnetism and Matter",
+          "rating": 6.6,
+          "percentage": 66,
+          "status": "Average"
+        },
+        {
+          "name": "Electromagnetic Induction",
+          "rating": 6.6,
+          "percentage": 66,
+          "status": "Average"
+        },
+        {
+          "name": "Alternating Current",
+          "rating": 6.6,
+          "percentage": 66,
+          "status": "Average"
+        },
+        {
+          "name": "Laws of Motion",
+          "rating": 8.4,
+          "percentage": 84,
+          "status": "Mastered"
+        },
+        {
+          "name": "Work, Energy and Power",
+          "rating": 8.4,
+          "percentage": 84,
+          "status": "Mastered"
+        }
+      ]
     },
     "chemistry": {
-      "average_percentage": 78,
-      "trend": "stable",
-      "strong_chapters": [
+      "average_percentage": 57,
+      "strong_chapters": [],
+      "average_chapters": [
         "Classification of Elements and periodicity in properties",
         "chemical Bonding and molecular structure"
       ],
-      "average_chapters": [],
-      "weak_chapters": []
+      "weak_chapters": [
+        "Hydrocarbons",
+        "Haloalkanes and Haloarenes"
+      ],
+      "chapters": [
+        {
+          "name": "Hydrocarbons",
+          "rating": 3.6,
+          "percentage": 36,
+          "status": "Weak"
+        },
+        {
+          "name": "Haloalkanes and Haloarenes",
+          "rating": 3.6,
+          "percentage": 36,
+          "status": "Weak"
+        },
+        {
+          "name": "Classification of Elements and periodicity in properties",
+          "rating": 7.8,
+          "percentage": 78,
+          "status": "Average"
+        },
+        {
+          "name": "chemical Bonding and molecular structure",
+          "rating": 7.8,
+          "percentage": 78,
+          "status": "Average"
+        }
+      ]
     },
     "botany": {
-      "average_percentage": 64,
-      "trend": "stable",
+      "average_percentage": 67,
       "strong_chapters": [],
       "average_chapters": [
         "Biological Classification",
-        "Morphology of Flowering Plants"
+        "Morphology of Flowering Plants",
+        "Plant Growth and Development",
+        "Sexual Reproduction in Flowering Plants"
       ],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Biological Classification",
+          "rating": 6.4,
+          "percentage": 64,
+          "status": "Average"
+        },
+        {
+          "name": "Morphology of Flowering Plants",
+          "rating": 6.4,
+          "percentage": 64,
+          "status": "Average"
+        },
+        {
+          "name": "Plant Growth and Development",
+          "rating": 7.0,
+          "percentage": 70,
+          "status": "Average"
+        },
+        {
+          "name": "Sexual Reproduction in Flowering Plants",
+          "rating": 7.0,
+          "percentage": 70,
+          "status": "Average"
+        }
+      ]
     },
     "zoology": {
-      "average_percentage": 83,
-      "trend": "stable",
+      "average_percentage": 85,
       "strong_chapters": [
         "Breathing & Exchange of Gases",
-        "Body Fluids & Circulation"
+        "Body Fluids & Circulation",
+        "Animal Kingdom-II: Chordates",
+        "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)"
       ],
       "average_chapters": [],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Breathing & Exchange of Gases",
+          "rating": 8.3,
+          "percentage": 83,
+          "status": "Mastered"
+        },
+        {
+          "name": "Body Fluids & Circulation",
+          "rating": 8.3,
+          "percentage": 83,
+          "status": "Mastered"
+        },
+        {
+          "name": "Animal Kingdom-II: Chordates",
+          "rating": 8.6,
+          "percentage": 86,
+          "status": "Mastered"
+        },
+        {
+          "name": "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+          "rating": 8.6,
+          "percentage": 86,
+          "status": "Mastered"
+        }
+      ]
     }
   },
   "focus_insights": {
-    "top_weak_chapters": [],
+    "top_weak_chapters": [
+      "Hydrocarbons",
+      "Haloalkanes and Haloarenes"
+    ],
     "most_improved_chapters": [],
-    "chapters_needing_attention": []
+    "chapters_needing_attention": [
+      "Hydrocarbons",
+      "Haloalkanes and Haloarenes"
+    ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "AIATS2",
+      "norm_tid": "AIATS2",
+      "syl_date": "2025-11-30T00:00:00",
+      "order_idx": 11,
+      "marks": {
+        "physics": 151,
+        "chemistry": 140,
+        "botany": 116,
+        "zoology": 150,
+        "total": 557
+      },
+      "center_rank": 91,
+      "air_rank": 0,
+      "percentile": 6601.0
+    },
+    {
+      "test_id": "AIATS3",
+      "norm_tid": "AIATS3",
+      "syl_date": "2025-12-31T00:00:00",
+      "order_idx": 13,
+      "marks": {
+        "physics": 118,
+        "chemistry": 65,
+        "botany": 126,
+        "zoology": 155,
+        "total": 464
+      },
+      "center_rank": 196,
+      "air_rank": 0,
+      "percentile": 64.44
+    }
+  ]
 }

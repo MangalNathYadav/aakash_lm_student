@@ -1,22 +1,22 @@
 {
   "psid": "00015406790",
   "name": "Unknown",
+  "batch": "RM02",
   "meta": {
     "tests_taken": 4,
-    "first_test_date": "02-07-2025",
-    "latest_test_date": "23-07-2025"
+    "latest_test_id": "AIATS1",
+    "latest_test_order_idx": 7
   },
   "overall_performance": {
     "average_total_score": 202,
     "best_score": 253,
-    "latest_score": 200,
-    "consistency_index": 0.3571,
+    "latest_score": 117,
+    "consistency_index": 95.27,
     "trend": "declining"
   },
   "subjects": {
     "physics": {
       "average_percentage": 17,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
@@ -26,11 +26,48 @@
         "Laws of Motion",
         "Work, Energy & Power",
         "System of Particles & Rotational Motion"
+      ],
+      "chapters": [
+        {
+          "name": "Work, Energy & Power",
+          "rating": 1.1,
+          "percentage": 11,
+          "status": "Weak"
+        },
+        {
+          "name": "System of Particles & Rotational Motion",
+          "rating": 1.1,
+          "percentage": 11,
+          "status": "Weak"
+        },
+        {
+          "name": "Motion in a Plane",
+          "rating": 1.9,
+          "percentage": 19,
+          "status": "Weak"
+        },
+        {
+          "name": "Units & Measurements",
+          "rating": 2.1,
+          "percentage": 21,
+          "status": "Weak"
+        },
+        {
+          "name": "Motion in a Straight Line",
+          "rating": 2.1,
+          "percentage": 21,
+          "status": "Weak"
+        },
+        {
+          "name": "Laws of Motion",
+          "rating": 2.1,
+          "percentage": 21,
+          "status": "Weak"
+        }
       ]
     },
     "chemistry": {
       "average_percentage": 26,
-      "trend": "improving",
       "strong_chapters": [],
       "average_chapters": [
         "Chemical Bonding and Molecular Structure"
@@ -39,73 +76,226 @@
         "Some Basic Concepts of Chemistry",
         "Structure of Atom",
         "Classification of Elements and Periodicity in Properties"
+      ],
+      "chapters": [
+        {
+          "name": "Classification of Elements and Periodicity in Properties",
+          "rating": 1.0,
+          "percentage": 10,
+          "status": "Weak"
+        },
+        {
+          "name": "Structure of Atom",
+          "rating": 1.1,
+          "percentage": 11,
+          "status": "Weak"
+        },
+        {
+          "name": "Some Basic Concepts of Chemistry",
+          "rating": 2.8,
+          "percentage": 28,
+          "status": "Weak"
+        },
+        {
+          "name": "Chemical Bonding and Molecular Structure",
+          "rating": 5.6,
+          "percentage": 56,
+          "status": "Average"
+        }
       ]
     },
     "botany": {
       "average_percentage": 39,
-      "trend": "declining",
       "strong_chapters": [],
       "average_chapters": [
         "Cell Cycle & Cell Division"
       ],
       "weak_chapters": [
-        "Cell: The Unit of Life",
-        "Cell Cycle and Cell Division",
-        "The Living World",
         "Cell : The Unit of Life",
-        "Biological Classification"
+        "The Living World",
+        "Biological Classification",
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division"
+      ],
+      "chapters": [
+        {
+          "name": "Cell: The Unit of Life",
+          "rating": 2.8,
+          "percentage": 28,
+          "status": "Weak"
+        },
+        {
+          "name": "Cell Cycle and Cell Division",
+          "rating": 2.8,
+          "percentage": 28,
+          "status": "Weak"
+        },
+        {
+          "name": "Biological Classification",
+          "rating": 3.3,
+          "percentage": 33,
+          "status": "Weak"
+        },
+        {
+          "name": "The Living World",
+          "rating": 4.4,
+          "percentage": 44,
+          "status": "Weak"
+        },
+        {
+          "name": "Cell : The Unit of Life",
+          "rating": 4.5,
+          "percentage": 45,
+          "status": "Weak"
+        },
+        {
+          "name": "Cell Cycle & Cell Division",
+          "rating": 5.4,
+          "percentage": 54,
+          "status": "Average"
+        }
       ]
     },
     "zoology": {
       "average_percentage": 24,
-      "trend": "improving",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Structural Organisation in Animals- Animal Tissues",
-        "Biomolecules",
         "Biomolecules-I: (Upto polysaccharide)",
         "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
-        "Breathing & Exchange of Gases-I: (upto mechanism of breathing)"
+        "Breathing & Exchange of Gases-I: (upto mechanism of breathing)",
+        "Biomolecules"
+      ],
+      "chapters": [
+        {
+          "name": "Biomolecules",
+          "rating": 0.8,
+          "percentage": 8,
+          "status": "Weak"
+        },
+        {
+          "name": "Structural Organisation in Animals- Animal Tissues",
+          "rating": 2.6,
+          "percentage": 26,
+          "status": "Weak"
+        },
+        {
+          "name": "Biomolecules-I: (Upto polysaccharide)",
+          "rating": 2.7,
+          "percentage": 27,
+          "status": "Weak"
+        },
+        {
+          "name": "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+          "rating": 2.7,
+          "percentage": 27,
+          "status": "Weak"
+        },
+        {
+          "name": "Breathing & Exchange of Gases-I: (upto mechanism of breathing)",
+          "rating": 3.2,
+          "percentage": 32,
+          "status": "Weak"
+        }
       ]
     }
   },
   "focus_insights": {
     "top_weak_chapters": [
-      "Biomolecules",
-      "Classification of Elements and Periodicity in Properties",
-      "Structure of Atom",
-      "Work, Energy & Power",
-      "System of Particles & Rotational Motion"
-    ],
-    "most_improved_chapters": [
       "Units & Measurements",
       "Motion in a Straight Line",
-      "Motion in a Plane",
-      "Some Basic Concepts of Chemistry",
-      "The Living World"
-    ],
-    "chapters_needing_attention": [
-      "Biomolecules",
-      "Classification of Elements and Periodicity in Properties",
-      "Structure of Atom",
-      "Work, Energy & Power",
-      "System of Particles & Rotational Motion",
       "Motion in a Plane",
       "Laws of Motion",
+      "Work, Energy & Power"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
       "Units & Measurements",
       "Motion in a Straight Line",
+      "Motion in a Plane",
+      "Laws of Motion",
+      "Work, Energy & Power",
+      "System of Particles & Rotational Motion",
+      "Some Basic Concepts of Chemistry",
+      "Structure of Atom",
+      "Classification of Elements and Periodicity in Properties",
+      "Cell : The Unit of Life",
+      "The Living World",
+      "Biological Classification",
+      "Cell: The Unit of Life",
+      "Cell Cycle and Cell Division",
       "Structural Organisation in Animals- Animal Tissues",
       "Biomolecules-I: (Upto polysaccharide)",
       "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
-      "Some Basic Concepts of Chemistry",
-      "Cell: The Unit of Life",
-      "Cell Cycle and Cell Division",
       "Breathing & Exchange of Gases-I: (upto mechanism of breathing)",
-      "Biological Classification",
-      "The Living World",
-      "Cell : The Unit of Life"
+      "Biomolecules"
     ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "FT1",
+      "norm_tid": "FT1",
+      "syl_date": "2025-07-02T00:00:00",
+      "order_idx": 0,
+      "marks": {
+        "physics": 42,
+        "chemistry": 66,
+        "botany": 81,
+        "zoology": 64,
+        "total": 253
+      },
+      "center_rank": 196,
+      "air_rank": 0,
+      "percentile": 196.0
+    },
+    {
+      "test_id": "FT2",
+      "norm_tid": "FT2",
+      "syl_date": "2025-07-23T00:00:00",
+      "order_idx": 1,
+      "marks": {
+        "physics": 37,
+        "chemistry": 18,
+        "botany": 97,
+        "zoology": 48,
+        "total": 200
+      },
+      "center_rank": 241,
+      "air_rank": 0,
+      "percentile": 241.0
+    },
+    {
+      "test_id": "FT3",
+      "norm_tid": "FT3",
+      "syl_date": "2025-08-20T00:00:00",
+      "order_idx": 2,
+      "marks": {
+        "physics": 20,
+        "chemistry": 101,
+        "botany": 60,
+        "zoology": 58,
+        "total": 239
+      },
+      "center_rank": 256,
+      "air_rank": 0,
+      "percentile": 255.0
+    },
+    {
+      "test_id": "AIATS1",
+      "norm_tid": "AIATS1",
+      "syl_date": "2025-11-02T00:00:00",
+      "order_idx": 7,
+      "marks": {
+        "physics": 31,
+        "chemistry": 20,
+        "botany": 51,
+        "zoology": 15,
+        "total": 117
+      },
+      "center_rank": 0,
+      "air_rank": 0,
+      "percentile": 16.25
+    }
+  ]
 }

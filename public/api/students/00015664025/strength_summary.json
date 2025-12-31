@@ -13,13 +13,13 @@
     },
     {
       "subject": "botany",
-      "chapter": "Biological Classification",
-      "percentage": 81.11
+      "chapter": "Plant Growth and Development",
+      "percentage": 91.67
     },
     {
       "subject": "botany",
-      "chapter": "Morphology of Flowering Plants",
-      "percentage": 81.11
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "percentage": 91.67
     },
     {
       "subject": "botany",
@@ -37,6 +37,26 @@
       "percentage": 75.56
     },
     {
+      "subject": "botany",
+      "chapter": "Biological Classification",
+      "percentage": 81.11
+    },
+    {
+      "subject": "botany",
+      "chapter": "Morphology of Flowering Plants",
+      "percentage": 81.11
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Animal Kingdom-II: Chordates",
+      "percentage": 86.67
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+      "percentage": 86.67
+    },
+    {
       "subject": "zoology",
       "chapter": "Breathing & Exchange of Gases",
       "percentage": 89.44
@@ -48,16 +68,6 @@
     }
   ],
   "average": [
-    {
-      "subject": "physics",
-      "chapter": "Laws of Motion",
-      "percentage": 71.11
-    },
-    {
-      "subject": "physics",
-      "chapter": "Work, Energy and Power",
-      "percentage": 71.11
-    },
     {
       "subject": "physics",
       "chapter": "Units & Measurements",
@@ -72,6 +82,26 @@
       "subject": "physics",
       "chapter": "Motion in a Plane",
       "percentage": 53.33
+    },
+    {
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "percentage": 71.11
+    },
+    {
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "percentage": 71.11
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "percentage": 72.78
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "percentage": 72.78
     },
     {
       "subject": "chemistry",
@@ -94,5 +124,26 @@
       "percentage": 73.33
     }
   ],
-  "weak": []
+  "weak": [
+    {
+      "subject": "physics",
+      "chapter": "Moving Charges and Magnetism",
+      "percentage": 48.33
+    },
+    {
+      "subject": "physics",
+      "chapter": "Magnetism and Matter",
+      "percentage": 48.33
+    },
+    {
+      "subject": "physics",
+      "chapter": "Electromagnetic Induction",
+      "percentage": 48.33
+    },
+    {
+      "subject": "physics",
+      "chapter": "Alternating Current",
+      "percentage": 48.33
+    }
+  ]
 }

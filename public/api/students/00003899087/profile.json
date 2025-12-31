@@ -1,58 +1,111 @@
 {
   "psid": "00003899087",
   "name": "Unknown",
+  "batch": "RM",
   "meta": {
     "tests_taken": 1,
-    "first_test_date": "23-07-2025",
-    "latest_test_date": "23-07-2025"
+    "latest_test_id": "FT2",
+    "latest_test_order_idx": 1
   },
   "overall_performance": {
     "average_total_score": 498,
     "best_score": 498,
     "latest_score": 498,
-    "consistency_index": 0.0,
-    "trend": "insufficient_data"
+    "consistency_index": 199.2,
+    "trend": "stable"
   },
   "subjects": {
     "physics": {
       "average_percentage": 79,
-      "trend": "stable",
-      "strong_chapters": [
+      "strong_chapters": [],
+      "average_chapters": [
         "Motion in a Plane",
         "Laws of Motion"
       ],
-      "average_chapters": [],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Motion in a Plane",
+          "rating": 7.9,
+          "percentage": 79,
+          "status": "Average"
+        },
+        {
+          "name": "Laws of Motion",
+          "rating": 7.9,
+          "percentage": 79,
+          "status": "Average"
+        }
+      ]
     },
     "chemistry": {
       "average_percentage": 62,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [
         "Structure of Atom",
         "Classification of Elements and Periodicity in Properties"
       ],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Structure of Atom",
+          "rating": 6.2,
+          "percentage": 62,
+          "status": "Average"
+        },
+        {
+          "name": "Classification of Elements and Periodicity in Properties",
+          "rating": 6.2,
+          "percentage": 62,
+          "status": "Average"
+        }
+      ]
     },
     "botany": {
       "average_percentage": 73,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [
         "Cell Cycle & Cell Division",
         "The Living World"
       ],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Cell Cycle & Cell Division",
+          "rating": 7.3,
+          "percentage": 73,
+          "status": "Average"
+        },
+        {
+          "name": "The Living World",
+          "rating": 7.3,
+          "percentage": 73,
+          "status": "Average"
+        }
+      ]
     },
     "zoology": {
       "average_percentage": 63,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [
         "Biomolecules-I: (Upto polysaccharide)",
         "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)"
       ],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Biomolecules-I: (Upto polysaccharide)",
+          "rating": 6.3,
+          "percentage": 63,
+          "status": "Average"
+        },
+        {
+          "name": "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+          "rating": 6.3,
+          "percentage": 63,
+          "status": "Average"
+        }
+      ]
     }
   },
   "focus_insights": {
@@ -60,5 +113,22 @@
     "most_improved_chapters": [],
     "chapters_needing_attention": []
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "FT2",
+      "norm_tid": "FT2",
+      "syl_date": "2025-07-23T00:00:00",
+      "order_idx": 1,
+      "marks": {
+        "physics": 142,
+        "chemistry": 112,
+        "botany": 131,
+        "zoology": 113,
+        "total": 498
+      },
+      "center_rank": 92,
+      "air_rank": 0,
+      "percentile": 92.0
+    }
+  ]
 }

@@ -4,13 +4,14 @@
   "meta": {
     "tests_taken": 2,
     "first_test_date": null,
-    "latest_test_date": "28-12-2025"
+    "latest_test_date": "28-12-2025",
+    "batch": "RMS1"
   },
   "overall_performance": {
     "average_total_score": 156,
     "best_score": 234,
     "latest_score": 78,
-    "consistency_index": 0.1643,
+    "consistency_index": 0,
     "trend": "declining"
   },
   "subjects": {
@@ -112,5 +113,6 @@
       "Chemical Bonding and Molecular Structure"
     ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting.",
+  "batch": "RMS1"
 }

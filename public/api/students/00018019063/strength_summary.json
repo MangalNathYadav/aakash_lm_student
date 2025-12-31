@@ -1,7 +1,38 @@
 {
   "psid": "00018019063",
-  "strong": [],
+  "strong": [
+    {
+      "subject": "botany",
+      "chapter": "Plant Growth and Development",
+      "percentage": 75.56
+    },
+    {
+      "subject": "botany",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "percentage": 75.56
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Animal Kingdom-II: Chordates",
+      "percentage": 88.89
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+      "percentage": 88.89
+    }
+  ],
   "average": [
+    {
+      "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "percentage": 55.0
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "percentage": 55.0
+    },
     {
       "subject": "botany",
       "chapter": "Cell: The Unit of Life",
@@ -31,13 +62,23 @@
   "weak": [
     {
       "subject": "physics",
-      "chapter": "Laws of Motion",
-      "percentage": 0.0
+      "chapter": "Moving Charges and Magnetism",
+      "percentage": 46.67
     },
     {
       "subject": "physics",
-      "chapter": "Work, Energy and Power",
-      "percentage": 0.0
+      "chapter": "Magnetism and Matter",
+      "percentage": 46.67
+    },
+    {
+      "subject": "physics",
+      "chapter": "Electromagnetic Induction",
+      "percentage": 46.67
+    },
+    {
+      "subject": "physics",
+      "chapter": "Alternating Current",
+      "percentage": 46.67
     },
     {
       "subject": "physics",
@@ -55,14 +96,14 @@
       "percentage": 47.78
     },
     {
-      "subject": "chemistry",
-      "chapter": "Classification of Elements and periodicity in properties",
-      "percentage": 31.11
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "percentage": 0.0
     },
     {
-      "subject": "chemistry",
-      "chapter": "chemical Bonding and molecular structure",
-      "percentage": 31.11
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "percentage": 0.0
     },
     {
       "subject": "chemistry",
@@ -73,6 +114,16 @@
       "subject": "chemistry",
       "chapter": "Structure of Atom",
       "percentage": 42.78
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and periodicity in properties",
+      "percentage": 31.11
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "chemical Bonding and molecular structure",
+      "percentage": 31.11
     },
     {
       "subject": "botany",

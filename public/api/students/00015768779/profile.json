@@ -1,59 +1,194 @@
 {
   "psid": "00015768779",
   "name": "Unknown",
+  "batch": "RM07",
   "meta": {
-    "tests_taken": 1,
-    "first_test_date": "02-11-2025",
-    "latest_test_date": "02-11-2025"
+    "tests_taken": 2,
+    "latest_test_id": "AIATS1",
+    "latest_test_order_idx": 7
   },
   "overall_performance": {
-    "average_total_score": 145,
+    "average_total_score": 102,
     "best_score": 145,
     "latest_score": 145,
-    "consistency_index": 0.0,
-    "trend": "insufficient_data"
+    "consistency_index": 29.39,
+    "trend": "declining"
   },
   "subjects": {
     "physics": {
-      "average_percentage": 1,
-      "trend": "stable",
+      "average_percentage": -1,
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Units & Measurements",
         "Motion in a Straight Line",
-        "Motion in a Plane"
+        "Motion in a Plane",
+        "Moving Charges and Magnetism",
+        "Magnetism and Matter",
+        "Electromagnetic Induction",
+        "Alternating Current"
+      ],
+      "chapters": [
+        {
+          "name": "Moving Charges and Magnetism",
+          "rating": -0.2,
+          "percentage": -2,
+          "status": "Weak"
+        },
+        {
+          "name": "Magnetism and Matter",
+          "rating": -0.2,
+          "percentage": -2,
+          "status": "Weak"
+        },
+        {
+          "name": "Electromagnetic Induction",
+          "rating": -0.2,
+          "percentage": -2,
+          "status": "Weak"
+        },
+        {
+          "name": "Alternating Current",
+          "rating": -0.2,
+          "percentage": -2,
+          "status": "Weak"
+        },
+        {
+          "name": "Units & Measurements",
+          "rating": 0.1,
+          "percentage": 1,
+          "status": "Weak"
+        },
+        {
+          "name": "Motion in a Straight Line",
+          "rating": 0.1,
+          "percentage": 1,
+          "status": "Weak"
+        },
+        {
+          "name": "Motion in a Plane",
+          "rating": 0.1,
+          "percentage": 1,
+          "status": "Weak"
+        }
       ]
     },
     "chemistry": {
-      "average_percentage": 13,
-      "trend": "stable",
+      "average_percentage": 11,
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Some Basic Concepts of Chemistry",
-        "Structure of Atom"
+        "Structure of Atom",
+        "Hydrocarbons",
+        "Haloalkanes and Haloarenes"
+      ],
+      "chapters": [
+        {
+          "name": "Hydrocarbons",
+          "rating": 0.8,
+          "percentage": 8,
+          "status": "Weak"
+        },
+        {
+          "name": "Haloalkanes and Haloarenes",
+          "rating": 0.8,
+          "percentage": 8,
+          "status": "Weak"
+        },
+        {
+          "name": "Some Basic Concepts of Chemistry",
+          "rating": 1.3,
+          "percentage": 13,
+          "status": "Weak"
+        },
+        {
+          "name": "Structure of Atom",
+          "rating": 1.3,
+          "percentage": 13,
+          "status": "Weak"
+        }
       ]
     },
     "botany": {
-      "average_percentage": 39,
-      "trend": "stable",
+      "average_percentage": 29,
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Cell: The Unit of Life",
         "Cell Cycle and Cell Division",
-        "The Living World"
+        "The Living World",
+        "Plant Growth and Development",
+        "Sexual Reproduction in Flowering Plants"
+      ],
+      "chapters": [
+        {
+          "name": "Plant Growth and Development",
+          "rating": 1.3,
+          "percentage": 13,
+          "status": "Weak"
+        },
+        {
+          "name": "Sexual Reproduction in Flowering Plants",
+          "rating": 1.3,
+          "percentage": 13,
+          "status": "Weak"
+        },
+        {
+          "name": "Cell: The Unit of Life",
+          "rating": 3.9,
+          "percentage": 39,
+          "status": "Weak"
+        },
+        {
+          "name": "Cell Cycle and Cell Division",
+          "rating": 3.9,
+          "percentage": 39,
+          "status": "Weak"
+        },
+        {
+          "name": "The Living World",
+          "rating": 3.9,
+          "percentage": 39,
+          "status": "Weak"
+        }
       ]
     },
     "zoology": {
-      "average_percentage": 28,
-      "trend": "stable",
+      "average_percentage": 21,
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Structural Organisation in Animals- Animal Tissues",
-        "Biomolecules"
+        "Biomolecules",
+        "Animal Kingdom-II: Chordates",
+        "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)"
+      ],
+      "chapters": [
+        {
+          "name": "Animal Kingdom-II: Chordates",
+          "rating": 1.3,
+          "percentage": 13,
+          "status": "Weak"
+        },
+        {
+          "name": "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+          "rating": 1.3,
+          "percentage": 13,
+          "status": "Weak"
+        },
+        {
+          "name": "Structural Organisation in Animals- Animal Tissues",
+          "rating": 2.8,
+          "percentage": 28,
+          "status": "Weak"
+        },
+        {
+          "name": "Biomolecules",
+          "rating": 2.8,
+          "percentage": 28,
+          "status": "Weak"
+        }
       ]
     }
   },
@@ -62,22 +197,65 @@
       "Units & Measurements",
       "Motion in a Straight Line",
       "Motion in a Plane",
-      "Some Basic Concepts of Chemistry",
-      "Structure of Atom"
+      "Moving Charges and Magnetism",
+      "Magnetism and Matter"
     ],
     "most_improved_chapters": [],
     "chapters_needing_attention": [
       "Units & Measurements",
       "Motion in a Straight Line",
       "Motion in a Plane",
+      "Moving Charges and Magnetism",
+      "Magnetism and Matter",
+      "Electromagnetic Induction",
+      "Alternating Current",
       "Some Basic Concepts of Chemistry",
       "Structure of Atom",
-      "Structural Organisation in Animals- Animal Tissues",
-      "Biomolecules",
+      "Hydrocarbons",
+      "Haloalkanes and Haloarenes",
       "Cell: The Unit of Life",
       "Cell Cycle and Cell Division",
-      "The Living World"
+      "The Living World",
+      "Plant Growth and Development",
+      "Sexual Reproduction in Flowering Plants",
+      "Structural Organisation in Animals- Animal Tissues",
+      "Biomolecules",
+      "Animal Kingdom-II: Chordates",
+      "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)"
     ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "AIATS1",
+      "norm_tid": "AIATS1",
+      "syl_date": "2025-11-02T00:00:00",
+      "order_idx": 7,
+      "marks": {
+        "physics": 1,
+        "chemistry": 24,
+        "botany": 70,
+        "zoology": 50,
+        "total": 145
+      },
+      "center_rank": 0,
+      "air_rank": 0,
+      "percentile": 20.14
+    },
+    {
+      "test_id": "AIATS3",
+      "norm_tid": "AIATS3",
+      "syl_date": "2025-12-31T00:00:00",
+      "order_idx": 13,
+      "marks": {
+        "physics": -3,
+        "chemistry": 15,
+        "botany": 24,
+        "zoology": 24,
+        "total": 60
+      },
+      "center_rank": 955,
+      "air_rank": 0,
+      "percentile": 8.33
+    }
+  ]
 }

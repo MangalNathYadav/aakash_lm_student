@@ -1,66 +1,278 @@
 {
   "psid": "00005338325",
   "name": "Unknown",
+  "batch": "RM01",
   "meta": {
-    "tests_taken": 8,
-    "first_test_date": "02-11-2025",
-    "latest_test_date": "31-12-2025"
+    "tests_taken": 9,
+    "latest_test_id": "FT8",
+    "latest_test_order_idx": 12
   },
   "overall_performance": {
-    "average_total_score": 253,
+    "average_total_score": 239,
     "best_score": 372,
     "latest_score": 193,
-    "consistency_index": 0.0834,
-    "trend": "improving"
+    "consistency_index": 139.35,
+    "trend": "declining"
   },
   "subjects": {
     "physics": {
-      "average_percentage": 24,
-      "trend": "stable",
+      "average_percentage": 20,
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
-        "Laws of Motion",
-        "Work, Energy and Power",
-        "Units & Measurements",
-        "Motion in a Straight Line",
-        "Motion in a Plane",
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids",
         "Thermal Properties of Matter",
         "Thermodynamics",
         "Kinetic Theory",
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Motion in a Plane",
         "Oscillations",
         "Waves",
         "Electric Charges & Fields",
         "Electrostatic Potential and Capacitance",
         "Current Electricity",
+        "Laws of Motion",
+        "Work, Energy and Power",
         "System of Particles and Rotational Motion",
-        "Gravitation",
-        "Mechanical Properties of Solids",
-        "Mechanical Properties of Fluids"
+        "Moving Charges and Magnetism",
+        "Magnetism and Matter",
+        "Electromagnetic Induction",
+        "Alternating Current"
+      ],
+      "chapters": [
+        {
+          "name": "Moving Charges and Magnetism",
+          "rating": -0.1,
+          "percentage": -1,
+          "status": "Weak"
+        },
+        {
+          "name": "Magnetism and Matter",
+          "rating": -0.1,
+          "percentage": -1,
+          "status": "Weak"
+        },
+        {
+          "name": "Electromagnetic Induction",
+          "rating": -0.1,
+          "percentage": -1,
+          "status": "Weak"
+        },
+        {
+          "name": "Alternating Current",
+          "rating": -0.1,
+          "percentage": -1,
+          "status": "Weak"
+        },
+        {
+          "name": "System of Particles and Rotational Motion",
+          "rating": 0.7,
+          "percentage": 7,
+          "status": "Weak"
+        },
+        {
+          "name": "Laws of Motion",
+          "rating": 0.9,
+          "percentage": 9,
+          "status": "Weak"
+        },
+        {
+          "name": "Work, Energy and Power",
+          "rating": 0.9,
+          "percentage": 9,
+          "status": "Weak"
+        },
+        {
+          "name": "Oscillations",
+          "rating": 1.0,
+          "percentage": 10,
+          "status": "Weak"
+        },
+        {
+          "name": "Waves",
+          "rating": 1.0,
+          "percentage": 10,
+          "status": "Weak"
+        },
+        {
+          "name": "Electric Charges & Fields",
+          "rating": 1.0,
+          "percentage": 10,
+          "status": "Weak"
+        },
+        {
+          "name": "Gravitation",
+          "rating": 1.9,
+          "percentage": 19,
+          "status": "Weak"
+        },
+        {
+          "name": "Mechanical Properties of Solids",
+          "rating": 1.9,
+          "percentage": 19,
+          "status": "Weak"
+        },
+        {
+          "name": "Mechanical Properties of Fluids",
+          "rating": 1.9,
+          "percentage": 19,
+          "status": "Weak"
+        },
+        {
+          "name": "Electrostatic Potential and Capacitance",
+          "rating": 3.2,
+          "percentage": 32,
+          "status": "Weak"
+        },
+        {
+          "name": "Current Electricity",
+          "rating": 3.2,
+          "percentage": 32,
+          "status": "Weak"
+        },
+        {
+          "name": "Units & Measurements",
+          "rating": 3.7,
+          "percentage": 37,
+          "status": "Weak"
+        },
+        {
+          "name": "Motion in a Straight Line",
+          "rating": 3.7,
+          "percentage": 37,
+          "status": "Weak"
+        },
+        {
+          "name": "Motion in a Plane",
+          "rating": 3.7,
+          "percentage": 37,
+          "status": "Weak"
+        },
+        {
+          "name": "Thermal Properties of Matter",
+          "rating": 4.1,
+          "percentage": 41,
+          "status": "Weak"
+        },
+        {
+          "name": "Thermodynamics",
+          "rating": 4.1,
+          "percentage": 41,
+          "status": "Weak"
+        },
+        {
+          "name": "Kinetic Theory",
+          "rating": 4.1,
+          "percentage": 41,
+          "status": "Weak"
+        }
       ]
     },
     "chemistry": {
-      "average_percentage": 25,
-      "trend": "improving",
+      "average_percentage": 23,
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
-        "Classification of Elements and periodicity in properties",
-        "chemical Bonding and molecular structure",
+        "Thermodynamics",
+        "Equilibrium",
         "Some Basic Concepts of Chemistry",
         "Structure of Atom",
-        "Equilibrium",
         "Redox Reactions",
         "Electrochemistry",
         "Solutions",
         "Chemical Kinetics",
         "Organic Chemistry: Some Basic Principles & Techniques",
-        "Thermodynamics"
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure",
+        "Hydrocarbons",
+        "Haloalkanes and Haloarenes"
+      ],
+      "chapters": [
+        {
+          "name": "Classification of Elements and periodicity in properties",
+          "rating": 0.9,
+          "percentage": 9,
+          "status": "Weak"
+        },
+        {
+          "name": "chemical Bonding and molecular structure",
+          "rating": 0.9,
+          "percentage": 9,
+          "status": "Weak"
+        },
+        {
+          "name": "Solutions",
+          "rating": 1.3,
+          "percentage": 13,
+          "status": "Weak"
+        },
+        {
+          "name": "Hydrocarbons",
+          "rating": 1.3,
+          "percentage": 13,
+          "status": "Weak"
+        },
+        {
+          "name": "Haloalkanes and Haloarenes",
+          "rating": 1.3,
+          "percentage": 13,
+          "status": "Weak"
+        },
+        {
+          "name": "Redox Reactions",
+          "rating": 1.8,
+          "percentage": 18,
+          "status": "Weak"
+        },
+        {
+          "name": "Electrochemistry",
+          "rating": 1.8,
+          "percentage": 18,
+          "status": "Weak"
+        },
+        {
+          "name": "Chemical Kinetics",
+          "rating": 3.1,
+          "percentage": 31,
+          "status": "Weak"
+        },
+        {
+          "name": "Organic Chemistry: Some Basic Principles & Techniques",
+          "rating": 3.1,
+          "percentage": 31,
+          "status": "Weak"
+        },
+        {
+          "name": "Equilibrium",
+          "rating": 3.3,
+          "percentage": 33,
+          "status": "Weak"
+        },
+        {
+          "name": "Thermodynamics",
+          "rating": 3.8,
+          "percentage": 38,
+          "status": "Weak"
+        },
+        {
+          "name": "Some Basic Concepts of Chemistry",
+          "rating": 3.9,
+          "percentage": 39,
+          "status": "Weak"
+        },
+        {
+          "name": "Structure of Atom",
+          "rating": 3.9,
+          "percentage": 39,
+          "status": "Weak"
+        }
       ]
     },
     "botany": {
-      "average_percentage": 51,
-      "trend": "stable",
+      "average_percentage": 45,
       "strong_chapters": [],
       "average_chapters": [
         "Cell: The Unit of Life",
@@ -70,90 +282,389 @@
         "Respiration in Plants"
       ],
       "weak_chapters": [
-        "Biological Classification",
         "Morphology of Flowering Plants",
         "Anatomy of Flowering Plants",
-        "Plant Kingdom"
+        "Plant Kingdom",
+        "Biological Classification",
+        "Plant Growth and Development",
+        "Sexual Reproduction in Flowering Plants"
+      ],
+      "chapters": [
+        {
+          "name": "Plant Growth and Development",
+          "rating": 1.7,
+          "percentage": 17,
+          "status": "Weak"
+        },
+        {
+          "name": "Sexual Reproduction in Flowering Plants",
+          "rating": 1.7,
+          "percentage": 17,
+          "status": "Weak"
+        },
+        {
+          "name": "Biological Classification",
+          "rating": 1.8,
+          "percentage": 18,
+          "status": "Weak"
+        },
+        {
+          "name": "Plant Kingdom",
+          "rating": 2.9,
+          "percentage": 29,
+          "status": "Weak"
+        },
+        {
+          "name": "Morphology of Flowering Plants",
+          "rating": 4.5,
+          "percentage": 45,
+          "status": "Weak"
+        },
+        {
+          "name": "Anatomy of Flowering Plants",
+          "rating": 4.7,
+          "percentage": 47,
+          "status": "Weak"
+        },
+        {
+          "name": "Cell: The Unit of Life",
+          "rating": 6.3,
+          "percentage": 63,
+          "status": "Average"
+        },
+        {
+          "name": "Cell Cycle and Cell Division",
+          "rating": 6.3,
+          "percentage": 63,
+          "status": "Average"
+        },
+        {
+          "name": "The Living World",
+          "rating": 6.3,
+          "percentage": 63,
+          "status": "Average"
+        },
+        {
+          "name": "Photosynthesis in Higher Plants",
+          "rating": 6.7,
+          "percentage": 67,
+          "status": "Average"
+        },
+        {
+          "name": "Respiration in Plants",
+          "rating": 6.7,
+          "percentage": 67,
+          "status": "Average"
+        }
       ]
     },
     "zoology": {
       "average_percentage": 45,
-      "trend": "improving",
-      "strong_chapters": [
-        "Animal Kingdom-I: General accounts & Non-chordates"
-      ],
+      "strong_chapters": [],
       "average_chapters": [
+        "Locomotion & Movement-II: (Upto muscle and bone disorders)",
         "Structural Organisation in Animals- Animal Tissues",
         "Biomolecules",
-        "Locomotion & Movement-II: (Upto muscle and bone disorders)"
+        "Animal Kingdom-I: General accounts & Non-chordates"
       ],
       "weak_chapters": [
-        "Breathing & Exchange of Gases",
-        "Body Fluids & Circulation",
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement-I: (Upto properties of muscle contraction)",
         "Neural Control & Coordination",
         "Chemical Coordination & Integration",
-        "Excretory Products & their Elimination",
         "Locomotion & Movement",
-        "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation",
+        "Animal Kingdom-II: Chordates",
+        "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)"
+      ],
+      "chapters": [
+        {
+          "name": "Breathing & Exchange of Gases",
+          "rating": 1.5,
+          "percentage": 15,
+          "status": "Weak"
+        },
+        {
+          "name": "Body Fluids & Circulation",
+          "rating": 1.5,
+          "percentage": 15,
+          "status": "Weak"
+        },
+        {
+          "name": "Chemical Coordination & Integration",
+          "rating": 2.7,
+          "percentage": 27,
+          "status": "Weak"
+        },
+        {
+          "name": "Locomotion & Movement",
+          "rating": 3.1,
+          "percentage": 31,
+          "status": "Weak"
+        },
+        {
+          "name": "Excretory Products & their Elimination",
+          "rating": 3.9,
+          "percentage": 39,
+          "status": "Weak"
+        },
+        {
+          "name": "Animal Kingdom-II: Chordates",
+          "rating": 4.4,
+          "percentage": 44,
+          "status": "Weak"
+        },
+        {
+          "name": "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+          "rating": 4.4,
+          "percentage": 44,
+          "status": "Weak"
+        },
+        {
+          "name": "Neural Control & Coordination",
+          "rating": 4.5,
+          "percentage": 45,
+          "status": "Weak"
+        },
+        {
+          "name": "Locomotion & Movement-I: (Upto properties of muscle contraction)",
+          "rating": 4.8,
+          "percentage": 48,
+          "status": "Weak"
+        },
+        {
+          "name": "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+          "rating": 6.2,
+          "percentage": 62,
+          "status": "Average"
+        },
+        {
+          "name": "Structural Organisation in Animals- Animal Tissues",
+          "rating": 6.8,
+          "percentage": 68,
+          "status": "Average"
+        },
+        {
+          "name": "Biomolecules",
+          "rating": 6.8,
+          "percentage": 68,
+          "status": "Average"
+        },
+        {
+          "name": "Animal Kingdom-I: General accounts & Non-chordates",
+          "rating": 7.5,
+          "percentage": 75,
+          "status": "Average"
+        }
       ]
     }
   },
   "focus_insights": {
     "top_weak_chapters": [
-      "System of Particles and Rotational Motion",
-      "Laws of Motion",
-      "Work, Energy and Power",
-      "Classification of Elements and periodicity in properties",
-      "chemical Bonding and molecular structure"
-    ],
-    "most_improved_chapters": [
-      "Oscillations",
-      "Waves",
-      "Electric Charges & Fields",
-      "Solutions",
-      "Morphology of Flowering Plants"
-    ],
-    "chapters_needing_attention": [
-      "System of Particles and Rotational Motion",
-      "Laws of Motion",
-      "Work, Energy and Power",
-      "Classification of Elements and periodicity in properties",
-      "chemical Bonding and molecular structure",
-      "Oscillations",
-      "Waves",
-      "Electric Charges & Fields",
-      "Solutions",
-      "Breathing & Exchange of Gases",
-      "Body Fluids & Circulation",
-      "Redox Reactions",
-      "Electrochemistry",
-      "Biological Classification",
       "Gravitation",
       "Mechanical Properties of Solids",
       "Mechanical Properties of Fluids",
-      "Chemical Coordination & Integration",
-      "Plant Kingdom",
-      "Chemical Kinetics",
-      "Organic Chemistry: Some Basic Principles & Techniques",
-      "Locomotion & Movement",
-      "Electrostatic Potential and Capacitance",
-      "Current Electricity",
-      "Equilibrium",
-      "Units & Measurements",
-      "Motion in a Straight Line",
-      "Motion in a Plane",
-      "Thermodynamics",
-      "Some Basic Concepts of Chemistry",
-      "Structure of Atom",
-      "Excretory Products & their Elimination",
+      "Thermal Properties of Matter",
+      "Thermodynamics"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
       "Thermal Properties of Matter",
       "Thermodynamics",
       "Kinetic Theory",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane",
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Electrostatic Potential and Capacitance",
+      "Current Electricity",
+      "Laws of Motion",
+      "Work, Energy and Power",
+      "System of Particles and Rotational Motion",
+      "Moving Charges and Magnetism",
+      "Magnetism and Matter",
+      "Electromagnetic Induction",
+      "Alternating Current",
+      "Thermodynamics",
+      "Equilibrium",
+      "Some Basic Concepts of Chemistry",
+      "Structure of Atom",
+      "Redox Reactions",
+      "Electrochemistry",
+      "Solutions",
+      "Chemical Kinetics",
+      "Organic Chemistry: Some Basic Principles & Techniques",
+      "Classification of Elements and periodicity in properties",
+      "chemical Bonding and molecular structure",
+      "Hydrocarbons",
+      "Haloalkanes and Haloarenes",
       "Morphology of Flowering Plants",
-      "Neural Control & Coordination",
       "Anatomy of Flowering Plants",
-      "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+      "Plant Kingdom",
+      "Biological Classification",
+      "Plant Growth and Development",
+      "Sexual Reproduction in Flowering Plants",
+      "Excretory Products & their Elimination",
+      "Locomotion & Movement-I: (Upto properties of muscle contraction)",
+      "Neural Control & Coordination",
+      "Chemical Coordination & Integration",
+      "Locomotion & Movement",
+      "Breathing & Exchange of Gases",
+      "Body Fluids & Circulation",
+      "Animal Kingdom-II: Chordates",
+      "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)"
     ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "FT4",
+      "norm_tid": "FT4",
+      "syl_date": "1900-01-01T00:00:00",
+      "order_idx": 4,
+      "marks": {
+        "physics": 53,
+        "chemistry": 80,
+        "botany": 97,
+        "zoology": 86,
+        "total": 316
+      },
+      "center_rank": 192,
+      "air_rank": 0,
+      "percentile": 192.0
+    },
+    {
+      "test_id": "FT5",
+      "norm_tid": "FT5",
+      "syl_date": "2025-10-01T00:00:00",
+      "order_idx": 5,
+      "marks": {
+        "physics": 89,
+        "chemistry": 67,
+        "botany": 78,
+        "zoology": 111,
+        "total": 345
+      },
+      "center_rank": 215,
+      "air_rank": 0,
+      "percentile": 214.0
+    },
+    {
+      "test_id": "AIATS1",
+      "norm_tid": "AIATS1",
+      "syl_date": "2025-11-02T00:00:00",
+      "order_idx": 7,
+      "marks": {
+        "physics": 67,
+        "chemistry": 70,
+        "botany": 113,
+        "zoology": 122,
+        "total": 372
+      },
+      "center_rank": 0,
+      "air_rank": 0,
+      "percentile": 51.67
+    },
+    {
+      "test_id": "FT6",
+      "norm_tid": "FT6",
+      "syl_date": "2025-11-05T00:00:00",
+      "order_idx": 8,
+      "marks": {
+        "physics": 13,
+        "chemistry": 16,
+        "botany": 19,
+        "zoology": 42,
+        "total": 90
+      },
+      "center_rank": 281,
+      "air_rank": 0,
+      "percentile": 12.82
+    },
+    {
+      "test_id": "NBTS2",
+      "norm_tid": "NBTS2",
+      "syl_date": "2025-11-12T00:00:00",
+      "order_idx": 9,
+      "marks": {
+        "physics": 30,
+        "chemistry": 37,
+        "botany": 102,
+        "zoology": 72,
+        "total": 241
+      },
+      "center_rank": 178,
+      "air_rank": 0,
+      "percentile": 34.09
+    },
+    {
+      "test_id": "FT7",
+      "norm_tid": "FT7",
+      "syl_date": "2025-11-26T00:00:00",
+      "order_idx": 10,
+      "marks": {
+        "physics": 58,
+        "chemistry": 56,
+        "botany": 121,
+        "zoology": 135,
+        "total": 370
+      },
+      "center_rank": 113,
+      "air_rank": 0,
+      "percentile": 54.01
+    },
+    {
+      "test_id": "AIATS2",
+      "norm_tid": "AIATS2",
+      "syl_date": "2025-11-30T00:00:00",
+      "order_idx": 11,
+      "marks": {
+        "physics": 17,
+        "chemistry": 17,
+        "botany": 33,
+        "zoology": 27,
+        "total": 94
+      },
+      "center_rank": 1008,
+      "air_rank": 0,
+      "percentile": 66842.0
+    },
+    {
+      "test_id": "FT8",
+      "norm_tid": "FT8",
+      "syl_date": "2025-12-28T00:00:00",
+      "order_idx": 12,
+      "marks": {
+        "physics": 13,
+        "chemistry": 48,
+        "botany": 87,
+        "zoology": 45,
+        "total": 193
+      },
+      "center_rank": 174,
+      "air_rank": 0,
+      "percentile": 28.09
+    },
+    {
+      "test_id": "AIATS3",
+      "norm_tid": "AIATS3",
+      "syl_date": "2025-12-31T00:00:00",
+      "order_idx": 13,
+      "marks": {
+        "physics": -1,
+        "chemistry": 23,
+        "botany": 30,
+        "zoology": 80,
+        "total": 132
+      },
+      "center_rank": 832,
+      "air_rank": 0,
+      "percentile": 18.33
+    }
+  ]
 }

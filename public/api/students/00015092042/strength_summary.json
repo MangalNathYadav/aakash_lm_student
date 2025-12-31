@@ -4,16 +4,6 @@
   "average": [
     {
       "subject": "chemistry",
-      "chapter": "Classification of Elements and periodicity in properties",
-      "percentage": 58.89
-    },
-    {
-      "subject": "chemistry",
-      "chapter": "chemical Bonding and molecular structure",
-      "percentage": 58.89
-    },
-    {
-      "subject": "chemistry",
       "chapter": "Some Basic Concepts of Chemistry",
       "percentage": 62.22
     },
@@ -23,14 +13,14 @@
       "percentage": 62.22
     },
     {
-      "subject": "botany",
-      "chapter": "Biological Classification",
-      "percentage": 56.67
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and periodicity in properties",
+      "percentage": 58.89
     },
     {
-      "subject": "botany",
-      "chapter": "Morphology of Flowering Plants",
-      "percentage": 56.67
+      "subject": "chemistry",
+      "chapter": "chemical Bonding and molecular structure",
+      "percentage": 58.89
     },
     {
       "subject": "botany",
@@ -48,14 +38,24 @@
       "percentage": 62.22
     },
     {
-      "subject": "zoology",
-      "chapter": "Breathing & Exchange of Gases",
-      "percentage": 65.0
+      "subject": "botany",
+      "chapter": "Biological Classification",
+      "percentage": 56.67
+    },
+    {
+      "subject": "botany",
+      "chapter": "Morphology of Flowering Plants",
+      "percentage": 56.67
     },
     {
       "subject": "zoology",
-      "chapter": "Body Fluids & Circulation",
-      "percentage": 65.0
+      "chapter": "Animal Kingdom-II: Chordates",
+      "percentage": 54.44
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+      "percentage": 54.44
     },
     {
       "subject": "zoology",
@@ -66,18 +66,38 @@
       "subject": "zoology",
       "chapter": "Biomolecules",
       "percentage": 57.78
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Breathing & Exchange of Gases",
+      "percentage": 65.0
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Body Fluids & Circulation",
+      "percentage": 65.0
     }
   ],
   "weak": [
     {
       "subject": "physics",
-      "chapter": "Laws of Motion",
-      "percentage": 17.22
+      "chapter": "Moving Charges and Magnetism",
+      "percentage": 31.11
     },
     {
       "subject": "physics",
-      "chapter": "Work, Energy and Power",
-      "percentage": 17.22
+      "chapter": "Magnetism and Matter",
+      "percentage": 31.11
+    },
+    {
+      "subject": "physics",
+      "chapter": "Electromagnetic Induction",
+      "percentage": 31.11
+    },
+    {
+      "subject": "physics",
+      "chapter": "Alternating Current",
+      "percentage": 31.11
     },
     {
       "subject": "physics",
@@ -93,6 +113,36 @@
       "subject": "physics",
       "chapter": "Motion in a Plane",
       "percentage": 22.22
+    },
+    {
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "percentage": 17.22
+    },
+    {
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "percentage": 17.22
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "percentage": 15.0
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "percentage": 15.0
+    },
+    {
+      "subject": "botany",
+      "chapter": "Plant Growth and Development",
+      "percentage": 30.56
+    },
+    {
+      "subject": "botany",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "percentage": 30.56
     }
   ]
 }

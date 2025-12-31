@@ -1,57 +1,181 @@
 {
   "psid": "00015706696",
   "name": "Unknown",
+  "batch": "RM06",
   "meta": {
-    "tests_taken": 1,
-    "first_test_date": "30-11-2025",
-    "latest_test_date": "30-11-2025"
+    "tests_taken": 2,
+    "latest_test_id": "AIATS2",
+    "latest_test_order_idx": 11
   },
   "overall_performance": {
-    "average_total_score": 25,
-    "best_score": 25,
+    "average_total_score": 136,
+    "best_score": 247,
     "latest_score": 25,
-    "consistency_index": 0.0,
-    "trend": "insufficient_data"
+    "consistency_index": 30.38,
+    "trend": "improving"
   },
   "subjects": {
     "physics": {
-      "average_percentage": 0,
-      "trend": "stable",
+      "average_percentage": 3,
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Laws of Motion",
-        "Work, Energy and Power"
+        "Work, Energy and Power",
+        "Moving Charges and Magnetism",
+        "Magnetism and Matter",
+        "Electromagnetic Induction",
+        "Alternating Current"
+      ],
+      "chapters": [
+        {
+          "name": "Laws of Motion",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Work, Energy and Power",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Moving Charges and Magnetism",
+          "rating": 0.4,
+          "percentage": 4,
+          "status": "Weak"
+        },
+        {
+          "name": "Magnetism and Matter",
+          "rating": 0.4,
+          "percentage": 4,
+          "status": "Weak"
+        },
+        {
+          "name": "Electromagnetic Induction",
+          "rating": 0.4,
+          "percentage": 4,
+          "status": "Weak"
+        },
+        {
+          "name": "Alternating Current",
+          "rating": 0.4,
+          "percentage": 4,
+          "status": "Weak"
+        }
       ]
     },
     "chemistry": {
-      "average_percentage": 3,
-      "trend": "stable",
+      "average_percentage": 12,
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Classification of Elements and periodicity in properties",
-        "chemical Bonding and molecular structure"
+        "chemical Bonding and molecular structure",
+        "Hydrocarbons",
+        "Haloalkanes and Haloarenes"
+      ],
+      "chapters": [
+        {
+          "name": "Classification of Elements and periodicity in properties",
+          "rating": 0.3,
+          "percentage": 3,
+          "status": "Weak"
+        },
+        {
+          "name": "chemical Bonding and molecular structure",
+          "rating": 0.3,
+          "percentage": 3,
+          "status": "Weak"
+        },
+        {
+          "name": "Hydrocarbons",
+          "rating": 2.2,
+          "percentage": 22,
+          "status": "Weak"
+        },
+        {
+          "name": "Haloalkanes and Haloarenes",
+          "rating": 2.2,
+          "percentage": 22,
+          "status": "Weak"
+        }
       ]
     },
     "botany": {
-      "average_percentage": 0,
-      "trend": "stable",
+      "average_percentage": 25,
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Biological Classification",
-        "Morphology of Flowering Plants"
+        "Morphology of Flowering Plants",
+        "Plant Growth and Development",
+        "Sexual Reproduction in Flowering Plants"
+      ],
+      "chapters": [
+        {
+          "name": "Biological Classification",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Morphology of Flowering Plants",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Plant Growth and Development",
+          "rating": 4.9,
+          "percentage": 49,
+          "status": "Weak"
+        },
+        {
+          "name": "Sexual Reproduction in Flowering Plants",
+          "rating": 4.9,
+          "percentage": 49,
+          "status": "Weak"
+        }
       ]
     },
     "zoology": {
-      "average_percentage": 11,
-      "trend": "stable",
+      "average_percentage": 36,
       "strong_chapters": [],
-      "average_chapters": [],
+      "average_chapters": [
+        "Animal Kingdom-II: Chordates",
+        "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)"
+      ],
       "weak_chapters": [
         "Breathing & Exchange of Gases",
         "Body Fluids & Circulation"
+      ],
+      "chapters": [
+        {
+          "name": "Breathing & Exchange of Gases",
+          "rating": 1.1,
+          "percentage": 11,
+          "status": "Weak"
+        },
+        {
+          "name": "Body Fluids & Circulation",
+          "rating": 1.1,
+          "percentage": 11,
+          "status": "Weak"
+        },
+        {
+          "name": "Animal Kingdom-II: Chordates",
+          "rating": 6.1,
+          "percentage": 61,
+          "status": "Average"
+        },
+        {
+          "name": "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+          "rating": 6.1,
+          "percentage": 61,
+          "status": "Average"
+        }
       ]
     }
   },
@@ -59,21 +183,62 @@
     "top_weak_chapters": [
       "Laws of Motion",
       "Work, Energy and Power",
-      "Biological Classification",
-      "Morphology of Flowering Plants",
-      "Classification of Elements and periodicity in properties"
+      "Moving Charges and Magnetism",
+      "Magnetism and Matter",
+      "Electromagnetic Induction"
     ],
     "most_improved_chapters": [],
     "chapters_needing_attention": [
       "Laws of Motion",
       "Work, Energy and Power",
-      "Biological Classification",
-      "Morphology of Flowering Plants",
+      "Moving Charges and Magnetism",
+      "Magnetism and Matter",
+      "Electromagnetic Induction",
+      "Alternating Current",
       "Classification of Elements and periodicity in properties",
       "chemical Bonding and molecular structure",
+      "Hydrocarbons",
+      "Haloalkanes and Haloarenes",
+      "Biological Classification",
+      "Morphology of Flowering Plants",
+      "Plant Growth and Development",
+      "Sexual Reproduction in Flowering Plants",
       "Breathing & Exchange of Gases",
       "Body Fluids & Circulation"
     ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "AIATS2",
+      "norm_tid": "AIATS2",
+      "syl_date": "2025-11-30T00:00:00",
+      "order_idx": 11,
+      "marks": {
+        "physics": 0,
+        "chemistry": 5,
+        "botany": 0,
+        "zoology": 20,
+        "total": 25
+      },
+      "center_rank": 1064,
+      "air_rank": 0,
+      "percentile": 71044.0
+    },
+    {
+      "test_id": "AIATS3",
+      "norm_tid": "AIATS3",
+      "syl_date": "2025-12-31T00:00:00",
+      "order_idx": 13,
+      "marks": {
+        "physics": 8,
+        "chemistry": 40,
+        "botany": 89,
+        "zoology": 110,
+        "total": 247
+      },
+      "center_rank": 611,
+      "air_rank": 0,
+      "percentile": 34.31
+    }
+  ]
 }

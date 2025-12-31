@@ -3,6 +3,16 @@
   "strong": [
     {
       "subject": "botany",
+      "chapter": "Plant Growth and Development",
+      "percentage": 77.78
+    },
+    {
+      "subject": "botany",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "percentage": 77.78
+    },
+    {
+      "subject": "botany",
       "chapter": "Cell: The Unit of Life",
       "percentage": 85.0
     },
@@ -18,13 +28,13 @@
     },
     {
       "subject": "zoology",
-      "chapter": "Breathing & Exchange of Gases",
-      "percentage": 75.0
+      "chapter": "Animal Kingdom-II: Chordates",
+      "percentage": 81.11
     },
     {
       "subject": "zoology",
-      "chapter": "Body Fluids & Circulation",
-      "percentage": 75.0
+      "chapter": "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+      "percentage": 81.11
     },
     {
       "subject": "zoology",
@@ -35,6 +45,16 @@
       "subject": "zoology",
       "chapter": "Biomolecules",
       "percentage": 76.11
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Breathing & Exchange of Gases",
+      "percentage": 75.0
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Body Fluids & Circulation",
+      "percentage": 75.0
     }
   ],
   "average": [
@@ -52,13 +72,23 @@
   "weak": [
     {
       "subject": "physics",
-      "chapter": "Laws of Motion",
-      "percentage": 14.44
+      "chapter": "Moving Charges and Magnetism",
+      "percentage": 27.22
     },
     {
       "subject": "physics",
-      "chapter": "Work, Energy and Power",
-      "percentage": 14.44
+      "chapter": "Magnetism and Matter",
+      "percentage": 27.22
+    },
+    {
+      "subject": "physics",
+      "chapter": "Electromagnetic Induction",
+      "percentage": 27.22
+    },
+    {
+      "subject": "physics",
+      "chapter": "Alternating Current",
+      "percentage": 27.22
     },
     {
       "subject": "physics",
@@ -76,14 +106,24 @@
       "percentage": 8.89
     },
     {
-      "subject": "chemistry",
-      "chapter": "Classification of Elements and periodicity in properties",
-      "percentage": 33.33
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "percentage": 14.44
+    },
+    {
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "percentage": 14.44
     },
     {
       "subject": "chemistry",
-      "chapter": "chemical Bonding and molecular structure",
-      "percentage": 33.33
+      "chapter": "Hydrocarbons",
+      "percentage": 30.56
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "percentage": 30.56
     },
     {
       "subject": "chemistry",
@@ -94,6 +134,16 @@
       "subject": "chemistry",
       "chapter": "Structure of Atom",
       "percentage": 40.56
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and periodicity in properties",
+      "percentage": 33.33
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "chemical Bonding and molecular structure",
+      "percentage": 33.33
     }
   ]
 }

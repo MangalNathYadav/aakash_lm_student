@@ -3,16 +3,6 @@
   "strong": [
     {
       "subject": "botany",
-      "chapter": "Biological Classification",
-      "percentage": 83.7
-    },
-    {
-      "subject": "botany",
-      "chapter": "Morphology of Flowering Plants",
-      "percentage": 76.67
-    },
-    {
-      "subject": "botany",
       "chapter": "Photosynthesis in Higher Plants",
       "percentage": 86.67
     },
@@ -27,14 +17,14 @@
       "percentage": 86.67
     },
     {
-      "subject": "zoology",
-      "chapter": "Breathing & Exchange of Gases",
-      "percentage": 81.67
+      "subject": "botany",
+      "chapter": "Biological Classification",
+      "percentage": 83.7
     },
     {
-      "subject": "zoology",
-      "chapter": "Body Fluids & Circulation",
-      "percentage": 81.67
+      "subject": "botany",
+      "chapter": "Morphology of Flowering Plants",
+      "percentage": 76.67
     },
     {
       "subject": "zoology",
@@ -48,16 +38,6 @@
     },
     {
       "subject": "zoology",
-      "chapter": "Locomotion & Movement-II: (Upto muscle and bone disorders)",
-      "percentage": 81.67
-    },
-    {
-      "subject": "zoology",
-      "chapter": "Neural Control & Coordination",
-      "percentage": 79.89
-    },
-    {
-      "subject": "zoology",
       "chapter": "Animal Kingdom-I: General accounts & Non-chordates",
       "percentage": 85.56
     },
@@ -68,21 +48,31 @@
     },
     {
       "subject": "zoology",
+      "chapter": "Neural Control & Coordination",
+      "percentage": 79.89
+    },
+    {
+      "subject": "zoology",
       "chapter": "Breathing & Exchange of Gases-I: (upto mechanism of breathing)",
       "percentage": 83.33
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+      "percentage": 81.67
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Breathing & Exchange of Gases",
+      "percentage": 81.67
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Body Fluids & Circulation",
+      "percentage": 81.67
     }
   ],
   "average": [
-    {
-      "subject": "chemistry",
-      "chapter": "Classification of Elements and periodicity in properties",
-      "percentage": 60.0
-    },
-    {
-      "subject": "chemistry",
-      "chapter": "chemical Bonding and molecular structure",
-      "percentage": 60.0
-    },
     {
       "subject": "chemistry",
       "chapter": "Thermodynamics",
@@ -102,6 +92,26 @@
       "subject": "chemistry",
       "chapter": "Chemical Bonding and Molecular Structure",
       "percentage": 53.33
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and periodicity in properties",
+      "percentage": 60.0
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "chemical Bonding and molecular structure",
+      "percentage": 60.0
+    },
+    {
+      "subject": "botany",
+      "chapter": "Plant Growth and Development",
+      "percentage": 71.67
+    },
+    {
+      "subject": "botany",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "percentage": 71.67
     },
     {
       "subject": "botany",
@@ -125,6 +135,16 @@
     },
     {
       "subject": "zoology",
+      "chapter": "Animal Kingdom-II: Chordates",
+      "percentage": 69.44
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+      "percentage": 69.44
+    },
+    {
+      "subject": "zoology",
       "chapter": "Excretory Products & their Elimination",
       "percentage": 72.89
     },
@@ -137,13 +157,23 @@
   "weak": [
     {
       "subject": "physics",
-      "chapter": "Laws of Motion",
-      "percentage": 32.22
+      "chapter": "Moving Charges and Magnetism",
+      "percentage": 33.33
     },
     {
       "subject": "physics",
-      "chapter": "Work, Energy and Power",
-      "percentage": 32.22
+      "chapter": "Magnetism and Matter",
+      "percentage": 33.33
+    },
+    {
+      "subject": "physics",
+      "chapter": "Electromagnetic Induction",
+      "percentage": 33.33
+    },
+    {
+      "subject": "physics",
+      "chapter": "Alternating Current",
+      "percentage": 33.33
     },
     {
       "subject": "physics",
@@ -159,21 +189,6 @@
       "subject": "physics",
       "chapter": "Motion in a Plane",
       "percentage": 28.33
-    },
-    {
-      "subject": "physics",
-      "chapter": "Thermal Properties of Matter",
-      "percentage": 42.78
-    },
-    {
-      "subject": "physics",
-      "chapter": "Thermodynamics",
-      "percentage": 42.78
-    },
-    {
-      "subject": "physics",
-      "chapter": "Kinetic Theory",
-      "percentage": 42.78
     },
     {
       "subject": "physics",
@@ -216,6 +231,41 @@
       "percentage": 23.89
     },
     {
+      "subject": "physics",
+      "chapter": "Thermal Properties of Matter",
+      "percentage": 42.78
+    },
+    {
+      "subject": "physics",
+      "chapter": "Thermodynamics",
+      "percentage": 42.78
+    },
+    {
+      "subject": "physics",
+      "chapter": "Kinetic Theory",
+      "percentage": 42.78
+    },
+    {
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "percentage": 32.22
+    },
+    {
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "percentage": 32.22
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "percentage": 28.33
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "percentage": 28.33
+    },
+    {
       "subject": "chemistry",
       "chapter": "Some Basic Concepts of Chemistry",
       "percentage": 38.89
@@ -227,11 +277,6 @@
     },
     {
       "subject": "chemistry",
-      "chapter": "Equilibrium",
-      "percentage": 40.33
-    },
-    {
-      "subject": "chemistry",
       "chapter": "Chemical Kinetics",
       "percentage": 49.44
     },
@@ -239,6 +284,11 @@
       "subject": "chemistry",
       "chapter": "Organic Chemistry: Some Basic Principles & Techniques",
       "percentage": 49.44
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Equilibrium",
+      "percentage": 40.33
     }
   ]
 }

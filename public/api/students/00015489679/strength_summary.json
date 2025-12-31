@@ -1,11 +1,47 @@
 {
   "psid": "00015489679",
-  "strong": [],
+  "strong": [
+    {
+      "subject": "physics",
+      "chapter": "Moving Charges and Magnetism",
+      "percentage": 86.11
+    },
+    {
+      "subject": "physics",
+      "chapter": "Magnetism and Matter",
+      "percentage": 86.11
+    },
+    {
+      "subject": "physics",
+      "chapter": "Electromagnetic Induction",
+      "percentage": 86.11
+    },
+    {
+      "subject": "physics",
+      "chapter": "Alternating Current",
+      "percentage": 86.11
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Animal Kingdom-II: Chordates",
+      "percentage": 75.56
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+      "percentage": 75.56
+    }
+  ],
   "average": [
     {
       "subject": "physics",
-      "chapter": "Work, Energy and Power",
-      "percentage": 60.56
+      "chapter": "Work, Energy & Power",
+      "percentage": 56.11
+    },
+    {
+      "subject": "physics",
+      "chapter": "System of Particles & Rotational Motion",
+      "percentage": 56.11
     },
     {
       "subject": "physics",
@@ -24,13 +60,23 @@
     },
     {
       "subject": "physics",
-      "chapter": "Work, Energy & Power",
-      "percentage": 56.11
+      "chapter": "Work, Energy and Power",
+      "percentage": 60.56
     },
     {
-      "subject": "physics",
-      "chapter": "System of Particles & Rotational Motion",
-      "percentage": 56.11
+      "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "percentage": 55.0
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "percentage": 55.0
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Equilibrium",
+      "percentage": 67.22
     },
     {
       "subject": "chemistry",
@@ -43,14 +89,14 @@
       "percentage": 55.56
     },
     {
-      "subject": "chemistry",
-      "chapter": "Equilibrium",
-      "percentage": 67.22
+      "subject": "botany",
+      "chapter": "Plant Growth and Development",
+      "percentage": 63.33
     },
     {
       "subject": "botany",
-      "chapter": "Anatomy of Flowering Plants",
-      "percentage": 63.89
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "percentage": 63.33
     },
     {
       "subject": "botany",
@@ -63,14 +109,9 @@
       "percentage": 62.78
     },
     {
-      "subject": "zoology",
-      "chapter": "Breathing & Exchange of Gases",
-      "percentage": 57.78
-    },
-    {
-      "subject": "zoology",
-      "chapter": "Body Fluids & Circulation",
-      "percentage": 57.78
+      "subject": "botany",
+      "chapter": "Anatomy of Flowering Plants",
+      "percentage": 63.89
     },
     {
       "subject": "zoology",
@@ -81,14 +122,19 @@
       "subject": "zoology",
       "chapter": "Neural Control & Coordination",
       "percentage": 63.89
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Breathing & Exchange of Gases",
+      "percentage": 57.78
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Body Fluids & Circulation",
+      "percentage": 57.78
     }
   ],
   "weak": [
-    {
-      "subject": "physics",
-      "chapter": "Laws of Motion",
-      "percentage": 40.28
-    },
     {
       "subject": "physics",
       "chapter": "Units & Measurements",
@@ -120,14 +166,19 @@
       "percentage": 47.78
     },
     {
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "percentage": 40.28
+    },
+    {
       "subject": "chemistry",
       "chapter": "Some Basic Concepts of Chemistry",
-      "percentage": 10.93
+      "percentage": 9.81
     },
     {
       "subject": "chemistry",
       "chapter": "Structure of Atom",
-      "percentage": 19.44
+      "percentage": 17.78
     },
     {
       "subject": "chemistry",
@@ -156,16 +207,6 @@
     },
     {
       "subject": "botany",
-      "chapter": "Biological Classification",
-      "percentage": 48.89
-    },
-    {
-      "subject": "botany",
-      "chapter": "Morphology of Flowering Plants",
-      "percentage": 37.78
-    },
-    {
-      "subject": "botany",
       "chapter": "Cell: The Unit of Life",
       "percentage": 4.44
     },
@@ -183,6 +224,16 @@
       "subject": "botany",
       "chapter": "Cell : The Unit of Life",
       "percentage": 42.22
+    },
+    {
+      "subject": "botany",
+      "chapter": "Biological Classification",
+      "percentage": 48.89
+    },
+    {
+      "subject": "botany",
+      "chapter": "Morphology of Flowering Plants",
+      "percentage": 37.78
     },
     {
       "subject": "zoology",

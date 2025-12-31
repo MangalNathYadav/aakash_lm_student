@@ -1,73 +1,125 @@
 {
   "psid": "00015512168",
   "name": "Unknown",
+  "batch": "RM03",
   "meta": {
     "tests_taken": 1,
-    "first_test_date": "02-07-2025",
-    "latest_test_date": "02-07-2025"
+    "latest_test_id": "FT1",
+    "latest_test_order_idx": 0
   },
   "overall_performance": {
     "average_total_score": 92,
     "best_score": 92,
     "latest_score": 92,
-    "consistency_index": 0.0,
-    "trend": "insufficient_data"
+    "consistency_index": 36.8,
+    "trend": "stable"
   },
   "subjects": {
     "physics": {
       "average_percentage": 7,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Units & Measurements",
         "Motion in a Straight Line"
+      ],
+      "chapters": [
+        {
+          "name": "Units & Measurements",
+          "rating": 0.7,
+          "percentage": 7,
+          "status": "Weak"
+        },
+        {
+          "name": "Motion in a Straight Line",
+          "rating": 0.7,
+          "percentage": 7,
+          "status": "Weak"
+        }
       ]
     },
     "chemistry": {
       "average_percentage": 4,
-      "trend": "insufficient_data",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Some Basic Concepts of Chemistry"
+      ],
+      "chapters": [
+        {
+          "name": "Some Basic Concepts of Chemistry",
+          "rating": 0.4,
+          "percentage": 4,
+          "status": "Weak"
+        }
       ]
     },
     "botany": {
       "average_percentage": 22,
-      "trend": "insufficient_data",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Cell : The Unit of Life"
+      ],
+      "chapters": [
+        {
+          "name": "Cell : The Unit of Life",
+          "rating": 2.2,
+          "percentage": 22,
+          "status": "Weak"
+        }
       ]
     },
     "zoology": {
       "average_percentage": 18,
-      "trend": "insufficient_data",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Structural Organisation in Animals- Animal Tissues"
+      ],
+      "chapters": [
+        {
+          "name": "Structural Organisation in Animals- Animal Tissues",
+          "rating": 1.8,
+          "percentage": 18,
+          "status": "Weak"
+        }
       ]
     }
   },
   "focus_insights": {
     "top_weak_chapters": [
-      "Some Basic Concepts of Chemistry",
       "Units & Measurements",
       "Motion in a Straight Line",
-      "Structural Organisation in Animals- Animal Tissues",
-      "Cell : The Unit of Life"
+      "Some Basic Concepts of Chemistry",
+      "Cell : The Unit of Life",
+      "Structural Organisation in Animals- Animal Tissues"
     ],
     "most_improved_chapters": [],
     "chapters_needing_attention": [
-      "Some Basic Concepts of Chemistry",
       "Units & Measurements",
       "Motion in a Straight Line",
-      "Structural Organisation in Animals- Animal Tissues",
-      "Cell : The Unit of Life"
+      "Some Basic Concepts of Chemistry",
+      "Cell : The Unit of Life",
+      "Structural Organisation in Animals- Animal Tissues"
     ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "FT1",
+      "norm_tid": "FT1",
+      "syl_date": "2025-07-02T00:00:00",
+      "order_idx": 0,
+      "marks": {
+        "physics": 12,
+        "chemistry": 8,
+        "botany": 40,
+        "zoology": 32,
+        "total": 92
+      },
+      "center_rank": 241,
+      "air_rank": 0,
+      "percentile": 241.0
+    }
+  ]
 }

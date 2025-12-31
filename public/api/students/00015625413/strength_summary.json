@@ -2,6 +2,26 @@
   "psid": "00015625413",
   "strong": [
     {
+      "subject": "physics",
+      "chapter": "Moving Charges and Magnetism",
+      "percentage": 82.22
+    },
+    {
+      "subject": "physics",
+      "chapter": "Magnetism and Matter",
+      "percentage": 82.22
+    },
+    {
+      "subject": "physics",
+      "chapter": "Electromagnetic Induction",
+      "percentage": 82.22
+    },
+    {
+      "subject": "physics",
+      "chapter": "Alternating Current",
+      "percentage": 82.22
+    },
+    {
       "subject": "chemistry",
       "chapter": "Classification of Elements and periodicity in properties",
       "percentage": 89.44
@@ -13,13 +33,13 @@
     },
     {
       "subject": "botany",
-      "chapter": "Biological Classification",
-      "percentage": 88.89
+      "chapter": "Plant Growth and Development",
+      "percentage": 80.56
     },
     {
       "subject": "botany",
-      "chapter": "Morphology of Flowering Plants",
-      "percentage": 88.89
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "percentage": 80.56
     },
     {
       "subject": "botany",
@@ -37,13 +57,13 @@
       "percentage": 80.56
     },
     {
-      "subject": "zoology",
-      "chapter": "Breathing & Exchange of Gases",
+      "subject": "botany",
+      "chapter": "Biological Classification",
       "percentage": 88.89
     },
     {
-      "subject": "zoology",
-      "chapter": "Body Fluids & Circulation",
+      "subject": "botany",
+      "chapter": "Morphology of Flowering Plants",
       "percentage": 88.89
     },
     {
@@ -55,19 +75,19 @@
       "subject": "zoology",
       "chapter": "Biomolecules",
       "percentage": 88.89
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Breathing & Exchange of Gases",
+      "percentage": 88.89
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Body Fluids & Circulation",
+      "percentage": 88.89
     }
   ],
   "average": [
-    {
-      "subject": "physics",
-      "chapter": "Laws of Motion",
-      "percentage": 73.33
-    },
-    {
-      "subject": "physics",
-      "chapter": "Work, Energy and Power",
-      "percentage": 73.33
-    },
     {
       "subject": "physics",
       "chapter": "Units & Measurements",
@@ -84,6 +104,16 @@
       "percentage": 71.11
     },
     {
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "percentage": 73.33
+    },
+    {
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "percentage": 73.33
+    },
+    {
       "subject": "chemistry",
       "chapter": "Some Basic Concepts of Chemistry",
       "percentage": 70.0
@@ -94,5 +124,26 @@
       "percentage": 70.0
     }
   ],
-  "weak": []
+  "weak": [
+    {
+      "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "percentage": 48.89
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "percentage": 48.89
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Animal Kingdom-II: Chordates",
+      "percentage": 31.11
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+      "percentage": 31.11
+    }
+  ]
 }

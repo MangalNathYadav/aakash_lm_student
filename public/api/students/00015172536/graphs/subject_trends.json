@@ -1,0 +1,218 @@
+{
+  "graphs": [
+    {
+      "graph_id": "all_tests_subject_trend",
+      "title": "Overall Subject Performance (All Tests)",
+      "x_axis": {
+        "label": "Test Date",
+        "values": [
+          "2025-08-20",
+          "2025-08-27",
+          "2025-10-01",
+          "2025-11-05",
+          "2025-11-12",
+          "2025-11-26",
+          "2025-11-30",
+          "2025-12-28",
+          "2025-12-31"
+        ]
+      },
+      "datasets": [
+        {
+          "subject": "physics",
+          "data": [
+            41,
+            41,
+            23,
+            35,
+            43,
+            23,
+            19,
+            13,
+            37
+          ]
+        },
+        {
+          "subject": "chemistry",
+          "data": [
+            58,
+            80,
+            73,
+            56,
+            17,
+            76,
+            39,
+            40,
+            15
+          ]
+        },
+        {
+          "subject": "botany",
+          "data": [
+            86,
+            150,
+            117,
+            113,
+            90,
+            96,
+            34,
+            95,
+            115
+          ]
+        },
+        {
+          "subject": "zoology",
+          "data": [
+            142,
+            171,
+            143,
+            135,
+            132,
+            114,
+            54,
+            119,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": "aiats_subject_trend",
+      "title": "AIATS Subject Performance",
+      "x_axis": {
+        "label": "Test Date",
+        "values": [
+          "2025-11-30",
+          "2025-12-31"
+        ]
+      },
+      "datasets": [
+        {
+          "subject": "physics",
+          "data": [
+            19,
+            37
+          ]
+        },
+        {
+          "subject": "chemistry",
+          "data": [
+            39,
+            15
+          ]
+        },
+        {
+          "subject": "botany",
+          "data": [
+            34,
+            115
+          ]
+        },
+        {
+          "subject": "zoology",
+          "data": [
+            54,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": "ft_subject_trend",
+      "title": "Fortnightly Test (FT) Subject Performance",
+      "x_axis": {
+        "label": "Test Date",
+        "values": [
+          "2025-08-20",
+          "2025-10-01",
+          "2025-11-05",
+          "2025-11-26",
+          "2025-12-28"
+        ]
+      },
+      "datasets": [
+        {
+          "subject": "physics",
+          "data": [
+            41,
+            23,
+            35,
+            23,
+            13
+          ]
+        },
+        {
+          "subject": "chemistry",
+          "data": [
+            58,
+            73,
+            56,
+            76,
+            40
+          ]
+        },
+        {
+          "subject": "botany",
+          "data": [
+            86,
+            117,
+            113,
+            96,
+            95
+          ]
+        },
+        {
+          "subject": "zoology",
+          "data": [
+            142,
+            143,
+            135,
+            114,
+            119
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": "nbts_subject_trend",
+      "title": "NCERT Booster Test (NBTS) Subject Performance",
+      "x_axis": {
+        "label": "Test Date",
+        "values": [
+          "2025-08-27",
+          "2025-11-12"
+        ]
+      },
+      "datasets": [
+        {
+          "subject": "physics",
+          "data": [
+            41,
+            43
+          ]
+        },
+        {
+          "subject": "chemistry",
+          "data": [
+            80,
+            17
+          ]
+        },
+        {
+          "subject": "botany",
+          "data": [
+            150,
+            90
+          ]
+        },
+        {
+          "subject": "zoology",
+          "data": [
+            171,
+            132
+          ]
+        }
+      ]
+    }
+  ]
+}

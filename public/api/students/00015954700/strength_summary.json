@@ -1,8 +1,39 @@
 {
   "psid": "00015954700",
   "strong": [],
-  "average": [],
+  "average": [
+    {
+      "subject": "zoology",
+      "chapter": "Animal Kingdom-II: Chordates",
+      "percentage": 51.11
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+      "percentage": 51.11
+    }
+  ],
   "weak": [
+    {
+      "subject": "physics",
+      "chapter": "Moving Charges and Magnetism",
+      "percentage": 7.22
+    },
+    {
+      "subject": "physics",
+      "chapter": "Magnetism and Matter",
+      "percentage": 7.22
+    },
+    {
+      "subject": "physics",
+      "chapter": "Electromagnetic Induction",
+      "percentage": 7.22
+    },
+    {
+      "subject": "physics",
+      "chapter": "Alternating Current",
+      "percentage": 7.22
+    },
     {
       "subject": "physics",
       "chapter": "Units & Measurements",
@@ -20,6 +51,16 @@
     },
     {
       "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "percentage": 20.0
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "percentage": 20.0
+    },
+    {
+      "subject": "chemistry",
       "chapter": "Some Basic Concepts of Chemistry",
       "percentage": 21.11
     },
@@ -27,6 +68,16 @@
       "subject": "chemistry",
       "chapter": "Structure of Atom",
       "percentage": 21.11
+    },
+    {
+      "subject": "botany",
+      "chapter": "Plant Growth and Development",
+      "percentage": 7.22
+    },
+    {
+      "subject": "botany",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "percentage": 7.22
     },
     {
       "subject": "botany",

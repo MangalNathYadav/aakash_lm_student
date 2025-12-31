@@ -1,60 +1,125 @@
 {
   "psid": "00013447514",
   "name": "Unknown",
+  "batch": "DLP",
   "meta": {
     "tests_taken": 1,
-    "first_test_date": "02-11-2025",
-    "latest_test_date": "02-11-2025"
+    "latest_test_id": "AIATS1",
+    "latest_test_order_idx": 7
   },
   "overall_performance": {
     "average_total_score": 533,
     "best_score": 533,
     "latest_score": 533,
-    "consistency_index": 0.0,
-    "trend": "insufficient_data"
+    "consistency_index": 213.2,
+    "trend": "stable"
   },
   "subjects": {
     "physics": {
       "average_percentage": 58,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [
         "Units & Measurements",
         "Motion in a Straight Line",
         "Motion in a Plane"
       ],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Units & Measurements",
+          "rating": 5.8,
+          "percentage": 58,
+          "status": "Average"
+        },
+        {
+          "name": "Motion in a Straight Line",
+          "rating": 5.8,
+          "percentage": 58,
+          "status": "Average"
+        },
+        {
+          "name": "Motion in a Plane",
+          "rating": 5.8,
+          "percentage": 58,
+          "status": "Average"
+        }
+      ]
     },
     "chemistry": {
       "average_percentage": 75,
-      "trend": "stable",
-      "strong_chapters": [
+      "strong_chapters": [],
+      "average_chapters": [
         "Some Basic Concepts of Chemistry",
         "Structure of Atom"
       ],
-      "average_chapters": [],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Some Basic Concepts of Chemistry",
+          "rating": 7.5,
+          "percentage": 75,
+          "status": "Average"
+        },
+        {
+          "name": "Structure of Atom",
+          "rating": 7.5,
+          "percentage": 75,
+          "status": "Average"
+        }
+      ]
     },
     "botany": {
       "average_percentage": 77,
-      "trend": "stable",
-      "strong_chapters": [
+      "strong_chapters": [],
+      "average_chapters": [
         "Cell: The Unit of Life",
         "Cell Cycle and Cell Division",
         "The Living World"
       ],
-      "average_chapters": [],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Cell: The Unit of Life",
+          "rating": 7.7,
+          "percentage": 77,
+          "status": "Average"
+        },
+        {
+          "name": "Cell Cycle and Cell Division",
+          "rating": 7.7,
+          "percentage": 77,
+          "status": "Average"
+        },
+        {
+          "name": "The Living World",
+          "rating": 7.7,
+          "percentage": 77,
+          "status": "Average"
+        }
+      ]
     },
     "zoology": {
       "average_percentage": 86,
-      "trend": "stable",
       "strong_chapters": [
         "Structural Organisation in Animals- Animal Tissues",
         "Biomolecules"
       ],
       "average_chapters": [],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Structural Organisation in Animals- Animal Tissues",
+          "rating": 8.6,
+          "percentage": 86,
+          "status": "Mastered"
+        },
+        {
+          "name": "Biomolecules",
+          "rating": 8.6,
+          "percentage": 86,
+          "status": "Mastered"
+        }
+      ]
     }
   },
   "focus_insights": {
@@ -62,5 +127,22 @@
     "most_improved_chapters": [],
     "chapters_needing_attention": []
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "AIATS1",
+      "norm_tid": "AIATS1",
+      "syl_date": "2025-11-02T00:00:00",
+      "order_idx": 7,
+      "marks": {
+        "physics": 105,
+        "chemistry": 135,
+        "botany": 139,
+        "zoology": 154,
+        "total": 533
+      },
+      "center_rank": 0,
+      "air_rank": 0,
+      "percentile": 74.03
+    }
+  ]
 }

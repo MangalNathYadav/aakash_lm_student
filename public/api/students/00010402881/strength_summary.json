@@ -3,18 +3,13 @@
   "strong": [
     {
       "subject": "physics",
-      "chapter": "Laws of Motion",
-      "percentage": 81.94
-    },
-    {
-      "subject": "physics",
-      "chapter": "Work, Energy and Power",
-      "percentage": 76.67
-    },
-    {
-      "subject": "physics",
       "chapter": "Motion in a Plane",
       "percentage": 81.0
+    },
+    {
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "percentage": 81.94
     },
     {
       "subject": "physics",
@@ -40,6 +35,11 @@
       "subject": "physics",
       "chapter": "Mechanical Properties of Fluids",
       "percentage": 86.11
+    },
+    {
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "percentage": 76.67
     },
     {
       "subject": "chemistry",
@@ -68,6 +68,16 @@
     },
     {
       "subject": "botany",
+      "chapter": "Plant Growth and Development",
+      "percentage": 80.56
+    },
+    {
+      "subject": "botany",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "percentage": 80.56
+    },
+    {
+      "subject": "botany",
       "chapter": "The Living World",
       "percentage": 83.89
     },
@@ -83,13 +93,13 @@
     },
     {
       "subject": "zoology",
-      "chapter": "Breathing & Exchange of Gases",
-      "percentage": 77.78
+      "chapter": "Animal Kingdom-II: Chordates",
+      "percentage": 75.0
     },
     {
       "subject": "zoology",
-      "chapter": "Body Fluids & Circulation",
-      "percentage": 77.78
+      "chapter": "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+      "percentage": 75.0
     },
     {
       "subject": "zoology",
@@ -115,6 +125,16 @@
       "subject": "zoology",
       "chapter": "Breathing & Exchange of Gases-I: (upto mechanism of breathing)",
       "percentage": 86.11
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Breathing & Exchange of Gases",
+      "percentage": 77.78
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Body Fluids & Circulation",
+      "percentage": 77.78
     }
   ],
   "average": [
@@ -127,16 +147,6 @@
       "subject": "physics",
       "chapter": "Motion in a Straight Line",
       "percentage": 68.67
-    },
-    {
-      "subject": "chemistry",
-      "chapter": "Classification of Elements and periodicity in properties",
-      "percentage": 64.44
-    },
-    {
-      "subject": "chemistry",
-      "chapter": "chemical Bonding and molecular structure",
-      "percentage": 64.44
     },
     {
       "subject": "chemistry",
@@ -154,14 +164,14 @@
       "percentage": 69.44
     },
     {
-      "subject": "botany",
-      "chapter": "Biological Classification",
-      "percentage": 74.07
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and periodicity in properties",
+      "percentage": 64.44
     },
     {
-      "subject": "botany",
-      "chapter": "Morphology of Flowering Plants",
-      "percentage": 71.11
+      "subject": "chemistry",
+      "chapter": "chemical Bonding and molecular structure",
+      "percentage": 64.44
     },
     {
       "subject": "botany",
@@ -177,6 +187,16 @@
       "subject": "botany",
       "chapter": "Cell : The Unit of Life",
       "percentage": 70.0
+    },
+    {
+      "subject": "botany",
+      "chapter": "Biological Classification",
+      "percentage": 74.07
+    },
+    {
+      "subject": "botany",
+      "chapter": "Morphology of Flowering Plants",
+      "percentage": 71.11
     },
     {
       "subject": "zoology",
@@ -197,6 +217,26 @@
   "weak": [
     {
       "subject": "physics",
+      "chapter": "Moving Charges and Magnetism",
+      "percentage": 37.78
+    },
+    {
+      "subject": "physics",
+      "chapter": "Magnetism and Matter",
+      "percentage": 37.78
+    },
+    {
+      "subject": "physics",
+      "chapter": "Electromagnetic Induction",
+      "percentage": 37.78
+    },
+    {
+      "subject": "physics",
+      "chapter": "Alternating Current",
+      "percentage": 37.78
+    },
+    {
+      "subject": "physics",
       "chapter": "Oscillations",
       "percentage": 47.22
     },
@@ -209,6 +249,16 @@
       "subject": "physics",
       "chapter": "Electric Charges & Fields",
       "percentage": 47.22
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "percentage": 34.44
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "percentage": 34.44
     }
   ]
 }

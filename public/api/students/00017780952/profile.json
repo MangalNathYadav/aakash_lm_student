@@ -1,57 +1,110 @@
 {
   "psid": "00017780952",
   "name": "Unknown",
+  "batch": "DLP",
   "meta": {
     "tests_taken": 1,
-    "first_test_date": "30-11-2025",
-    "latest_test_date": "30-11-2025"
+    "latest_test_id": "AIATS2",
+    "latest_test_order_idx": 11
   },
   "overall_performance": {
     "average_total_score": 108,
     "best_score": 108,
     "latest_score": 108,
-    "consistency_index": 0.0,
-    "trend": "insufficient_data"
+    "consistency_index": 43.2,
+    "trend": "stable"
   },
   "subjects": {
     "physics": {
       "average_percentage": 0,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Laws of Motion",
         "Work, Energy and Power"
+      ],
+      "chapters": [
+        {
+          "name": "Laws of Motion",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Work, Energy and Power",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        }
       ]
     },
     "chemistry": {
       "average_percentage": 22,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Classification of Elements and periodicity in properties",
         "chemical Bonding and molecular structure"
+      ],
+      "chapters": [
+        {
+          "name": "Classification of Elements and periodicity in properties",
+          "rating": 2.2,
+          "percentage": 22,
+          "status": "Weak"
+        },
+        {
+          "name": "chemical Bonding and molecular structure",
+          "rating": 2.2,
+          "percentage": 22,
+          "status": "Weak"
+        }
       ]
     },
     "botany": {
       "average_percentage": 16,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Biological Classification",
         "Morphology of Flowering Plants"
+      ],
+      "chapters": [
+        {
+          "name": "Biological Classification",
+          "rating": 1.6,
+          "percentage": 16,
+          "status": "Weak"
+        },
+        {
+          "name": "Morphology of Flowering Plants",
+          "rating": 1.6,
+          "percentage": 16,
+          "status": "Weak"
+        }
       ]
     },
     "zoology": {
       "average_percentage": 22,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Breathing & Exchange of Gases",
         "Body Fluids & Circulation"
+      ],
+      "chapters": [
+        {
+          "name": "Breathing & Exchange of Gases",
+          "rating": 2.2,
+          "percentage": 22,
+          "status": "Weak"
+        },
+        {
+          "name": "Body Fluids & Circulation",
+          "rating": 2.2,
+          "percentage": 22,
+          "status": "Weak"
+        }
       ]
     }
   },
@@ -59,21 +112,38 @@
     "top_weak_chapters": [
       "Laws of Motion",
       "Work, Energy and Power",
-      "Biological Classification",
-      "Morphology of Flowering Plants",
-      "Breathing & Exchange of Gases"
+      "Classification of Elements and periodicity in properties",
+      "chemical Bonding and molecular structure",
+      "Biological Classification"
     ],
     "most_improved_chapters": [],
     "chapters_needing_attention": [
       "Laws of Motion",
       "Work, Energy and Power",
+      "Classification of Elements and periodicity in properties",
+      "chemical Bonding and molecular structure",
       "Biological Classification",
       "Morphology of Flowering Plants",
       "Breathing & Exchange of Gases",
-      "Body Fluids & Circulation",
-      "Classification of Elements and periodicity in properties",
-      "chemical Bonding and molecular structure"
+      "Body Fluids & Circulation"
     ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "AIATS2",
+      "norm_tid": "AIATS2",
+      "syl_date": "2025-11-30T00:00:00",
+      "order_idx": 11,
+      "marks": {
+        "physics": 0,
+        "chemistry": 40,
+        "botany": 29,
+        "zoology": 39,
+        "total": 108
+      },
+      "center_rank": 982,
+      "air_rank": 0,
+      "percentile": 65592.0
+    }
+  ]
 }

@@ -1,77 +1,141 @@
 {
   "psid": "00015513009",
   "name": "Unknown",
+  "batch": "RM03",
   "meta": {
     "tests_taken": 1,
-    "first_test_date": "10-09-2025",
-    "latest_test_date": "10-09-2025"
+    "latest_test_id": "FT4",
+    "latest_test_order_idx": 4
   },
   "overall_performance": {
     "average_total_score": 43,
     "best_score": 43,
     "latest_score": 43,
-    "consistency_index": 0.0,
-    "trend": "insufficient_data"
+    "consistency_index": 17.2,
+    "trend": "stable"
   },
   "subjects": {
     "physics": {
       "average_percentage": 13,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Gravitation",
         "Mechanical Properties of Solids",
         "Mechanical Properties of Fluids"
+      ],
+      "chapters": [
+        {
+          "name": "Gravitation",
+          "rating": 1.3,
+          "percentage": 13,
+          "status": "Weak"
+        },
+        {
+          "name": "Mechanical Properties of Solids",
+          "rating": 1.3,
+          "percentage": 13,
+          "status": "Weak"
+        },
+        {
+          "name": "Mechanical Properties of Fluids",
+          "rating": 1.3,
+          "percentage": 13,
+          "status": "Weak"
+        }
       ]
     },
     "chemistry": {
-      "average_percentage": 3,
-      "trend": "insufficient_data",
+      "average_percentage": -3,
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Thermodynamics"
+      ],
+      "chapters": [
+        {
+          "name": "Thermodynamics",
+          "rating": -0.3,
+          "percentage": -3,
+          "status": "Weak"
+        }
       ]
     },
     "botany": {
       "average_percentage": 4,
-      "trend": "insufficient_data",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Morphology of Flowering Plants"
+      ],
+      "chapters": [
+        {
+          "name": "Morphology of Flowering Plants",
+          "rating": 0.4,
+          "percentage": 4,
+          "status": "Weak"
+        }
       ]
     },
     "zoology": {
       "average_percentage": 9,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Excretory Products & their Elimination",
         "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+      ],
+      "chapters": [
+        {
+          "name": "Excretory Products & their Elimination",
+          "rating": 0.9,
+          "percentage": 9,
+          "status": "Weak"
+        },
+        {
+          "name": "Locomotion & Movement-I: (Upto properties of muscle contraction)",
+          "rating": 0.9,
+          "percentage": 9,
+          "status": "Weak"
+        }
       ]
     }
   },
   "focus_insights": {
     "top_weak_chapters": [
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
       "Thermodynamics",
-      "Morphology of Flowering Plants",
-      "Excretory Products & their Elimination",
-      "Locomotion & Movement-I: (Upto properties of muscle contraction)",
-      "Gravitation"
+      "Morphology of Flowering Plants"
     ],
     "most_improved_chapters": [],
     "chapters_needing_attention": [
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
       "Thermodynamics",
       "Morphology of Flowering Plants",
       "Excretory Products & their Elimination",
-      "Locomotion & Movement-I: (Upto properties of muscle contraction)",
-      "Gravitation",
-      "Mechanical Properties of Solids",
-      "Mechanical Properties of Fluids"
+      "Locomotion & Movement-I: (Upto properties of muscle contraction)"
     ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "FT4",
+      "norm_tid": "FT4",
+      "syl_date": "1900-01-01T00:00:00",
+      "order_idx": 4,
+      "marks": {
+        "physics": 24,
+        "chemistry": -6,
+        "botany": 8,
+        "zoology": 17,
+        "total": 43
+      },
+      "center_rank": 292,
+      "air_rank": 0,
+      "percentile": 292.0
+    }
+  ]
 }

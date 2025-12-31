@@ -4,18 +4,8 @@
   "average": [
     {
       "subject": "botany",
-      "chapter": "Biological Classification",
-      "percentage": 73.33
-    },
-    {
-      "subject": "botany",
-      "chapter": "Morphology of Flowering Plants",
-      "percentage": 54.95
-    },
-    {
-      "subject": "botany",
       "chapter": "Plant Kingdom",
-      "percentage": 61.39
+      "percentage": 61.67
     },
     {
       "subject": "botany",
@@ -28,6 +18,26 @@
       "percentage": 65.0
     },
     {
+      "subject": "botany",
+      "chapter": "Biological Classification",
+      "percentage": 73.33
+    },
+    {
+      "subject": "botany",
+      "chapter": "Morphology of Flowering Plants",
+      "percentage": 53.7
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Chemical Coordination & Integration",
+      "percentage": 54.44
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Animal Kingdom-I: General accounts & Non-chordates",
+      "percentage": 54.44
+    },
+    {
       "subject": "zoology",
       "chapter": "Locomotion & Movement-II: (Upto muscle and bone disorders)",
       "percentage": 52.78
@@ -35,30 +45,10 @@
     {
       "subject": "zoology",
       "chapter": "Neural Control & Coordination",
-      "percentage": 51.11
-    },
-    {
-      "subject": "zoology",
-      "chapter": "Chemical Coordination & Integration",
-      "percentage": 53.11
-    },
-    {
-      "subject": "zoology",
-      "chapter": "Animal Kingdom-I: General accounts & Non-chordates",
-      "percentage": 54.44
+      "percentage": 52.78
     }
   ],
   "weak": [
-    {
-      "subject": "physics",
-      "chapter": "Laws of Motion",
-      "percentage": 12.22
-    },
-    {
-      "subject": "physics",
-      "chapter": "Work, Energy and Power",
-      "percentage": 12.22
-    },
     {
       "subject": "physics",
       "chapter": "Units & Measurements",
@@ -76,33 +66,18 @@
     },
     {
       "subject": "physics",
-      "chapter": "Thermal Properties of Matter",
-      "percentage": 19.17
-    },
-    {
-      "subject": "physics",
-      "chapter": "Thermodynamics",
-      "percentage": 19.17
-    },
-    {
-      "subject": "physics",
-      "chapter": "Kinetic Theory",
-      "percentage": 19.17
-    },
-    {
-      "subject": "physics",
       "chapter": "Oscillations",
-      "percentage": 12.08
+      "percentage": 13.33
     },
     {
       "subject": "physics",
       "chapter": "Waves",
-      "percentage": 12.08
+      "percentage": 13.33
     },
     {
       "subject": "physics",
       "chapter": "Electric Charges & Fields",
-      "percentage": 12.08
+      "percentage": 13.33
     },
     {
       "subject": "physics",
@@ -127,27 +102,42 @@
     {
       "subject": "physics",
       "chapter": "Gravitation",
-      "percentage": 7.08
+      "percentage": 6.67
     },
     {
       "subject": "physics",
       "chapter": "Mechanical Properties of Solids",
-      "percentage": 7.08
+      "percentage": 6.67
     },
     {
       "subject": "physics",
       "chapter": "Mechanical Properties of Fluids",
-      "percentage": 7.08
+      "percentage": 6.67
     },
     {
-      "subject": "chemistry",
-      "chapter": "Classification of Elements and periodicity in properties",
-      "percentage": 29.44
+      "subject": "physics",
+      "chapter": "Thermal Properties of Matter",
+      "percentage": 22.78
     },
     {
-      "subject": "chemistry",
-      "chapter": "chemical Bonding and molecular structure",
-      "percentage": 29.44
+      "subject": "physics",
+      "chapter": "Thermodynamics",
+      "percentage": 22.78
+    },
+    {
+      "subject": "physics",
+      "chapter": "Kinetic Theory",
+      "percentage": 22.78
+    },
+    {
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "percentage": 12.22
+    },
+    {
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "percentage": 12.22
     },
     {
       "subject": "chemistry",
@@ -161,23 +151,18 @@
     },
     {
       "subject": "chemistry",
-      "chapter": "Equilibrium",
-      "percentage": 38.61
-    },
-    {
-      "subject": "chemistry",
       "chapter": "Redox Reactions",
-      "percentage": 33.4
+      "percentage": 37.78
     },
     {
       "subject": "chemistry",
       "chapter": "Electrochemistry",
-      "percentage": 33.4
+      "percentage": 37.78
     },
     {
       "subject": "chemistry",
       "chapter": "Solutions",
-      "percentage": 33.4
+      "percentage": 37.78
     },
     {
       "subject": "chemistry",
@@ -197,7 +182,22 @@
     {
       "subject": "chemistry",
       "chapter": "Thermodynamics",
-      "percentage": 33.52
+      "percentage": 35.0
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Equilibrium",
+      "percentage": 41.11
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and periodicity in properties",
+      "percentage": 29.44
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "chemical Bonding and molecular structure",
+      "percentage": 29.44
     },
     {
       "subject": "botany",
@@ -217,17 +217,7 @@
     {
       "subject": "botany",
       "chapter": "Anatomy of Flowering Plants",
-      "percentage": 44.72
-    },
-    {
-      "subject": "zoology",
-      "chapter": "Breathing & Exchange of Gases",
-      "percentage": 47.78
-    },
-    {
-      "subject": "zoology",
-      "chapter": "Body Fluids & Circulation",
-      "percentage": 47.78
+      "percentage": 39.44
     },
     {
       "subject": "zoology",
@@ -247,7 +237,7 @@
     {
       "subject": "zoology",
       "chapter": "Excretory Products & their Elimination",
-      "percentage": 42.96
+      "percentage": 40.56
     },
     {
       "subject": "zoology",
@@ -256,7 +246,12 @@
     },
     {
       "subject": "zoology",
-      "chapter": "Locomotion & Movement",
+      "chapter": "Breathing & Exchange of Gases",
+      "percentage": 47.78
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Body Fluids & Circulation",
       "percentage": 47.78
     }
   ]

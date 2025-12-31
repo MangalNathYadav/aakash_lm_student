@@ -4,11 +4,6 @@
   "average": [
     {
       "subject": "botany",
-      "chapter": "Biological Classification",
-      "percentage": 56.11
-    },
-    {
-      "subject": "botany",
       "chapter": "The Living World",
       "percentage": 52.22
     },
@@ -21,6 +16,11 @@
       "subject": "botany",
       "chapter": "Cell Cycle & Cell Division",
       "percentage": 67.78
+    },
+    {
+      "subject": "botany",
+      "chapter": "Biological Classification",
+      "percentage": 56.11
     },
     {
       "subject": "zoology",
@@ -46,16 +46,6 @@
   "weak": [
     {
       "subject": "physics",
-      "chapter": "Laws of Motion",
-      "percentage": 24.17
-    },
-    {
-      "subject": "physics",
-      "chapter": "Work, Energy and Power",
-      "percentage": 30.56
-    },
-    {
-      "subject": "physics",
       "chapter": "Units & Measurements",
       "percentage": 23.78
     },
@@ -68,6 +58,11 @@
       "subject": "physics",
       "chapter": "Motion in a Plane",
       "percentage": 15.78
+    },
+    {
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "percentage": 24.17
     },
     {
       "subject": "physics",
@@ -85,14 +80,9 @@
       "percentage": 40.0
     },
     {
-      "subject": "chemistry",
-      "chapter": "Classification of Elements and periodicity in properties",
-      "percentage": 42.78
-    },
-    {
-      "subject": "chemistry",
-      "chapter": "chemical Bonding and molecular structure",
-      "percentage": 42.78
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "percentage": 30.56
     },
     {
       "subject": "chemistry",
@@ -115,9 +105,14 @@
       "percentage": 38.89
     },
     {
-      "subject": "botany",
-      "chapter": "Morphology of Flowering Plants",
-      "percentage": 48.33
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and periodicity in properties",
+      "percentage": 42.78
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "chemical Bonding and molecular structure",
+      "percentage": 42.78
     },
     {
       "subject": "botany",
@@ -130,14 +125,9 @@
       "percentage": 28.89
     },
     {
-      "subject": "zoology",
-      "chapter": "Breathing & Exchange of Gases",
-      "percentage": 35.56
-    },
-    {
-      "subject": "zoology",
-      "chapter": "Body Fluids & Circulation",
-      "percentage": 35.56
+      "subject": "botany",
+      "chapter": "Morphology of Flowering Plants",
+      "percentage": 48.33
     },
     {
       "subject": "zoology",
@@ -148,6 +138,16 @@
       "subject": "zoology",
       "chapter": "Biomolecules",
       "percentage": 38.33
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Breathing & Exchange of Gases",
+      "percentage": 35.56
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Body Fluids & Circulation",
+      "percentage": 35.56
     }
   ]
 }

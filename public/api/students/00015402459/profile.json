@@ -1,22 +1,22 @@
 {
   "psid": "00015402459",
   "name": "Unknown",
+  "batch": "RM02",
   "meta": {
     "tests_taken": 3,
-    "first_test_date": "02-07-2025",
-    "latest_test_date": "23-07-2025"
+    "latest_test_id": "AIATS1",
+    "latest_test_order_idx": 7
   },
   "overall_performance": {
     "average_total_score": 347,
     "best_score": 392,
-    "latest_score": 305,
-    "consistency_index": 0.7893,
-    "trend": "declining"
+    "latest_score": 344,
+    "consistency_index": 161.11,
+    "trend": "improving"
   },
   "subjects": {
     "physics": {
       "average_percentage": 39,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
@@ -24,35 +24,110 @@
         "Motion in a Straight Line",
         "Motion in a Plane",
         "Laws of Motion"
+      ],
+      "chapters": [
+        {
+          "name": "Motion in a Plane",
+          "rating": 3.6,
+          "percentage": 36,
+          "status": "Weak"
+        },
+        {
+          "name": "Laws of Motion",
+          "rating": 3.7,
+          "percentage": 37,
+          "status": "Weak"
+        },
+        {
+          "name": "Units & Measurements",
+          "rating": 4.2,
+          "percentage": 42,
+          "status": "Weak"
+        },
+        {
+          "name": "Motion in a Straight Line",
+          "rating": 4.2,
+          "percentage": 42,
+          "status": "Weak"
+        }
       ]
     },
     "chemistry": {
       "average_percentage": 32,
-      "trend": "declining",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Some Basic Concepts of Chemistry",
         "Structure of Atom",
         "Classification of Elements and Periodicity in Properties"
+      ],
+      "chapters": [
+        {
+          "name": "Classification of Elements and Periodicity in Properties",
+          "rating": 2.8,
+          "percentage": 28,
+          "status": "Weak"
+        },
+        {
+          "name": "Structure of Atom",
+          "rating": 3.1,
+          "percentage": 31,
+          "status": "Weak"
+        },
+        {
+          "name": "Some Basic Concepts of Chemistry",
+          "rating": 3.8,
+          "percentage": 38,
+          "status": "Weak"
+        }
       ]
     },
     "botany": {
       "average_percentage": 60,
-      "trend": "improving",
       "strong_chapters": [],
       "average_chapters": [
-        "Cell: The Unit of Life",
-        "Cell Cycle and Cell Division",
-        "The Living World",
         "Cell : The Unit of Life",
-        "Cell Cycle & Cell Division"
+        "Cell Cycle & Cell Division",
+        "The Living World",
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division"
       ],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Cell: The Unit of Life",
+          "rating": 5.1,
+          "percentage": 51,
+          "status": "Average"
+        },
+        {
+          "name": "Cell Cycle and Cell Division",
+          "rating": 5.1,
+          "percentage": 51,
+          "status": "Average"
+        },
+        {
+          "name": "Cell : The Unit of Life",
+          "rating": 5.9,
+          "percentage": 59,
+          "status": "Average"
+        },
+        {
+          "name": "The Living World",
+          "rating": 6.4,
+          "percentage": 64,
+          "status": "Average"
+        },
+        {
+          "name": "Cell Cycle & Cell Division",
+          "rating": 7.3,
+          "percentage": 73,
+          "status": "Average"
+        }
+      ]
     },
     "zoology": {
       "average_percentage": 51,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [
         "Structural Organisation in Animals- Animal Tissues",
@@ -61,34 +136,104 @@
       "weak_chapters": [
         "Biomolecules-I: (Upto polysaccharide)",
         "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)"
+      ],
+      "chapters": [
+        {
+          "name": "Biomolecules-I: (Upto polysaccharide)",
+          "rating": 3.1,
+          "percentage": 31,
+          "status": "Weak"
+        },
+        {
+          "name": "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+          "rating": 3.1,
+          "percentage": 31,
+          "status": "Weak"
+        },
+        {
+          "name": "Biomolecules",
+          "rating": 7.1,
+          "percentage": 71,
+          "status": "Average"
+        },
+        {
+          "name": "Structural Organisation in Animals- Animal Tissues",
+          "rating": 7.2,
+          "percentage": 72,
+          "status": "Average"
+        }
       ]
     }
   },
   "focus_insights": {
     "top_weak_chapters": [
-      "Classification of Elements and Periodicity in Properties",
-      "Structure of Atom",
-      "Biomolecules-I: (Upto polysaccharide)",
-      "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
-      "Motion in a Plane"
-    ],
-    "most_improved_chapters": [
       "Units & Measurements",
       "Motion in a Straight Line",
-      "Some Basic Concepts of Chemistry",
-      "The Living World"
+      "Motion in a Plane",
+      "Laws of Motion",
+      "Some Basic Concepts of Chemistry"
     ],
+    "most_improved_chapters": [],
     "chapters_needing_attention": [
-      "Classification of Elements and Periodicity in Properties",
-      "Structure of Atom",
-      "Biomolecules-I: (Upto polysaccharide)",
-      "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+      "Units & Measurements",
+      "Motion in a Straight Line",
       "Motion in a Plane",
       "Laws of Motion",
       "Some Basic Concepts of Chemistry",
-      "Units & Measurements",
-      "Motion in a Straight Line"
+      "Structure of Atom",
+      "Classification of Elements and Periodicity in Properties",
+      "Biomolecules-I: (Upto polysaccharide)",
+      "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)"
     ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "FT1",
+      "norm_tid": "FT1",
+      "syl_date": "2025-07-02T00:00:00",
+      "order_idx": 0,
+      "marks": {
+        "physics": 83,
+        "chemistry": 72,
+        "botany": 106,
+        "zoology": 131,
+        "total": 392
+      },
+      "center_rank": 140,
+      "air_rank": 0,
+      "percentile": 140.0
+    },
+    {
+      "test_id": "FT2",
+      "norm_tid": "FT2",
+      "syl_date": "2025-07-23T00:00:00",
+      "order_idx": 1,
+      "marks": {
+        "physics": 66,
+        "chemistry": 51,
+        "botany": 132,
+        "zoology": 56,
+        "total": 305
+      },
+      "center_rank": 186,
+      "air_rank": 0,
+      "percentile": 186.0
+    },
+    {
+      "test_id": "AIATS1",
+      "norm_tid": "AIATS1",
+      "syl_date": "2025-11-02T00:00:00",
+      "order_idx": 7,
+      "marks": {
+        "physics": 64,
+        "chemistry": 60,
+        "botany": 92,
+        "zoology": 128,
+        "total": 344
+      },
+      "center_rank": 0,
+      "air_rank": 0,
+      "percentile": 47.78
+    }
+  ]
 }

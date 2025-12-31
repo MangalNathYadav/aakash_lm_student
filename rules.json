@@ -1,0 +1,10 @@
+{
+    "rules": {
+        "users": {
+            "$psid": {
+                ".read": true,
+                ".write": true
+            }
+        }
+    }
+}

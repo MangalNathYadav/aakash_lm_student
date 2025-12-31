@@ -1,60 +1,125 @@
 {
   "psid": "00015493704",
   "name": "Unknown",
+  "batch": "RM08",
   "meta": {
     "tests_taken": 1,
-    "first_test_date": "02-11-2025",
-    "latest_test_date": "02-11-2025"
+    "latest_test_id": "AIATS1",
+    "latest_test_order_idx": 7
   },
   "overall_performance": {
     "average_total_score": 382,
     "best_score": 382,
     "latest_score": 382,
-    "consistency_index": 0.0,
-    "trend": "insufficient_data"
+    "consistency_index": 152.8,
+    "trend": "stable"
   },
   "subjects": {
     "physics": {
       "average_percentage": 64,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [
         "Units & Measurements",
         "Motion in a Straight Line",
         "Motion in a Plane"
       ],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Units & Measurements",
+          "rating": 6.4,
+          "percentage": 64,
+          "status": "Average"
+        },
+        {
+          "name": "Motion in a Straight Line",
+          "rating": 6.4,
+          "percentage": 64,
+          "status": "Average"
+        },
+        {
+          "name": "Motion in a Plane",
+          "rating": 6.4,
+          "percentage": 64,
+          "status": "Average"
+        }
+      ]
     },
     "chemistry": {
       "average_percentage": 60,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [
         "Some Basic Concepts of Chemistry",
         "Structure of Atom"
       ],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Some Basic Concepts of Chemistry",
+          "rating": 6.0,
+          "percentage": 60,
+          "status": "Average"
+        },
+        {
+          "name": "Structure of Atom",
+          "rating": 6.0,
+          "percentage": 60,
+          "status": "Average"
+        }
+      ]
     },
     "botany": {
       "average_percentage": 35,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Cell: The Unit of Life",
         "Cell Cycle and Cell Division",
         "The Living World"
+      ],
+      "chapters": [
+        {
+          "name": "Cell: The Unit of Life",
+          "rating": 3.5,
+          "percentage": 35,
+          "status": "Weak"
+        },
+        {
+          "name": "Cell Cycle and Cell Division",
+          "rating": 3.5,
+          "percentage": 35,
+          "status": "Weak"
+        },
+        {
+          "name": "The Living World",
+          "rating": 3.5,
+          "percentage": 35,
+          "status": "Weak"
+        }
       ]
     },
     "zoology": {
       "average_percentage": 53,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [
         "Structural Organisation in Animals- Animal Tissues",
         "Biomolecules"
       ],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Structural Organisation in Animals- Animal Tissues",
+          "rating": 5.3,
+          "percentage": 53,
+          "status": "Average"
+        },
+        {
+          "name": "Biomolecules",
+          "rating": 5.3,
+          "percentage": 53,
+          "status": "Average"
+        }
+      ]
     }
   },
   "focus_insights": {
@@ -70,5 +135,22 @@
       "The Living World"
     ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "AIATS1",
+      "norm_tid": "AIATS1",
+      "syl_date": "2025-11-02T00:00:00",
+      "order_idx": 7,
+      "marks": {
+        "physics": 116,
+        "chemistry": 108,
+        "botany": 63,
+        "zoology": 95,
+        "total": 382
+      },
+      "center_rank": 0,
+      "air_rank": 0,
+      "percentile": 53.06
+    }
+  ]
 }

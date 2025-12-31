@@ -1,95 +1,229 @@
 {
   "psid": "00015434745",
   "name": "Unknown",
+  "batch": "RM03",
   "meta": {
     "tests_taken": 2,
-    "first_test_date": "09-11-2025",
-    "latest_test_date": "30-11-2025"
+    "latest_test_id": "AIATS2",
+    "latest_test_order_idx": 11
   },
   "overall_performance": {
     "average_total_score": 58,
     "best_score": 87,
     "latest_score": 87,
-    "consistency_index": 1.2296,
+    "consistency_index": 15.96,
     "trend": "improving"
   },
   "subjects": {
     "physics": {
       "average_percentage": 0,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
-        "Laws of Motion",
-        "Work, Energy and Power",
         "Oscillations",
         "Waves",
-        "Electric Charges & Fields"
+        "Electric Charges & Fields",
+        "Laws of Motion",
+        "Work, Energy and Power"
+      ],
+      "chapters": [
+        {
+          "name": "Oscillations",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Waves",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Electric Charges & Fields",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Laws of Motion",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Work, Energy and Power",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        }
       ]
     },
     "chemistry": {
       "average_percentage": 1,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
-        "Classification of Elements and periodicity in properties",
-        "chemical Bonding and molecular structure",
         "Redox Reactions",
         "Electrochemistry",
-        "Solutions"
+        "Solutions",
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure"
+      ],
+      "chapters": [
+        {
+          "name": "Classification of Elements and periodicity in properties",
+          "rating": -0.1,
+          "percentage": -1,
+          "status": "Weak"
+        },
+        {
+          "name": "chemical Bonding and molecular structure",
+          "rating": -0.1,
+          "percentage": -1,
+          "status": "Weak"
+        },
+        {
+          "name": "Redox Reactions",
+          "rating": 0.2,
+          "percentage": 2,
+          "status": "Weak"
+        },
+        {
+          "name": "Electrochemistry",
+          "rating": 0.2,
+          "percentage": 2,
+          "status": "Weak"
+        },
+        {
+          "name": "Solutions",
+          "rating": 0.2,
+          "percentage": 2,
+          "status": "Weak"
+        }
       ]
     },
     "botany": {
       "average_percentage": 17,
-      "trend": "declining",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
+        "Plant Kingdom",
         "Biological Classification",
-        "Morphology of Flowering Plants",
-        "Plant Kingdom"
+        "Morphology of Flowering Plants"
+      ],
+      "chapters": [
+        {
+          "name": "Plant Kingdom",
+          "rating": 0.8,
+          "percentage": 8,
+          "status": "Weak"
+        },
+        {
+          "name": "Biological Classification",
+          "rating": 2.2,
+          "percentage": 22,
+          "status": "Weak"
+        },
+        {
+          "name": "Morphology of Flowering Plants",
+          "rating": 2.2,
+          "percentage": 22,
+          "status": "Weak"
+        }
       ]
     },
     "zoology": {
       "average_percentage": 20,
-      "trend": "declining",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
+        "Chemical Coordination & Integration",
         "Breathing & Exchange of Gases",
-        "Body Fluids & Circulation",
-        "Chemical Coordination & Integration"
+        "Body Fluids & Circulation"
+      ],
+      "chapters": [
+        {
+          "name": "Chemical Coordination & Integration",
+          "rating": 0.7,
+          "percentage": 7,
+          "status": "Weak"
+        },
+        {
+          "name": "Breathing & Exchange of Gases",
+          "rating": 2.7,
+          "percentage": 27,
+          "status": "Weak"
+        },
+        {
+          "name": "Body Fluids & Circulation",
+          "rating": 2.7,
+          "percentage": 27,
+          "status": "Weak"
+        }
       ]
     }
   },
   "focus_insights": {
     "top_weak_chapters": [
-      "Laws of Motion",
-      "Work, Energy and Power",
-      "Oscillations",
-      "Waves",
-      "Electric Charges & Fields"
-    ],
-    "most_improved_chapters": [],
-    "chapters_needing_attention": [
-      "Laws of Motion",
-      "Work, Energy and Power",
       "Oscillations",
       "Waves",
       "Electric Charges & Fields",
-      "Classification of Elements and periodicity in properties",
-      "chemical Bonding and molecular structure",
+      "Laws of Motion",
+      "Work, Energy and Power"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Laws of Motion",
+      "Work, Energy and Power",
       "Redox Reactions",
       "Electrochemistry",
       "Solutions",
-      "Chemical Coordination & Integration",
+      "Classification of Elements and periodicity in properties",
+      "chemical Bonding and molecular structure",
       "Plant Kingdom",
       "Biological Classification",
       "Morphology of Flowering Plants",
+      "Chemical Coordination & Integration",
       "Breathing & Exchange of Gases",
       "Body Fluids & Circulation"
     ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "FT6",
+      "norm_tid": "FT6",
+      "syl_date": "2025-11-05T00:00:00",
+      "order_idx": 8,
+      "marks": {
+        "physics": 0,
+        "chemistry": 3,
+        "botany": 15,
+        "zoology": 12,
+        "total": 30
+      },
+      "center_rank": 287,
+      "air_rank": 0,
+      "percentile": 4.27
+    },
+    {
+      "test_id": "AIATS2",
+      "norm_tid": "AIATS2",
+      "syl_date": "2025-11-30T00:00:00",
+      "order_idx": 11,
+      "marks": {
+        "physics": 0,
+        "chemistry": -1,
+        "botany": 39,
+        "zoology": 49,
+        "total": 87
+      },
+      "center_rank": 1017,
+      "air_rank": 0,
+      "percentile": 67434.0
+    }
+  ]
 }

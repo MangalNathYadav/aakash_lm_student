@@ -1,60 +1,125 @@
 {
   "psid": "00016357412",
   "name": "Unknown",
+  "batch": "RM09",
   "meta": {
     "tests_taken": 1,
-    "first_test_date": "02-11-2025",
-    "latest_test_date": "02-11-2025"
+    "latest_test_id": "AIATS1",
+    "latest_test_order_idx": 7
   },
   "overall_performance": {
     "average_total_score": 273,
     "best_score": 273,
     "latest_score": 273,
-    "consistency_index": 0.0,
-    "trend": "insufficient_data"
+    "consistency_index": 109.2,
+    "trend": "stable"
   },
   "subjects": {
     "physics": {
       "average_percentage": 13,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Units & Measurements",
         "Motion in a Straight Line",
         "Motion in a Plane"
+      ],
+      "chapters": [
+        {
+          "name": "Units & Measurements",
+          "rating": 1.3,
+          "percentage": 13,
+          "status": "Weak"
+        },
+        {
+          "name": "Motion in a Straight Line",
+          "rating": 1.3,
+          "percentage": 13,
+          "status": "Weak"
+        },
+        {
+          "name": "Motion in a Plane",
+          "rating": 1.3,
+          "percentage": 13,
+          "status": "Weak"
+        }
       ]
     },
     "chemistry": {
       "average_percentage": 48,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Some Basic Concepts of Chemistry",
         "Structure of Atom"
+      ],
+      "chapters": [
+        {
+          "name": "Some Basic Concepts of Chemistry",
+          "rating": 4.8,
+          "percentage": 48,
+          "status": "Weak"
+        },
+        {
+          "name": "Structure of Atom",
+          "rating": 4.8,
+          "percentage": 48,
+          "status": "Weak"
+        }
       ]
     },
     "botany": {
       "average_percentage": 39,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Cell: The Unit of Life",
         "Cell Cycle and Cell Division",
         "The Living World"
+      ],
+      "chapters": [
+        {
+          "name": "Cell: The Unit of Life",
+          "rating": 3.9,
+          "percentage": 39,
+          "status": "Weak"
+        },
+        {
+          "name": "Cell Cycle and Cell Division",
+          "rating": 3.9,
+          "percentage": 39,
+          "status": "Weak"
+        },
+        {
+          "name": "The Living World",
+          "rating": 3.9,
+          "percentage": 39,
+          "status": "Weak"
+        }
       ]
     },
     "zoology": {
       "average_percentage": 51,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [
         "Structural Organisation in Animals- Animal Tissues",
         "Biomolecules"
       ],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Structural Organisation in Animals- Animal Tissues",
+          "rating": 5.1,
+          "percentage": 51,
+          "status": "Average"
+        },
+        {
+          "name": "Biomolecules",
+          "rating": 5.1,
+          "percentage": 51,
+          "status": "Average"
+        }
+      ]
     }
   },
   "focus_insights": {
@@ -62,20 +127,37 @@
       "Units & Measurements",
       "Motion in a Straight Line",
       "Motion in a Plane",
-      "Cell: The Unit of Life",
-      "Cell Cycle and Cell Division"
+      "Some Basic Concepts of Chemistry",
+      "Structure of Atom"
     ],
     "most_improved_chapters": [],
     "chapters_needing_attention": [
       "Units & Measurements",
       "Motion in a Straight Line",
       "Motion in a Plane",
+      "Some Basic Concepts of Chemistry",
+      "Structure of Atom",
       "Cell: The Unit of Life",
       "Cell Cycle and Cell Division",
-      "The Living World",
-      "Some Basic Concepts of Chemistry",
-      "Structure of Atom"
+      "The Living World"
     ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "AIATS1",
+      "norm_tid": "AIATS1",
+      "syl_date": "2025-11-02T00:00:00",
+      "order_idx": 7,
+      "marks": {
+        "physics": 24,
+        "chemistry": 86,
+        "botany": 71,
+        "zoology": 92,
+        "total": 273
+      },
+      "center_rank": 0,
+      "air_rank": 0,
+      "percentile": 37.92
+    }
+  ]
 }

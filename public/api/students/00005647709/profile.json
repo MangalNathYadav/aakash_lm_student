@@ -1,28 +1,25 @@
 {
   "psid": "00005647709",
   "name": "Unknown",
+  "batch": "RM01",
   "meta": {
     "tests_taken": 3,
-    "first_test_date": "12-11-2025",
-    "latest_test_date": "31-12-2025"
+    "latest_test_id": "FT8",
+    "latest_test_order_idx": 12
   },
   "overall_performance": {
     "average_total_score": 100,
     "best_score": 164,
     "latest_score": 0,
-    "consistency_index": 0.1949,
+    "consistency_index": 29.83,
     "trend": "declining"
   },
   "subjects": {
     "physics": {
       "average_percentage": 0,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
-        "Laws of Motion",
-        "Work, Energy and Power",
-        "System of Particles and Rotational Motion",
         "Gravitation",
         "Mechanical Properties of Solids",
         "Mechanical Properties of Fluids",
@@ -31,70 +28,243 @@
         "Kinetic Theory",
         "Oscillations",
         "Waves",
-        "Electric Charges & Fields"
+        "Electric Charges & Fields",
+        "Laws of Motion",
+        "Work, Energy and Power",
+        "System of Particles and Rotational Motion"
+      ],
+      "chapters": [
+        {
+          "name": "Gravitation",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Mechanical Properties of Solids",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Mechanical Properties of Fluids",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Thermal Properties of Matter",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Thermodynamics",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Kinetic Theory",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Oscillations",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Waves",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Electric Charges & Fields",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Laws of Motion",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Work, Energy and Power",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "System of Particles and Rotational Motion",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        }
       ]
     },
     "chemistry": {
       "average_percentage": 0,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
-        "Classification of Elements and periodicity in properties",
-        "chemical Bonding and molecular structure",
         "Thermodynamics",
         "Equilibrium",
         "Redox Reactions",
         "Electrochemistry",
-        "Solutions"
+        "Solutions",
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure"
+      ],
+      "chapters": [
+        {
+          "name": "Thermodynamics",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Equilibrium",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Redox Reactions",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Electrochemistry",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Solutions",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "Classification of Elements and periodicity in properties",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        },
+        {
+          "name": "chemical Bonding and molecular structure",
+          "rating": 0.0,
+          "percentage": 0,
+          "status": "Weak"
+        }
       ]
     },
     "botany": {
       "average_percentage": 24,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
-        "Biological Classification",
         "Morphology of Flowering Plants",
         "Anatomy of Flowering Plants",
-        "Plant Kingdom"
+        "Plant Kingdom",
+        "Biological Classification"
+      ],
+      "chapters": [
+        {
+          "name": "Anatomy of Flowering Plants",
+          "rating": 1.8,
+          "percentage": 18,
+          "status": "Weak"
+        },
+        {
+          "name": "Plant Kingdom",
+          "rating": 1.8,
+          "percentage": 18,
+          "status": "Weak"
+        },
+        {
+          "name": "Biological Classification",
+          "rating": 2.8,
+          "percentage": 28,
+          "status": "Weak"
+        },
+        {
+          "name": "Morphology of Flowering Plants",
+          "rating": 3.4,
+          "percentage": 34,
+          "status": "Weak"
+        }
       ]
     },
     "zoology": {
       "average_percentage": 34,
-      "trend": "improving",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
-        "Breathing & Exchange of Gases",
-        "Body Fluids & Circulation",
         "Excretory Products & their Elimination",
         "Locomotion & Movement",
         "Neural Control & Coordination",
-        "Chemical Coordination & Integration"
+        "Chemical Coordination & Integration",
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation"
+      ],
+      "chapters": [
+        {
+          "name": "Excretory Products & their Elimination",
+          "rating": 2.0,
+          "percentage": 20,
+          "status": "Weak"
+        },
+        {
+          "name": "Locomotion & Movement",
+          "rating": 2.0,
+          "percentage": 20,
+          "status": "Weak"
+        },
+        {
+          "name": "Neural Control & Coordination",
+          "rating": 2.0,
+          "percentage": 20,
+          "status": "Weak"
+        },
+        {
+          "name": "Chemical Coordination & Integration",
+          "rating": 4.7,
+          "percentage": 47,
+          "status": "Weak"
+        },
+        {
+          "name": "Breathing & Exchange of Gases",
+          "rating": 4.8,
+          "percentage": 48,
+          "status": "Weak"
+        },
+        {
+          "name": "Body Fluids & Circulation",
+          "rating": 4.8,
+          "percentage": 48,
+          "status": "Weak"
+        }
       ]
     }
   },
   "focus_insights": {
     "top_weak_chapters": [
-      "Laws of Motion",
-      "Work, Energy and Power",
-      "System of Particles and Rotational Motion",
       "Gravitation",
-      "Mechanical Properties of Solids"
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
+      "Thermal Properties of Matter",
+      "Thermodynamics"
     ],
-    "most_improved_chapters": [
-      "Morphology of Flowering Plants",
-      "Anatomy of Flowering Plants",
-      "Plant Kingdom",
-      "Excretory Products & their Elimination",
-      "Locomotion & Movement"
-    ],
+    "most_improved_chapters": [],
     "chapters_needing_attention": [
-      "Laws of Motion",
-      "Work, Energy and Power",
-      "System of Particles and Rotational Motion",
       "Gravitation",
       "Mechanical Properties of Solids",
       "Mechanical Properties of Fluids",
@@ -104,24 +274,76 @@
       "Oscillations",
       "Waves",
       "Electric Charges & Fields",
-      "Classification of Elements and periodicity in properties",
-      "chemical Bonding and molecular structure",
+      "Laws of Motion",
+      "Work, Energy and Power",
+      "System of Particles and Rotational Motion",
       "Thermodynamics",
       "Equilibrium",
       "Redox Reactions",
       "Electrochemistry",
       "Solutions",
+      "Classification of Elements and periodicity in properties",
+      "chemical Bonding and molecular structure",
+      "Morphology of Flowering Plants",
       "Anatomy of Flowering Plants",
       "Plant Kingdom",
+      "Biological Classification",
       "Excretory Products & their Elimination",
       "Locomotion & Movement",
       "Neural Control & Coordination",
-      "Biological Classification",
-      "Morphology of Flowering Plants",
       "Chemical Coordination & Integration",
       "Breathing & Exchange of Gases",
       "Body Fluids & Circulation"
     ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "NBTS2",
+      "norm_tid": "NBTS2",
+      "syl_date": "2025-11-12T00:00:00",
+      "order_idx": 9,
+      "marks": {
+        "physics": 0,
+        "chemistry": 0,
+        "botany": 79,
+        "zoology": 85,
+        "total": 164
+      },
+      "center_rank": 216,
+      "air_rank": 0,
+      "percentile": 23.2
+    },
+    {
+      "test_id": "AIATS2",
+      "norm_tid": "AIATS2",
+      "syl_date": "2025-11-30T00:00:00",
+      "order_idx": 11,
+      "marks": {
+        "physics": 0,
+        "chemistry": 0,
+        "botany": 50,
+        "zoology": 86,
+        "total": 136
+      },
+      "center_rank": 935,
+      "air_rank": 0,
+      "percentile": 62647.0
+    },
+    {
+      "test_id": "FT8",
+      "norm_tid": "FT8",
+      "syl_date": "2025-12-28T00:00:00",
+      "order_idx": 12,
+      "marks": {
+        "physics": 0,
+        "chemistry": 0,
+        "botany": 0,
+        "zoology": 0,
+        "total": 0
+      },
+      "center_rank": 206,
+      "air_rank": 0,
+      "percentile": 0.0
+    }
+  ]
 }

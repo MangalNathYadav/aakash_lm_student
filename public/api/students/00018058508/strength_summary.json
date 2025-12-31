@@ -1,8 +1,39 @@
 {
   "psid": "00018058508",
   "strong": [],
-  "average": [],
+  "average": [
+    {
+      "subject": "botany",
+      "chapter": "Plant Growth and Development",
+      "percentage": 53.33
+    },
+    {
+      "subject": "botany",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "percentage": 53.33
+    }
+  ],
   "weak": [
+    {
+      "subject": "physics",
+      "chapter": "Moving Charges and Magnetism",
+      "percentage": 24.44
+    },
+    {
+      "subject": "physics",
+      "chapter": "Magnetism and Matter",
+      "percentage": 24.44
+    },
+    {
+      "subject": "physics",
+      "chapter": "Electromagnetic Induction",
+      "percentage": 24.44
+    },
+    {
+      "subject": "physics",
+      "chapter": "Alternating Current",
+      "percentage": 24.44
+    },
     {
       "subject": "physics",
       "chapter": "Laws of Motion",
@@ -12,6 +43,16 @@
       "subject": "physics",
       "chapter": "Work, Energy and Power",
       "percentage": 32.78
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "percentage": 41.11
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "percentage": 41.11
     },
     {
       "subject": "chemistry",
@@ -32,6 +73,16 @@
       "subject": "botany",
       "chapter": "Morphology of Flowering Plants",
       "percentage": 38.89
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Animal Kingdom-II: Chordates",
+      "percentage": 36.11
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+      "percentage": 36.11
     },
     {
       "subject": "zoology",

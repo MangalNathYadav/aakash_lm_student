@@ -1,17 +1,33 @@
 {
   "psid": "00015497030",
   "strong": [],
-  "average": [],
+  "average": [
+    {
+      "subject": "zoology",
+      "chapter": "Chemical Coordination & Integration",
+      "percentage": 53.33
+    }
+  ],
   "weak": [
     {
       "subject": "physics",
-      "chapter": "Laws of Motion",
-      "percentage": 5.83
+      "chapter": "Moving Charges and Magnetism",
+      "percentage": -1.67
     },
     {
       "subject": "physics",
-      "chapter": "Work, Energy and Power",
-      "percentage": 5.0
+      "chapter": "Magnetism and Matter",
+      "percentage": -1.67
+    },
+    {
+      "subject": "physics",
+      "chapter": "Electromagnetic Induction",
+      "percentage": -1.67
+    },
+    {
+      "subject": "physics",
+      "chapter": "Alternating Current",
+      "percentage": -1.67
     },
     {
       "subject": "physics",
@@ -30,33 +46,18 @@
     },
     {
       "subject": "physics",
-      "chapter": "Thermal Properties of Matter",
-      "percentage": 22.78
-    },
-    {
-      "subject": "physics",
-      "chapter": "Thermodynamics",
-      "percentage": 22.78
-    },
-    {
-      "subject": "physics",
-      "chapter": "Kinetic Theory",
-      "percentage": 22.78
-    },
-    {
-      "subject": "physics",
       "chapter": "Oscillations",
-      "percentage": 7.36
+      "percentage": -1.11
     },
     {
       "subject": "physics",
       "chapter": "Waves",
-      "percentage": 7.36
+      "percentage": -1.11
     },
     {
       "subject": "physics",
       "chapter": "Electric Charges & Fields",
-      "percentage": 7.36
+      "percentage": -1.11
     },
     {
       "subject": "physics",
@@ -76,17 +77,22 @@
     {
       "subject": "physics",
       "chapter": "Gravitation",
-      "percentage": 14.51
+      "percentage": 12.3
     },
     {
       "subject": "physics",
       "chapter": "Mechanical Properties of Solids",
-      "percentage": 14.51
+      "percentage": 12.3
     },
     {
       "subject": "physics",
       "chapter": "Mechanical Properties of Fluids",
-      "percentage": 14.51
+      "percentage": 12.3
+    },
+    {
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "percentage": 5.83
     },
     {
       "subject": "physics",
@@ -99,14 +105,34 @@
       "percentage": 13.89
     },
     {
-      "subject": "chemistry",
-      "chapter": "Classification of Elements and periodicity in properties",
-      "percentage": 3.89
+      "subject": "physics",
+      "chapter": "Thermal Properties of Matter",
+      "percentage": 21.67
+    },
+    {
+      "subject": "physics",
+      "chapter": "Thermodynamics",
+      "percentage": 21.67
+    },
+    {
+      "subject": "physics",
+      "chapter": "Kinetic Theory",
+      "percentage": 21.67
+    },
+    {
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "percentage": 5.0
     },
     {
       "subject": "chemistry",
-      "chapter": "chemical Bonding and molecular structure",
-      "percentage": 3.89
+      "chapter": "Hydrocarbons",
+      "percentage": 10.56
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "percentage": 10.56
     },
     {
       "subject": "chemistry",
@@ -120,23 +146,18 @@
     },
     {
       "subject": "chemistry",
-      "chapter": "Equilibrium",
-      "percentage": 13.31
-    },
-    {
-      "subject": "chemistry",
       "chapter": "Redox Reactions",
-      "percentage": 15.66
+      "percentage": 11.51
     },
     {
       "subject": "chemistry",
       "chapter": "Electrochemistry",
-      "percentage": 15.66
+      "percentage": 11.51
     },
     {
       "subject": "chemistry",
       "chapter": "Solutions",
-      "percentage": 21.18
+      "percentage": 17.22
     },
     {
       "subject": "chemistry",
@@ -151,7 +172,12 @@
     {
       "subject": "chemistry",
       "chapter": "Thermodynamics",
-      "percentage": 22.13
+      "percentage": 21.22
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Equilibrium",
+      "percentage": 11.0
     },
     {
       "subject": "chemistry",
@@ -164,14 +190,24 @@
       "percentage": 21.67
     },
     {
-      "subject": "botany",
-      "chapter": "Biological Classification",
-      "percentage": 38.7
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and periodicity in properties",
+      "percentage": 3.89
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "chemical Bonding and molecular structure",
+      "percentage": 3.89
     },
     {
       "subject": "botany",
-      "chapter": "Morphology of Flowering Plants",
-      "percentage": 42.37
+      "chapter": "Plant Growth and Development",
+      "percentage": 17.78
+    },
+    {
+      "subject": "botany",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "percentage": 17.78
     },
     {
       "subject": "botany",
@@ -195,13 +231,8 @@
     },
     {
       "subject": "botany",
-      "chapter": "Anatomy of Flowering Plants",
-      "percentage": 35.4
-    },
-    {
-      "subject": "botany",
       "chapter": "Plant Kingdom",
-      "percentage": 32.98
+      "percentage": 30.93
     },
     {
       "subject": "botany",
@@ -215,18 +246,33 @@
     },
     {
       "subject": "botany",
+      "chapter": "Anatomy of Flowering Plants",
+      "percentage": 33.89
+    },
+    {
+      "subject": "botany",
       "chapter": "Cell Cycle & Cell Division",
       "percentage": 46.11
     },
     {
-      "subject": "zoology",
-      "chapter": "Breathing & Exchange of Gases",
-      "percentage": 47.22
+      "subject": "botany",
+      "chapter": "Biological Classification",
+      "percentage": 38.7
+    },
+    {
+      "subject": "botany",
+      "chapter": "Morphology of Flowering Plants",
+      "percentage": 42.41
     },
     {
       "subject": "zoology",
-      "chapter": "Body Fluids & Circulation",
-      "percentage": 47.22
+      "chapter": "Animal Kingdom-II: Chordates",
+      "percentage": 15.56
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+      "percentage": 15.56
     },
     {
       "subject": "zoology",
@@ -240,33 +286,23 @@
     },
     {
       "subject": "zoology",
-      "chapter": "Locomotion & Movement-II: (Upto muscle and bone disorders)",
-      "percentage": 38.33
-    },
-    {
-      "subject": "zoology",
-      "chapter": "Neural Control & Coordination",
-      "percentage": 35.13
-    },
-    {
-      "subject": "zoology",
-      "chapter": "Chemical Coordination & Integration",
-      "percentage": 48.44
-    },
-    {
-      "subject": "zoology",
       "chapter": "Animal Kingdom-I: General accounts & Non-chordates",
       "percentage": 11.11
     },
     {
       "subject": "zoology",
       "chapter": "Excretory Products & their Elimination",
-      "percentage": 33.85
+      "percentage": 35.33
     },
     {
       "subject": "zoology",
       "chapter": "Locomotion & Movement",
-      "percentage": 32.38
+      "percentage": 35.0
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Neural Control & Coordination",
+      "percentage": 37.0
     },
     {
       "subject": "zoology",
@@ -287,6 +323,21 @@
       "subject": "zoology",
       "chapter": "Locomotion & Movement-I: (Upto properties of muscle contraction)",
       "percentage": 35.56
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+      "percentage": 38.33
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Breathing & Exchange of Gases",
+      "percentage": 47.22
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Body Fluids & Circulation",
+      "percentage": 47.22
     }
   ]
 }

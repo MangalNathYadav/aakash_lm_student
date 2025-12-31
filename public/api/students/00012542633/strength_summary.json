@@ -19,6 +19,26 @@
   ],
   "average": [
     {
+      "subject": "physics",
+      "chapter": "Thermal Properties of Matter",
+      "percentage": 53.89
+    },
+    {
+      "subject": "physics",
+      "chapter": "Thermodynamics",
+      "percentage": 53.89
+    },
+    {
+      "subject": "physics",
+      "chapter": "Kinetic Theory",
+      "percentage": 53.89
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Solutions",
+      "percentage": 60.56
+    },
+    {
       "subject": "chemistry",
       "chapter": "Chemical Kinetics",
       "percentage": 60.56
@@ -31,22 +51,32 @@
     {
       "subject": "chemistry",
       "chapter": "Thermodynamics",
-      "percentage": 54.9
-    },
-    {
-      "subject": "botany",
-      "chapter": "Anatomy of Flowering Plants",
-      "percentage": 67.68
+      "percentage": 59.78
     },
     {
       "subject": "botany",
       "chapter": "Plant Kingdom",
-      "percentage": 70.71
+      "percentage": 71.85
+    },
+    {
+      "subject": "botany",
+      "chapter": "Anatomy of Flowering Plants",
+      "percentage": 68.15
     },
     {
       "subject": "botany",
       "chapter": "Morphology of Flowering Plants",
-      "percentage": 71.39
+      "percentage": 73.33
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Animal Kingdom-II: Chordates",
+      "percentage": 68.33
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+      "percentage": 68.33
     },
     {
       "subject": "zoology",
@@ -60,13 +90,18 @@
     },
     {
       "subject": "zoology",
-      "chapter": "Locomotion & Movement-II: (Upto muscle and bone disorders)",
-      "percentage": 67.78
+      "chapter": "Chemical Coordination & Integration",
+      "percentage": 50.56
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Excretory Products & their Elimination",
+      "percentage": 50.0
     },
     {
       "subject": "zoology",
       "chapter": "Neural Control & Coordination",
-      "percentage": 51.41
+      "percentage": 54.0
     },
     {
       "subject": "zoology",
@@ -77,9 +112,34 @@
       "subject": "zoology",
       "chapter": "Locomotion & Movement-I: (Upto properties of muscle contraction)",
       "percentage": 61.11
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+      "percentage": 67.78
     }
   ],
   "weak": [
+    {
+      "subject": "physics",
+      "chapter": "Moving Charges and Magnetism",
+      "percentage": 31.67
+    },
+    {
+      "subject": "physics",
+      "chapter": "Magnetism and Matter",
+      "percentage": 31.67
+    },
+    {
+      "subject": "physics",
+      "chapter": "Electromagnetic Induction",
+      "percentage": 31.67
+    },
+    {
+      "subject": "physics",
+      "chapter": "Alternating Current",
+      "percentage": 31.67
+    },
     {
       "subject": "physics",
       "chapter": "Units & Measurements",
@@ -97,33 +157,18 @@
     },
     {
       "subject": "physics",
-      "chapter": "Thermal Properties of Matter",
-      "percentage": 44.44
-    },
-    {
-      "subject": "physics",
-      "chapter": "Thermodynamics",
-      "percentage": 44.44
-    },
-    {
-      "subject": "physics",
-      "chapter": "Kinetic Theory",
-      "percentage": 44.44
-    },
-    {
-      "subject": "physics",
       "chapter": "Oscillations",
-      "percentage": 18.19
+      "percentage": 18.89
     },
     {
       "subject": "physics",
       "chapter": "Waves",
-      "percentage": 18.19
+      "percentage": 18.89
     },
     {
       "subject": "physics",
       "chapter": "Electric Charges & Fields",
-      "percentage": 18.19
+      "percentage": 18.89
     },
     {
       "subject": "physics",
@@ -143,17 +188,17 @@
     {
       "subject": "physics",
       "chapter": "Gravitation",
-      "percentage": 21.11
+      "percentage": 22.06
     },
     {
       "subject": "physics",
       "chapter": "Mechanical Properties of Solids",
-      "percentage": 21.11
+      "percentage": 22.06
     },
     {
       "subject": "physics",
       "chapter": "Mechanical Properties of Fluids",
-      "percentage": 21.11
+      "percentage": 22.06
     },
     {
       "subject": "physics",
@@ -167,6 +212,16 @@
     },
     {
       "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "percentage": 28.33
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "percentage": 28.33
+    },
+    {
+      "subject": "chemistry",
       "chapter": "Some Basic Concepts of Chemistry",
       "percentage": 46.67
     },
@@ -177,28 +232,33 @@
     },
     {
       "subject": "chemistry",
-      "chapter": "Equilibrium",
-      "percentage": 31.53
-    },
-    {
-      "subject": "chemistry",
       "chapter": "Redox Reactions",
-      "percentage": 38.75
+      "percentage": 43.65
     },
     {
       "subject": "chemistry",
       "chapter": "Electrochemistry",
-      "percentage": 38.75
+      "percentage": 43.65
     },
     {
       "subject": "chemistry",
-      "chapter": "Solutions",
-      "percentage": 47.01
+      "chapter": "Equilibrium",
+      "percentage": 32.67
     },
     {
       "subject": "chemistry",
       "chapter": "Chemical Bonding and Molecular Structure",
       "percentage": 31.67
+    },
+    {
+      "subject": "botany",
+      "chapter": "Plant Growth and Development",
+      "percentage": 32.78
+    },
+    {
+      "subject": "botany",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "percentage": 32.78
     },
     {
       "subject": "botany",
@@ -222,18 +282,8 @@
     },
     {
       "subject": "zoology",
-      "chapter": "Chemical Coordination & Integration",
-      "percentage": 49.0
-    },
-    {
-      "subject": "zoology",
-      "chapter": "Excretory Products & their Elimination",
-      "percentage": 48.33
-    },
-    {
-      "subject": "zoology",
       "chapter": "Locomotion & Movement",
-      "percentage": 37.38
+      "percentage": 33.33
     }
   ]
 }

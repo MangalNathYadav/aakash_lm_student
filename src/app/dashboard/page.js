@@ -3,26 +3,24 @@ import { useEffect } from 'react';
 import { useAuth } from '@/context/AuthContext';
 import { useRouter } from 'next/navigation';
 import Navbar from '@/components/Navbar';
-import { TrendingUp, TrendingDown, Minus, Target, Award, ListChecks, ArrowUpRight } from 'lucide-react';
-import { motion } from 'framer-motion';
+import GraphSection from '@/components/GraphSection';
+import AnalyticsCards from '@/components/AnalyticsCards';
+import PredictionCard from '@/components/PredictionCard';
+import { TrendingUp, TrendingDown, Minus, Target, Award, Calendar, ChevronRight } from 'lucide-react';
 
-const TrendBadge = ({ trend }) => {
-    const configs = {
-        improving: { icon: TrendingUp, color: 'text-emerald-600', bg: 'bg-emerald-100', text: 'Improving' },
-        declining: { icon: TrendingDown, color: 'text-red-600', bg: 'bg-red-100', text: 'Declining' },
-        stable: { icon: Minus, color: 'text-blue-600', bg: 'bg-blue-100', text: 'Stable' },
-        insufficient_data: { icon: Minus, color: 'text-slate-600', bg: 'bg-slate-100', text: 'No Data' },
-    };
-    const config = configs[trend] || configs.insufficient_data;
-    const Icon = config.icon;
-
-    return (
-        <div className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-bold ${config.bg} ${config.color}`}>
-            <Icon className="w-3 h-3 mr-1.5" />
-            {config.text}
+const StatCard = ({ label, value, icon: Icon, colorClass }) => (
+    <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+        <div className="flex items-center gap-4">
+            <div className={`p-3 rounded-lg ${colorClass || 'bg-slate-100 text-slate-600'}`}>
+                <Icon size={20} />
+            </div>
+            <div>
+                <p className="text-sm text-slate-500 font-medium">{label}</p>
+                <p className="text-2xl font-bold text-slate-900">{value}</p>
+            </div>
         </div>
-    );
-};
+    </div>
+);
 
 export default function Dashboard() {
     const { user, loading } = useAuth();
@@ -34,132 +32,131 @@ export default function Dashboard() {
         }
     }, [user, loading, router]);
 
-    if (loading || !user) return <div className="min-h-screen flex items-center justify-center">Loading Performance...</div>;
+    if (loading || !user) return <div className="min-h-screen flex items-center justify-center text-slate-500">Loading your profile...</div>;
 
-    const { overall_performance, meta, subjects, focus_insights } = user;
+    const { overall_performance = {}, meta = {}, subjects = {}, focus_insights = {} } = user;
 
     return (
         <div className="min-h-screen bg-slate-50">
             <Navbar />
-            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-                {/* Header Section */}
-                <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-10">
-                    <div>
-                        <h1 className="text-3xl font-bold text-slate-900">Welcome Back, {user.name}</h1>
-                        <p className="text-slate-600 mt-1">PSID: {user.psid} • Latest Update: {meta.latest_test_date}</p>
-                    </div>
-                    <div className="flex gap-4">
-                        <TrendBadge trend={overall_performance.trend} />
-                    </div>
+            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                <div className="mb-8">
+                    <h1 className="text-2xl font-bold text-slate-900">Welcome Back, {user.name}</h1>
+                    <p className="text-slate-500 text-sm">Here is your academic progress summary.</p>
                 </div>
 
-                {/* Top Summary Cards */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
-                    <motion.div whileHover={{ y: -5 }} className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
-                        <div className="flex items-center text-slate-500 mb-2">
-                            <Award className="w-4 h-4 mr-2" />
-                            <span className="text-sm font-medium uppercase tracking-wider">Average Score</span>
-                        </div>
-                        <div className="text-3xl font-extrabold text-slate-900">{overall_performance.average_total_score}</div>
-                    </motion.div>
-
-                    <motion.div whileHover={{ y: -5 }} className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
-                        <div className="flex items-center text-slate-500 mb-2">
-                            <Target className="w-4 h-4 mr-2" />
-                            <span className="text-sm font-medium uppercase tracking-wider">Latest Score</span>
-                        </div>
-                        <div className="text-3xl font-extrabold text-blue-600">{overall_performance.latest_score}</div>
-                    </motion.div>
-
-                    <motion.div whileHover={{ y: -5 }} className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
-                        <div className="flex items-center text-slate-500 mb-2">
-                            <ArrowUpRight className="h-4 w-4 mr-2" />
-                            <span className="text-sm font-medium uppercase tracking-wider">Best Performance</span>
-                        </div>
-                        <div className="text-3xl font-extrabold text-emerald-600">{overall_performance.best_score}</div>
-                    </motion.div>
-
-                    <motion.div whileHover={{ y: -5 }} className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
-                        <div className="flex items-center text-slate-500 mb-2">
-                            <ListChecks className="w-4 h-4 mr-2" />
-                            <span className="text-sm font-medium uppercase tracking-wider">Tests Taken</span>
-                        </div>
-                        <div className="text-3xl font-extrabold text-indigo-600">{meta.tests_taken}</div>
-                    </motion.div>
+                {/* Score Summary */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                    <StatCard
+                        label="Average Score"
+                        value={overall_performance.average_total_score || 0}
+                        icon={Award}
+                        colorClass="bg-blue-50 text-blue-600"
+                    />
+                    <StatCard
+                        label="Latest Score"
+                        value={overall_performance.latest_score || 0}
+                        icon={Target}
+                        colorClass="bg-green-50 text-green-600"
+                    />
+                    <StatCard
+                        label="Best Score"
+                        value={overall_performance.best_score || 0}
+                        icon={TrendingUp}
+                        colorClass="bg-amber-50 text-amber-600"
+                    />
+                    <StatCard
+                        label="Total Tests"
+                        value={meta.tests_taken || 0}
+                        icon={Calendar}
+                        colorClass="bg-purple-50 text-purple-600"
+                    />
                 </div>
 
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
-                    {/* Subject Overview List */}
+
+                {/* Analytics Section */}
+                <AnalyticsCards psid={user.psid} />
+
+                {/* Prediction Section */}
+                <PredictionCard psid={user.psid} />
+
+                {/* Graph Section */}
+                <div className="mb-8 p-6 bg-white rounded-xl border border-slate-200 shadow-sm">
+                    <GraphSection psid={user.psid} />
+                </div>
+
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    {/* Subject Wise Performance */}
                     <div className="lg:col-span-2 space-y-6">
-                        <h2 className="text-xl font-bold text-slate-900 px-1">Subject Overview</h2>
+                        <h2 className="text-lg font-bold text-slate-800">Subject Wise Performance</h2>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                             {Object.entries(subjects).map(([name, data]) => (
-                                <div key={name} className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between">
-                                    <div className="flex justify-between items-start mb-4">
-                                        <h3 className="text-lg font-bold capitalize text-slate-900">{name}</h3>
-                                        <TrendBadge trend={data.trend} />
+                                <div key={name} className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                                    <div className="flex justify-between items-center mb-4">
+                                        <h3 className="font-bold text-slate-900 capitalize">{name}</h3>
+                                        <span className={`text-xs px-2 py-1 rounded-md font-semibold ${(data.average_percentage || 0) >= 75 ? 'bg-green-50 text-green-700' :
+                                            (data.average_percentage || 0) >= 50 ? 'bg-blue-50 text-blue-700' : 'bg-red-50 text-red-700'
+                                            }`}>
+                                            {data.average_percentage || 0}%
+                                        </span>
                                     </div>
-                                    <div>
-                                        <div className="text-4xl font-black text-slate-900 mb-2">{data.average_percentage}%</div>
-                                        <div className="w-full bg-slate-100 h-2 rounded-full overflow-hidden">
-                                            <div
-                                                className={`h-full rounded-full transition-all duration-1000 ${data.average_percentage >= 75 ? 'bg-emerald-500' :
-                                                        data.average_percentage >= 50 ? 'bg-blue-500' : 'bg-red-500'
-                                                    }`}
-                                                style={{ width: `${data.average_percentage}%` }}
-                                            />
-                                        </div>
+                                    <div className="w-full bg-slate-100 h-2 rounded-full mb-4 overflow-hidden">
+                                        <div
+                                            className="h-full bg-blue-600 rounded-full transition-all"
+                                            style={{ width: `${data.average_percentage || 0}%` }}
+                                        />
                                     </div>
-                                    <div className="mt-6 flex justify-between items-center text-xs font-bold text-slate-400">
-                                        <span>{data.strong_chapters.length} STRONG</span>
-                                        <span>{data.weak_chapters.length} WEAK</span>
+                                    <div className="flex justify-between text-xs text-slate-500">
+                                        <span>Good: {(data.strong_chapters || []).length} Ch</span>
+                                        <span>Weak: {(data.weak_chapters || []).length} Ch</span>
                                     </div>
                                 </div>
                             ))}
                         </div>
                     </div>
 
-                    {/* Focus Insights Panel */}
+                    {/* Improvement Areas */}
                     <div className="space-y-6">
-                        <h2 className="text-xl font-bold text-slate-900 px-1">Focus Analytics</h2>
-                        <div className="bg-slate-900 p-8 rounded-3xl shadow-xl text-white">
-                            <h3 className="text-lg font-bold mb-6 flex items-center">
-                                <Target className="w-5 h-5 mr-3 text-red-500" />
-                                Attention Required
-                            </h3>
+                        <h2 className="text-lg font-bold text-slate-800">Focus Areas</h2>
+                        <div className="bg-slate-900 text-white p-6 rounded-xl shadow-lg">
+                            <h3 className="text-sm font-semibold text-slate-400 mb-4 uppercase tracking-wider">Chapters to Improve</h3>
                             <div className="space-y-4">
-                                {focus_insights.top_weak_chapters.length > 0 ? (
+                                {(focus_insights?.top_weak_chapters || []).length > 0 ? (
                                     focus_insights.top_weak_chapters.map((ch, idx) => (
-                                        <div key={idx} className="flex items-start gap-4 group">
-                                            <div className="w-6 h-6 rounded-lg bg-slate-800 flex-shrink-0 flex items-center justify-center text-xs font-bold text-slate-500 group-hover:bg-red-500 group-hover:text-white transition-colors">
+                                        <div key={idx} className="flex items-center gap-3">
+                                            <div className="w-6 h-6 rounded-md bg-white/10 flex items-center justify-center text-xs font-bold text-slate-400">
                                                 {idx + 1}
                                             </div>
-                                            <span className="text-sm text-slate-300 font-medium leading-tight">{ch}</span>
+                                            <span className="text-sm text-slate-300 line-clamp-1">{ch}</span>
                                         </div>
                                     ))
                                 ) : (
-                                    <p className="text-slate-400 text-sm italic">Great work! No significant weak chapters identified.</p>
+                                    <p className="text-slate-500 text-sm italic">All caught up! Keep it up.</p>
                                 )}
                             </div>
 
-                            <div className="mt-10 pt-8 border-t border-slate-800">
-                                <h3 className="text-lg font-bold mb-6 flex items-center">
-                                    <Award className="w-5 h-5 mr-3 text-emerald-500" />
-                                    Most Improved
-                                </h3>
-                                <div className="space-y-4">
-                                    {focus_insights.most_improved_chapters.length > 0 ? (
+                            <div className="mt-8 pt-6 border-t border-white/10">
+                                <h3 className="text-sm font-semibold text-slate-400 mb-4 uppercase tracking-wider">Recently Improved</h3>
+                                <div className="space-y-3">
+                                    {(focus_insights?.most_improved_chapters || []).length > 0 ? (
                                         focus_insights.most_improved_chapters.slice(0, 3).map((ch, idx) => (
-                                            <div key={idx} className="flex items-start gap-4">
-                                                <TrendingUp className="w-4 h-4 text-emerald-500 mt-1" />
-                                                <span className="text-sm text-slate-300 font-medium leading-tight">{ch}</span>
+                                            <div key={idx} className="flex items-center gap-3 text-green-400">
+                                                <TrendingUp size={14} />
+                                                <span className="text-sm text-slate-300 line-clamp-1">{ch}</span>
                                             </div>
                                         ))
                                     ) : (
-                                        <p className="text-slate-400 text-sm italic">Keep testing to build trend data.</p>
+                                        <p className="text-slate-500 text-sm italic">Keep practicing to see updates.</p>
                                     )}
                                 </div>
                             </div>
+                        </div>
+
+                        <div className="p-4 bg-blue-50 border border-blue-100 rounded-xl text-blue-800">
+                            <p className="text-xs font-bold mb-1">💡 Study Tip</p>
+                            <p className="text-sm">
+                                Review '{(focus_insights?.top_weak_chapters || [])[0] || 'your mistakes'}' before your next mock test.
+                            </p>
                         </div>
                     </div>
                 </div>

@@ -4,13 +4,14 @@
   "meta": {
     "tests_taken": 1,
     "first_test_date": "28-12-2025",
-    "latest_test_date": "28-12-2025"
+    "latest_test_date": "28-12-2025",
+    "batch": "RMS1"
   },
   "overall_performance": {
     "average_total_score": 394,
     "best_score": 394,
     "latest_score": 394,
-    "consistency_index": 0.0,
+    "consistency_index": 0,
     "trend": "insufficient_data"
   },
   "subjects": {
@@ -68,5 +69,6 @@
       "Sexual Reproduction in Flowering Plants"
     ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting.",
+  "batch": "RMS1"
 }

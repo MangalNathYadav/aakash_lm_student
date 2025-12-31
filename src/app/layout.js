@@ -13,13 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Student Performance Intelligence",
-  description: "Advanced analytics for NEET students by mghacker / thunderg0d",
+  title: "Evalyx | Performance Intelligence",
+  description: "Advanced academic analytics and score projections by Evalyx.",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-50 text-slate-900`}>
         <AuthProvider>
           {children}

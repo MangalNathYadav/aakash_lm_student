@@ -4,16 +4,6 @@
   "average": [
     {
       "subject": "zoology",
-      "chapter": "Breathing & Exchange of Gases",
-      "percentage": 65.0
-    },
-    {
-      "subject": "zoology",
-      "chapter": "Body Fluids & Circulation",
-      "percentage": 65.0
-    },
-    {
-      "subject": "zoology",
       "chapter": "Structural Organisation in Animals- Animal Tissues",
       "percentage": 51.67
     },
@@ -21,19 +11,19 @@
       "subject": "zoology",
       "chapter": "Biomolecules",
       "percentage": 51.67
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Breathing & Exchange of Gases",
+      "percentage": 65.0
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Body Fluids & Circulation",
+      "percentage": 65.0
     }
   ],
   "weak": [
-    {
-      "subject": "physics",
-      "chapter": "Laws of Motion",
-      "percentage": 42.22
-    },
-    {
-      "subject": "physics",
-      "chapter": "Work, Energy and Power",
-      "percentage": 42.22
-    },
     {
       "subject": "physics",
       "chapter": "Units & Measurements",
@@ -50,14 +40,14 @@
       "percentage": 24.44
     },
     {
-      "subject": "chemistry",
-      "chapter": "Classification of Elements and periodicity in properties",
-      "percentage": 43.89
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "percentage": 42.22
     },
     {
-      "subject": "chemistry",
-      "chapter": "chemical Bonding and molecular structure",
-      "percentage": 43.89
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "percentage": 42.22
     },
     {
       "subject": "chemistry",
@@ -70,14 +60,14 @@
       "percentage": 33.33
     },
     {
-      "subject": "botany",
-      "chapter": "Biological Classification",
-      "percentage": 45.0
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and periodicity in properties",
+      "percentage": 43.89
     },
     {
-      "subject": "botany",
-      "chapter": "Morphology of Flowering Plants",
-      "percentage": 45.0
+      "subject": "chemistry",
+      "chapter": "chemical Bonding and molecular structure",
+      "percentage": 43.89
     },
     {
       "subject": "botany",
@@ -93,6 +83,16 @@
       "subject": "botany",
       "chapter": "The Living World",
       "percentage": 47.78
+    },
+    {
+      "subject": "botany",
+      "chapter": "Biological Classification",
+      "percentage": 45.0
+    },
+    {
+      "subject": "botany",
+      "chapter": "Morphology of Flowering Plants",
+      "percentage": 45.0
     }
   ]
 }

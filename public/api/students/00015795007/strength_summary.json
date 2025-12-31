@@ -14,6 +14,16 @@
     },
     {
       "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "percentage": 59.44
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "percentage": 59.44
+    },
+    {
+      "subject": "chemistry",
       "chapter": "Some Basic Concepts of Chemistry",
       "percentage": 57.78
     },
@@ -24,13 +34,13 @@
     },
     {
       "subject": "botany",
-      "chapter": "Biological Classification",
-      "percentage": 60.0
+      "chapter": "Plant Growth and Development",
+      "percentage": 52.78
     },
     {
       "subject": "botany",
-      "chapter": "Morphology of Flowering Plants",
-      "percentage": 60.0
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "percentage": 52.78
     },
     {
       "subject": "botany",
@@ -48,14 +58,24 @@
       "percentage": 70.56
     },
     {
-      "subject": "zoology",
-      "chapter": "Breathing & Exchange of Gases",
-      "percentage": 61.67
+      "subject": "botany",
+      "chapter": "Biological Classification",
+      "percentage": 60.0
+    },
+    {
+      "subject": "botany",
+      "chapter": "Morphology of Flowering Plants",
+      "percentage": 60.0
     },
     {
       "subject": "zoology",
-      "chapter": "Body Fluids & Circulation",
-      "percentage": 61.67
+      "chapter": "Animal Kingdom-II: Chordates",
+      "percentage": 72.22
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+      "percentage": 72.22
     },
     {
       "subject": "zoology",
@@ -66,9 +86,39 @@
       "subject": "zoology",
       "chapter": "Biomolecules",
       "percentage": 68.33
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Breathing & Exchange of Gases",
+      "percentage": 61.67
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Body Fluids & Circulation",
+      "percentage": 61.67
     }
   ],
   "weak": [
+    {
+      "subject": "physics",
+      "chapter": "Moving Charges and Magnetism",
+      "percentage": 45.56
+    },
+    {
+      "subject": "physics",
+      "chapter": "Magnetism and Matter",
+      "percentage": 45.56
+    },
+    {
+      "subject": "physics",
+      "chapter": "Electromagnetic Induction",
+      "percentage": 45.56
+    },
+    {
+      "subject": "physics",
+      "chapter": "Alternating Current",
+      "percentage": 45.56
+    },
     {
       "subject": "physics",
       "chapter": "Units & Measurements",

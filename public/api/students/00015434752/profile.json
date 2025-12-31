@@ -1,57 +1,110 @@
 {
   "psid": "00015434752",
   "name": "Unknown",
+  "batch": "RM03",
   "meta": {
     "tests_taken": 1,
-    "first_test_date": "09-11-2025",
-    "latest_test_date": "09-11-2025"
+    "latest_test_id": "FT6",
+    "latest_test_order_idx": 8
   },
   "overall_performance": {
     "average_total_score": 99,
     "best_score": 99,
     "latest_score": 99,
-    "consistency_index": 0.0,
-    "trend": "insufficient_data"
+    "consistency_index": 39.6,
+    "trend": "stable"
   },
   "subjects": {
     "physics": {
-      "average_percentage": 2,
-      "trend": "stable",
+      "average_percentage": -2,
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Oscillations",
         "Waves",
         "Electric Charges & Fields"
+      ],
+      "chapters": [
+        {
+          "name": "Oscillations",
+          "rating": -0.2,
+          "percentage": -2,
+          "status": "Weak"
+        },
+        {
+          "name": "Waves",
+          "rating": -0.2,
+          "percentage": -2,
+          "status": "Weak"
+        },
+        {
+          "name": "Electric Charges & Fields",
+          "rating": -0.2,
+          "percentage": -2,
+          "status": "Weak"
+        }
       ]
     },
     "chemistry": {
       "average_percentage": 17,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Redox Reactions",
         "Electrochemistry",
         "Solutions"
+      ],
+      "chapters": [
+        {
+          "name": "Redox Reactions",
+          "rating": 1.7,
+          "percentage": 17,
+          "status": "Weak"
+        },
+        {
+          "name": "Electrochemistry",
+          "rating": 1.7,
+          "percentage": 17,
+          "status": "Weak"
+        },
+        {
+          "name": "Solutions",
+          "rating": 1.7,
+          "percentage": 17,
+          "status": "Weak"
+        }
       ]
     },
     "botany": {
       "average_percentage": 19,
-      "trend": "insufficient_data",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Plant Kingdom"
+      ],
+      "chapters": [
+        {
+          "name": "Plant Kingdom",
+          "rating": 1.9,
+          "percentage": 19,
+          "status": "Weak"
+        }
       ]
     },
     "zoology": {
       "average_percentage": 21,
-      "trend": "insufficient_data",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Chemical Coordination & Integration"
+      ],
+      "chapters": [
+        {
+          "name": "Chemical Coordination & Integration",
+          "rating": 2.1,
+          "percentage": 21,
+          "status": "Weak"
+        }
       ]
     }
   },
@@ -75,5 +128,22 @@
       "Chemical Coordination & Integration"
     ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "FT6",
+      "norm_tid": "FT6",
+      "syl_date": "2025-11-05T00:00:00",
+      "order_idx": 8,
+      "marks": {
+        "physics": -3,
+        "chemistry": 30,
+        "botany": 35,
+        "zoology": 37,
+        "total": 99
+      },
+      "center_rank": 278,
+      "air_rank": 0,
+      "percentile": 14.1
+    }
+  ]
 }

@@ -4,16 +4,6 @@
   "average": [
     {
       "subject": "botany",
-      "chapter": "Biological Classification",
-      "percentage": 63.89
-    },
-    {
-      "subject": "botany",
-      "chapter": "Morphology of Flowering Plants",
-      "percentage": 63.89
-    },
-    {
-      "subject": "botany",
       "chapter": "Cell: The Unit of Life",
       "percentage": 61.11
     },
@@ -26,19 +16,19 @@
       "subject": "botany",
       "chapter": "The Living World",
       "percentage": 61.11
+    },
+    {
+      "subject": "botany",
+      "chapter": "Biological Classification",
+      "percentage": 63.89
+    },
+    {
+      "subject": "botany",
+      "chapter": "Morphology of Flowering Plants",
+      "percentage": 63.89
     }
   ],
   "weak": [
-    {
-      "subject": "physics",
-      "chapter": "Laws of Motion",
-      "percentage": 12.22
-    },
-    {
-      "subject": "physics",
-      "chapter": "Work, Energy and Power",
-      "percentage": 12.22
-    },
     {
       "subject": "physics",
       "chapter": "Units & Measurements",
@@ -55,14 +45,14 @@
       "percentage": 20.0
     },
     {
-      "subject": "chemistry",
-      "chapter": "Classification of Elements and periodicity in properties",
-      "percentage": 30.56
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "percentage": 12.22
     },
     {
-      "subject": "chemistry",
-      "chapter": "chemical Bonding and molecular structure",
-      "percentage": 30.56
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "percentage": 12.22
     },
     {
       "subject": "chemistry",
@@ -75,14 +65,14 @@
       "percentage": 28.33
     },
     {
-      "subject": "zoology",
-      "chapter": "Breathing & Exchange of Gases",
-      "percentage": 41.67
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and periodicity in properties",
+      "percentage": 30.56
     },
     {
-      "subject": "zoology",
-      "chapter": "Body Fluids & Circulation",
-      "percentage": 41.67
+      "subject": "chemistry",
+      "chapter": "chemical Bonding and molecular structure",
+      "percentage": 30.56
     },
     {
       "subject": "zoology",
@@ -93,6 +83,16 @@
       "subject": "zoology",
       "chapter": "Biomolecules",
       "percentage": 5.56
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Breathing & Exchange of Gases",
+      "percentage": 41.67
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Body Fluids & Circulation",
+      "percentage": 41.67
     }
   ]
 }

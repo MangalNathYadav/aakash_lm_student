@@ -4,6 +4,16 @@
   "average": [
     {
       "subject": "physics",
+      "chapter": "Work, Energy & Power",
+      "percentage": 53.89
+    },
+    {
+      "subject": "physics",
+      "chapter": "System of Particles & Rotational Motion",
+      "percentage": 53.89
+    },
+    {
+      "subject": "physics",
       "chapter": "Thermal Properties of Matter",
       "percentage": 50.56
     },
@@ -18,24 +28,9 @@
       "percentage": 50.56
     },
     {
-      "subject": "physics",
-      "chapter": "Work, Energy & Power",
-      "percentage": 53.89
-    },
-    {
-      "subject": "physics",
-      "chapter": "System of Particles & Rotational Motion",
-      "percentage": 53.89
-    },
-    {
       "subject": "chemistry",
       "chapter": "Chemical Bonding and Molecular Structure",
       "percentage": 60.56
-    },
-    {
-      "subject": "botany",
-      "chapter": "Anatomy of Flowering Plants",
-      "percentage": 63.33
     },
     {
       "subject": "botany",
@@ -43,14 +38,9 @@
       "percentage": 58.89
     },
     {
-      "subject": "zoology",
-      "chapter": "Locomotion & Movement-II: (Upto muscle and bone disorders)",
-      "percentage": 70.0
-    },
-    {
-      "subject": "zoology",
-      "chapter": "Neural Control & Coordination",
-      "percentage": 70.0
+      "subject": "botany",
+      "chapter": "Anatomy of Flowering Plants",
+      "percentage": 63.33
     },
     {
       "subject": "zoology",
@@ -66,6 +56,16 @@
       "subject": "zoology",
       "chapter": "Locomotion & Movement-I: (Upto properties of muscle contraction)",
       "percentage": 62.22
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+      "percentage": 70.0
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Neural Control & Coordination",
+      "percentage": 70.0
     }
   ],
   "weak": [
@@ -116,11 +116,6 @@
     },
     {
       "subject": "chemistry",
-      "chapter": "Equilibrium",
-      "percentage": 45.56
-    },
-    {
-      "subject": "chemistry",
       "chapter": "Classification of Elements and Periodicity in Properties",
       "percentage": 17.22
     },
@@ -128,6 +123,11 @@
       "subject": "chemistry",
       "chapter": "Thermodynamics",
       "percentage": 44.44
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Equilibrium",
+      "percentage": 45.56
     },
     {
       "subject": "botany",

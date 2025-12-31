@@ -1,6 +1,17 @@
 {
   "psid": "00015774437",
-  "strong": [],
+  "strong": [
+    {
+      "subject": "zoology",
+      "chapter": "Animal Kingdom-II: Chordates",
+      "percentage": 77.78
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+      "percentage": 77.78
+    }
+  ],
   "average": [
     {
       "subject": "physics",
@@ -34,16 +45,6 @@
     },
     {
       "subject": "zoology",
-      "chapter": "Breathing & Exchange of Gases",
-      "percentage": 72.22
-    },
-    {
-      "subject": "zoology",
-      "chapter": "Body Fluids & Circulation",
-      "percentage": 72.22
-    },
-    {
-      "subject": "zoology",
       "chapter": "Structural Organisation in Animals- Animal Tissues",
       "percentage": 58.89
     },
@@ -51,9 +52,39 @@
       "subject": "zoology",
       "chapter": "Biomolecules",
       "percentage": 58.89
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Breathing & Exchange of Gases",
+      "percentage": 72.22
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Body Fluids & Circulation",
+      "percentage": 72.22
     }
   ],
   "weak": [
+    {
+      "subject": "physics",
+      "chapter": "Moving Charges and Magnetism",
+      "percentage": 32.22
+    },
+    {
+      "subject": "physics",
+      "chapter": "Magnetism and Matter",
+      "percentage": 32.22
+    },
+    {
+      "subject": "physics",
+      "chapter": "Electromagnetic Induction",
+      "percentage": 32.22
+    },
+    {
+      "subject": "physics",
+      "chapter": "Alternating Current",
+      "percentage": 32.22
+    },
     {
       "subject": "physics",
       "chapter": "Units & Measurements",
@@ -71,6 +102,16 @@
     },
     {
       "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "percentage": 21.11
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "percentage": 21.11
+    },
+    {
+      "subject": "chemistry",
       "chapter": "Classification of Elements and periodicity in properties",
       "percentage": 49.44
     },
@@ -78,6 +119,16 @@
       "subject": "chemistry",
       "chapter": "chemical Bonding and molecular structure",
       "percentage": 49.44
+    },
+    {
+      "subject": "botany",
+      "chapter": "Plant Growth and Development",
+      "percentage": 43.33
+    },
+    {
+      "subject": "botany",
+      "chapter": "Sexual Reproduction in Flowering Plants",
+      "percentage": 43.33
     },
     {
       "subject": "botany",

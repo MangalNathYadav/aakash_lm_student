@@ -1,22 +1,22 @@
 {
   "psid": "00015487349",
   "name": "Unknown",
+  "batch": "RMS1",
   "meta": {
     "tests_taken": 2,
-    "first_test_date": "02-07-2025",
-    "latest_test_date": "23-07-2025"
+    "latest_test_id": "FT2",
+    "latest_test_order_idx": 1
   },
   "overall_performance": {
     "average_total_score": 314,
     "best_score": 323,
     "latest_score": 305,
-    "consistency_index": 12.1951,
+    "consistency_index": 123.84,
     "trend": "declining"
   },
   "subjects": {
     "physics": {
       "average_percentage": 22,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
@@ -24,60 +24,176 @@
         "Motion in a Straight Line",
         "Motion in a Plane",
         "Laws of Motion"
+      ],
+      "chapters": [
+        {
+          "name": "Units & Measurements",
+          "rating": 1.8,
+          "percentage": 18,
+          "status": "Weak"
+        },
+        {
+          "name": "Motion in a Straight Line",
+          "rating": 1.8,
+          "percentage": 18,
+          "status": "Weak"
+        },
+        {
+          "name": "Motion in a Plane",
+          "rating": 2.6,
+          "percentage": 26,
+          "status": "Weak"
+        },
+        {
+          "name": "Laws of Motion",
+          "rating": 2.6,
+          "percentage": 26,
+          "status": "Weak"
+        }
       ]
     },
     "chemistry": {
       "average_percentage": 17,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
         "Some Basic Concepts of Chemistry",
         "Structure of Atom",
         "Classification of Elements and Periodicity in Properties"
+      ],
+      "chapters": [
+        {
+          "name": "Structure of Atom",
+          "rating": 1.4,
+          "percentage": 14,
+          "status": "Weak"
+        },
+        {
+          "name": "Classification of Elements and Periodicity in Properties",
+          "rating": 1.4,
+          "percentage": 14,
+          "status": "Weak"
+        },
+        {
+          "name": "Some Basic Concepts of Chemistry",
+          "rating": 2.1,
+          "percentage": 21,
+          "status": "Weak"
+        }
       ]
     },
     "botany": {
       "average_percentage": 71,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [
         "Cell : The Unit of Life",
         "Cell Cycle & Cell Division",
         "The Living World"
       ],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Cell : The Unit of Life",
+          "rating": 6.8,
+          "percentage": 68,
+          "status": "Average"
+        },
+        {
+          "name": "Cell Cycle & Cell Division",
+          "rating": 7.2,
+          "percentage": 72,
+          "status": "Average"
+        },
+        {
+          "name": "The Living World",
+          "rating": 7.2,
+          "percentage": 72,
+          "status": "Average"
+        }
+      ]
     },
     "zoology": {
       "average_percentage": 62,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [
         "Structural Organisation in Animals- Animal Tissues",
         "Biomolecules-I: (Upto polysaccharide)",
         "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)"
       ],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Biomolecules-I: (Upto polysaccharide)",
+          "rating": 5.7,
+          "percentage": 57,
+          "status": "Average"
+        },
+        {
+          "name": "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+          "rating": 5.7,
+          "percentage": 57,
+          "status": "Average"
+        },
+        {
+          "name": "Structural Organisation in Animals- Animal Tissues",
+          "rating": 7.2,
+          "percentage": 72,
+          "status": "Average"
+        }
+      ]
     }
   },
   "focus_insights": {
     "top_weak_chapters": [
-      "Structure of Atom",
-      "Classification of Elements and Periodicity in Properties",
       "Units & Measurements",
       "Motion in a Straight Line",
+      "Motion in a Plane",
+      "Laws of Motion",
       "Some Basic Concepts of Chemistry"
     ],
     "most_improved_chapters": [],
     "chapters_needing_attention": [
-      "Structure of Atom",
-      "Classification of Elements and Periodicity in Properties",
       "Units & Measurements",
       "Motion in a Straight Line",
-      "Some Basic Concepts of Chemistry",
       "Motion in a Plane",
-      "Laws of Motion"
+      "Laws of Motion",
+      "Some Basic Concepts of Chemistry",
+      "Structure of Atom",
+      "Classification of Elements and Periodicity in Properties"
     ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "FT1",
+      "norm_tid": "FT1",
+      "syl_date": "2025-07-02T00:00:00",
+      "order_idx": 0,
+      "marks": {
+        "physics": 32,
+        "chemistry": 38,
+        "botany": 123,
+        "zoology": 130,
+        "total": 323
+      },
+      "center_rank": 166,
+      "air_rank": 0,
+      "percentile": 166.0
+    },
+    {
+      "test_id": "FT2",
+      "norm_tid": "FT2",
+      "syl_date": "2025-07-23T00:00:00",
+      "order_idx": 1,
+      "marks": {
+        "physics": 47,
+        "chemistry": 26,
+        "botany": 130,
+        "zoology": 102,
+        "total": 305
+      },
+      "center_rank": 185,
+      "air_rank": 0,
+      "percentile": 185.0
+    }
+  ]
 }

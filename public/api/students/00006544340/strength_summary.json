@@ -4,16 +4,6 @@
   "average": [
     {
       "subject": "botany",
-      "chapter": "Biological Classification",
-      "percentage": 61.67
-    },
-    {
-      "subject": "botany",
-      "chapter": "Morphology of Flowering Plants",
-      "percentage": 61.67
-    },
-    {
-      "subject": "botany",
       "chapter": "Cell: The Unit of Life",
       "percentage": 69.44
     },
@@ -28,14 +18,14 @@
       "percentage": 69.44
     },
     {
-      "subject": "zoology",
-      "chapter": "Breathing & Exchange of Gases",
-      "percentage": 58.89
+      "subject": "botany",
+      "chapter": "Biological Classification",
+      "percentage": 61.67
     },
     {
-      "subject": "zoology",
-      "chapter": "Body Fluids & Circulation",
-      "percentage": 58.89
+      "subject": "botany",
+      "chapter": "Morphology of Flowering Plants",
+      "percentage": 61.67
     },
     {
       "subject": "zoology",
@@ -46,19 +36,19 @@
       "subject": "zoology",
       "chapter": "Biomolecules",
       "percentage": 55.56
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Breathing & Exchange of Gases",
+      "percentage": 58.89
+    },
+    {
+      "subject": "zoology",
+      "chapter": "Body Fluids & Circulation",
+      "percentage": 58.89
     }
   ],
   "weak": [
-    {
-      "subject": "physics",
-      "chapter": "Laws of Motion",
-      "percentage": 13.89
-    },
-    {
-      "subject": "physics",
-      "chapter": "Work, Energy and Power",
-      "percentage": 13.89
-    },
     {
       "subject": "physics",
       "chapter": "Units & Measurements",
@@ -75,14 +65,14 @@
       "percentage": 18.33
     },
     {
-      "subject": "chemistry",
-      "chapter": "Classification of Elements and periodicity in properties",
-      "percentage": 48.33
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "percentage": 13.89
     },
     {
-      "subject": "chemistry",
-      "chapter": "chemical Bonding and molecular structure",
-      "percentage": 48.33
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "percentage": 13.89
     },
     {
       "subject": "chemistry",
@@ -93,6 +83,16 @@
       "subject": "chemistry",
       "chapter": "Structure of Atom",
       "percentage": 33.89
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and periodicity in properties",
+      "percentage": 48.33
+    },
+    {
+      "subject": "chemistry",
+      "chapter": "chemical Bonding and molecular structure",
+      "percentage": 48.33
     }
   ]
 }

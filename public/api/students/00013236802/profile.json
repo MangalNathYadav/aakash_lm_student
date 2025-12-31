@@ -1,35 +1,66 @@
 {
   "psid": "00013236802",
   "name": "Unknown",
+  "batch": "RMS2",
   "meta": {
     "tests_taken": 2,
-    "first_test_date": "08-10-2025",
-    "latest_test_date": "30-11-2025"
+    "latest_test_id": "AIATS2",
+    "latest_test_order_idx": 11
   },
   "overall_performance": {
     "average_total_score": 302,
     "best_score": 347,
     "latest_score": 258,
-    "consistency_index": 0.5047,
+    "consistency_index": 106.98,
     "trend": "declining"
   },
   "subjects": {
     "physics": {
       "average_percentage": 26,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
-        "Laws of Motion",
-        "Work, Energy and Power",
         "Thermal Properties of Matter",
         "Thermodynamics",
-        "Kinetic Theory"
+        "Kinetic Theory",
+        "Laws of Motion",
+        "Work, Energy and Power"
+      ],
+      "chapters": [
+        {
+          "name": "Thermal Properties of Matter",
+          "rating": 2.6,
+          "percentage": 26,
+          "status": "Weak"
+        },
+        {
+          "name": "Thermodynamics",
+          "rating": 2.6,
+          "percentage": 26,
+          "status": "Weak"
+        },
+        {
+          "name": "Kinetic Theory",
+          "rating": 2.6,
+          "percentage": 26,
+          "status": "Weak"
+        },
+        {
+          "name": "Laws of Motion",
+          "rating": 2.6,
+          "percentage": 26,
+          "status": "Weak"
+        },
+        {
+          "name": "Work, Energy and Power",
+          "rating": 2.6,
+          "percentage": 26,
+          "status": "Weak"
+        }
       ]
     },
     "chemistry": {
       "average_percentage": 37,
-      "trend": "improving",
       "strong_chapters": [],
       "average_chapters": [
         "Equilibrium"
@@ -37,22 +68,60 @@
       "weak_chapters": [
         "Classification of Elements and periodicity in properties",
         "chemical Bonding and molecular structure"
+      ],
+      "chapters": [
+        {
+          "name": "Classification of Elements and periodicity in properties",
+          "rating": 2.9,
+          "percentage": 29,
+          "status": "Weak"
+        },
+        {
+          "name": "chemical Bonding and molecular structure",
+          "rating": 2.9,
+          "percentage": 29,
+          "status": "Weak"
+        },
+        {
+          "name": "Equilibrium",
+          "rating": 5.3,
+          "percentage": 53,
+          "status": "Average"
+        }
       ]
     },
     "botany": {
       "average_percentage": 45,
-      "trend": "declining",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
+        "Anatomy of Flowering Plants",
         "Biological Classification",
-        "Morphology of Flowering Plants",
-        "Anatomy of Flowering Plants"
+        "Morphology of Flowering Plants"
+      ],
+      "chapters": [
+        {
+          "name": "Anatomy of Flowering Plants",
+          "rating": 4.1,
+          "percentage": 41,
+          "status": "Weak"
+        },
+        {
+          "name": "Biological Classification",
+          "rating": 4.7,
+          "percentage": 47,
+          "status": "Weak"
+        },
+        {
+          "name": "Morphology of Flowering Plants",
+          "rating": 4.7,
+          "percentage": 47,
+          "status": "Weak"
+        }
       ]
     },
     "zoology": {
       "average_percentage": 57,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [
         "Locomotion & Movement-II: (Upto muscle and bone disorders)",
@@ -61,32 +130,91 @@
       "weak_chapters": [
         "Breathing & Exchange of Gases",
         "Body Fluids & Circulation"
+      ],
+      "chapters": [
+        {
+          "name": "Breathing & Exchange of Gases",
+          "rating": 4.1,
+          "percentage": 41,
+          "status": "Weak"
+        },
+        {
+          "name": "Body Fluids & Circulation",
+          "rating": 4.1,
+          "percentage": 41,
+          "status": "Weak"
+        },
+        {
+          "name": "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+          "rating": 7.3,
+          "percentage": 73,
+          "status": "Average"
+        },
+        {
+          "name": "Neural Control & Coordination",
+          "rating": 7.3,
+          "percentage": 73,
+          "status": "Average"
+        }
       ]
     }
   },
   "focus_insights": {
     "top_weak_chapters": [
-      "Laws of Motion",
-      "Work, Energy and Power",
-      "Thermal Properties of Matter",
-      "Thermodynamics",
-      "Kinetic Theory"
-    ],
-    "most_improved_chapters": [],
-    "chapters_needing_attention": [
-      "Laws of Motion",
-      "Work, Energy and Power",
       "Thermal Properties of Matter",
       "Thermodynamics",
       "Kinetic Theory",
+      "Laws of Motion",
+      "Work, Energy and Power"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Thermal Properties of Matter",
+      "Thermodynamics",
+      "Kinetic Theory",
+      "Laws of Motion",
+      "Work, Energy and Power",
       "Classification of Elements and periodicity in properties",
       "chemical Bonding and molecular structure",
       "Anatomy of Flowering Plants",
-      "Breathing & Exchange of Gases",
-      "Body Fluids & Circulation",
       "Biological Classification",
-      "Morphology of Flowering Plants"
+      "Morphology of Flowering Plants",
+      "Breathing & Exchange of Gases",
+      "Body Fluids & Circulation"
     ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "FT5",
+      "norm_tid": "FT5",
+      "syl_date": "2025-10-01T00:00:00",
+      "order_idx": 5,
+      "marks": {
+        "physics": 47,
+        "chemistry": 96,
+        "botany": 73,
+        "zoology": 131,
+        "total": 347
+      },
+      "center_rank": 212,
+      "air_rank": 0,
+      "percentile": 211.0
+    },
+    {
+      "test_id": "AIATS2",
+      "norm_tid": "AIATS2",
+      "syl_date": "2025-11-30T00:00:00",
+      "order_idx": 11,
+      "marks": {
+        "physics": 47,
+        "chemistry": 53,
+        "botany": 84,
+        "zoology": 74,
+        "total": 258
+      },
+      "center_rank": 694,
+      "air_rank": 0,
+      "percentile": 47317.0
+    }
+  ]
 }

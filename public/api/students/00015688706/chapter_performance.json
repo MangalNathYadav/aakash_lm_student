@@ -1,26 +1,74 @@
 {
-  "psid": "00015688706",
   "subjects": {
     "physics": {
       "chapters": {
-        "Gravitation": {
+        "Moving Charges and Magnetism": {
+          "allocated_marks": 30.0,
+          "max_marks": 45.0,
           "appearances": 1,
-          "total_allocated_marks": 49.0,
-          "total_max_marks": 60.0,
+          "last_two_percentage": [
+            66.66666666666666
+          ],
+          "average_percentage": 66.67,
+          "trend": "insufficient_data"
+        },
+        "Magnetism and Matter": {
+          "allocated_marks": 30.0,
+          "max_marks": 45.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            66.66666666666666
+          ],
+          "average_percentage": 66.67,
+          "trend": "insufficient_data"
+        },
+        "Electromagnetic Induction": {
+          "allocated_marks": 30.0,
+          "max_marks": 45.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            66.66666666666666
+          ],
+          "average_percentage": 66.67,
+          "trend": "insufficient_data"
+        },
+        "Alternating Current": {
+          "allocated_marks": 30.0,
+          "max_marks": 45.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            66.66666666666666
+          ],
+          "average_percentage": 66.67,
+          "trend": "insufficient_data"
+        },
+        "Gravitation": {
+          "allocated_marks": 49.0,
+          "max_marks": 60.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            81.66666666666667
+          ],
           "average_percentage": 81.67,
           "trend": "insufficient_data"
         },
         "Mechanical Properties of Solids": {
+          "allocated_marks": 49.0,
+          "max_marks": 60.0,
           "appearances": 1,
-          "total_allocated_marks": 49.0,
-          "total_max_marks": 60.0,
+          "last_two_percentage": [
+            81.66666666666667
+          ],
           "average_percentage": 81.67,
           "trend": "insufficient_data"
         },
         "Mechanical Properties of Fluids": {
+          "allocated_marks": 49.0,
+          "max_marks": 60.0,
           "appearances": 1,
-          "total_allocated_marks": 49.0,
-          "total_max_marks": 60.0,
+          "last_two_percentage": [
+            81.66666666666667
+          ],
           "average_percentage": 81.67,
           "trend": "insufficient_data"
         }
@@ -28,10 +76,33 @@
     },
     "chemistry": {
       "chapters": {
-        "Thermodynamics": {
+        "Hydrocarbons": {
+          "allocated_marks": 39.0,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 140.0,
-          "total_max_marks": 180.0,
+          "last_two_percentage": [
+            43.333333333333336
+          ],
+          "average_percentage": 43.33,
+          "trend": "insufficient_data"
+        },
+        "Haloalkanes and Haloarenes": {
+          "allocated_marks": 39.0,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            43.333333333333336
+          ],
+          "average_percentage": 43.33,
+          "trend": "insufficient_data"
+        },
+        "Thermodynamics": {
+          "allocated_marks": 140.0,
+          "max_marks": 180.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            77.77777777777779
+          ],
           "average_percentage": 77.78,
           "trend": "insufficient_data"
         }
@@ -39,10 +110,33 @@
     },
     "botany": {
       "chapters": {
-        "Morphology of Flowering Plants": {
+        "Plant Growth and Development": {
+          "allocated_marks": 38.5,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 105.0,
-          "total_max_marks": 180.0,
+          "last_two_percentage": [
+            42.77777777777778
+          ],
+          "average_percentage": 42.78,
+          "trend": "insufficient_data"
+        },
+        "Sexual Reproduction in Flowering Plants": {
+          "allocated_marks": 38.5,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            42.77777777777778
+          ],
+          "average_percentage": 42.78,
+          "trend": "insufficient_data"
+        },
+        "Morphology of Flowering Plants": {
+          "allocated_marks": 105.0,
+          "max_marks": 180.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            58.333333333333336
+          ],
           "average_percentage": 58.33,
           "trend": "insufficient_data"
         }
@@ -50,17 +144,43 @@
     },
     "zoology": {
       "chapters": {
-        "Excretory Products & their Elimination": {
+        "Animal Kingdom-II: Chordates": {
+          "allocated_marks": 70.5,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 80.0,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            78.33333333333333
+          ],
+          "average_percentage": 78.33,
+          "trend": "insufficient_data"
+        },
+        "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)": {
+          "allocated_marks": 70.5,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            78.33333333333333
+          ],
+          "average_percentage": 78.33,
+          "trend": "insufficient_data"
+        },
+        "Excretory Products & their Elimination": {
+          "allocated_marks": 80.0,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            88.88888888888889
+          ],
           "average_percentage": 88.89,
           "trend": "insufficient_data"
         },
         "Locomotion & Movement-I: (Upto properties of muscle contraction)": {
+          "allocated_marks": 80.0,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 80.0,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            88.88888888888889
+          ],
           "average_percentage": 88.89,
           "trend": "insufficient_data"
         }

@@ -1,20 +1,76 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f8fafc;
-  --foreground: #0f172a;
+    --background: #f8fafc;
+    --foreground: #1e293b;
+    --primary: #2563eb;
+    /* Blue 600 */
+    --primary-hover: #1d4ed8;
+    --secondary: #64748b;
+    --card-bg: #ffffff;
+    --border-color: #e2e8f0;
 }
 
 body {
-  background-color: var(--background);
-  color: var(--foreground);
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.5;
 }
 
+/* Standard Card Style */
+.card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Utilities */
 .no-scrollbar::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .no-scrollbar {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Simple Button Styles */
+.btn-primary {
+    background-color: var(--primary);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+}
+
+/* Theme Colors for text and backgrounds */
+.text-primary {
+    color: var(--primary);
+}
+
+.bg-primary {
+    background-color: var(--primary);
+}
+
+.border-primary {
+    border-color: var(--primary);
+}
+
+/* Remove complex tech gradients */
+.bg-evalyx {
+    background-color: var(--primary);
+}
+
+.text-evalyx {
+    color: var(--primary);
+    background: none;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
 }

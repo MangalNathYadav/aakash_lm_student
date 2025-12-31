@@ -1,26 +1,74 @@
 {
-  "psid": "00015768779",
   "subjects": {
     "physics": {
       "chapters": {
-        "Units & Measurements": {
+        "Moving Charges and Magnetism": {
+          "allocated_marks": -0.75,
+          "max_marks": 45.0,
           "appearances": 1,
-          "total_allocated_marks": 0.33,
-          "total_max_marks": 60.0,
+          "last_two_percentage": [
+            -1.6666666666666667
+          ],
+          "average_percentage": -1.67,
+          "trend": "insufficient_data"
+        },
+        "Magnetism and Matter": {
+          "allocated_marks": -0.75,
+          "max_marks": 45.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            -1.6666666666666667
+          ],
+          "average_percentage": -1.67,
+          "trend": "insufficient_data"
+        },
+        "Electromagnetic Induction": {
+          "allocated_marks": -0.75,
+          "max_marks": 45.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            -1.6666666666666667
+          ],
+          "average_percentage": -1.67,
+          "trend": "insufficient_data"
+        },
+        "Alternating Current": {
+          "allocated_marks": -0.75,
+          "max_marks": 45.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            -1.6666666666666667
+          ],
+          "average_percentage": -1.67,
+          "trend": "insufficient_data"
+        },
+        "Units & Measurements": {
+          "allocated_marks": 0.3333333333333333,
+          "max_marks": 60.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            0.5555555555555555
+          ],
           "average_percentage": 0.56,
           "trend": "insufficient_data"
         },
         "Motion in a Straight Line": {
+          "allocated_marks": 0.3333333333333333,
+          "max_marks": 60.0,
           "appearances": 1,
-          "total_allocated_marks": 0.33,
-          "total_max_marks": 60.0,
+          "last_two_percentage": [
+            0.5555555555555555
+          ],
           "average_percentage": 0.56,
           "trend": "insufficient_data"
         },
         "Motion in a Plane": {
+          "allocated_marks": 0.3333333333333333,
+          "max_marks": 60.0,
           "appearances": 1,
-          "total_allocated_marks": 0.33,
-          "total_max_marks": 60.0,
+          "last_two_percentage": [
+            0.5555555555555555
+          ],
           "average_percentage": 0.56,
           "trend": "insufficient_data"
         }
@@ -28,17 +76,43 @@
     },
     "chemistry": {
       "chapters": {
-        "Some Basic Concepts of Chemistry": {
+        "Hydrocarbons": {
+          "allocated_marks": 7.5,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 12.0,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            8.333333333333332
+          ],
+          "average_percentage": 8.33,
+          "trend": "insufficient_data"
+        },
+        "Haloalkanes and Haloarenes": {
+          "allocated_marks": 7.5,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            8.333333333333332
+          ],
+          "average_percentage": 8.33,
+          "trend": "insufficient_data"
+        },
+        "Some Basic Concepts of Chemistry": {
+          "allocated_marks": 12.0,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            13.333333333333334
+          ],
           "average_percentage": 13.33,
           "trend": "insufficient_data"
         },
         "Structure of Atom": {
+          "allocated_marks": 12.0,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 12.0,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            13.333333333333334
+          ],
           "average_percentage": 13.33,
           "trend": "insufficient_data"
         }
@@ -46,24 +120,53 @@
     },
     "botany": {
       "chapters": {
-        "Cell: The Unit of Life": {
+        "Plant Growth and Development": {
+          "allocated_marks": 12.0,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 23.33,
-          "total_max_marks": 60.0,
+          "last_two_percentage": [
+            13.333333333333334
+          ],
+          "average_percentage": 13.33,
+          "trend": "insufficient_data"
+        },
+        "Sexual Reproduction in Flowering Plants": {
+          "allocated_marks": 12.0,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            13.333333333333334
+          ],
+          "average_percentage": 13.33,
+          "trend": "insufficient_data"
+        },
+        "Cell: The Unit of Life": {
+          "allocated_marks": 23.333333333333332,
+          "max_marks": 60.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            38.88888888888889
+          ],
           "average_percentage": 38.89,
           "trend": "insufficient_data"
         },
         "Cell Cycle and Cell Division": {
+          "allocated_marks": 23.333333333333332,
+          "max_marks": 60.0,
           "appearances": 1,
-          "total_allocated_marks": 23.33,
-          "total_max_marks": 60.0,
+          "last_two_percentage": [
+            38.88888888888889
+          ],
           "average_percentage": 38.89,
           "trend": "insufficient_data"
         },
         "The Living World": {
+          "allocated_marks": 23.333333333333332,
+          "max_marks": 60.0,
           "appearances": 1,
-          "total_allocated_marks": 23.33,
-          "total_max_marks": 60.0,
+          "last_two_percentage": [
+            38.88888888888889
+          ],
           "average_percentage": 38.89,
           "trend": "insufficient_data"
         }
@@ -71,17 +174,43 @@
     },
     "zoology": {
       "chapters": {
-        "Structural Organisation in Animals- Animal Tissues": {
+        "Animal Kingdom-II: Chordates": {
+          "allocated_marks": 12.0,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 25.0,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            13.333333333333334
+          ],
+          "average_percentage": 13.33,
+          "trend": "insufficient_data"
+        },
+        "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)": {
+          "allocated_marks": 12.0,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            13.333333333333334
+          ],
+          "average_percentage": 13.33,
+          "trend": "insufficient_data"
+        },
+        "Structural Organisation in Animals- Animal Tissues": {
+          "allocated_marks": 25.0,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            27.77777777777778
+          ],
           "average_percentage": 27.78,
           "trend": "insufficient_data"
         },
         "Biomolecules": {
+          "allocated_marks": 25.0,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 25.0,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            27.77777777777778
+          ],
           "average_percentage": 27.78,
           "trend": "insufficient_data"
         }

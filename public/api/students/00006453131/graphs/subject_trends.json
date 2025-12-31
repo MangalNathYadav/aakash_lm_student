@@ -1,0 +1,218 @@
+{
+  "graphs": [
+    {
+      "graph_id": "all_tests_subject_trend",
+      "title": "Overall Subject Performance (All Tests)",
+      "x_axis": {
+        "label": "Test Date",
+        "values": [
+          "2025-07-02",
+          "2025-07-23",
+          "2025-08-20",
+          "2025-08-27",
+          "2025-10-01",
+          "2025-11-02",
+          "2025-11-12",
+          "2025-11-30",
+          "2025-12-31"
+        ]
+      },
+      "datasets": [
+        {
+          "subject": "physics",
+          "data": [
+            109,
+            142,
+            141,
+            126,
+            128,
+            132,
+            114,
+            134,
+            158
+          ]
+        },
+        {
+          "subject": "chemistry",
+          "data": [
+            123,
+            160,
+            141,
+            175,
+            139,
+            141,
+            170,
+            146,
+            160
+          ]
+        },
+        {
+          "subject": "botany",
+          "data": [
+            165,
+            160,
+            175,
+            180,
+            148,
+            160,
+            150,
+            135,
+            151
+          ]
+        },
+        {
+          "subject": "zoology",
+          "data": [
+            170,
+            146,
+            170,
+            180,
+            170,
+            166,
+            170,
+            160,
+            160
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": "aiats_subject_trend",
+      "title": "AIATS Subject Performance",
+      "x_axis": {
+        "label": "Test Date",
+        "values": [
+          "2025-11-02",
+          "2025-11-30",
+          "2025-12-31"
+        ]
+      },
+      "datasets": [
+        {
+          "subject": "physics",
+          "data": [
+            132,
+            134,
+            158
+          ]
+        },
+        {
+          "subject": "chemistry",
+          "data": [
+            141,
+            146,
+            160
+          ]
+        },
+        {
+          "subject": "botany",
+          "data": [
+            160,
+            135,
+            151
+          ]
+        },
+        {
+          "subject": "zoology",
+          "data": [
+            166,
+            160,
+            160
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": "ft_subject_trend",
+      "title": "Fortnightly Test (FT) Subject Performance",
+      "x_axis": {
+        "label": "Test Date",
+        "values": [
+          "2025-07-02",
+          "2025-07-23",
+          "2025-08-20",
+          "2025-10-01"
+        ]
+      },
+      "datasets": [
+        {
+          "subject": "physics",
+          "data": [
+            109,
+            142,
+            141,
+            128
+          ]
+        },
+        {
+          "subject": "chemistry",
+          "data": [
+            123,
+            160,
+            141,
+            139
+          ]
+        },
+        {
+          "subject": "botany",
+          "data": [
+            165,
+            160,
+            175,
+            148
+          ]
+        },
+        {
+          "subject": "zoology",
+          "data": [
+            170,
+            146,
+            170,
+            170
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": "nbts_subject_trend",
+      "title": "NCERT Booster Test (NBTS) Subject Performance",
+      "x_axis": {
+        "label": "Test Date",
+        "values": [
+          "2025-08-27",
+          "2025-11-12"
+        ]
+      },
+      "datasets": [
+        {
+          "subject": "physics",
+          "data": [
+            126,
+            114
+          ]
+        },
+        {
+          "subject": "chemistry",
+          "data": [
+            175,
+            170
+          ]
+        },
+        {
+          "subject": "botany",
+          "data": [
+            180,
+            150
+          ]
+        },
+        {
+          "subject": "zoology",
+          "data": [
+            180,
+            170
+          ]
+        }
+      ]
+    }
+  ]
+}

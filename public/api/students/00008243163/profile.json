@@ -1,76 +1,218 @@
 {
   "psid": "00008243163",
   "name": "Anamika Kamal",
+  "batch": "RMS1",
   "meta": {
     "tests_taken": 4,
-    "first_test_date": "02-07-2025",
-    "latest_test_date": "23-07-2025"
+    "latest_test_id": "AIATS1",
+    "latest_test_order_idx": 7
   },
   "overall_performance": {
     "average_total_score": 358,
     "best_score": 400,
-    "latest_score": 400,
-    "consistency_index": 0.6891,
-    "trend": "improving"
+    "latest_score": 296,
+    "consistency_index": 192.16,
+    "trend": "declining"
   },
   "subjects": {
     "physics": {
       "average_percentage": 15,
-      "trend": "stable",
       "strong_chapters": [],
       "average_chapters": [],
       "weak_chapters": [
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids",
         "Units & Measurements",
         "Motion in a Straight Line",
         "Motion in a Plane",
-        "Laws of Motion",
-        "Gravitation",
-        "Mechanical Properties of Solids",
-        "Mechanical Properties of Fluids"
+        "Laws of Motion"
+      ],
+      "chapters": [
+        {
+          "name": "Gravitation",
+          "rating": 1.3,
+          "percentage": 13,
+          "status": "Weak"
+        },
+        {
+          "name": "Mechanical Properties of Solids",
+          "rating": 1.3,
+          "percentage": 13,
+          "status": "Weak"
+        },
+        {
+          "name": "Mechanical Properties of Fluids",
+          "rating": 1.3,
+          "percentage": 13,
+          "status": "Weak"
+        },
+        {
+          "name": "Units & Measurements",
+          "rating": 1.5,
+          "percentage": 15,
+          "status": "Weak"
+        },
+        {
+          "name": "Motion in a Straight Line",
+          "rating": 1.5,
+          "percentage": 15,
+          "status": "Weak"
+        },
+        {
+          "name": "Motion in a Plane",
+          "rating": 1.6,
+          "percentage": 16,
+          "status": "Weak"
+        },
+        {
+          "name": "Laws of Motion",
+          "rating": 1.9,
+          "percentage": 19,
+          "status": "Weak"
+        }
       ]
     },
     "chemistry": {
       "average_percentage": 40,
-      "trend": "declining",
       "strong_chapters": [],
       "average_chapters": [
         "Classification of Elements and Periodicity in Properties"
       ],
       "weak_chapters": [
+        "Thermodynamics",
         "Some Basic Concepts of Chemistry",
-        "Structure of Atom",
-        "Thermodynamics"
+        "Structure of Atom"
+      ],
+      "chapters": [
+        {
+          "name": "Some Basic Concepts of Chemistry",
+          "rating": 3.1,
+          "percentage": 31,
+          "status": "Weak"
+        },
+        {
+          "name": "Structure of Atom",
+          "rating": 3.6,
+          "percentage": 36,
+          "status": "Weak"
+        },
+        {
+          "name": "Thermodynamics",
+          "rating": 4.1,
+          "percentage": 41,
+          "status": "Weak"
+        },
+        {
+          "name": "Classification of Elements and Periodicity in Properties",
+          "rating": 5.3,
+          "percentage": 53,
+          "status": "Average"
+        }
       ]
     },
     "botany": {
       "average_percentage": 71,
-      "trend": "declining",
       "strong_chapters": [
         "Cell Cycle & Cell Division"
       ],
       "average_chapters": [
-        "Cell: The Unit of Life",
-        "Cell Cycle and Cell Division",
-        "The Living World",
+        "Morphology of Flowering Plants",
         "Cell : The Unit of Life",
-        "Morphology of Flowering Plants"
+        "The Living World",
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division"
       ],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Cell: The Unit of Life",
+          "rating": 6.4,
+          "percentage": 64,
+          "status": "Average"
+        },
+        {
+          "name": "Cell Cycle and Cell Division",
+          "rating": 6.4,
+          "percentage": 64,
+          "status": "Average"
+        },
+        {
+          "name": "Cell : The Unit of Life",
+          "rating": 6.9,
+          "percentage": 69,
+          "status": "Average"
+        },
+        {
+          "name": "Morphology of Flowering Plants",
+          "rating": 7.4,
+          "percentage": 74,
+          "status": "Average"
+        },
+        {
+          "name": "The Living World",
+          "rating": 7.4,
+          "percentage": 74,
+          "status": "Average"
+        },
+        {
+          "name": "Cell Cycle & Cell Division",
+          "rating": 8.1,
+          "percentage": 81,
+          "status": "Mastered"
+        }
+      ]
     },
     "zoology": {
       "average_percentage": 73,
-      "trend": "stable",
-      "strong_chapters": [
-        "Structural Organisation in Animals- Animal Tissues",
-        "Excretory Products & their Elimination",
-        "Locomotion & Movement-I: (Upto properties of muscle contraction)"
-      ],
+      "strong_chapters": [],
       "average_chapters": [
-        "Biomolecules",
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement-I: (Upto properties of muscle contraction)",
+        "Structural Organisation in Animals- Animal Tissues",
         "Biomolecules-I: (Upto polysaccharide)",
-        "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)"
+        "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+        "Biomolecules"
       ],
-      "weak_chapters": []
+      "weak_chapters": [],
+      "chapters": [
+        {
+          "name": "Biomolecules-I: (Upto polysaccharide)",
+          "rating": 6.8,
+          "percentage": 68,
+          "status": "Average"
+        },
+        {
+          "name": "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+          "rating": 6.8,
+          "percentage": 68,
+          "status": "Average"
+        },
+        {
+          "name": "Biomolecules",
+          "rating": 7.1,
+          "percentage": 71,
+          "status": "Average"
+        },
+        {
+          "name": "Structural Organisation in Animals- Animal Tissues",
+          "rating": 7.5,
+          "percentage": 75,
+          "status": "Average"
+        },
+        {
+          "name": "Excretory Products & their Elimination",
+          "rating": 7.8,
+          "percentage": 78,
+          "status": "Average"
+        },
+        {
+          "name": "Locomotion & Movement-I: (Upto properties of muscle contraction)",
+          "rating": 7.8,
+          "percentage": 78,
+          "status": "Average"
+        }
+      ]
     }
   },
   "focus_insights": {
@@ -81,13 +223,7 @@
       "Units & Measurements",
       "Motion in a Straight Line"
     ],
-    "most_improved_chapters": [
-      "Units & Measurements",
-      "Motion in a Straight Line",
-      "Motion in a Plane",
-      "Some Basic Concepts of Chemistry",
-      "Structure of Atom"
-    ],
+    "most_improved_chapters": [],
     "chapters_needing_attention": [
       "Gravitation",
       "Mechanical Properties of Solids",
@@ -96,10 +232,75 @@
       "Motion in a Straight Line",
       "Motion in a Plane",
       "Laws of Motion",
+      "Thermodynamics",
       "Some Basic Concepts of Chemistry",
-      "Structure of Atom",
-      "Thermodynamics"
+      "Structure of Atom"
     ]
   },
-  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+  "tests": [
+    {
+      "test_id": "FT4",
+      "norm_tid": "FT4",
+      "syl_date": "1900-01-01T00:00:00",
+      "order_idx": 4,
+      "marks": {
+        "physics": 23,
+        "chemistry": 74,
+        "botany": 133,
+        "zoology": 140,
+        "total": 370
+      },
+      "center_rank": 158,
+      "air_rank": 0,
+      "percentile": 158.0
+    },
+    {
+      "test_id": "FT1",
+      "norm_tid": "FT1",
+      "syl_date": "2025-07-02T00:00:00",
+      "order_idx": 0,
+      "marks": {
+        "physics": 33,
+        "chemistry": 67,
+        "botany": 125,
+        "zoology": 140,
+        "total": 365
+      },
+      "center_rank": 150,
+      "air_rank": 0,
+      "percentile": 150.0
+    },
+    {
+      "test_id": "FT2",
+      "norm_tid": "FT2",
+      "syl_date": "2025-07-23T00:00:00",
+      "order_idx": 1,
+      "marks": {
+        "physics": 35,
+        "chemistry": 96,
+        "botany": 146,
+        "zoology": 123,
+        "total": 400
+      },
+      "center_rank": 139,
+      "air_rank": 0,
+      "percentile": 139.0
+    },
+    {
+      "test_id": "AIATS1",
+      "norm_tid": "AIATS1",
+      "syl_date": "2025-11-02T00:00:00",
+      "order_idx": 7,
+      "marks": {
+        "physics": 19,
+        "chemistry": 34,
+        "botany": 116,
+        "zoology": 127,
+        "total": 296
+      },
+      "center_rank": 0,
+      "air_rank": 0,
+      "percentile": 41.11
+    }
+  ]
 }

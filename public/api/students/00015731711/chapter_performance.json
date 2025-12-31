@@ -1,144 +1,197 @@
 {
-  "psid": "00015731711",
   "subjects": {
     "physics": {
       "chapters": {
-        "Laws of Motion": {
-          "appearances": 1,
-          "total_allocated_marks": 0.5,
-          "total_max_marks": 90.0,
-          "average_percentage": 0.56,
-          "trend": "insufficient_data"
-        },
-        "Work, Energy and Power": {
-          "appearances": 1,
-          "total_allocated_marks": 0.5,
-          "total_max_marks": 90.0,
-          "average_percentage": 0.56,
-          "trend": "insufficient_data"
-        },
         "Units & Measurements": {
+          "allocated_marks": 22.0,
+          "max_marks": 60.0,
           "appearances": 1,
-          "total_allocated_marks": 22.0,
-          "total_max_marks": 60.0,
+          "last_two_percentage": [
+            36.666666666666664
+          ],
           "average_percentage": 36.67,
           "trend": "insufficient_data"
         },
         "Motion in a Straight Line": {
+          "allocated_marks": 22.0,
+          "max_marks": 60.0,
           "appearances": 1,
-          "total_allocated_marks": 22.0,
-          "total_max_marks": 60.0,
+          "last_two_percentage": [
+            36.666666666666664
+          ],
           "average_percentage": 36.67,
           "trend": "insufficient_data"
         },
         "Motion in a Plane": {
+          "allocated_marks": 22.0,
+          "max_marks": 60.0,
           "appearances": 1,
-          "total_allocated_marks": 22.0,
-          "total_max_marks": 60.0,
+          "last_two_percentage": [
+            36.666666666666664
+          ],
           "average_percentage": 36.67,
+          "trend": "insufficient_data"
+        },
+        "Laws of Motion": {
+          "allocated_marks": 0.5,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            0.5555555555555556
+          ],
+          "average_percentage": 0.56,
+          "trend": "insufficient_data"
+        },
+        "Work, Energy and Power": {
+          "allocated_marks": 0.5,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            0.5555555555555556
+          ],
+          "average_percentage": 0.56,
           "trend": "insufficient_data"
         }
       }
     },
     "chemistry": {
       "chapters": {
-        "Classification of Elements and periodicity in properties": {
-          "appearances": 1,
-          "total_allocated_marks": 25.0,
-          "total_max_marks": 90.0,
-          "average_percentage": 27.78,
-          "trend": "insufficient_data"
-        },
-        "chemical Bonding and molecular structure": {
-          "appearances": 1,
-          "total_allocated_marks": 25.0,
-          "total_max_marks": 90.0,
-          "average_percentage": 27.78,
-          "trend": "insufficient_data"
-        },
         "Some Basic Concepts of Chemistry": {
+          "allocated_marks": 6.0,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 6.0,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            6.666666666666667
+          ],
           "average_percentage": 6.67,
           "trend": "insufficient_data"
         },
         "Structure of Atom": {
+          "allocated_marks": 6.0,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 6.0,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            6.666666666666667
+          ],
           "average_percentage": 6.67,
+          "trend": "insufficient_data"
+        },
+        "Classification of Elements and periodicity in properties": {
+          "allocated_marks": 25.0,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            27.77777777777778
+          ],
+          "average_percentage": 27.78,
+          "trend": "insufficient_data"
+        },
+        "chemical Bonding and molecular structure": {
+          "allocated_marks": 25.0,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            27.77777777777778
+          ],
+          "average_percentage": 27.78,
           "trend": "insufficient_data"
         }
       }
     },
     "botany": {
       "chapters": {
-        "Biological Classification": {
-          "appearances": 1,
-          "total_allocated_marks": 6.0,
-          "total_max_marks": 90.0,
-          "average_percentage": 6.67,
-          "trend": "insufficient_data"
-        },
-        "Morphology of Flowering Plants": {
-          "appearances": 1,
-          "total_allocated_marks": 6.0,
-          "total_max_marks": 90.0,
-          "average_percentage": 6.67,
-          "trend": "insufficient_data"
-        },
         "Cell: The Unit of Life": {
+          "allocated_marks": 9.666666666666666,
+          "max_marks": 60.0,
           "appearances": 1,
-          "total_allocated_marks": 9.67,
-          "total_max_marks": 60.0,
+          "last_two_percentage": [
+            16.11111111111111
+          ],
           "average_percentage": 16.11,
           "trend": "insufficient_data"
         },
         "Cell Cycle and Cell Division": {
+          "allocated_marks": 9.666666666666666,
+          "max_marks": 60.0,
           "appearances": 1,
-          "total_allocated_marks": 9.67,
-          "total_max_marks": 60.0,
+          "last_two_percentage": [
+            16.11111111111111
+          ],
           "average_percentage": 16.11,
           "trend": "insufficient_data"
         },
         "The Living World": {
+          "allocated_marks": 9.666666666666666,
+          "max_marks": 60.0,
           "appearances": 1,
-          "total_allocated_marks": 9.67,
-          "total_max_marks": 60.0,
+          "last_two_percentage": [
+            16.11111111111111
+          ],
           "average_percentage": 16.11,
+          "trend": "insufficient_data"
+        },
+        "Biological Classification": {
+          "allocated_marks": 6.0,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            6.666666666666667
+          ],
+          "average_percentage": 6.67,
+          "trend": "insufficient_data"
+        },
+        "Morphology of Flowering Plants": {
+          "allocated_marks": 6.0,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            6.666666666666667
+          ],
+          "average_percentage": 6.67,
           "trend": "insufficient_data"
         }
       }
     },
     "zoology": {
       "chapters": {
-        "Breathing & Exchange of Gases": {
-          "appearances": 1,
-          "total_allocated_marks": 19.5,
-          "total_max_marks": 90.0,
-          "average_percentage": 21.67,
-          "trend": "insufficient_data"
-        },
-        "Body Fluids & Circulation": {
-          "appearances": 1,
-          "total_allocated_marks": 19.5,
-          "total_max_marks": 90.0,
-          "average_percentage": 21.67,
-          "trend": "insufficient_data"
-        },
         "Structural Organisation in Animals- Animal Tissues": {
+          "allocated_marks": 32.0,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 32.0,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            35.55555555555556
+          ],
           "average_percentage": 35.56,
           "trend": "insufficient_data"
         },
         "Biomolecules": {
+          "allocated_marks": 32.0,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 32.0,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            35.55555555555556
+          ],
           "average_percentage": 35.56,
+          "trend": "insufficient_data"
+        },
+        "Breathing & Exchange of Gases": {
+          "allocated_marks": 19.5,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            21.666666666666668
+          ],
+          "average_percentage": 21.67,
+          "trend": "insufficient_data"
+        },
+        "Body Fluids & Circulation": {
+          "allocated_marks": 19.5,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            21.666666666666668
+          ],
+          "average_percentage": 21.67,
           "trend": "insufficient_data"
         }
       }

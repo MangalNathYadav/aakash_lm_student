@@ -1,0 +1,114 @@
+{
+  "graphs": [
+    {
+      "graph_id": "all_tests_subject_trend",
+      "title": "Overall Subject Performance (All Tests)",
+      "x_axis": {
+        "label": "Test Date",
+        "values": [
+          "2025-11-02",
+          "2025-11-30",
+          "2025-12-31"
+        ]
+      },
+      "datasets": [
+        {
+          "subject": "physics",
+          "data": [
+            77,
+            25,
+            15
+          ]
+        },
+        {
+          "subject": "chemistry",
+          "data": [
+            21,
+            78,
+            30
+          ]
+        },
+        {
+          "subject": "botany",
+          "data": [
+            86,
+            112,
+            110
+          ]
+        },
+        {
+          "subject": "zoology",
+          "data": [
+            94,
+            117,
+            100
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": "aiats_subject_trend",
+      "title": "AIATS Subject Performance",
+      "x_axis": {
+        "label": "Test Date",
+        "values": [
+          "2025-11-02",
+          "2025-11-30",
+          "2025-12-31"
+        ]
+      },
+      "datasets": [
+        {
+          "subject": "physics",
+          "data": [
+            77,
+            25,
+            15
+          ]
+        },
+        {
+          "subject": "chemistry",
+          "data": [
+            21,
+            78,
+            30
+          ]
+        },
+        {
+          "subject": "botany",
+          "data": [
+            86,
+            112,
+            110
+          ]
+        },
+        {
+          "subject": "zoology",
+          "data": [
+            94,
+            117,
+            100
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": "ft_subject_trend",
+      "title": "Fortnightly Test (FT) Subject Performance",
+      "x_axis": {
+        "label": "Test Date",
+        "values": []
+      },
+      "datasets": []
+    },
+    {
+      "graph_id": "nbts_subject_trend",
+      "title": "NCERT Booster Test (NBTS) Subject Performance",
+      "x_axis": {
+        "label": "Test Date",
+        "values": []
+      },
+      "datasets": []
+    }
+  ]
+}

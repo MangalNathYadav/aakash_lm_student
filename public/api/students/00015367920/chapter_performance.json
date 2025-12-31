@@ -1,410 +1,692 @@
 {
-  "psid": "00015367920",
   "subjects": {
     "physics": {
       "chapters": {
-        "Laws of Motion": {
-          "appearances": 2,
-          "total_allocated_marks": 6.5,
-          "total_max_marks": 180.0,
-          "average_percentage": 3.61,
-          "trend": "improving"
-        },
-        "Work, Energy and Power": {
+        "Moving Charges and Magnetism": {
+          "allocated_marks": 4.75,
+          "max_marks": 45.0,
           "appearances": 1,
-          "total_allocated_marks": 1.5,
-          "total_max_marks": 90.0,
-          "average_percentage": 1.67,
+          "last_two_percentage": [
+            10.555555555555555
+          ],
+          "average_percentage": 10.56,
+          "trend": "insufficient_data"
+        },
+        "Magnetism and Matter": {
+          "allocated_marks": 4.75,
+          "max_marks": 45.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            10.555555555555555
+          ],
+          "average_percentage": 10.56,
+          "trend": "insufficient_data"
+        },
+        "Electromagnetic Induction": {
+          "allocated_marks": 4.75,
+          "max_marks": 45.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            10.555555555555555
+          ],
+          "average_percentage": 10.56,
+          "trend": "insufficient_data"
+        },
+        "Alternating Current": {
+          "allocated_marks": 4.75,
+          "max_marks": 45.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            10.555555555555555
+          ],
+          "average_percentage": 10.56,
           "trend": "insufficient_data"
         },
         "Units & Measurements": {
+          "allocated_marks": 20.166666666666668,
+          "max_marks": 150.0,
           "appearances": 2,
-          "total_allocated_marks": 20.17,
-          "total_max_marks": 150.0,
+          "last_two_percentage": [
+            11.111111111111112,
+            15.0
+          ],
           "average_percentage": 13.44,
           "trend": "improving"
         },
         "Motion in a Straight Line": {
+          "allocated_marks": 20.166666666666668,
+          "max_marks": 150.0,
           "appearances": 2,
-          "total_allocated_marks": 20.17,
-          "total_max_marks": 150.0,
+          "last_two_percentage": [
+            11.111111111111112,
+            15.0
+          ],
           "average_percentage": 13.44,
           "trend": "improving"
         },
         "Motion in a Plane": {
+          "allocated_marks": 11.666666666666668,
+          "max_marks": 150.0,
           "appearances": 2,
-          "total_allocated_marks": 11.67,
-          "total_max_marks": 150.0,
+          "last_two_percentage": [
+            11.111111111111112,
+            5.555555555555555
+          ],
           "average_percentage": 7.78,
           "trend": "declining"
         },
-        "Thermal Properties of Matter": {
-          "appearances": 2,
-          "total_allocated_marks": 11.89,
-          "total_max_marks": 80.0,
-          "average_percentage": 14.86,
-          "trend": "declining"
-        },
-        "Thermodynamics": {
-          "appearances": 2,
-          "total_allocated_marks": 11.89,
-          "total_max_marks": 80.0,
-          "average_percentage": 14.86,
-          "trend": "declining"
-        },
-        "Kinetic Theory": {
-          "appearances": 2,
-          "total_allocated_marks": 11.89,
-          "total_max_marks": 80.0,
-          "average_percentage": 14.86,
-          "trend": "declining"
-        },
         "Oscillations": {
-          "appearances": 2,
-          "total_allocated_marks": 1.56,
-          "total_max_marks": 80.0,
-          "average_percentage": 1.94,
-          "trend": "improving"
+          "allocated_marks": 0.6666666666666666,
+          "max_marks": 60.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            1.111111111111111
+          ],
+          "average_percentage": 1.11,
+          "trend": "insufficient_data"
         },
         "Waves": {
-          "appearances": 2,
-          "total_allocated_marks": 1.56,
-          "total_max_marks": 80.0,
-          "average_percentage": 1.94,
-          "trend": "improving"
+          "allocated_marks": 0.6666666666666666,
+          "max_marks": 60.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            1.111111111111111
+          ],
+          "average_percentage": 1.11,
+          "trend": "insufficient_data"
         },
         "Electric Charges & Fields": {
-          "appearances": 2,
-          "total_allocated_marks": 1.56,
-          "total_max_marks": 80.0,
-          "average_percentage": 1.94,
-          "trend": "improving"
+          "allocated_marks": 0.6666666666666666,
+          "max_marks": 60.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            1.111111111111111
+          ],
+          "average_percentage": 1.11,
+          "trend": "insufficient_data"
         },
         "Electrostatic Potential and Capacitance": {
+          "allocated_marks": 16.0,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 16.0,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            17.77777777777778
+          ],
           "average_percentage": 17.78,
           "trend": "insufficient_data"
         },
         "Current Electricity": {
+          "allocated_marks": 16.0,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 16.0,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            17.77777777777778
+          ],
           "average_percentage": 17.78,
           "trend": "insufficient_data"
         },
         "System of Particles and Rotational Motion": {
+          "allocated_marks": 7.0,
+          "max_marks": 45.0,
           "appearances": 1,
-          "total_allocated_marks": 7.0,
-          "total_max_marks": 45.0,
+          "last_two_percentage": [
+            15.555555555555555
+          ],
           "average_percentage": 15.56,
           "trend": "insufficient_data"
         },
         "Gravitation": {
-          "appearances": 2,
-          "total_allocated_marks": 7.89,
-          "total_max_marks": 65.0,
-          "average_percentage": 12.14,
-          "trend": "declining"
+          "allocated_marks": 7.0,
+          "max_marks": 45.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            15.555555555555555
+          ],
+          "average_percentage": 15.56,
+          "trend": "insufficient_data"
         },
         "Mechanical Properties of Solids": {
-          "appearances": 2,
-          "total_allocated_marks": 7.89,
-          "total_max_marks": 65.0,
-          "average_percentage": 12.14,
-          "trend": "declining"
+          "allocated_marks": 7.0,
+          "max_marks": 45.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            15.555555555555555
+          ],
+          "average_percentage": 15.56,
+          "trend": "insufficient_data"
         },
         "Mechanical Properties of Fluids": {
+          "allocated_marks": 7.0,
+          "max_marks": 45.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            15.555555555555555
+          ],
+          "average_percentage": 15.56,
+          "trend": "insufficient_data"
+        },
+        "Laws of Motion": {
+          "allocated_marks": 6.5,
+          "max_marks": 180.0,
           "appearances": 2,
-          "total_allocated_marks": 7.89,
-          "total_max_marks": 65.0,
-          "average_percentage": 12.14,
+          "last_two_percentage": [
+            5.555555555555555,
+            1.6666666666666667
+          ],
+          "average_percentage": 3.61,
           "trend": "declining"
         },
         "Work, Energy & Power": {
+          "allocated_marks": 5.5,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 5.5,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            6.111111111111111
+          ],
           "average_percentage": 6.11,
           "trend": "insufficient_data"
         },
         "System of Particles & Rotational Motion": {
+          "allocated_marks": 5.5,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 5.5,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            6.111111111111111
+          ],
           "average_percentage": 6.11,
+          "trend": "insufficient_data"
+        },
+        "Thermal Properties of Matter": {
+          "allocated_marks": 11.0,
+          "max_marks": 60.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            18.333333333333332
+          ],
+          "average_percentage": 18.33,
+          "trend": "insufficient_data"
+        },
+        "Thermodynamics": {
+          "allocated_marks": 11.0,
+          "max_marks": 60.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            18.333333333333332
+          ],
+          "average_percentage": 18.33,
+          "trend": "insufficient_data"
+        },
+        "Kinetic Theory": {
+          "allocated_marks": 11.0,
+          "max_marks": 60.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            18.333333333333332
+          ],
+          "average_percentage": 18.33,
+          "trend": "insufficient_data"
+        },
+        "Work, Energy and Power": {
+          "allocated_marks": 1.5,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            1.6666666666666667
+          ],
+          "average_percentage": 1.67,
           "trend": "insufficient_data"
         }
       }
     },
     "chemistry": {
       "chapters": {
-        "Classification of Elements and periodicity in properties": {
+        "Hydrocarbons": {
+          "allocated_marks": 19.0,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 16.5,
-          "total_max_marks": 90.0,
-          "average_percentage": 18.33,
+          "last_two_percentage": [
+            21.11111111111111
+          ],
+          "average_percentage": 21.11,
           "trend": "insufficient_data"
         },
-        "chemical Bonding and molecular structure": {
+        "Haloalkanes and Haloarenes": {
+          "allocated_marks": 19.0,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 16.5,
-          "total_max_marks": 90.0,
-          "average_percentage": 18.33,
+          "last_two_percentage": [
+            21.11111111111111
+          ],
+          "average_percentage": 21.11,
           "trend": "insufficient_data"
         },
         "Some Basic Concepts of Chemistry": {
+          "allocated_marks": 13.5,
+          "max_marks": 270.0,
           "appearances": 2,
-          "total_allocated_marks": 20.5,
-          "total_max_marks": 270.0,
-          "average_percentage": 7.59,
+          "last_two_percentage": [
+            -3.888888888888889,
+            9.444444444444445
+          ],
+          "average_percentage": 5.0,
           "trend": "improving"
         },
         "Structure of Atom": {
+          "allocated_marks": 8.0,
+          "max_marks": 180.0,
           "appearances": 2,
-          "total_allocated_marks": 15.0,
-          "total_max_marks": 180.0,
-          "average_percentage": 8.33,
-          "trend": "improving"
-        },
-        "Equilibrium": {
-          "appearances": 3,
-          "total_allocated_marks": 49.65,
-          "total_max_marks": 261.0,
-          "average_percentage": 19.02,
+          "last_two_percentage": [
+            -3.888888888888889,
+            12.777777777777777
+          ],
+          "average_percentage": 4.44,
           "trend": "improving"
         },
         "Redox Reactions": {
-          "appearances": 3,
-          "total_allocated_marks": 27.65,
-          "total_max_marks": 141.0,
-          "average_percentage": 19.61,
-          "trend": "improving"
+          "allocated_marks": 18.25,
+          "max_marks": 105.0,
+          "appearances": 2,
+          "last_two_percentage": [
+            23.333333333333332,
+            9.444444444444445
+          ],
+          "average_percentage": 17.38,
+          "trend": "declining"
         },
         "Electrochemistry": {
-          "appearances": 3,
-          "total_allocated_marks": 27.65,
-          "total_max_marks": 141.0,
-          "average_percentage": 19.61,
-          "trend": "improving"
+          "allocated_marks": 18.25,
+          "max_marks": 105.0,
+          "appearances": 2,
+          "last_two_percentage": [
+            23.333333333333332,
+            9.444444444444445
+          ],
+          "average_percentage": 17.38,
+          "trend": "declining"
         },
         "Solutions": {
-          "appearances": 2,
-          "total_allocated_marks": 23.4,
-          "total_max_marks": 96.0,
-          "average_percentage": 24.38,
-          "trend": "improving"
+          "allocated_marks": 14.0,
+          "max_marks": 60.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            23.333333333333332
+          ],
+          "average_percentage": 23.33,
+          "trend": "insufficient_data"
         },
         "Chemical Kinetics": {
+          "allocated_marks": 17.0,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 17.0,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            18.88888888888889
+          ],
           "average_percentage": 18.89,
           "trend": "insufficient_data"
         },
         "Organic Chemistry: Some Basic Principles & Techniques": {
+          "allocated_marks": 17.0,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 17.0,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            18.88888888888889
+          ],
           "average_percentage": 18.89,
           "trend": "insufficient_data"
         },
         "Thermodynamics": {
+          "allocated_marks": 4.25,
+          "max_marks": 45.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            9.444444444444445
+          ],
+          "average_percentage": 9.44,
+          "trend": "insufficient_data"
+        },
+        "Equilibrium": {
+          "allocated_marks": 40.25,
+          "max_marks": 225.0,
           "appearances": 2,
-          "total_allocated_marks": 13.65,
-          "total_max_marks": 81.0,
-          "average_percentage": 16.85,
+          "last_two_percentage": [
+            9.444444444444445,
+            20.0
+          ],
+          "average_percentage": 17.89,
           "trend": "improving"
         },
         "Classification of Elements and Periodicity in Properties": {
+          "allocated_marks": 11.5,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 11.5,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            12.777777777777777
+          ],
           "average_percentage": 12.78,
           "trend": "insufficient_data"
         },
         "Chemical Bonding and Molecular Structure": {
+          "allocated_marks": 61.0,
+          "max_marks": 180.0,
           "appearances": 1,
-          "total_allocated_marks": 61.0,
-          "total_max_marks": 180.0,
+          "last_two_percentage": [
+            33.88888888888889
+          ],
           "average_percentage": 33.89,
+          "trend": "insufficient_data"
+        },
+        "Classification of Elements and periodicity in properties": {
+          "allocated_marks": 16.5,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            18.333333333333332
+          ],
+          "average_percentage": 18.33,
+          "trend": "insufficient_data"
+        },
+        "chemical Bonding and molecular structure": {
+          "allocated_marks": 16.5,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            18.333333333333332
+          ],
+          "average_percentage": 18.33,
           "trend": "insufficient_data"
         }
       }
     },
     "botany": {
       "chapters": {
-        "Biological Classification": {
-          "appearances": 2,
-          "total_allocated_marks": 98.5,
-          "total_max_marks": 270.0,
-          "average_percentage": 36.48,
-          "trend": "improving"
+        "Plant Growth and Development": {
+          "allocated_marks": 21.0,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            23.333333333333332
+          ],
+          "average_percentage": 23.33,
+          "trend": "insufficient_data"
         },
-        "Morphology of Flowering Plants": {
-          "appearances": 2,
-          "total_allocated_marks": 48.5,
-          "total_max_marks": 150.0,
-          "average_percentage": 32.33,
-          "trend": "improving"
+        "Sexual Reproduction in Flowering Plants": {
+          "allocated_marks": 21.0,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            23.333333333333332
+          ],
+          "average_percentage": 23.33,
+          "trend": "insufficient_data"
         },
         "Cell: The Unit of Life": {
+          "allocated_marks": 9.0,
+          "max_marks": 60.0,
           "appearances": 1,
-          "total_allocated_marks": 9.0,
-          "total_max_marks": 60.0,
+          "last_two_percentage": [
+            15.0
+          ],
           "average_percentage": 15.0,
           "trend": "insufficient_data"
         },
         "Cell Cycle and Cell Division": {
+          "allocated_marks": 9.0,
+          "max_marks": 60.0,
           "appearances": 1,
-          "total_allocated_marks": 9.0,
-          "total_max_marks": 60.0,
+          "last_two_percentage": [
+            15.0
+          ],
           "average_percentage": 15.0,
           "trend": "insufficient_data"
         },
         "The Living World": {
+          "allocated_marks": 58.0,
+          "max_marks": 150.0,
           "appearances": 2,
-          "total_allocated_marks": 58.0,
-          "total_max_marks": 150.0,
+          "last_two_percentage": [
+            15.0,
+            54.44444444444444
+          ],
           "average_percentage": 38.67,
           "trend": "improving"
         },
         "Cell : The Unit of Life": {
+          "allocated_marks": 85.0,
+          "max_marks": 180.0,
           "appearances": 1,
-          "total_allocated_marks": 85.0,
-          "total_max_marks": 180.0,
+          "last_two_percentage": [
+            47.22222222222222
+          ],
           "average_percentage": 47.22,
           "trend": "insufficient_data"
         },
-        "Anatomy of Flowering Plants": {
-          "appearances": 3,
-          "total_allocated_marks": 141.5,
-          "total_max_marks": 330.0,
-          "average_percentage": 42.88,
-          "trend": "improving"
-        },
         "Plant Kingdom": {
-          "appearances": 3,
-          "total_allocated_marks": 169.5,
-          "total_max_marks": 330.0,
-          "average_percentage": 51.36,
-          "trend": "improving"
+          "allocated_marks": 135.5,
+          "max_marks": 270.0,
+          "appearances": 2,
+          "last_two_percentage": [
+            61.111111111111114,
+            28.333333333333332
+          ],
+          "average_percentage": 50.19,
+          "trend": "declining"
         },
         "Photosynthesis in Higher Plants": {
+          "allocated_marks": 17.5,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 17.5,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            19.444444444444446
+          ],
           "average_percentage": 19.44,
           "trend": "insufficient_data"
         },
         "Respiration in Plants": {
+          "allocated_marks": 17.5,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 17.5,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            19.444444444444446
+          ],
           "average_percentage": 19.44,
           "trend": "insufficient_data"
         },
+        "Anatomy of Flowering Plants": {
+          "allocated_marks": 107.5,
+          "max_marks": 270.0,
+          "appearances": 2,
+          "last_two_percentage": [
+            28.333333333333332,
+            45.55555555555556
+          ],
+          "average_percentage": 39.81,
+          "trend": "improving"
+        },
         "Cell Cycle & Cell Division": {
+          "allocated_marks": 49.0,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 49.0,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            54.44444444444444
+          ],
           "average_percentage": 54.44,
+          "trend": "insufficient_data"
+        },
+        "Biological Classification": {
+          "allocated_marks": 98.5,
+          "max_marks": 270.0,
+          "appearances": 2,
+          "last_two_percentage": [
+            46.666666666666664,
+            16.11111111111111
+          ],
+          "average_percentage": 36.48,
+          "trend": "declining"
+        },
+        "Morphology of Flowering Plants": {
+          "allocated_marks": 14.5,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            16.11111111111111
+          ],
+          "average_percentage": 16.11,
           "trend": "insufficient_data"
         }
       }
     },
     "zoology": {
       "chapters": {
-        "Breathing & Exchange of Gases": {
+        "Animal Kingdom-II: Chordates": {
+          "allocated_marks": 44.0,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 33.0,
-          "total_max_marks": 90.0,
-          "average_percentage": 36.67,
+          "last_two_percentage": [
+            48.888888888888886
+          ],
+          "average_percentage": 48.89,
           "trend": "insufficient_data"
         },
-        "Body Fluids & Circulation": {
+        "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)": {
+          "allocated_marks": 44.0,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 33.0,
-          "total_max_marks": 90.0,
-          "average_percentage": 36.67,
+          "last_two_percentage": [
+            48.888888888888886
+          ],
+          "average_percentage": 48.89,
           "trend": "insufficient_data"
         },
         "Structural Organisation in Animals- Animal Tissues": {
+          "allocated_marks": 136.5,
+          "max_marks": 270.0,
           "appearances": 2,
-          "total_allocated_marks": 136.5,
-          "total_max_marks": 270.0,
+          "last_two_percentage": [
+            23.88888888888889,
+            63.888888888888886
+          ],
           "average_percentage": 50.56,
           "trend": "improving"
         },
         "Biomolecules": {
+          "allocated_marks": 21.5,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 21.5,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            23.88888888888889
+          ],
           "average_percentage": 23.89,
           "trend": "insufficient_data"
         },
-        "Locomotion & Movement-II: (Upto muscle and bone disorders)": {
+        "Chemical Coordination & Integration": {
+          "allocated_marks": 100.0,
+          "max_marks": 180.0,
           "appearances": 1,
-          "total_allocated_marks": 43.5,
-          "total_max_marks": 90.0,
-          "average_percentage": 48.33,
+          "last_two_percentage": [
+            55.55555555555556
+          ],
+          "average_percentage": 55.56,
           "trend": "insufficient_data"
         },
-        "Neural Control & Coordination": {
-          "appearances": 3,
-          "total_allocated_marks": 71.25,
-          "total_max_marks": 195.0,
-          "average_percentage": 36.54,
-          "trend": "improving"
-        },
-        "Chemical Coordination & Integration": {
-          "appearances": 2,
-          "total_allocated_marks": 122.75,
-          "total_max_marks": 225.0,
-          "average_percentage": 54.56,
-          "trend": "declining"
-        },
         "Animal Kingdom-I: General accounts & Non-chordates": {
+          "allocated_marks": 64.0,
+          "max_marks": 180.0,
           "appearances": 1,
-          "total_allocated_marks": 64.0,
-          "total_max_marks": 180.0,
+          "last_two_percentage": [
+            35.55555555555556
+          ],
           "average_percentage": 35.56,
           "trend": "insufficient_data"
         },
         "Excretory Products & their Elimination": {
-          "appearances": 2,
-          "total_allocated_marks": 27.75,
-          "total_max_marks": 105.0,
-          "average_percentage": 26.43,
-          "trend": "improving"
+          "allocated_marks": 5.0,
+          "max_marks": 60.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            8.333333333333332
+          ],
+          "average_percentage": 8.33,
+          "trend": "insufficient_data"
         },
         "Locomotion & Movement": {
+          "allocated_marks": 5.0,
+          "max_marks": 60.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            8.333333333333332
+          ],
+          "average_percentage": 8.33,
+          "trend": "insufficient_data"
+        },
+        "Neural Control & Coordination": {
+          "allocated_marks": 48.5,
+          "max_marks": 150.0,
           "appearances": 2,
-          "total_allocated_marks": 27.75,
-          "total_max_marks": 105.0,
-          "average_percentage": 26.43,
+          "last_two_percentage": [
+            8.333333333333332,
+            48.333333333333336
+          ],
+          "average_percentage": 32.33,
           "trend": "improving"
         },
         "Biomolecules-I: (Upto polysaccharide)": {
+          "allocated_marks": 27.5,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 27.5,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            30.555555555555557
+          ],
           "average_percentage": 30.56,
           "trend": "insufficient_data"
         },
         "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)": {
+          "allocated_marks": 27.5,
+          "max_marks": 90.0,
           "appearances": 1,
-          "total_allocated_marks": 27.5,
-          "total_max_marks": 90.0,
+          "last_two_percentage": [
+            30.555555555555557
+          ],
           "average_percentage": 30.56,
           "trend": "insufficient_data"
         },
         "Breathing & Exchange of Gases-I: (upto mechanism of breathing)": {
+          "allocated_marks": 101.0,
+          "max_marks": 180.0,
           "appearances": 1,
-          "total_allocated_marks": 101.0,
-          "total_max_marks": 180.0,
+          "last_two_percentage": [
+            56.111111111111114
+          ],
           "average_percentage": 56.11,
+          "trend": "insufficient_data"
+        },
+        "Locomotion & Movement-II: (Upto muscle and bone disorders)": {
+          "allocated_marks": 43.5,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            48.333333333333336
+          ],
+          "average_percentage": 48.33,
+          "trend": "insufficient_data"
+        },
+        "Breathing & Exchange of Gases": {
+          "allocated_marks": 33.0,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            36.666666666666664
+          ],
+          "average_percentage": 36.67,
+          "trend": "insufficient_data"
+        },
+        "Body Fluids & Circulation": {
+          "allocated_marks": 33.0,
+          "max_marks": 90.0,
+          "appearances": 1,
+          "last_two_percentage": [
+            36.666666666666664
+          ],
+          "average_percentage": 36.67,
           "trend": "insufficient_data"
         }
       }
