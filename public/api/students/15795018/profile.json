@@ -1,0 +1,76 @@
+{
+  "psid": "15795018",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 1,
+    "first_test_date": "28-12-2025",
+    "latest_test_date": "28-12-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 474,
+    "best_score": 474,
+    "latest_score": 474,
+    "consistency_index": 0.0,
+    "trend": "insufficient_data"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 40,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Moving Charges and Magnetism",
+        "Magnetism and Matter",
+        "Electromagnetic Induction",
+        "Alternating Current"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 51,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Hydrocarbons",
+        "Haloalkanes and Haloarenes"
+      ],
+      "weak_chapters": []
+    },
+    "botany": {
+      "average_percentage": 86,
+      "trend": "stable",
+      "strong_chapters": [
+        "Plant Growth and Development",
+        "Sexual Reproduction in Flowering Plants"
+      ],
+      "average_chapters": [],
+      "weak_chapters": []
+    },
+    "zoology": {
+      "average_percentage": 86,
+      "trend": "stable",
+      "strong_chapters": [
+        "Animal Kingdom-II: Chordates",
+        "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)"
+      ],
+      "average_chapters": [],
+      "weak_chapters": []
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Moving Charges and Magnetism",
+      "Magnetism and Matter",
+      "Electromagnetic Induction",
+      "Alternating Current"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Moving Charges and Magnetism",
+      "Magnetism and Matter",
+      "Electromagnetic Induction",
+      "Alternating Current"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

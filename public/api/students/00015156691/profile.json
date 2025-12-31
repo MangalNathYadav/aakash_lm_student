@@ -1,0 +1,138 @@
+{
+  "psid": "00015156691",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 5,
+    "first_test_date": "02-11-2025",
+    "latest_test_date": "30-11-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 212,
+    "best_score": 262,
+    "latest_score": 221,
+    "consistency_index": 0.3867,
+    "trend": "declining"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 6,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Laws of Motion",
+        "Work, Energy and Power",
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Motion in a Plane",
+        "Thermal Properties of Matter",
+        "Thermodynamics",
+        "Kinetic Theory",
+        "Oscillations",
+        "Waves",
+        "Electric Charges & Fields",
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 19,
+      "trend": "declining",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure",
+        "Some Basic Concepts of Chemistry",
+        "Structure of Atom",
+        "Equilibrium",
+        "Redox Reactions",
+        "Electrochemistry",
+        "Solutions",
+        "Thermodynamics"
+      ]
+    },
+    "botany": {
+      "average_percentage": 40,
+      "trend": "improving",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Anatomy of Flowering Plants",
+        "Plant Kingdom"
+      ],
+      "weak_chapters": [
+        "Biological Classification",
+        "Morphology of Flowering Plants",
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division",
+        "The Living World"
+      ]
+    },
+    "zoology": {
+      "average_percentage": 44,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation",
+        "Chemical Coordination & Integration",
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+      ],
+      "weak_chapters": [
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules",
+        "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+        "Neural Control & Coordination"
+      ]
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
+      "Thermal Properties of Matter",
+      "Thermodynamics"
+    ],
+    "most_improved_chapters": [
+      "Morphology of Flowering Plants"
+    ],
+    "chapters_needing_attention": [
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
+      "Thermal Properties of Matter",
+      "Thermodynamics",
+      "Kinetic Theory",
+      "Laws of Motion",
+      "Work, Energy and Power",
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane",
+      "Some Basic Concepts of Chemistry",
+      "Structure of Atom",
+      "Thermodynamics",
+      "Structural Organisation in Animals- Animal Tissues",
+      "Biomolecules",
+      "Classification of Elements and periodicity in properties",
+      "chemical Bonding and molecular structure",
+      "Cell: The Unit of Life",
+      "Cell Cycle and Cell Division",
+      "The Living World",
+      "Redox Reactions",
+      "Electrochemistry",
+      "Solutions",
+      "Equilibrium",
+      "Biological Classification",
+      "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+      "Neural Control & Coordination",
+      "Morphology of Flowering Plants"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

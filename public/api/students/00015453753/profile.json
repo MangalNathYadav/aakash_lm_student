@@ -1,0 +1,118 @@
+{
+  "psid": "00015453753",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 5,
+    "first_test_date": "02-07-2025",
+    "latest_test_date": "23-07-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 395,
+    "best_score": 486,
+    "latest_score": 486,
+    "consistency_index": 0.2378,
+    "trend": "improving"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 31,
+      "trend": "improving",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Laws of Motion"
+      ],
+      "weak_chapters": [
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Motion in a Plane",
+        "Thermal Properties of Matter",
+        "Thermodynamics",
+        "Kinetic Theory",
+        "Oscillations",
+        "Waves",
+        "Electric Charges & Fields"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 44,
+      "trend": "improving",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Equilibrium",
+        "Classification of Elements and Periodicity in Properties"
+      ],
+      "weak_chapters": [
+        "Some Basic Concepts of Chemistry",
+        "Structure of Atom",
+        "Redox Reactions",
+        "Electrochemistry",
+        "Solutions"
+      ]
+    },
+    "botany": {
+      "average_percentage": 73,
+      "trend": "improving",
+      "strong_chapters": [
+        "The Living World",
+        "Cell : The Unit of Life",
+        "Plant Kingdom",
+        "Cell Cycle & Cell Division"
+      ],
+      "average_chapters": [
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division",
+        "Anatomy of Flowering Plants"
+      ],
+      "weak_chapters": []
+    },
+    "zoology": {
+      "average_percentage": 71,
+      "trend": "stable",
+      "strong_chapters": [
+        "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+        "Neural Control & Coordination"
+      ],
+      "average_chapters": [
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules",
+        "Chemical Coordination & Integration",
+        "Biomolecules-I: (Upto polysaccharide)",
+        "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)"
+      ],
+      "weak_chapters": []
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Units & Measurements",
+      "Motion in a Straight Line"
+    ],
+    "most_improved_chapters": [
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane",
+      "Some Basic Concepts of Chemistry",
+      "Structure of Atom"
+    ],
+    "chapters_needing_attention": [
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Some Basic Concepts of Chemistry",
+      "Thermal Properties of Matter",
+      "Thermodynamics",
+      "Kinetic Theory",
+      "Redox Reactions",
+      "Electrochemistry",
+      "Solutions",
+      "Structure of Atom",
+      "Motion in a Plane"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

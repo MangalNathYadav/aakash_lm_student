@@ -1,0 +1,126 @@
+{
+  "psid": "00012665410",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 4,
+    "first_test_date": "09-11-2025",
+    "latest_test_date": "31-12-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 178,
+    "best_score": 339,
+    "latest_score": 339,
+    "consistency_index": 0.1047,
+    "trend": "improving"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 19,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Oscillations",
+        "Waves",
+        "Electric Charges & Fields",
+        "System of Particles and Rotational Motion",
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids",
+        "Motion in a Plane",
+        "Laws of Motion",
+        "Work, Energy & Power",
+        "System of Particles & Rotational Motion"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 32,
+      "trend": "declining",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Thermodynamics",
+        "Equilibrium"
+      ],
+      "weak_chapters": [
+        "Redox Reactions",
+        "Electrochemistry",
+        "Solutions",
+        "Structure of Atom",
+        "Classification of Elements and Periodicity in Properties",
+        "Chemical Bonding and Molecular Structure"
+      ]
+    },
+    "botany": {
+      "average_percentage": 29,
+      "trend": "improving",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Plant Kingdom",
+        "Anatomy of Flowering Plants",
+        "Cell Cycle & Cell Division",
+        "The Living World",
+        "Biological Classification"
+      ]
+    },
+    "zoology": {
+      "average_percentage": 38,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement",
+        "Neural Control & Coordination"
+      ],
+      "weak_chapters": [
+        "Chemical Coordination & Integration",
+        "Biomolecules-I: (Upto polysaccharide)",
+        "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+        "Breathing & Exchange of Gases-I: (upto mechanism of breathing)"
+      ]
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Motion in a Plane",
+      "Laws of Motion"
+    ],
+    "most_improved_chapters": [
+      "Redox Reactions",
+      "Electrochemistry",
+      "Plant Kingdom"
+    ],
+    "chapters_needing_attention": [
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Motion in a Plane",
+      "Laws of Motion",
+      "Solutions",
+      "Work, Energy & Power",
+      "System of Particles & Rotational Motion",
+      "Chemical Bonding and Molecular Structure",
+      "Plant Kingdom",
+      "Breathing & Exchange of Gases-I: (upto mechanism of breathing)",
+      "Biomolecules-I: (Upto polysaccharide)",
+      "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+      "Structure of Atom",
+      "Classification of Elements and Periodicity in Properties",
+      "Chemical Coordination & Integration",
+      "Cell Cycle & Cell Division",
+      "The Living World",
+      "Anatomy of Flowering Plants",
+      "Redox Reactions",
+      "Electrochemistry",
+      "System of Particles and Rotational Motion",
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
+      "Biological Classification"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

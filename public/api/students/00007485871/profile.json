@@ -1,0 +1,108 @@
+{
+  "psid": "00007485871",
+  "name": "Harsh Kumar",
+  "meta": {
+    "tests_taken": 6,
+    "first_test_date": "02-07-2025",
+    "latest_test_date": "23-07-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 530,
+    "best_score": 626,
+    "latest_score": 626,
+    "consistency_index": 0.378,
+    "trend": "improving"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 54,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Motion in a Plane",
+        "Thermal Properties of Matter",
+        "Thermodynamics",
+        "Kinetic Theory",
+        "Laws of Motion",
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids"
+      ],
+      "weak_chapters": [
+        "Work, Energy & Power",
+        "System of Particles & Rotational Motion"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 69,
+      "trend": "declining",
+      "strong_chapters": [
+        "Equilibrium",
+        "Classification of Elements and Periodicity in Properties",
+        "Chemical Bonding and Molecular Structure"
+      ],
+      "average_chapters": [
+        "Structure of Atom",
+        "Thermodynamics"
+      ],
+      "weak_chapters": [
+        "Some Basic Concepts of Chemistry"
+      ]
+    },
+    "botany": {
+      "average_percentage": 85,
+      "trend": "declining",
+      "strong_chapters": [
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division",
+        "The Living World",
+        "Cell : The Unit of Life",
+        "Anatomy of Flowering Plants",
+        "Cell Cycle & Cell Division",
+        "Biological Classification",
+        "Morphology of Flowering Plants"
+      ],
+      "average_chapters": [],
+      "weak_chapters": []
+    },
+    "zoology": {
+      "average_percentage": 90,
+      "trend": "stable",
+      "strong_chapters": [
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules",
+        "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+        "Neural Control & Coordination",
+        "Biomolecules-I: (Upto polysaccharide)",
+        "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+        "Breathing & Exchange of Gases-I: (upto mechanism of breathing)",
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+      ],
+      "average_chapters": [],
+      "weak_chapters": []
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Work, Energy & Power",
+      "System of Particles & Rotational Motion",
+      "Some Basic Concepts of Chemistry"
+    ],
+    "most_improved_chapters": [
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane",
+      "Structure of Atom",
+      "The Living World"
+    ],
+    "chapters_needing_attention": [
+      "Work, Energy & Power",
+      "System of Particles & Rotational Motion",
+      "Some Basic Concepts of Chemistry"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

@@ -1,0 +1,135 @@
+{
+  "psid": "00015382335",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 11,
+    "first_test_date": "02-07-2025",
+    "latest_test_date": "31-12-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 514,
+    "best_score": 574,
+    "latest_score": 504,
+    "consistency_index": 0.7455,
+    "trend": "improving"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 58,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Laws of Motion",
+        "Work, Energy and Power",
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Motion in a Plane",
+        "Oscillations",
+        "Waves",
+        "Electric Charges & Fields",
+        "Electrostatic Potential and Capacitance",
+        "Current Electricity",
+        "System of Particles and Rotational Motion",
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids",
+        "Work, Energy & Power",
+        "System of Particles & Rotational Motion"
+      ],
+      "weak_chapters": [
+        "Thermal Properties of Matter",
+        "Thermodynamics",
+        "Kinetic Theory"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 66,
+      "trend": "declining",
+      "strong_chapters": [
+        "Equilibrium",
+        "Solutions",
+        "Classification of Elements and Periodicity in Properties",
+        "Chemical Bonding and Molecular Structure"
+      ],
+      "average_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure",
+        "Some Basic Concepts of Chemistry",
+        "Structure of Atom",
+        "Redox Reactions",
+        "Electrochemistry",
+        "Thermodynamics"
+      ],
+      "weak_chapters": [
+        "Chemical Kinetics",
+        "Organic Chemistry: Some Basic Principles & Techniques"
+      ]
+    },
+    "botany": {
+      "average_percentage": 80,
+      "trend": "improving",
+      "strong_chapters": [
+        "Biological Classification",
+        "The Living World",
+        "Cell : The Unit of Life",
+        "Anatomy of Flowering Plants",
+        "Plant Kingdom",
+        "Photosynthesis in Higher Plants",
+        "Respiration in Plants",
+        "Cell Cycle & Cell Division"
+      ],
+      "average_chapters": [
+        "Morphology of Flowering Plants",
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division"
+      ],
+      "weak_chapters": []
+    },
+    "zoology": {
+      "average_percentage": 81,
+      "trend": "declining",
+      "strong_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation",
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules",
+        "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+        "Neural Control & Coordination",
+        "Chemical Coordination & Integration",
+        "Animal Kingdom-I: General accounts & Non-chordates",
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement",
+        "Biomolecules-I: (Upto polysaccharide)",
+        "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+        "Breathing & Exchange of Gases-I: (upto mechanism of breathing)",
+        "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+      ],
+      "average_chapters": [],
+      "weak_chapters": []
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Chemical Kinetics",
+      "Organic Chemistry: Some Basic Principles & Techniques",
+      "Thermal Properties of Matter",
+      "Thermodynamics",
+      "Kinetic Theory"
+    ],
+    "most_improved_chapters": [
+      "Laws of Motion",
+      "Motion in a Plane",
+      "Thermal Properties of Matter",
+      "Thermodynamics",
+      "Kinetic Theory"
+    ],
+    "chapters_needing_attention": [
+      "Chemical Kinetics",
+      "Organic Chemistry: Some Basic Principles & Techniques",
+      "Thermal Properties of Matter",
+      "Thermodynamics",
+      "Kinetic Theory"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

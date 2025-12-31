@@ -1,0 +1,77 @@
+{
+  "psid": "00015677455",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 2,
+    "first_test_date": "02-11-2025",
+    "latest_test_date": "30-11-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 520,
+    "best_score": 563,
+    "latest_score": 563,
+    "consistency_index": 0.5405,
+    "trend": "improving"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 75,
+      "trend": "stable",
+      "strong_chapters": [
+        "Laws of Motion",
+        "Work, Energy and Power"
+      ],
+      "average_chapters": [
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Motion in a Plane"
+      ],
+      "weak_chapters": []
+    },
+    "chemistry": {
+      "average_percentage": 68,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure",
+        "Some Basic Concepts of Chemistry",
+        "Structure of Atom"
+      ],
+      "weak_chapters": []
+    },
+    "botany": {
+      "average_percentage": 68,
+      "trend": "stable",
+      "strong_chapters": [
+        "Biological Classification",
+        "Morphology of Flowering Plants"
+      ],
+      "average_chapters": [
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division",
+        "The Living World"
+      ],
+      "weak_chapters": []
+    },
+    "zoology": {
+      "average_percentage": 76,
+      "trend": "stable",
+      "strong_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation"
+      ],
+      "average_chapters": [
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules"
+      ],
+      "weak_chapters": []
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": []
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

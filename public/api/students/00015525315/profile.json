@@ -1,0 +1,117 @@
+{
+  "psid": "00015525315",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 5,
+    "first_test_date": "09-11-2025",
+    "latest_test_date": "26-11-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 425,
+    "best_score": 512,
+    "latest_score": 421,
+    "consistency_index": 0.1728,
+    "trend": "declining"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 41,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Motion in a Plane",
+        "Laws of Motion",
+        "Work, Energy & Power",
+        "System of Particles & Rotational Motion"
+      ],
+      "weak_chapters": [
+        "Oscillations",
+        "Waves",
+        "Electric Charges & Fields",
+        "Electrostatic Potential and Capacitance",
+        "Current Electricity",
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 48,
+      "trend": "declining",
+      "strong_chapters": [
+        "Chemical Bonding and Molecular Structure"
+      ],
+      "average_chapters": [
+        "Structure of Atom",
+        "Classification of Elements and Periodicity in Properties",
+        "Thermodynamics"
+      ],
+      "weak_chapters": [
+        "Redox Reactions",
+        "Electrochemistry",
+        "Solutions",
+        "Chemical Kinetics",
+        "Organic Chemistry: Some Basic Principles & Techniques"
+      ]
+    },
+    "botany": {
+      "average_percentage": 78,
+      "trend": "declining",
+      "strong_chapters": [
+        "Plant Kingdom",
+        "Photosynthesis in Higher Plants",
+        "Respiration in Plants",
+        "Cell Cycle & Cell Division",
+        "The Living World"
+      ],
+      "average_chapters": [
+        "Biological Classification",
+        "Morphology of Flowering Plants"
+      ],
+      "weak_chapters": []
+    },
+    "zoology": {
+      "average_percentage": 61,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Animal Kingdom-I: General accounts & Non-chordates",
+        "Biomolecules-I: (Upto polysaccharide)",
+        "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+        "Breathing & Exchange of Gases-I: (upto mechanism of breathing)",
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+      ],
+      "weak_chapters": [
+        "Chemical Coordination & Integration"
+      ]
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Redox Reactions",
+      "Electrochemistry"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Redox Reactions",
+      "Electrochemistry",
+      "Solutions",
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
+      "Chemical Kinetics",
+      "Organic Chemistry: Some Basic Principles & Techniques",
+      "Chemical Coordination & Integration",
+      "Electrostatic Potential and Capacitance",
+      "Current Electricity"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

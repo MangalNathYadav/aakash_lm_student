@@ -1,0 +1,106 @@
+{
+  "psid": "00015493378",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 3,
+    "first_test_date": "02-11-2025",
+    "latest_test_date": "30-11-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 312,
+    "best_score": 404,
+    "latest_score": 404,
+    "consistency_index": 0.0696,
+    "trend": "improving"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 36,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Motion in a Plane"
+      ],
+      "weak_chapters": [
+        "Laws of Motion",
+        "Work, Energy and Power",
+        "Thermal Properties of Matter",
+        "Thermodynamics",
+        "Kinetic Theory"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 36,
+      "trend": "improving",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure"
+      ],
+      "weak_chapters": [
+        "Some Basic Concepts of Chemistry",
+        "Structure of Atom",
+        "Equilibrium"
+      ]
+    },
+    "botany": {
+      "average_percentage": 52,
+      "trend": "declining",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division",
+        "The Living World"
+      ],
+      "weak_chapters": [
+        "Biological Classification",
+        "Morphology of Flowering Plants",
+        "Anatomy of Flowering Plants"
+      ]
+    },
+    "zoology": {
+      "average_percentage": 60,
+      "trend": "stable",
+      "strong_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation"
+      ],
+      "average_chapters": [
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules"
+      ],
+      "weak_chapters": [
+        "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+        "Neural Control & Coordination"
+      ]
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Thermal Properties of Matter",
+      "Thermodynamics",
+      "Kinetic Theory",
+      "Anatomy of Flowering Plants",
+      "Some Basic Concepts of Chemistry"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Thermal Properties of Matter",
+      "Thermodynamics",
+      "Kinetic Theory",
+      "Anatomy of Flowering Plants",
+      "Some Basic Concepts of Chemistry",
+      "Structure of Atom",
+      "Equilibrium",
+      "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+      "Neural Control & Coordination",
+      "Laws of Motion",
+      "Work, Energy and Power",
+      "Biological Classification",
+      "Morphology of Flowering Plants"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

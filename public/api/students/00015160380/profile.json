@@ -1,0 +1,139 @@
+{
+  "psid": "00015160380",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 6,
+    "first_test_date": "02-11-2025",
+    "latest_test_date": "30-11-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 354,
+    "best_score": 432,
+    "latest_score": 373,
+    "consistency_index": 0.1333,
+    "trend": "declining"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 31,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Laws of Motion",
+        "Work, Energy and Power",
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Motion in a Plane",
+        "Thermal Properties of Matter",
+        "Thermodynamics",
+        "Kinetic Theory",
+        "Oscillations",
+        "Waves",
+        "Electric Charges & Fields",
+        "Work, Energy & Power",
+        "System of Particles & Rotational Motion",
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 52,
+      "trend": "improving",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure",
+        "Equilibrium",
+        "Chemical Bonding and Molecular Structure",
+        "Thermodynamics"
+      ],
+      "weak_chapters": [
+        "Some Basic Concepts of Chemistry",
+        "Structure of Atom",
+        "Redox Reactions",
+        "Electrochemistry",
+        "Solutions"
+      ]
+    },
+    "botany": {
+      "average_percentage": 45,
+      "trend": "declining",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Biological Classification",
+        "Morphology of Flowering Plants",
+        "Anatomy of Flowering Plants"
+      ],
+      "weak_chapters": [
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division",
+        "The Living World",
+        "Plant Kingdom"
+      ]
+    },
+    "zoology": {
+      "average_percentage": 56,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation",
+        "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+        "Neural Control & Coordination",
+        "Chemical Coordination & Integration",
+        "Breathing & Exchange of Gases-I: (upto mechanism of breathing)",
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+      ],
+      "weak_chapters": [
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules"
+      ]
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane",
+      "Oscillations",
+      "Waves"
+    ],
+    "most_improved_chapters": [
+      "Biological Classification",
+      "Morphology of Flowering Plants"
+    ],
+    "chapters_needing_attention": [
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane",
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Structural Organisation in Animals- Animal Tissues",
+      "Biomolecules",
+      "Cell: The Unit of Life",
+      "Cell Cycle and Cell Division",
+      "The Living World",
+      "Some Basic Concepts of Chemistry",
+      "Structure of Atom",
+      "Laws of Motion",
+      "Work, Energy and Power",
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
+      "Plant Kingdom",
+      "Thermal Properties of Matter",
+      "Thermodynamics",
+      "Kinetic Theory",
+      "Redox Reactions",
+      "Electrochemistry",
+      "Solutions",
+      "Work, Energy & Power",
+      "System of Particles & Rotational Motion"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

@@ -1,0 +1,137 @@
+{
+  "psid": "00015156759",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 6,
+    "first_test_date": "02-11-2025",
+    "latest_test_date": "30-11-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 354,
+    "best_score": 453,
+    "latest_score": 350,
+    "consistency_index": 0.2123,
+    "trend": "declining"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 11,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Laws of Motion",
+        "Work, Energy and Power",
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Motion in a Plane",
+        "Thermal Properties of Matter",
+        "Thermodynamics",
+        "Kinetic Theory",
+        "Oscillations",
+        "Waves",
+        "Electric Charges & Fields",
+        "Work, Energy & Power",
+        "System of Particles & Rotational Motion",
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 40,
+      "trend": "declining",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Chemical Bonding and Molecular Structure",
+        "Thermodynamics"
+      ],
+      "weak_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure",
+        "Some Basic Concepts of Chemistry",
+        "Structure of Atom",
+        "Equilibrium",
+        "Redox Reactions",
+        "Electrochemistry",
+        "Solutions"
+      ]
+    },
+    "botany": {
+      "average_percentage": 76,
+      "trend": "improving",
+      "strong_chapters": [
+        "Biological Classification",
+        "Morphology of Flowering Plants",
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division",
+        "The Living World"
+      ],
+      "average_chapters": [
+        "Anatomy of Flowering Plants",
+        "Plant Kingdom"
+      ],
+      "weak_chapters": []
+    },
+    "zoology": {
+      "average_percentage": 65,
+      "trend": "stable",
+      "strong_chapters": [
+        "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+        "Neural Control & Coordination",
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+      ],
+      "average_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation",
+        "Breathing & Exchange of Gases-I: (upto mechanism of breathing)"
+      ],
+      "weak_chapters": [
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules",
+        "Chemical Coordination & Integration"
+      ]
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Laws of Motion",
+      "Work, Energy and Power",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Laws of Motion",
+      "Work, Energy and Power",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane",
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Work, Energy & Power",
+      "System of Particles & Rotational Motion",
+      "Thermal Properties of Matter",
+      "Thermodynamics",
+      "Kinetic Theory",
+      "Equilibrium",
+      "Redox Reactions",
+      "Electrochemistry",
+      "Solutions",
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
+      "Some Basic Concepts of Chemistry",
+      "Structure of Atom",
+      "Structural Organisation in Animals- Animal Tissues",
+      "Biomolecules",
+      "Classification of Elements and periodicity in properties",
+      "chemical Bonding and molecular structure",
+      "Chemical Coordination & Integration"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

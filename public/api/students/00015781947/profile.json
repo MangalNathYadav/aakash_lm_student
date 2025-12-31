@@ -1,0 +1,87 @@
+{
+  "psid": "00015781947",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 2,
+    "first_test_date": "02-11-2025",
+    "latest_test_date": "30-11-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 458,
+    "best_score": 467,
+    "latest_score": 467,
+    "consistency_index": 13.6519,
+    "trend": "improving"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 78,
+      "trend": "stable",
+      "strong_chapters": [
+        "Laws of Motion",
+        "Work, Energy and Power",
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Motion in a Plane"
+      ],
+      "average_chapters": [],
+      "weak_chapters": []
+    },
+    "chemistry": {
+      "average_percentage": 57,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure"
+      ],
+      "weak_chapters": [
+        "Some Basic Concepts of Chemistry",
+        "Structure of Atom"
+      ]
+    },
+    "botany": {
+      "average_percentage": 61,
+      "trend": "stable",
+      "strong_chapters": [
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division",
+        "The Living World"
+      ],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Biological Classification",
+        "Morphology of Flowering Plants"
+      ]
+    },
+    "zoology": {
+      "average_percentage": 63,
+      "trend": "stable",
+      "strong_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation"
+      ],
+      "average_chapters": [
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules"
+      ],
+      "weak_chapters": []
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Biological Classification",
+      "Morphology of Flowering Plants",
+      "Some Basic Concepts of Chemistry",
+      "Structure of Atom"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Biological Classification",
+      "Morphology of Flowering Plants",
+      "Some Basic Concepts of Chemistry",
+      "Structure of Atom"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

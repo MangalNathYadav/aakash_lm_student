@@ -1,0 +1,99 @@
+{
+  "psid": "00015451338",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 3,
+    "first_test_date": "02-07-2025",
+    "latest_test_date": "23-07-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 67,
+    "best_score": 106,
+    "latest_score": 88,
+    "consistency_index": 0.5276,
+    "trend": "declining"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 10,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Motion in a Plane",
+        "Laws of Motion",
+        "Work, Energy & Power",
+        "System of Particles & Rotational Motion"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 9,
+      "trend": "declining",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Some Basic Concepts of Chemistry",
+        "Structure of Atom",
+        "Classification of Elements and Periodicity in Properties",
+        "Chemical Bonding and Molecular Structure"
+      ]
+    },
+    "botany": {
+      "average_percentage": 15,
+      "trend": "improving",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Cell : The Unit of Life",
+        "Cell Cycle & Cell Division",
+        "The Living World",
+        "Biological Classification"
+      ]
+    },
+    "zoology": {
+      "average_percentage": 8,
+      "trend": "improving",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules-I: (Upto polysaccharide)",
+        "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+        "Breathing & Exchange of Gases-I: (upto mechanism of breathing)"
+      ]
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Cell : The Unit of Life",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Some Basic Concepts of Chemistry",
+      "Structural Organisation in Animals- Animal Tissues"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Cell : The Unit of Life",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Some Basic Concepts of Chemistry",
+      "Structural Organisation in Animals- Animal Tissues",
+      "Chemical Bonding and Molecular Structure",
+      "Biomolecules-I: (Upto polysaccharide)",
+      "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+      "Breathing & Exchange of Gases-I: (upto mechanism of breathing)",
+      "Work, Energy & Power",
+      "System of Particles & Rotational Motion",
+      "Structure of Atom",
+      "Classification of Elements and Periodicity in Properties",
+      "Motion in a Plane",
+      "Laws of Motion",
+      "Cell Cycle & Cell Division",
+      "The Living World",
+      "Biological Classification"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

@@ -1,0 +1,70 @@
+{
+  "psid": "00011001253",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 1,
+    "first_test_date": "30-11-2025",
+    "latest_test_date": "30-11-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 380,
+    "best_score": 380,
+    "latest_score": 380,
+    "consistency_index": 0.0,
+    "trend": "insufficient_data"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 56,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Laws of Motion",
+        "Work, Energy and Power"
+      ],
+      "weak_chapters": []
+    },
+    "chemistry": {
+      "average_percentage": 38,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure"
+      ]
+    },
+    "botany": {
+      "average_percentage": 52,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Biological Classification",
+        "Morphology of Flowering Plants"
+      ],
+      "weak_chapters": []
+    },
+    "zoology": {
+      "average_percentage": 66,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation"
+      ],
+      "weak_chapters": []
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Classification of Elements and periodicity in properties",
+      "chemical Bonding and molecular structure"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Classification of Elements and periodicity in properties",
+      "chemical Bonding and molecular structure"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

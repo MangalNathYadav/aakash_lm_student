@@ -1,0 +1,82 @@
+{
+  "psid": "00015477189",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 2,
+    "first_test_date": "02-11-2025",
+    "latest_test_date": "30-11-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 538,
+    "best_score": 561,
+    "latest_score": 561,
+    "consistency_index": 1.8868,
+    "trend": "improving"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 72,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Laws of Motion",
+        "Work, Energy and Power",
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Motion in a Plane"
+      ],
+      "weak_chapters": []
+    },
+    "chemistry": {
+      "average_percentage": 64,
+      "trend": "stable",
+      "strong_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure"
+      ],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Some Basic Concepts of Chemistry",
+        "Structure of Atom"
+      ]
+    },
+    "botany": {
+      "average_percentage": 76,
+      "trend": "stable",
+      "strong_chapters": [
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division",
+        "The Living World"
+      ],
+      "average_chapters": [
+        "Biological Classification",
+        "Morphology of Flowering Plants"
+      ],
+      "weak_chapters": []
+    },
+    "zoology": {
+      "average_percentage": 88,
+      "trend": "stable",
+      "strong_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation",
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules"
+      ],
+      "average_chapters": [],
+      "weak_chapters": []
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Some Basic Concepts of Chemistry",
+      "Structure of Atom"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Some Basic Concepts of Chemistry",
+      "Structure of Atom"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

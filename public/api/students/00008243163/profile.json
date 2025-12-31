@@ -1,0 +1,105 @@
+{
+  "psid": "00008243163",
+  "name": "Anamika Kamal",
+  "meta": {
+    "tests_taken": 4,
+    "first_test_date": "02-07-2025",
+    "latest_test_date": "23-07-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 358,
+    "best_score": 400,
+    "latest_score": 400,
+    "consistency_index": 0.6891,
+    "trend": "improving"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 15,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Motion in a Plane",
+        "Laws of Motion",
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 40,
+      "trend": "declining",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Classification of Elements and Periodicity in Properties"
+      ],
+      "weak_chapters": [
+        "Some Basic Concepts of Chemistry",
+        "Structure of Atom",
+        "Thermodynamics"
+      ]
+    },
+    "botany": {
+      "average_percentage": 71,
+      "trend": "declining",
+      "strong_chapters": [
+        "Cell Cycle & Cell Division"
+      ],
+      "average_chapters": [
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division",
+        "The Living World",
+        "Cell : The Unit of Life",
+        "Morphology of Flowering Plants"
+      ],
+      "weak_chapters": []
+    },
+    "zoology": {
+      "average_percentage": 73,
+      "trend": "stable",
+      "strong_chapters": [
+        "Structural Organisation in Animals- Animal Tissues",
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+      ],
+      "average_chapters": [
+        "Biomolecules",
+        "Biomolecules-I: (Upto polysaccharide)",
+        "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)"
+      ],
+      "weak_chapters": []
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
+      "Units & Measurements",
+      "Motion in a Straight Line"
+    ],
+    "most_improved_chapters": [
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane",
+      "Some Basic Concepts of Chemistry",
+      "Structure of Atom"
+    ],
+    "chapters_needing_attention": [
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane",
+      "Laws of Motion",
+      "Some Basic Concepts of Chemistry",
+      "Structure of Atom",
+      "Thermodynamics"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

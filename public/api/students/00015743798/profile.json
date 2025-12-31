@@ -1,0 +1,84 @@
+{
+  "psid": "00015743798",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 2,
+    "first_test_date": "02-11-2025",
+    "latest_test_date": "30-11-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 433,
+    "best_score": 493,
+    "latest_score": 493,
+    "consistency_index": 0.2777,
+    "trend": "improving"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 36,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Laws of Motion",
+        "Work, Energy and Power"
+      ],
+      "weak_chapters": [
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Motion in a Plane"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 64,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure",
+        "Some Basic Concepts of Chemistry",
+        "Structure of Atom"
+      ],
+      "weak_chapters": []
+    },
+    "botany": {
+      "average_percentage": 72,
+      "trend": "stable",
+      "strong_chapters": [
+        "Biological Classification",
+        "Morphology of Flowering Plants"
+      ],
+      "average_chapters": [
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division",
+        "The Living World"
+      ],
+      "weak_chapters": []
+    },
+    "zoology": {
+      "average_percentage": 64,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation",
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules"
+      ],
+      "weak_chapters": []
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

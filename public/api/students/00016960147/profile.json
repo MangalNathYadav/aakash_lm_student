@@ -1,0 +1,77 @@
+{
+  "psid": "00016960147",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 1,
+    "first_test_date": "30-11-2025",
+    "latest_test_date": "30-11-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 230,
+    "best_score": 230,
+    "latest_score": 230,
+    "consistency_index": 0.0,
+    "trend": "insufficient_data"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 0,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Laws of Motion",
+        "Work, Energy and Power"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 24,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure"
+      ]
+    },
+    "botany": {
+      "average_percentage": 43,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Biological Classification",
+        "Morphology of Flowering Plants"
+      ]
+    },
+    "zoology": {
+      "average_percentage": 61,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation"
+      ],
+      "weak_chapters": []
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Laws of Motion",
+      "Work, Energy and Power",
+      "Classification of Elements and periodicity in properties",
+      "chemical Bonding and molecular structure",
+      "Biological Classification"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Laws of Motion",
+      "Work, Energy and Power",
+      "Classification of Elements and periodicity in properties",
+      "chemical Bonding and molecular structure",
+      "Biological Classification",
+      "Morphology of Flowering Plants"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

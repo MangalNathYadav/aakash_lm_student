@@ -1,0 +1,152 @@
+{
+  "psid": "00012967361",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 11,
+    "first_test_date": "02-07-2025",
+    "latest_test_date": "31-12-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 439,
+    "best_score": 616,
+    "latest_score": 341,
+    "consistency_index": 0.1178,
+    "trend": "declining"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 52,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Laws of Motion",
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Motion in a Plane",
+        "Oscillations",
+        "Waves",
+        "Electric Charges & Fields",
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids"
+      ],
+      "weak_chapters": [
+        "Work, Energy and Power",
+        "Thermal Properties of Matter",
+        "Thermodynamics",
+        "Kinetic Theory",
+        "Electrostatic Potential and Capacitance",
+        "Current Electricity",
+        "System of Particles and Rotational Motion",
+        "Work, Energy & Power",
+        "System of Particles & Rotational Motion"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 51,
+      "trend": "declining",
+      "strong_chapters": [
+        "Classification of Elements and Periodicity in Properties"
+      ],
+      "average_chapters": [
+        "Some Basic Concepts of Chemistry",
+        "Structure of Atom",
+        "Equilibrium",
+        "Solutions",
+        "Chemical Bonding and Molecular Structure"
+      ],
+      "weak_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure",
+        "Redox Reactions",
+        "Electrochemistry",
+        "Chemical Kinetics",
+        "Organic Chemistry: Some Basic Principles & Techniques",
+        "Thermodynamics"
+      ]
+    },
+    "botany": {
+      "average_percentage": 62,
+      "trend": "improving",
+      "strong_chapters": [
+        "Biological Classification",
+        "Cell : The Unit of Life",
+        "Cell Cycle & Cell Division"
+      ],
+      "average_chapters": [
+        "Morphology of Flowering Plants",
+        "The Living World",
+        "Anatomy of Flowering Plants",
+        "Plant Kingdom",
+        "Photosynthesis in Higher Plants",
+        "Respiration in Plants"
+      ],
+      "weak_chapters": [
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division"
+      ]
+    },
+    "zoology": {
+      "average_percentage": 74,
+      "trend": "improving",
+      "strong_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation",
+        "Structural Organisation in Animals- Animal Tissues",
+        "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+        "Neural Control & Coordination",
+        "Biomolecules-I: (Upto polysaccharide)",
+        "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)"
+      ],
+      "average_chapters": [
+        "Biomolecules",
+        "Chemical Coordination & Integration",
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement",
+        "Breathing & Exchange of Gases-I: (upto mechanism of breathing)",
+        "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+      ],
+      "weak_chapters": [
+        "Animal Kingdom-I: General accounts & Non-chordates"
+      ]
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Cell: The Unit of Life",
+      "Cell Cycle and Cell Division",
+      "Chemical Kinetics",
+      "Organic Chemistry: Some Basic Principles & Techniques",
+      "Work, Energy & Power"
+    ],
+    "most_improved_chapters": [
+      "Laws of Motion",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane",
+      "Thermal Properties of Matter"
+    ],
+    "chapters_needing_attention": [
+      "Cell: The Unit of Life",
+      "Cell Cycle and Cell Division",
+      "Chemical Kinetics",
+      "Organic Chemistry: Some Basic Principles & Techniques",
+      "Work, Energy & Power",
+      "System of Particles & Rotational Motion",
+      "Electrostatic Potential and Capacitance",
+      "Current Electricity",
+      "Thermodynamics",
+      "Work, Energy and Power",
+      "Animal Kingdom-I: General accounts & Non-chordates",
+      "System of Particles and Rotational Motion",
+      "Redox Reactions",
+      "Electrochemistry",
+      "Thermal Properties of Matter",
+      "Thermodynamics",
+      "Kinetic Theory",
+      "Classification of Elements and periodicity in properties",
+      "chemical Bonding and molecular structure"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

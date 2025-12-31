@@ -1,0 +1,140 @@
+{
+  "psid": "00015361818",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 10,
+    "first_test_date": "02-07-2025",
+    "latest_test_date": "31-12-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 480,
+    "best_score": 514,
+    "latest_score": 487,
+    "consistency_index": 0.9375,
+    "trend": "improving"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 41,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "System of Particles and Rotational Motion"
+      ],
+      "weak_chapters": [
+        "Laws of Motion",
+        "Work, Energy and Power",
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Motion in a Plane",
+        "Thermal Properties of Matter",
+        "Thermodynamics",
+        "Kinetic Theory",
+        "Oscillations",
+        "Waves",
+        "Electric Charges & Fields",
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids",
+        "Work, Energy & Power",
+        "System of Particles & Rotational Motion"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 57,
+      "trend": "declining",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure",
+        "Structure of Atom",
+        "Equilibrium",
+        "Redox Reactions",
+        "Electrochemistry",
+        "Solutions",
+        "Thermodynamics",
+        "Classification of Elements and Periodicity in Properties",
+        "Chemical Bonding and Molecular Structure"
+      ],
+      "weak_chapters": [
+        "Some Basic Concepts of Chemistry"
+      ]
+    },
+    "botany": {
+      "average_percentage": 83,
+      "trend": "stable",
+      "strong_chapters": [
+        "Biological Classification",
+        "Morphology of Flowering Plants",
+        "The Living World",
+        "Cell : The Unit of Life",
+        "Anatomy of Flowering Plants",
+        "Plant Kingdom",
+        "Cell Cycle & Cell Division"
+      ],
+      "average_chapters": [
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division"
+      ],
+      "weak_chapters": []
+    },
+    "zoology": {
+      "average_percentage": 84,
+      "trend": "declining",
+      "strong_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation",
+        "Biomolecules",
+        "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+        "Neural Control & Coordination",
+        "Chemical Coordination & Integration",
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement",
+        "Biomolecules-I: (Upto polysaccharide)",
+        "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+        "Breathing & Exchange of Gases-I: (upto mechanism of breathing)",
+        "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+      ],
+      "average_chapters": [
+        "Structural Organisation in Animals- Animal Tissues"
+      ],
+      "weak_chapters": []
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Work, Energy and Power",
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Laws of Motion"
+    ],
+    "most_improved_chapters": [
+      "Laws of Motion",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane",
+      "Thermal Properties of Matter"
+    ],
+    "chapters_needing_attention": [
+      "Work, Energy and Power",
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Laws of Motion",
+      "Motion in a Plane",
+      "Thermal Properties of Matter",
+      "Thermodynamics",
+      "Kinetic Theory",
+      "Work, Energy & Power",
+      "System of Particles & Rotational Motion",
+      "Some Basic Concepts of Chemistry",
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
+      "Units & Measurements",
+      "Motion in a Straight Line"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

@@ -1,0 +1,113 @@
+{
+  "psid": "00013222587",
+  "name": "Kalushlendra",
+  "meta": {
+    "tests_taken": 5,
+    "first_test_date": "02-11-2025",
+    "latest_test_date": "30-11-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 483,
+    "best_score": 567,
+    "latest_score": 408,
+    "consistency_index": 0.1531,
+    "trend": "declining"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 49,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Laws of Motion",
+        "Motion in a Plane",
+        "Thermal Properties of Matter",
+        "Thermodynamics",
+        "Kinetic Theory"
+      ],
+      "weak_chapters": [
+        "Work, Energy and Power",
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Work, Energy & Power",
+        "System of Particles & Rotational Motion"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 64,
+      "trend": "improving",
+      "strong_chapters": [
+        "Classification of Elements and Periodicity in Properties",
+        "Chemical Bonding and Molecular Structure"
+      ],
+      "average_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure",
+        "Structure of Atom",
+        "Equilibrium"
+      ],
+      "weak_chapters": [
+        "Some Basic Concepts of Chemistry"
+      ]
+    },
+    "botany": {
+      "average_percentage": 71,
+      "trend": "declining",
+      "strong_chapters": [
+        "Biological Classification",
+        "Anatomy of Flowering Plants",
+        "Cell Cycle & Cell Division"
+      ],
+      "average_chapters": [
+        "Morphology of Flowering Plants",
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division",
+        "The Living World"
+      ],
+      "weak_chapters": []
+    },
+    "zoology": {
+      "average_percentage": 76,
+      "trend": "improving",
+      "strong_chapters": [
+        "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+        "Neural Control & Coordination",
+        "Biomolecules-I: (Upto polysaccharide)",
+        "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+        "Breathing & Exchange of Gases-I: (upto mechanism of breathing)"
+      ],
+      "average_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation",
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules"
+      ],
+      "weak_chapters": []
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Some Basic Concepts of Chemistry",
+      "Work, Energy and Power",
+      "Work, Energy & Power"
+    ],
+    "most_improved_chapters": [
+      "Laws of Motion",
+      "Motion in a Plane",
+      "Structure of Atom",
+      "Biological Classification",
+      "The Living World"
+    ],
+    "chapters_needing_attention": [
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Some Basic Concepts of Chemistry",
+      "Work, Energy and Power",
+      "Work, Energy & Power",
+      "System of Particles & Rotational Motion"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

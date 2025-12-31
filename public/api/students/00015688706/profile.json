@@ -1,0 +1,63 @@
+{
+  "psid": "00015688706",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 1,
+    "first_test_date": "10-09-2025",
+    "latest_test_date": "10-09-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 552,
+    "best_score": 552,
+    "latest_score": 552,
+    "consistency_index": 0.0,
+    "trend": "insufficient_data"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 82,
+      "trend": "stable",
+      "strong_chapters": [
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids"
+      ],
+      "average_chapters": [],
+      "weak_chapters": []
+    },
+    "chemistry": {
+      "average_percentage": 78,
+      "trend": "insufficient_data",
+      "strong_chapters": [
+        "Thermodynamics"
+      ],
+      "average_chapters": [],
+      "weak_chapters": []
+    },
+    "botany": {
+      "average_percentage": 58,
+      "trend": "insufficient_data",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Morphology of Flowering Plants"
+      ],
+      "weak_chapters": []
+    },
+    "zoology": {
+      "average_percentage": 89,
+      "trend": "stable",
+      "strong_chapters": [
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+      ],
+      "average_chapters": [],
+      "weak_chapters": []
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": []
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

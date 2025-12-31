@@ -1,0 +1,105 @@
+{
+  "psid": "00015251674",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 4,
+    "first_test_date": "09-11-2025",
+    "latest_test_date": "30-11-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 369,
+    "best_score": 414,
+    "latest_score": 414,
+    "consistency_index": 0.3264,
+    "trend": "improving"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 26,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Laws of Motion",
+        "Work, Energy and Power",
+        "Oscillations",
+        "Waves",
+        "Electric Charges & Fields",
+        "Work, Energy & Power",
+        "System of Particles & Rotational Motion",
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 54,
+      "trend": "improving",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure",
+        "Redox Reactions",
+        "Electrochemistry",
+        "Solutions",
+        "Thermodynamics"
+      ],
+      "weak_chapters": [
+        "Chemical Bonding and Molecular Structure"
+      ]
+    },
+    "botany": {
+      "average_percentage": 66,
+      "trend": "declining",
+      "strong_chapters": [
+        "Morphology of Flowering Plants"
+      ],
+      "average_chapters": [
+        "Biological Classification",
+        "Plant Kingdom"
+      ],
+      "weak_chapters": []
+    },
+    "zoology": {
+      "average_percentage": 67,
+      "trend": "stable",
+      "strong_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation"
+      ],
+      "average_chapters": [
+        "Breathing & Exchange of Gases-I: (upto mechanism of breathing)",
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+      ],
+      "weak_chapters": [
+        "Chemical Coordination & Integration"
+      ]
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Work, Energy & Power",
+      "System of Particles & Rotational Motion",
+      "Laws of Motion",
+      "Work, Energy and Power",
+      "Chemical Bonding and Molecular Structure"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Work, Energy & Power",
+      "System of Particles & Rotational Motion",
+      "Laws of Motion",
+      "Work, Energy and Power",
+      "Chemical Bonding and Molecular Structure",
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Chemical Coordination & Integration"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

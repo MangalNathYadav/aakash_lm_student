@@ -1,0 +1,85 @@
+{
+  "psid": "00009842621",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 2,
+    "first_test_date": "08-10-2025",
+    "latest_test_date": "10-09-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 470,
+    "best_score": 495,
+    "latest_score": 445,
+    "consistency_index": 1.5974,
+    "trend": "declining"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 40,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Thermal Properties of Matter",
+        "Thermodynamics",
+        "Kinetic Theory",
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 74,
+      "trend": "declining",
+      "strong_chapters": [
+        "Equilibrium"
+      ],
+      "average_chapters": [
+        "Thermodynamics"
+      ],
+      "weak_chapters": []
+    },
+    "botany": {
+      "average_percentage": 67,
+      "trend": "declining",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Anatomy of Flowering Plants",
+        "Morphology of Flowering Plants"
+      ],
+      "weak_chapters": []
+    },
+    "zoology": {
+      "average_percentage": 80,
+      "trend": "stable",
+      "strong_chapters": [
+        "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+        "Neural Control & Coordination"
+      ],
+      "average_chapters": [
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+      ],
+      "weak_chapters": []
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Thermal Properties of Matter",
+      "Thermodynamics",
+      "Kinetic Theory",
+      "Gravitation",
+      "Mechanical Properties of Solids"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Thermal Properties of Matter",
+      "Thermodynamics",
+      "Kinetic Theory",
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

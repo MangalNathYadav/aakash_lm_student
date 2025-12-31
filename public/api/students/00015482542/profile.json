@@ -1,0 +1,111 @@
+{
+  "psid": "00015482542",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 4,
+    "first_test_date": "02-07-2025",
+    "latest_test_date": "23-07-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 322,
+    "best_score": 415,
+    "latest_score": 369,
+    "consistency_index": 0.1864,
+    "trend": "declining"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 32,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Work, Energy & Power",
+        "System of Particles & Rotational Motion"
+      ],
+      "weak_chapters": [
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Motion in a Plane",
+        "Laws of Motion",
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 43,
+      "trend": "declining",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Chemical Bonding and Molecular Structure"
+      ],
+      "weak_chapters": [
+        "Some Basic Concepts of Chemistry",
+        "Structure of Atom",
+        "Classification of Elements and Periodicity in Properties",
+        "Thermodynamics"
+      ]
+    },
+    "botany": {
+      "average_percentage": 63,
+      "trend": "declining",
+      "strong_chapters": [
+        "Cell Cycle & Cell Division",
+        "The Living World"
+      ],
+      "average_chapters": [
+        "Biological Classification"
+      ],
+      "weak_chapters": [
+        "Cell : The Unit of Life",
+        "Morphology of Flowering Plants"
+      ]
+    },
+    "zoology": {
+      "average_percentage": 43,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Breathing & Exchange of Gases-I: (upto mechanism of breathing)"
+      ],
+      "weak_chapters": [
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules-I: (Upto polysaccharide)",
+        "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+      ]
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
+      "Thermodynamics",
+      "Units & Measurements"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
+      "Thermodynamics",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Structural Organisation in Animals- Animal Tissues",
+      "Motion in a Plane",
+      "Laws of Motion",
+      "Morphology of Flowering Plants",
+      "Biomolecules-I: (Upto polysaccharide)",
+      "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+      "Some Basic Concepts of Chemistry",
+      "Structure of Atom",
+      "Classification of Elements and Periodicity in Properties",
+      "Excretory Products & their Elimination",
+      "Locomotion & Movement-I: (Upto properties of muscle contraction)",
+      "Cell : The Unit of Life"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

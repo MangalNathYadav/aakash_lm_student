@@ -1,0 +1,143 @@
+{
+  "psid": "00003870404",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 9,
+    "first_test_date": "02-07-2025",
+    "latest_test_date": "31-12-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 463,
+    "best_score": 616,
+    "latest_score": 405,
+    "consistency_index": 0.1304,
+    "trend": "declining"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 34,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Units & Measurements",
+        "Motion in a Straight Line"
+      ],
+      "weak_chapters": [
+        "Laws of Motion",
+        "Work, Energy and Power",
+        "Motion in a Plane",
+        "Thermal Properties of Matter",
+        "Thermodynamics",
+        "Kinetic Theory",
+        "Oscillations",
+        "Waves",
+        "Electric Charges & Fields",
+        "System of Particles and Rotational Motion",
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids",
+        "Work, Energy & Power",
+        "System of Particles & Rotational Motion"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 60,
+      "trend": "declining",
+      "strong_chapters": [
+        "Classification of Elements and Periodicity in Properties",
+        "Chemical Bonding and Molecular Structure"
+      ],
+      "average_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure",
+        "Some Basic Concepts of Chemistry",
+        "Structure of Atom",
+        "Equilibrium",
+        "Solutions"
+      ],
+      "weak_chapters": [
+        "Redox Reactions",
+        "Electrochemistry",
+        "Thermodynamics"
+      ]
+    },
+    "botany": {
+      "average_percentage": 75,
+      "trend": "improving",
+      "strong_chapters": [
+        "Biological Classification",
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division",
+        "The Living World",
+        "Cell : The Unit of Life",
+        "Cell Cycle & Cell Division"
+      ],
+      "average_chapters": [
+        "Morphology of Flowering Plants",
+        "Anatomy of Flowering Plants"
+      ],
+      "weak_chapters": [
+        "Plant Kingdom"
+      ]
+    },
+    "zoology": {
+      "average_percentage": 90,
+      "trend": "declining",
+      "strong_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation",
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules",
+        "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+        "Neural Control & Coordination",
+        "Chemical Coordination & Integration",
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement",
+        "Biomolecules-I: (Upto polysaccharide)",
+        "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+        "Breathing & Exchange of Gases-I: (upto mechanism of breathing)",
+        "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+      ],
+      "average_chapters": [],
+      "weak_chapters": []
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Plant Kingdom",
+      "Work, Energy and Power",
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields"
+    ],
+    "most_improved_chapters": [
+      "Laws of Motion",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Some Basic Concepts of Chemistry",
+      "Structure of Atom"
+    ],
+    "chapters_needing_attention": [
+      "Plant Kingdom",
+      "Work, Energy and Power",
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Work, Energy & Power",
+      "System of Particles & Rotational Motion",
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
+      "Laws of Motion",
+      "System of Particles and Rotational Motion",
+      "Thermal Properties of Matter",
+      "Thermodynamics",
+      "Kinetic Theory",
+      "Motion in a Plane",
+      "Redox Reactions",
+      "Electrochemistry",
+      "Thermodynamics"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

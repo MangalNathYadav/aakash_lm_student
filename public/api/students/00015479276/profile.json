@@ -1,0 +1,145 @@
+{
+  "psid": "00015479276",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 10,
+    "first_test_date": "02-07-2025",
+    "latest_test_date": "31-12-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 450,
+    "best_score": 523,
+    "latest_score": 523,
+    "consistency_index": 0.683,
+    "trend": "improving"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 50,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Laws of Motion",
+        "Thermal Properties of Matter",
+        "Thermodynamics",
+        "Kinetic Theory",
+        "Electrostatic Potential and Capacitance",
+        "Current Electricity",
+        "System of Particles and Rotational Motion",
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids"
+      ],
+      "weak_chapters": [
+        "Work, Energy and Power",
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Motion in a Plane",
+        "Work, Energy & Power",
+        "System of Particles & Rotational Motion",
+        "Oscillations",
+        "Waves",
+        "Electric Charges & Fields"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 48,
+      "trend": "declining",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure",
+        "Structure of Atom",
+        "Equilibrium",
+        "Thermodynamics",
+        "Classification of Elements and Periodicity in Properties",
+        "Chemical Bonding and Molecular Structure"
+      ],
+      "weak_chapters": [
+        "Some Basic Concepts of Chemistry",
+        "Chemical Kinetics",
+        "Organic Chemistry: Some Basic Principles & Techniques",
+        "Redox Reactions",
+        "Electrochemistry",
+        "Solutions"
+      ]
+    },
+    "botany": {
+      "average_percentage": 76,
+      "trend": "improving",
+      "strong_chapters": [
+        "The Living World",
+        "Cell : The Unit of Life",
+        "Photosynthesis in Higher Plants",
+        "Respiration in Plants",
+        "Plant Kingdom",
+        "Cell Cycle & Cell Division"
+      ],
+      "average_chapters": [
+        "Biological Classification",
+        "Morphology of Flowering Plants",
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division",
+        "Anatomy of Flowering Plants"
+      ],
+      "weak_chapters": []
+    },
+    "zoology": {
+      "average_percentage": 74,
+      "trend": "declining",
+      "strong_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation",
+        "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+        "Neural Control & Coordination",
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement",
+        "Breathing & Exchange of Gases-I: (upto mechanism of breathing)",
+        "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+      ],
+      "average_chapters": [
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules",
+        "Animal Kingdom-I: General accounts & Non-chordates",
+        "Biomolecules-I: (Upto polysaccharide)",
+        "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+        "Chemical Coordination & Integration"
+      ],
+      "weak_chapters": []
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Chemical Kinetics",
+      "Organic Chemistry: Some Basic Principles & Techniques",
+      "Solutions",
+      "Some Basic Concepts of Chemistry",
+      "Oscillations"
+    ],
+    "most_improved_chapters": [
+      "Laws of Motion",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane",
+      "Structure of Atom"
+    ],
+    "chapters_needing_attention": [
+      "Chemical Kinetics",
+      "Organic Chemistry: Some Basic Principles & Techniques",
+      "Solutions",
+      "Some Basic Concepts of Chemistry",
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Redox Reactions",
+      "Electrochemistry",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Work, Energy & Power",
+      "System of Particles & Rotational Motion",
+      "Work, Energy and Power",
+      "Motion in a Plane"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

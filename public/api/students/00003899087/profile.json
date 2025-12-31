@@ -1,0 +1,64 @@
+{
+  "psid": "00003899087",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 1,
+    "first_test_date": "23-07-2025",
+    "latest_test_date": "23-07-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 498,
+    "best_score": 498,
+    "latest_score": 498,
+    "consistency_index": 0.0,
+    "trend": "insufficient_data"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 79,
+      "trend": "stable",
+      "strong_chapters": [
+        "Motion in a Plane",
+        "Laws of Motion"
+      ],
+      "average_chapters": [],
+      "weak_chapters": []
+    },
+    "chemistry": {
+      "average_percentage": 62,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Structure of Atom",
+        "Classification of Elements and Periodicity in Properties"
+      ],
+      "weak_chapters": []
+    },
+    "botany": {
+      "average_percentage": 73,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Cell Cycle & Cell Division",
+        "The Living World"
+      ],
+      "weak_chapters": []
+    },
+    "zoology": {
+      "average_percentage": 63,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Biomolecules-I: (Upto polysaccharide)",
+        "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)"
+      ],
+      "weak_chapters": []
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": []
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

@@ -1,0 +1,99 @@
+{
+  "psid": "00015179360",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 3,
+    "first_test_date": "08-10-2025",
+    "latest_test_date": "20-08-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 346,
+    "best_score": 419,
+    "latest_score": 359,
+    "consistency_index": 0.2326,
+    "trend": "improving"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 20,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Thermal Properties of Matter",
+        "Thermodynamics",
+        "Kinetic Theory",
+        "Work, Energy & Power",
+        "System of Particles & Rotational Motion",
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 41,
+      "trend": "improving",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Equilibrium"
+      ],
+      "weak_chapters": [
+        "Chemical Bonding and Molecular Structure",
+        "Thermodynamics"
+      ]
+    },
+    "botany": {
+      "average_percentage": 59,
+      "trend": "declining",
+      "strong_chapters": [
+        "Biological Classification"
+      ],
+      "average_chapters": [
+        "Anatomy of Flowering Plants"
+      ],
+      "weak_chapters": [
+        "Morphology of Flowering Plants"
+      ]
+    },
+    "zoology": {
+      "average_percentage": 72,
+      "trend": "stable",
+      "strong_chapters": [
+        "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+        "Neural Control & Coordination",
+        "Breathing & Exchange of Gases-I: (upto mechanism of breathing)"
+      ],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+      ]
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Work, Energy & Power",
+      "System of Particles & Rotational Motion",
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Work, Energy & Power",
+      "System of Particles & Rotational Motion",
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
+      "Chemical Bonding and Molecular Structure",
+      "Thermal Properties of Matter",
+      "Thermodynamics",
+      "Kinetic Theory",
+      "Thermodynamics",
+      "Morphology of Flowering Plants",
+      "Excretory Products & their Elimination",
+      "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

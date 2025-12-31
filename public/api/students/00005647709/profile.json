@@ -1,0 +1,127 @@
+{
+  "psid": "00005647709",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 3,
+    "first_test_date": "12-11-2025",
+    "latest_test_date": "31-12-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 100,
+    "best_score": 164,
+    "latest_score": 0,
+    "consistency_index": 0.1949,
+    "trend": "declining"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 0,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Laws of Motion",
+        "Work, Energy and Power",
+        "System of Particles and Rotational Motion",
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids",
+        "Thermal Properties of Matter",
+        "Thermodynamics",
+        "Kinetic Theory",
+        "Oscillations",
+        "Waves",
+        "Electric Charges & Fields"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 0,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure",
+        "Thermodynamics",
+        "Equilibrium",
+        "Redox Reactions",
+        "Electrochemistry",
+        "Solutions"
+      ]
+    },
+    "botany": {
+      "average_percentage": 24,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Biological Classification",
+        "Morphology of Flowering Plants",
+        "Anatomy of Flowering Plants",
+        "Plant Kingdom"
+      ]
+    },
+    "zoology": {
+      "average_percentage": 34,
+      "trend": "improving",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation",
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement",
+        "Neural Control & Coordination",
+        "Chemical Coordination & Integration"
+      ]
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Laws of Motion",
+      "Work, Energy and Power",
+      "System of Particles and Rotational Motion",
+      "Gravitation",
+      "Mechanical Properties of Solids"
+    ],
+    "most_improved_chapters": [
+      "Morphology of Flowering Plants",
+      "Anatomy of Flowering Plants",
+      "Plant Kingdom",
+      "Excretory Products & their Elimination",
+      "Locomotion & Movement"
+    ],
+    "chapters_needing_attention": [
+      "Laws of Motion",
+      "Work, Energy and Power",
+      "System of Particles and Rotational Motion",
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
+      "Thermal Properties of Matter",
+      "Thermodynamics",
+      "Kinetic Theory",
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Classification of Elements and periodicity in properties",
+      "chemical Bonding and molecular structure",
+      "Thermodynamics",
+      "Equilibrium",
+      "Redox Reactions",
+      "Electrochemistry",
+      "Solutions",
+      "Anatomy of Flowering Plants",
+      "Plant Kingdom",
+      "Excretory Products & their Elimination",
+      "Locomotion & Movement",
+      "Neural Control & Coordination",
+      "Biological Classification",
+      "Morphology of Flowering Plants",
+      "Chemical Coordination & Integration",
+      "Breathing & Exchange of Gases",
+      "Body Fluids & Circulation"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

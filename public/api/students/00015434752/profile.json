@@ -1,0 +1,79 @@
+{
+  "psid": "00015434752",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 1,
+    "first_test_date": "09-11-2025",
+    "latest_test_date": "09-11-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 99,
+    "best_score": 99,
+    "latest_score": 99,
+    "consistency_index": 0.0,
+    "trend": "insufficient_data"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 2,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Oscillations",
+        "Waves",
+        "Electric Charges & Fields"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 17,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Redox Reactions",
+        "Electrochemistry",
+        "Solutions"
+      ]
+    },
+    "botany": {
+      "average_percentage": 19,
+      "trend": "insufficient_data",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Plant Kingdom"
+      ]
+    },
+    "zoology": {
+      "average_percentage": 21,
+      "trend": "insufficient_data",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Chemical Coordination & Integration"
+      ]
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Redox Reactions",
+      "Electrochemistry"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Redox Reactions",
+      "Electrochemistry",
+      "Solutions",
+      "Plant Kingdom",
+      "Chemical Coordination & Integration"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

@@ -1,0 +1,96 @@
+{
+  "psid": "00010661757",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 2,
+    "first_test_date": "02-11-2025",
+    "latest_test_date": "30-11-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 245,
+    "best_score": 285,
+    "latest_score": 205,
+    "consistency_index": 0.6246,
+    "trend": "declining"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 17,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Laws of Motion",
+        "Work, Energy and Power",
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Motion in a Plane"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 24,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure",
+        "Some Basic Concepts of Chemistry",
+        "Structure of Atom"
+      ]
+    },
+    "botany": {
+      "average_percentage": 49,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division",
+        "The Living World"
+      ],
+      "weak_chapters": [
+        "Biological Classification",
+        "Morphology of Flowering Plants"
+      ]
+    },
+    "zoology": {
+      "average_percentage": 51,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules"
+      ],
+      "weak_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation"
+      ]
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Laws of Motion",
+      "Work, Energy and Power",
+      "Classification of Elements and periodicity in properties",
+      "chemical Bonding and molecular structure",
+      "Units & Measurements"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Laws of Motion",
+      "Work, Energy and Power",
+      "Classification of Elements and periodicity in properties",
+      "chemical Bonding and molecular structure",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane",
+      "Some Basic Concepts of Chemistry",
+      "Structure of Atom",
+      "Breathing & Exchange of Gases",
+      "Body Fluids & Circulation",
+      "Biological Classification",
+      "Morphology of Flowering Plants"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

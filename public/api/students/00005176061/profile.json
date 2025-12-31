@@ -1,0 +1,141 @@
+{
+  "psid": "00005176061",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 8,
+    "first_test_date": "02-07-2025",
+    "latest_test_date": "30-11-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 401,
+    "best_score": 550,
+    "latest_score": 320,
+    "consistency_index": 0.1598,
+    "trend": "declining"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 49,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Thermal Properties of Matter",
+        "Thermodynamics",
+        "Kinetic Theory",
+        "Electrostatic Potential and Capacitance",
+        "Current Electricity",
+        "Work, Energy & Power",
+        "System of Particles & Rotational Motion"
+      ],
+      "weak_chapters": [
+        "Laws of Motion",
+        "Work, Energy and Power",
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Motion in a Plane",
+        "Oscillations",
+        "Waves",
+        "Electric Charges & Fields"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 60,
+      "trend": "declining",
+      "strong_chapters": [
+        "Equilibrium"
+      ],
+      "average_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure",
+        "Redox Reactions",
+        "Electrochemistry",
+        "Solutions",
+        "Chemical Kinetics",
+        "Organic Chemistry: Some Basic Principles & Techniques",
+        "Classification of Elements and Periodicity in Properties"
+      ],
+      "weak_chapters": [
+        "Some Basic Concepts of Chemistry",
+        "Structure of Atom",
+        "Chemical Bonding and Molecular Structure"
+      ]
+    },
+    "botany": {
+      "average_percentage": 62,
+      "trend": "improving",
+      "strong_chapters": [
+        "Anatomy of Flowering Plants",
+        "Cell Cycle & Cell Division"
+      ],
+      "average_chapters": [
+        "Biological Classification",
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division",
+        "The Living World",
+        "Plant Kingdom",
+        "Photosynthesis in Higher Plants",
+        "Respiration in Plants"
+      ],
+      "weak_chapters": [
+        "Morphology of Flowering Plants",
+        "Cell : The Unit of Life"
+      ]
+    },
+    "zoology": {
+      "average_percentage": 60,
+      "trend": "improving",
+      "strong_chapters": [
+        "Breathing & Exchange of Gases-I: (upto mechanism of breathing)"
+      ],
+      "average_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation",
+        "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+        "Neural Control & Coordination",
+        "Animal Kingdom-I: General accounts & Non-chordates",
+        "Biomolecules-I: (Upto polysaccharide)",
+        "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)"
+      ],
+      "weak_chapters": [
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules",
+        "Chemical Coordination & Integration"
+      ]
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Work, Energy and Power",
+      "Laws of Motion",
+      "Cell : The Unit of Life",
+      "Units & Measurements",
+      "Motion in a Straight Line"
+    ],
+    "most_improved_chapters": [
+      "Laws of Motion",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane",
+      "Some Basic Concepts of Chemistry"
+    ],
+    "chapters_needing_attention": [
+      "Work, Energy and Power",
+      "Laws of Motion",
+      "Cell : The Unit of Life",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane",
+      "Morphology of Flowering Plants",
+      "Structural Organisation in Animals- Animal Tissues",
+      "Chemical Bonding and Molecular Structure",
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Chemical Coordination & Integration",
+      "Biomolecules",
+      "Some Basic Concepts of Chemistry",
+      "Structure of Atom"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

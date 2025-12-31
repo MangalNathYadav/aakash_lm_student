@@ -1,0 +1,145 @@
+{
+  "psid": "00015434213",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 5,
+    "first_test_date": "02-07-2025",
+    "latest_test_date": "30-11-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 227,
+    "best_score": 326,
+    "latest_score": 234,
+    "consistency_index": 0.1784,
+    "trend": "declining"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 11,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Laws of Motion",
+        "Work, Energy and Power",
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Thermal Properties of Matter",
+        "Thermodynamics",
+        "Kinetic Theory",
+        "Motion in a Plane",
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids",
+        "Oscillations",
+        "Waves",
+        "Electric Charges & Fields"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 10,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure",
+        "Some Basic Concepts of Chemistry",
+        "Equilibrium",
+        "Structure of Atom",
+        "Classification of Elements and Periodicity in Properties",
+        "Thermodynamics",
+        "Redox Reactions",
+        "Electrochemistry",
+        "Solutions"
+      ]
+    },
+    "botany": {
+      "average_percentage": 46,
+      "trend": "declining",
+      "strong_chapters": [
+        "Cell Cycle & Cell Division",
+        "The Living World"
+      ],
+      "average_chapters": [
+        "Anatomy of Flowering Plants"
+      ],
+      "weak_chapters": [
+        "Biological Classification",
+        "Morphology of Flowering Plants",
+        "Cell : The Unit of Life",
+        "Plant Kingdom"
+      ]
+    },
+    "zoology": {
+      "average_percentage": 50,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+        "Neural Control & Coordination",
+        "Biomolecules-I: (Upto polysaccharide)",
+        "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)"
+      ],
+      "weak_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation",
+        "Structural Organisation in Animals- Animal Tissues",
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement",
+        "Chemical Coordination & Integration"
+      ]
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Motion in a Plane",
+      "Thermodynamics",
+      "Redox Reactions",
+      "Electrochemistry",
+      "Solutions"
+    ],
+    "most_improved_chapters": [
+      "Thermal Properties of Matter",
+      "Thermodynamics",
+      "Kinetic Theory"
+    ],
+    "chapters_needing_attention": [
+      "Motion in a Plane",
+      "Thermodynamics",
+      "Redox Reactions",
+      "Electrochemistry",
+      "Solutions",
+      "Thermal Properties of Matter",
+      "Thermodynamics",
+      "Kinetic Theory",
+      "Some Basic Concepts of Chemistry",
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Plant Kingdom",
+      "Structure of Atom",
+      "Classification of Elements and Periodicity in Properties",
+      "Laws of Motion",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Equilibrium",
+      "Classification of Elements and periodicity in properties",
+      "chemical Bonding and molecular structure",
+      "Morphology of Flowering Plants",
+      "Work, Energy and Power",
+      "Cell : The Unit of Life",
+      "Biological Classification",
+      "Excretory Products & their Elimination",
+      "Locomotion & Movement",
+      "Chemical Coordination & Integration",
+      "Breathing & Exchange of Gases",
+      "Body Fluids & Circulation",
+      "Structural Organisation in Animals- Animal Tissues"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

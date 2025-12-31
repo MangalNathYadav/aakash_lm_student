@@ -1,0 +1,942 @@
+[
+  {
+    "test_id": "FT-01",
+    "test_type": "FT",
+    "test_date": "2nd July' 25",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Units & Measurements",
+          "Motion in a Straight Line"
+        ],
+        "chapter_count": 2
+      },
+      "chemistry": {
+        "chapters": [
+          "Some Basic Concepts of Chemistry"
+        ],
+        "chapter_count": 1
+      },
+      "botany": {
+        "chapters": [
+          "Cell : The Unit of Life"
+        ],
+        "chapter_count": 1
+      },
+      "zoology": {
+        "chapters": [
+          "Structural Organisation in Animals- Animal Tissues"
+        ],
+        "chapter_count": 1
+      }
+    }
+  },
+  {
+    "test_id": "FT-02",
+    "test_type": "FT",
+    "test_date": "23rd July' 25",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Motion in a Plane",
+          "Laws of Motion"
+        ],
+        "chapter_count": 2
+      },
+      "chemistry": {
+        "chapters": [
+          "Structure of Atom",
+          "Classification of Elements and Periodicity in Properties"
+        ],
+        "chapter_count": 2
+      },
+      "botany": {
+        "chapters": [
+          "Cell Cycle & Cell Division",
+          "The Living World"
+        ],
+        "chapter_count": 2
+      },
+      "zoology": {
+        "chapters": [
+          "Biomolecules-I: (Upto polysaccharide)",
+          "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)"
+        ],
+        "chapter_count": 2
+      }
+    }
+  },
+  {
+    "test_id": "FT-03",
+    "test_type": "FT",
+    "test_date": "20th Aug.' 25",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Work, Energy & Power",
+          "System of Particles & Rotational Motion"
+        ],
+        "chapter_count": 2
+      },
+      "chemistry": {
+        "chapters": [
+          "Chemical Bonding and Molecular Structure"
+        ],
+        "chapter_count": 1
+      },
+      "botany": {
+        "chapters": [
+          "Biological Classification"
+        ],
+        "chapter_count": 1
+      },
+      "zoology": {
+        "chapters": [
+          "Breathing & Exchange of Gases-I: (upto mechanism of breathing)"
+        ],
+        "chapter_count": 1
+      }
+    }
+  },
+  {
+    "test_id": "NBTS_R-01",
+    "test_type": "NBTS",
+    "test_date": "27th Aug.' 25",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Units & Measurements",
+          "Motion in a Straight Line",
+          "Motion in a Plane",
+          "Laws of Motion",
+          "Work, Energy & Power",
+          "System of Particles & Rotational Motion"
+        ],
+        "chapter_count": 6
+      },
+      "chemistry": {
+        "chapters": [
+          "Some Basic Concepts of Chemistry",
+          "Structure of Atom",
+          "Classification of Elements and Periodicity in Properties",
+          "Chemical Bonding and Molecular Structure"
+        ],
+        "chapter_count": 4
+      },
+      "botany": {
+        "chapters": [
+          "The Living World",
+          "Cell: The Unit of Life",
+          "Cell Cycle & Cell Division",
+          "Biological Classification"
+        ],
+        "chapter_count": 4
+      },
+      "zoology": {
+        "chapters": [
+          "Structural Organisation in Animals- Animal Tissues",
+          "Biomolecules",
+          "Breathing & Exchange of Gases",
+          "Body Fluids & Circulation"
+        ],
+        "chapter_count": 4
+      }
+    }
+  },
+  {
+    "test_id": "FT-04",
+    "test_type": "FT",
+    "test_date": "10th Sept.' 25",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Gravitation",
+          "Mechanical Properties of Solids",
+          "Mechanical Properties of Fluids"
+        ],
+        "chapter_count": 3
+      },
+      "chemistry": {
+        "chapters": [
+          "Thermodynamics"
+        ],
+        "chapter_count": 1
+      },
+      "botany": {
+        "chapters": [
+          "Morphology of Flowering Plants"
+        ],
+        "chapter_count": 1
+      },
+      "zoology": {
+        "chapters": [
+          "Excretory Products & their Elimination",
+          "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+        ],
+        "chapter_count": 2
+      }
+    }
+  },
+  {
+    "test_id": "FT-05",
+    "test_type": "FT",
+    "test_date": "1st Oct' 25",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Thermal Properties of Matter",
+          "Thermodynamics",
+          "Kinetic Theory"
+        ],
+        "chapter_count": 3
+      },
+      "chemistry": {
+        "chapters": [
+          "Equilibrium"
+        ],
+        "chapter_count": 1
+      },
+      "botany": {
+        "chapters": [
+          "Anatomy of Flowering Plants"
+        ],
+        "chapter_count": 1
+      },
+      "zoology": {
+        "chapters": [
+          "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+          "Neural Control & Coordination"
+        ],
+        "chapter_count": 2
+      }
+    }
+  },
+  {
+    "test_id": "Practice Test-01 (Online)",
+    "test_type": "PRACTICE",
+    "test_date": "26th Oct' 25",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Units & Measurements",
+          "Motion in a Straight Line",
+          "Motion in a Plane"
+        ],
+        "chapter_count": 3
+      },
+      "chemistry": {
+        "chapters": [
+          "Some Basic Concepts of Chemistry",
+          "Structure of Atom"
+        ],
+        "chapter_count": 2
+      },
+      "botany": {
+        "chapters": [
+          "Cell: The Unit of Life",
+          "Cell Cycle and Cell Division",
+          "Living World"
+        ],
+        "chapter_count": 3
+      },
+      "zoology": {
+        "chapters": [
+          "Structural Organisation in Animals- Animal Tissues",
+          "Biomolecules"
+        ],
+        "chapter_count": 2
+      }
+    }
+  },
+  {
+    "test_id": "AIATS-01",
+    "test_type": "AIATS",
+    "test_date": "2nd Nov' 25",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Units & Measurements",
+          "Motion in a Straight Line",
+          "Motion in a Plane"
+        ],
+        "chapter_count": 3
+      },
+      "chemistry": {
+        "chapters": [
+          "Some Basic Concepts of Chemistry",
+          "Structure of Atom"
+        ],
+        "chapter_count": 2
+      },
+      "botany": {
+        "chapters": [
+          "Cell: The Unit of Life",
+          "Cell Cycle and Cell Division",
+          "The Living World"
+        ],
+        "chapter_count": 3
+      },
+      "zoology": {
+        "chapters": [
+          "Structural Organisation in Animals- Animal Tissues",
+          "Biomolecules"
+        ],
+        "chapter_count": 2
+      }
+    }
+  },
+  {
+    "test_id": "FT-06",
+    "test_type": "FT",
+    "test_date": "5th Nov' 25",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Oscillations",
+          "Waves",
+          "Electric Charges & Fields"
+        ],
+        "chapter_count": 3
+      },
+      "chemistry": {
+        "chapters": [
+          "Redox Reactions",
+          "Electrochemistry",
+          "Solutions"
+        ],
+        "chapter_count": 3
+      },
+      "botany": {
+        "chapters": [
+          "Plant Kingdom"
+        ],
+        "chapter_count": 1
+      },
+      "zoology": {
+        "chapters": [
+          "Chemical Coordination & Integration"
+        ],
+        "chapter_count": 1
+      }
+    }
+  },
+  {
+    "test_id": "NBTS_R-02",
+    "test_type": "NBTS",
+    "test_date": "12th Nov' 25",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Gravitation",
+          "Mechanical Properties of Solids",
+          "Mechanical Properties of Fluids",
+          "Thermal Properties of Matter",
+          "Thermodynamics",
+          "Kinetic Theory",
+          "Oscillations",
+          "Waves",
+          "Electric Charges & Fields"
+        ],
+        "chapter_count": 9
+      },
+      "chemistry": {
+        "chapters": [
+          "Thermodynamics",
+          "Equilibrium",
+          "Redox Reactions",
+          "Electrochemistry",
+          "Solutions"
+        ],
+        "chapter_count": 5
+      },
+      "botany": {
+        "chapters": [
+          "Morphology of Flowering Plants",
+          "Anatomy of Flowering Plants",
+          "Plant Kingdom"
+        ],
+        "chapter_count": 3
+      },
+      "zoology": {
+        "chapters": [
+          "Excretory Products & their Elimination",
+          "Locomotion & Movement",
+          "Neural Control & Coordination",
+          "Chemical Coordination & Integration"
+        ],
+        "chapter_count": 4
+      }
+    }
+  },
+  {
+    "test_id": "FT-07",
+    "test_type": "FT",
+    "test_date": "26th Nov.' 25",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Electrostatic Potential and Capacitance",
+          "Current Electricity"
+        ],
+        "chapter_count": 2
+      },
+      "chemistry": {
+        "chapters": [
+          "Chemical Kinetics",
+          "Organic Chemistry: Some Basic Principles & Techniques"
+        ],
+        "chapter_count": 2
+      },
+      "botany": {
+        "chapters": [
+          "Photosynthesis in Higher Plants",
+          "Respiration in Plants"
+        ],
+        "chapter_count": 2
+      },
+      "zoology": {
+        "chapters": [
+          "Animal Kingdom-I: General accounts & Non-chordates"
+        ],
+        "chapter_count": 1
+      }
+    }
+  },
+  {
+    "test_id": "AIATS-02",
+    "test_type": "AIATS",
+    "test_date": "30th Nov.' 25",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Laws of Motion",
+          "Work, Energy and Power"
+        ],
+        "chapter_count": 2
+      },
+      "chemistry": {
+        "chapters": [
+          "Classification of Elements and periodicity in properties",
+          "chemical Bonding and molecular structure"
+        ],
+        "chapter_count": 2
+      },
+      "botany": {
+        "chapters": [
+          "Biological Classification",
+          "Morphology of Flowering Plants"
+        ],
+        "chapter_count": 2
+      },
+      "zoology": {
+        "chapters": [
+          "Breathing & Exchange of Gases",
+          "Body Fluids & Circulation"
+        ],
+        "chapter_count": 2
+      }
+    }
+  },
+  {
+    "test_id": "FT-08",
+    "test_type": "FT",
+    "test_date": "28th Dec' 25",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "System of Particles and Rotational Motion",
+          "Gravitation",
+          "Mechanical Properties of Solids",
+          "Mechanical Properties of Fluids"
+        ],
+        "chapter_count": 4
+      },
+      "chemistry": {
+        "chapters": [
+          "Thermodynamics",
+          "Equilibrium",
+          "Redox Reactions",
+          "Electrochemistry"
+        ],
+        "chapter_count": 4
+      },
+      "botany": {
+        "chapters": [
+          "Anatomy of Flowering Plants",
+          "Plant Kingdom"
+        ],
+        "chapter_count": 2
+      },
+      "zoology": {
+        "chapters": [
+          "Excretory Products & their Elimination",
+          "Locomotion & Movement",
+          "Neural Control & Coordination"
+        ],
+        "chapter_count": 3
+      }
+    }
+  },
+  {
+    "test_id": "AIATS-03",
+    "test_type": "AIATS",
+    "test_date": "31st Dec. '25",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Moving Charges and Magnetism",
+          "Magnetism and Matter",
+          "Electromagnetic Induction",
+          "Alternating Current"
+        ],
+        "chapter_count": 4
+      },
+      "chemistry": {
+        "chapters": [
+          "Hydrocarbons",
+          "Haloalkanes and Haloarenes"
+        ],
+        "chapter_count": 2
+      },
+      "botany": {
+        "chapters": [
+          "Plant Growth and Development",
+          "Sexual Reproduction in Flowering Plants"
+        ],
+        "chapter_count": 2
+      },
+      "zoology": {
+        "chapters": [
+          "Animal Kingdom-II: Chordates",
+          "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)"
+        ],
+        "chapter_count": 2
+      }
+    }
+  },
+  {
+    "test_id": "FT-09",
+    "test_type": "FT",
+    "test_date": "18th Jan' 26",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Electrostatic Potential and Capacitance",
+          "Current Electricity",
+          "Moving Charges and Magnetism",
+          "Magnetism and Matter",
+          "Electromagnetic Induction",
+          "Alternating Current"
+        ],
+        "chapter_count": 6
+      },
+      "chemistry": {
+        "chapters": [
+          "Chemical Kinetics",
+          "Organic Chemistry: Some Basic Principles & Techniques",
+          "Hydrocarbons",
+          "Haloalkanes and Haloarenes"
+        ],
+        "chapter_count": 4
+      },
+      "botany": {
+        "chapters": [
+          "Photosynthesis in Higher Plants",
+          "Respiration in Plants",
+          "Plant Growth and Development",
+          "Sexual Reproduction in Flowering Plants"
+        ],
+        "chapter_count": 4
+      },
+      "zoology": {
+        "chapters": [
+          "Animal Kingdom",
+          "Structural Organisation in Animals- Animal Morphology (Cockroach & Frog)",
+          "Chemical Coordination & Integration"
+        ],
+        "chapter_count": 3
+      }
+    }
+  },
+  {
+    "test_id": "AIATS-04",
+    "test_type": "AIATS",
+    "test_date": "4th Feb.' 26",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Electromagnetic Waves",
+          "Ray Optics & Optical Instruments",
+          "Wave Optics",
+          "Dual Nature of Radiation and Matter"
+        ],
+        "chapter_count": 4
+      },
+      "chemistry": {
+        "chapters": [
+          "Alcohols",
+          "Phenols and Ethers",
+          "Aldehydes",
+          "Ketones and Carboxylic Acids"
+        ],
+        "chapter_count": 4
+      },
+      "botany": {
+        "chapters": [
+          "Principles of Inheritance & Variation",
+          "Molecular Basis of Inheritance"
+        ],
+        "chapter_count": 2
+      },
+      "zoology": {
+        "chapters": [
+          "Human Reproduction",
+          "Reproductive Health"
+        ],
+        "chapter_count": 2
+      }
+    }
+  },
+  {
+    "test_id": "AIATS-05",
+    "test_type": "AIATS",
+    "test_date": "8th Feb' 26",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Electric Charges & Fields",
+          "Electrostatic Potential and Capacitance",
+          "Current Electricity"
+        ],
+        "chapter_count": 3
+      },
+      "chemistry": {
+        "chapters": [
+          "Hydrocarbons",
+          "Haloalkanes and Haloarenes",
+          "Alcohols",
+          "Phenols and Ethers",
+          "Aldehydes",
+          "Ketones and Carboxylic Acids"
+        ],
+        "chapter_count": 6
+      },
+      "botany": {
+        "chapters": [
+          "Sexual Reproduction in Flowering Plants",
+          "Principles of Inheritance & Variation"
+        ],
+        "chapter_count": 2
+      },
+      "zoology": {
+        "chapters": [
+          "Human Reproduction",
+          "Reproductive Health",
+          "Human Health & Disease"
+        ],
+        "chapter_count": 3
+      }
+    }
+  },
+  {
+    "test_id": "FT-10",
+    "test_type": "FT",
+    "test_date": "25th Feb.' 26",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Atoms",
+          "Nuclei",
+          "Semiconductor",
+          "Experimental Skills"
+        ],
+        "chapter_count": 4
+      },
+      "chemistry": {
+        "chapters": [
+          "The p-Block Elements",
+          "Biomolecules",
+          "Principles Related to Practical Chemistry"
+        ],
+        "chapter_count": 3
+      },
+      "botany": {
+        "chapters": [
+          "Microbes in Human Welfare",
+          "Organisms and Populations",
+          "Ecosystem",
+          "Biodiversity and Conservation"
+        ],
+        "chapter_count": 4
+      },
+      "zoology": {
+        "chapters": [
+          "Human Health & Disease",
+          "Biotechnology-Principles and Processes",
+          "Biotechnology and Its Applications"
+        ],
+        "chapter_count": 3
+      }
+    }
+  },
+  {
+    "test_id": "NBTS_R-04",
+    "test_type": "NBTS",
+    "test_date": "1st March '26",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Electromagnetic Waves",
+          "Ray Optics & Optical Instruments",
+          "Wave Optics",
+          "Dual Nature of Radiation and Matter",
+          "Atoms",
+          "Nuclei",
+          "Semiconductor",
+          "Experimental Skills"
+        ],
+        "chapter_count": 8
+      },
+      "chemistry": {
+        "chapters": [
+          "Alcohols",
+          "Phenols and Ethers",
+          "Aldehydes",
+          "Ketones and Carboxylic Acids (Organic Compound containing Nitrogen)",
+          "The d & f-Block Elements",
+          "Coordination Compounds",
+          "The p-Block Elements",
+          "Biomolecules",
+          "Principles Related to Practical Chemistry"
+        ],
+        "chapter_count": 9
+      },
+      "botany": {
+        "chapters": [
+          "Principles of Inheritance & Variation",
+          "Molecular Basis of Inheritance",
+          "Microbes in Human Welfare",
+          "Organisms and Populations",
+          "Ecosystem",
+          "Biodiversity and Conservation"
+        ],
+        "chapter_count": 6
+      },
+      "zoology": {
+        "chapters": [
+          "Human Reproduction",
+          "Reproductive Health",
+          "Human Health & Disease",
+          "Biotechnology-Principles and Processes",
+          "Biotechnology and its Applications"
+        ],
+        "chapter_count": 5
+      }
+    }
+  },
+  {
+    "test_id": "AIATS-06",
+    "test_type": "AIATS",
+    "test_date": "8th Mar.' 26",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Moving Charges and Magnetism",
+          "Magnetism and Matter",
+          "Electromagnetic Induction",
+          "Alternating Current",
+          "Electromagnetic Waves"
+        ],
+        "chapter_count": 5
+      },
+      "chemistry": {
+        "chapters": [
+          "Amines",
+          "The d & f-Block Elements",
+          "Coordination Compounds"
+        ],
+        "chapter_count": 3
+      },
+      "botany": {
+        "chapters": [
+          "Molecular Basis of Inheritance",
+          "Microbes in Human Welfare"
+        ],
+        "chapter_count": 2
+      },
+      "zoology": {
+        "chapters": [
+          "Evolution",
+          "Human Health & Disease"
+        ],
+        "chapter_count": 2
+      }
+    }
+  },
+  {
+    "test_id": "AIATS-07",
+    "test_type": "AIATS",
+    "test_date": "22nd Mar.' 26",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Ray Optics & Optical Instruments",
+          "Wave optics",
+          "Dual Nature of Matter and Radiation",
+          "Atoms",
+          "Nuclei",
+          "Semiconductors",
+          "Experimental Skills"
+        ],
+        "chapter_count": 7
+      },
+      "chemistry": {
+        "chapters": [
+          "The p-Block Elements",
+          "Biomolecules",
+          "Principles Related to Practical Chemistry"
+        ],
+        "chapter_count": 3
+      },
+      "botany": {
+        "chapters": [
+          "Organisms and Populations",
+          "Ecosystem",
+          "Biodiversity and conservation"
+        ],
+        "chapter_count": 3
+      },
+      "zoology": {
+        "chapters": [
+          "Biotechnology-Principles and Processes",
+          "Biotechnology and its Applications"
+        ],
+        "chapter_count": 2
+      }
+    }
+  },
+  {
+    "test_id": "AIATS-08",
+    "test_type": "AIATS",
+    "test_date": "5th Apr' 26",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Complete Syllabus of NEET-2026"
+        ],
+        "chapter_count": 1
+      },
+      "chemistry": {
+        "chapters": [
+          "Complete Syllabus of NEET-2026"
+        ],
+        "chapter_count": 1
+      },
+      "botany": {
+        "chapters": [
+          "Complete Syllabus of NEET-2026"
+        ],
+        "chapter_count": 1
+      },
+      "zoology": {
+        "chapters": [
+          "Complete Syllabus of NEET-2026"
+        ],
+        "chapter_count": 1
+      }
+    }
+  },
+  {
+    "test_id": "AIATS-09",
+    "test_type": "AIATS",
+    "test_date": "12th Apr' 26",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Complete Syllabus of NEET-2026"
+        ],
+        "chapter_count": 1
+      },
+      "chemistry": {
+        "chapters": [
+          "Complete Syllabus of NEET-2026"
+        ],
+        "chapter_count": 1
+      },
+      "botany": {
+        "chapters": [
+          "Complete Syllabus of NEET-2026"
+        ],
+        "chapter_count": 1
+      },
+      "zoology": {
+        "chapters": [
+          "Complete Syllabus of NEET-2026"
+        ],
+        "chapter_count": 1
+      }
+    }
+  },
+  {
+    "test_id": "AIATS-10",
+    "test_type": "AIATS",
+    "test_date": "19th Apr' 26",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Complete Syllabus of NEET-2026"
+        ],
+        "chapter_count": 1
+      },
+      "chemistry": {
+        "chapters": [
+          "Complete Syllabus of NEET-2026"
+        ],
+        "chapter_count": 1
+      },
+      "botany": {
+        "chapters": [
+          "Complete Syllabus of NEET-2026"
+        ],
+        "chapter_count": 1
+      },
+      "zoology": {
+        "chapters": [
+          "Complete Syllabus of NEET-2026"
+        ],
+        "chapter_count": 1
+      }
+    }
+  },
+  {
+    "test_id": "AIATS-11",
+    "test_type": "AIATS",
+    "test_date": "26th Apr' 26",
+    "subjects": {
+      "physics": {
+        "chapters": [
+          "Complete Syllabus of NEET-2026"
+        ],
+        "chapter_count": 1
+      },
+      "chemistry": {
+        "chapters": [
+          "Complete Syllabus of NEET-2026"
+        ],
+        "chapter_count": 1
+      },
+      "botany": {
+        "chapters": [
+          "Complete Syllabus of NEET-2026"
+        ],
+        "chapter_count": 1
+      },
+      "zoology": {
+        "chapters": [
+          "Complete Syllabus of NEET-2026"
+        ],
+        "chapter_count": 1
+      }
+    }
+  }
+]

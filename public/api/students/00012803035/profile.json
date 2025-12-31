@@ -1,0 +1,110 @@
+{
+  "psid": "00012803035",
+  "name": "Gunjan rathaur",
+  "meta": {
+    "tests_taken": 5,
+    "first_test_date": "02-07-2025",
+    "latest_test_date": "23-07-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 385,
+    "best_score": 463,
+    "latest_score": 373,
+    "consistency_index": 0.4187,
+    "trend": "improving"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 41,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Motion in a Plane",
+        "Thermal Properties of Matter",
+        "Thermodynamics",
+        "Kinetic Theory",
+        "Laws of Motion",
+        "Work, Energy & Power",
+        "System of Particles & Rotational Motion"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 47,
+      "trend": "declining",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Some Basic Concepts of Chemistry",
+        "Equilibrium",
+        "Classification of Elements and Periodicity in Properties"
+      ],
+      "weak_chapters": [
+        "Structure of Atom",
+        "Chemical Bonding and Molecular Structure"
+      ]
+    },
+    "botany": {
+      "average_percentage": 63,
+      "trend": "improving",
+      "strong_chapters": [
+        "Anatomy of Flowering Plants"
+      ],
+      "average_chapters": [
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division",
+        "The Living World",
+        "Cell : The Unit of Life",
+        "Cell Cycle & Cell Division",
+        "Biological Classification"
+      ],
+      "weak_chapters": []
+    },
+    "zoology": {
+      "average_percentage": 63,
+      "trend": "improving",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules",
+        "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+        "Neural Control & Coordination",
+        "Biomolecules-I: (Upto polysaccharide)",
+        "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+        "Breathing & Exchange of Gases-I: (upto mechanism of breathing)"
+      ],
+      "weak_chapters": []
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Chemical Bonding and Molecular Structure",
+      "Motion in a Plane",
+      "Laws of Motion",
+      "Work, Energy & Power",
+      "System of Particles & Rotational Motion"
+    ],
+    "most_improved_chapters": [
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane",
+      "Some Basic Concepts of Chemistry",
+      "Structure of Atom"
+    ],
+    "chapters_needing_attention": [
+      "Chemical Bonding and Molecular Structure",
+      "Motion in a Plane",
+      "Laws of Motion",
+      "Work, Energy & Power",
+      "System of Particles & Rotational Motion",
+      "Structure of Atom",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Thermal Properties of Matter",
+      "Thermodynamics",
+      "Kinetic Theory"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

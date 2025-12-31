@@ -1,0 +1,122 @@
+{
+  "psid": "00015466358",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 5,
+    "first_test_date": "02-07-2025",
+    "latest_test_date": "20-08-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 227,
+    "best_score": 270,
+    "latest_score": 243,
+    "consistency_index": 0.6482,
+    "trend": "declining"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 11,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Thermal Properties of Matter",
+        "Thermodynamics",
+        "Kinetic Theory",
+        "Oscillations",
+        "Waves",
+        "Electric Charges & Fields",
+        "Work, Energy & Power",
+        "System of Particles & Rotational Motion",
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 17,
+      "trend": "declining",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Some Basic Concepts of Chemistry",
+        "Equilibrium",
+        "Redox Reactions",
+        "Electrochemistry",
+        "Solutions",
+        "Chemical Bonding and Molecular Structure",
+        "Thermodynamics"
+      ]
+    },
+    "botany": {
+      "average_percentage": 43,
+      "trend": "improving",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Cell : The Unit of Life",
+        "Plant Kingdom",
+        "Morphology of Flowering Plants"
+      ],
+      "weak_chapters": [
+        "Anatomy of Flowering Plants",
+        "Biological Classification"
+      ]
+    },
+    "zoology": {
+      "average_percentage": 49,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Structural Organisation in Animals- Animal Tissues",
+        "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+        "Neural Control & Coordination",
+        "Breathing & Exchange of Gases-I: (upto mechanism of breathing)"
+      ],
+      "weak_chapters": [
+        "Chemical Coordination & Integration",
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+      ]
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Redox Reactions",
+      "Electrochemistry"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Redox Reactions",
+      "Electrochemistry",
+      "Solutions",
+      "Work, Energy & Power",
+      "System of Particles & Rotational Motion",
+      "Thermal Properties of Matter",
+      "Thermodynamics",
+      "Kinetic Theory",
+      "Equilibrium",
+      "Gravitation",
+      "Mechanical Properties of Solids",
+      "Mechanical Properties of Fluids",
+      "Some Basic Concepts of Chemistry",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Anatomy of Flowering Plants",
+      "Thermodynamics",
+      "Biological Classification",
+      "Chemical Bonding and Molecular Structure",
+      "Chemical Coordination & Integration",
+      "Excretory Products & their Elimination",
+      "Locomotion & Movement-I: (Upto properties of muscle contraction)"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

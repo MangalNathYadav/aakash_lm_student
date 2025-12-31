@@ -1,0 +1,99 @@
+{
+  "psid": "00012888106",
+  "name": "Neha devi",
+  "meta": {
+    "tests_taken": 6,
+    "first_test_date": "02-07-2025",
+    "latest_test_date": "30-11-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 609,
+    "best_score": 681,
+    "latest_score": 512,
+    "consistency_index": 0.3305,
+    "trend": "declining"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 75,
+      "trend": "stable",
+      "strong_chapters": [
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Thermal Properties of Matter",
+        "Thermodynamics",
+        "Kinetic Theory"
+      ],
+      "average_chapters": [
+        "Laws of Motion",
+        "Work, Energy and Power",
+        "Motion in a Plane",
+        "Work, Energy & Power",
+        "System of Particles & Rotational Motion"
+      ],
+      "weak_chapters": []
+    },
+    "chemistry": {
+      "average_percentage": 80,
+      "trend": "improving",
+      "strong_chapters": [
+        "Some Basic Concepts of Chemistry",
+        "Structure of Atom",
+        "Equilibrium",
+        "Classification of Elements and Periodicity in Properties",
+        "Chemical Bonding and Molecular Structure"
+      ],
+      "average_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure"
+      ],
+      "weak_chapters": []
+    },
+    "botany": {
+      "average_percentage": 87,
+      "trend": "improving",
+      "strong_chapters": [
+        "Biological Classification",
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division",
+        "The Living World",
+        "Cell : The Unit of Life",
+        "Anatomy of Flowering Plants",
+        "Cell Cycle & Cell Division"
+      ],
+      "average_chapters": [
+        "Morphology of Flowering Plants"
+      ],
+      "weak_chapters": []
+    },
+    "zoology": {
+      "average_percentage": 91,
+      "trend": "improving",
+      "strong_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation",
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules",
+        "Locomotion & Movement-II: (Upto muscle and bone disorders)",
+        "Neural Control & Coordination",
+        "Biomolecules-I: (Upto polysaccharide)",
+        "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+        "Breathing & Exchange of Gases-I: (upto mechanism of breathing)"
+      ],
+      "average_chapters": [],
+      "weak_chapters": []
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [],
+    "most_improved_chapters": [
+      "Laws of Motion",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane",
+      "Some Basic Concepts of Chemistry"
+    ],
+    "chapters_needing_attention": []
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

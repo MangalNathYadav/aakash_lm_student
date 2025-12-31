@@ -1,0 +1,97 @@
+{
+  "psid": "00003157859",
+  "name": "Unknown",
+  "meta": {
+    "tests_taken": 2,
+    "first_test_date": "02-11-2025",
+    "latest_test_date": "30-11-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 328,
+    "best_score": 343,
+    "latest_score": 343,
+    "consistency_index": 4.1451,
+    "trend": "improving"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 26,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Laws of Motion",
+        "Work, Energy and Power",
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Motion in a Plane"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 54,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Some Basic Concepts of Chemistry",
+        "Structure of Atom"
+      ],
+      "weak_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure"
+      ]
+    },
+    "botany": {
+      "average_percentage": 44,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [],
+      "weak_chapters": [
+        "Biological Classification",
+        "Morphology of Flowering Plants",
+        "Cell: The Unit of Life",
+        "Cell Cycle and Cell Division",
+        "The Living World"
+      ]
+    },
+    "zoology": {
+      "average_percentage": 56,
+      "trend": "stable",
+      "strong_chapters": [],
+      "average_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation"
+      ],
+      "weak_chapters": [
+        "Structural Organisation in Animals- Animal Tissues",
+        "Biomolecules"
+      ]
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane",
+      "Biological Classification",
+      "Morphology of Flowering Plants"
+    ],
+    "most_improved_chapters": [],
+    "chapters_needing_attention": [
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Motion in a Plane",
+      "Biological Classification",
+      "Morphology of Flowering Plants",
+      "Classification of Elements and periodicity in properties",
+      "chemical Bonding and molecular structure",
+      "Laws of Motion",
+      "Work, Energy and Power",
+      "Cell: The Unit of Life",
+      "Cell Cycle and Cell Division",
+      "The Living World",
+      "Structural Organisation in Animals- Animal Tissues",
+      "Biomolecules"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}

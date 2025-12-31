@@ -1,0 +1,145 @@
+{
+  "psid": "00006929866",
+  "name": "Printi",
+  "meta": {
+    "tests_taken": 9,
+    "first_test_date": "02-07-2025",
+    "latest_test_date": "30-11-2025"
+  },
+  "overall_performance": {
+    "average_total_score": 481,
+    "best_score": 668,
+    "latest_score": 217,
+    "consistency_index": 0.0374,
+    "trend": "declining"
+  },
+  "subjects": {
+    "physics": {
+      "average_percentage": 63,
+      "trend": "stable",
+      "strong_chapters": [
+        "Thermal Properties of Matter",
+        "Thermodynamics",
+        "Kinetic Theory",
+        "Motion in a Plane",
+        "Work, Energy & Power",
+        "System of Particles & Rotational Motion"
+      ],
+      "average_chapters": [
+        "Laws of Motion",
+        "Electrostatic Potential and Capacitance",
+        "Current Electricity",
+        "Gravitation",
+        "Mechanical Properties of Solids",
+        "Mechanical Properties of Fluids"
+      ],
+      "weak_chapters": [
+        "Work, Energy and Power",
+        "Units & Measurements",
+        "Motion in a Straight Line",
+        "Oscillations",
+        "Waves",
+        "Electric Charges & Fields"
+      ]
+    },
+    "chemistry": {
+      "average_percentage": 58,
+      "trend": "declining",
+      "strong_chapters": [
+        "Equilibrium",
+        "Structure of Atom",
+        "Classification of Elements and Periodicity in Properties",
+        "Chemical Bonding and Molecular Structure"
+      ],
+      "average_chapters": [
+        "Redox Reactions",
+        "Electrochemistry",
+        "Solutions",
+        "Thermodynamics"
+      ],
+      "weak_chapters": [
+        "Classification of Elements and periodicity in properties",
+        "chemical Bonding and molecular structure",
+        "Some Basic Concepts of Chemistry",
+        "Chemical Kinetics",
+        "Organic Chemistry: Some Basic Principles & Techniques"
+      ]
+    },
+    "botany": {
+      "average_percentage": 73,
+      "trend": "stable",
+      "strong_chapters": [
+        "Anatomy of Flowering Plants",
+        "Cell Cycle & Cell Division",
+        "The Living World"
+      ],
+      "average_chapters": [
+        "Biological Classification",
+        "Morphology of Flowering Plants",
+        "Plant Kingdom",
+        "Photosynthesis in Higher Plants",
+        "Respiration in Plants"
+      ],
+      "weak_chapters": [
+        "Cell : The Unit of Life"
+      ]
+    },
+    "zoology": {
+      "average_percentage": 72,
+      "trend": "improving",
+      "strong_chapters": [
+        "Neural Control & Coordination",
+        "Chemical Coordination & Integration",
+        "Biomolecules-I: (Upto polysaccharide)",
+        "Biomolecules-II: (Proteins, types & functions, Lipids, Nucleic acids, Enzymes, Cofactors)",
+        "Breathing & Exchange of Gases-I: (upto mechanism of breathing)",
+        "Excretory Products & their Elimination",
+        "Locomotion & Movement-I: (Upto properties of muscle contraction)",
+        "Locomotion & Movement"
+      ],
+      "average_chapters": [
+        "Structural Organisation in Animals- Animal Tissues",
+        "Locomotion & Movement-II: (Upto muscle and bone disorders)"
+      ],
+      "weak_chapters": [
+        "Breathing & Exchange of Gases",
+        "Body Fluids & Circulation",
+        "Animal Kingdom-I: General accounts & Non-chordates"
+      ]
+    }
+  },
+  "focus_insights": {
+    "top_weak_chapters": [
+      "Work, Energy and Power",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Classification of Elements and periodicity in properties",
+      "chemical Bonding and molecular structure"
+    ],
+    "most_improved_chapters": [
+      "Laws of Motion",
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Gravitation"
+    ],
+    "chapters_needing_attention": [
+      "Work, Energy and Power",
+      "Units & Measurements",
+      "Motion in a Straight Line",
+      "Classification of Elements and periodicity in properties",
+      "chemical Bonding and molecular structure",
+      "Some Basic Concepts of Chemistry",
+      "Cell : The Unit of Life",
+      "Breathing & Exchange of Gases",
+      "Body Fluids & Circulation",
+      "Oscillations",
+      "Waves",
+      "Electric Charges & Fields",
+      "Chemical Kinetics",
+      "Organic Chemistry: Some Basic Principles & Techniques",
+      "Animal Kingdom-I: General accounts & Non-chordates"
+    ]
+  },
+  "disclaimer": "Chapter-wise performance is estimated based on an equal distribution of subject marks across the test syllabus. This data is for analytical purposes and may not reflect specific question-level weighting."
+}
